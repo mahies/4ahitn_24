@@ -9,5 +9,5 @@ import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
   standalone: true
 })
 export class PageHomeComponent {
-  title = '4ahit_24';
+  title = '4ahitm';
 }
