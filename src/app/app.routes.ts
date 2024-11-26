@@ -5,6 +5,7 @@ import {PageAboutMeKRAPFComponent} from './page-about-me-krapf/page-about-me-kra
 import {PageAboutMeMILLICHComponent} from './page-about-me-millich/page-about-me-millich.component';
 import {PageAboutMeKLARICComponent} from './page-about-me-klaric/page-about-me-klaric.component';
 import {PageAboutMeAljarrahComponent} from './page-about-me-aljarrah/page-about-me-aljarrah.component';
+import {PageAboutMeGEIHSEDERComponent} from './page-about-me-geihseder/page-about-me-geihseder.component';
 
 export const routes: Routes = [
   { path: '', // default route
@@ -20,6 +21,8 @@ export const routes: Routes = [
   {path: 'aboutMeKLARIC',
   component: PageAboutMeKLARICComponent},
   {path: 'about_me_aljarrah',
-    component: PageAboutMeAljarrahComponent }
+    component: PageAboutMeAljarrahComponent },
+  {path: 'aboutMeGEIHSEDER',
+    component: PageAboutMeGEIHSEDERComponent}
 ];
 
