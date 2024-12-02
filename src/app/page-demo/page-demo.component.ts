@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Person, MINNIE} from '../model/person';
 
 @Component({
   selector: 'app-page-demo',
@@ -8,5 +9,5 @@ import { Component } from '@angular/core';
   standalone: true
 })
 export class PageDemoComponent {
-
+  me: Person = MINNIE; //Variable me vom Typ Person = KONSTANTE MOUSE
 }
