@@ -8,6 +8,7 @@ import {PageAboutMeAljarrahComponent} from './page-about-me-aljarrah/page-about-
 import {PageAboutMeGEIHSEDERComponent} from './page-about-me-geihseder/page-about-me-geihseder.component';
 import {PageAboutMeYOHANNAComponent} from './page-about-me-yohanna/page-about-me-yohanna.component';
 import {PageAboutMeMATUSCHKAComponent} from './page-about-me-matuschka/page-about-me-matuschka.component';
+import {PageAboutMeSenjicComponent} from './page-about-me-senjic/page-about-me-senjic.component';
 
 export const routes: Routes = [
   {
@@ -47,8 +48,13 @@ export const routes: Routes = [
     component: PageAboutMeYOHANNAComponent
   },
   {
+    path: 'aboutMeSENJIC',
+    component: PageAboutMeSenjicComponent
+  },
+  {
     path: 'aboutMeMATUSCHKA',
     component: PageAboutMeMATUSCHKAComponent
   }
+
 ];
 
