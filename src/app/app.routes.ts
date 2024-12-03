@@ -12,6 +12,7 @@ import {PageAboutMeSenjicComponent} from './page-about-me-senjic/page-about-me-s
 import {PageAboutMeIBRAHIMComponent} from './page-about-me-ibrahim/page-about-me-ibrahim.component';
 import {PageAboutMeSinghComponent} from './page-about-me-singh/page-about-me-singh.component';
 import {PageAboutMeNazariComponent} from './page-about-me-nazari/page-about-me-nazari.component';
+import { SchoeffmannComponent } from './schoeffmann/schoeffmann.component';
 
 export const routes: Routes = [
   {
@@ -69,8 +70,11 @@ export const routes: Routes = [
   {
     path: 'aboutMeNAZARI',
     component: PageAboutMeNazariComponent
-  }
-
+  },
+  {
+    path: 'schoeffmann',
+    component: SchoeffmannComponent
+  },
 
 
 ];
