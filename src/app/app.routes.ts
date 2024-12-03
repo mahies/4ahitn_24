@@ -10,6 +10,7 @@ import {PageAboutMeYOHANNAComponent} from './page-about-me-yohanna/page-about-me
 import {PageAboutMeMATUSCHKAComponent} from './page-about-me-matuschka/page-about-me-matuschka.component';
 import {PageAboutMeSenjicComponent} from './page-about-me-senjic/page-about-me-senjic.component';
 import {PageAboutMeIBRAHIMComponent} from './page-about-me-ibrahim/page-about-me-ibrahim.component';
+import {PageAboutMeSinghComponent} from './page-about-me-singh/page-about-me-singh.component';
 
 export const routes: Routes = [
   {
@@ -59,6 +60,10 @@ export const routes: Routes = [
   {
     path: 'aboutMeIBRAHIM',
     component: PageAboutMeIBRAHIMComponent
+  },
+  {
+    path: 'aboutMeSINGH',
+    component: PageAboutMeSinghComponent
   }
 
 
