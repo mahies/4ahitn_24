@@ -1,18 +1,32 @@
+<html>
 <title>Über Mich SENJIC Oliver</title>
-<h1>SENJIC Oliver</h1>
-<p>Willkommen zu meiner Webseite über mich!</p>
+<header >
+<h1>SENJIĆ Oliver</h1>
+<h6>Willkommen zu meiner Webseite über mich!</h6>
 <img [src]="imagePath" alt="Portrait" class="top-right-image">
-
-
+<p><strong>Name: </strong>{{name}}</p>
+<p><strong>Geburtsdatum: </strong>{{GB}}</p>
+<p><strong>E-Mail: </strong><a href="mailto:210278@studierende.htl-donaustadt.at">{{Mail}}</a></p>
+<p><strong>Github: </strong><a href="https://github.com/oliver5977" target="_blank">{{Github}}</a></p>
+<p><strong>Abbteilung: </strong> {{ABT}}</p>
+</header>
+<br>
 
 
 <style>
 .top-right-image {
-position: absolute;
-top: 0;
-right: 0;
-margin: 10px;
-width: 150px;
-height: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  width: 150px;
+  height: auto;
+}
+html{
+  background: burlywood;
+}
+body{
+  background: burlywood;
 }
 </style>
+</html>
