@@ -25,6 +25,19 @@ export  const MINNIE : Person = {
   message: "\„Wenn du es dir vorstellen kannst, kannst du es auch machen.\" \n(Walt Disney)"
 };
 
+export const schoeffmann : Person = {
+  surname: "Schoeffmann",
+  firstname: "Raphael",
+  urlImage: "assets/demo/Donald_Duck.webp",
+  birthday: new Date("2000-00-01"),
+  department: "ITEL Netzwerktechnik",
+  email: "donald.duck@htl-donaustadt.at",
+  github_nickname: "donaldduck042",
+  zip_code: 1010,
+  city: "Duckenhausen",
+  message: "\„Wenn du es dir es leisten kannst, kannst du dir es leisten.\" \n(Donald Duck)"
+};
+
 
 
 
