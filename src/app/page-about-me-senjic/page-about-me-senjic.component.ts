@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class PageAboutMeSenjicComponent {
   name:String = "SENJIC";
+  imagePath: string = 'assets-SENJIC/fghjkdibfeb.png';
+
+
 }
+
+
