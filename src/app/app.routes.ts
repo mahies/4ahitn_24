@@ -7,7 +7,7 @@ import {PageAboutMeKLARICComponent} from './page-about-me-klaric/page-about-me-k
 import {PageAboutMeAljarrahComponent} from './page-about-me-aljarrah/page-about-me-aljarrah.component';
 import {PageAboutMeGEIHSEDERComponent} from './page-about-me-geihseder/page-about-me-geihseder.component';
 import {PageAboutMeYOHANNAComponent}  from './page-about-me-yohanna/page-about-me-yohanna.component';
-import {PageAboutMeVIRKComponent} from './page-about-me-virk/page-about-me-virk.component';
+import {PageAboutMeMATUSCHKAComponent} from './page-about-me-matuschka/page-about-me-matuschka.component';
 
 export const routes: Routes = [
   { path: '', // default route
@@ -26,9 +26,9 @@ export const routes: Routes = [
     component: PageAboutMeAljarrahComponent },
   {path: 'aboutMeGEIHSEDER',
     component: PageAboutMeGEIHSEDERComponent},
-  {path: 'aboutMeVIRK',
-    component: PageAboutMeVIRKComponent},
   {path: 'aboutMeYOHANNA',
-    component: PageAboutMeYOHANNAComponent}
+    component: PageAboutMeYOHANNAComponent},
+  {path: 'aboutMeMATUSCHKA',
+    component: PageAboutMeMATUSCHKAComponent}
 ];
 

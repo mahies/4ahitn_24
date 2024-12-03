@@ -10,4 +10,5 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
 })
 export class PageHomeComponent {
   title = '4ahitn';
+    protected readonly name = name;
 }

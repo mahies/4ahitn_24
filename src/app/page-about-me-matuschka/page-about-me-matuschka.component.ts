@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './page-about-me-matuschka.component.scss'
 })
 export class PageAboutMeMATUSCHKAComponent {
-
+  name : string = "Matuschka";
 }
