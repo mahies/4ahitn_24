@@ -1,17 +1,18 @@
 <html>
 <title>Über Mich SENJIC Oliver</title>
 <header >
-<h1>SENJIĆ Oliver</h1>
-<h6>Willkommen zu meiner Webseite über mich!</h6>
+<h1 class = "times-text">SENJIĆ Oliver</h1>
+<h6 class = "times-text">Willkommen zu meiner Webseite über mich!</h6>
 <img [src]="imagePath" alt="Portrait" class="top-right-image">
-<p><strong>Name: </strong>{{name}}</p>
-<p><strong>Geburtsdatum: </strong>{{GB}}</p>
-<p><strong>E-Mail: </strong><a href="mailto:210278@studierende.htl-donaustadt.at">{{Mail}}</a></p>
-<p><strong>Github: </strong><a href="https://github.com/oliver5977" target="_blank">{{Github}}</a></p>
-<p><strong>Abbteilung: </strong> {{ABT}}</p>
+<p class = "times-text"><strong>Name: </strong>{{name}}</p>
+<p class = "times-text"><strong>Geburtsdatum: </strong>{{GB}}</p>
+<p class = "times-text"><strong>Wohnort: </strong>{{Wohnort}}</p>
+<p class = "times-text"><strong>E-Mail: </strong><a href="mailto:210278@studierende.htl-donaustadt.at">{{Mail}}</a></p>
+<p class = "times-text"><strong>Github: </strong><a href="https://github.com/oliver5977" target="_blank">{{Github}}</a></p>
+<p class = "times-text"><strong>Abbteilung: </strong> {{ABT}}</p>
 </header>
 <br>
-
+<p style="text-align: center;"><em>{{Zitat}}</em></p>
 
 <style>
 .top-right-image {
@@ -22,6 +23,11 @@
   width: 150px;
   height: auto;
 }
+
+.times-text {
+   font-family: 'Times New Roman', Times, serif;
+ }
+
 html{
   background: burlywood;
 }
