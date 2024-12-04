@@ -17,7 +17,7 @@ import {PageAboutMeVIRKComponent} from './page-about-me-virk/page-about-me-virk.
 
 
 
-let PageAboutMeVIRKComponentComponent;
+
 export const routes: Routes = [
   {
     path: '', // default route
@@ -81,8 +81,8 @@ export const routes: Routes = [
   },
 
   {
-    path: 'virk',
-    component: PageAboutMeVIRKComponentComponent
+    path: 'aboutMeVIRK',
+    component: PageAboutMeVIRKComponent
   },
 
 ];
