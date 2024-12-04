@@ -38,6 +38,18 @@ export const schoeffmann : Person = {
   message: "\„Wenn du es dir es leisten kannst, kannst du dir es leisten.\" \n(Donald Duck)"
 };
 
+export  const klaric : Person = {
+  surname: "KLARIC",
+  firstname: "Matteo",
+  urlImage: "assets-KLARIC/hajduk.jpg",
+  birthday: new Date("2005-07-31"),
+  department: "ITEL Netzwerktechnik",
+  email: "210273@studierende.htl-donaustadt.at",
+  github_nickname: "MatteoHajduk",
+  zip_code: 1220,
+  city: "Wien",
+  message: "\„You miss 100% of the shots you don’t take.\" \n(KLARIC Matteo)"
+};
 
 
 
