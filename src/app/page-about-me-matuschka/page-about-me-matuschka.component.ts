@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class PageAboutMeMATUSCHKAComponent {
   name : string = "Matuschka";
+  Mail: string = "210062@studierende.htl-donaustadt.at";
 }
