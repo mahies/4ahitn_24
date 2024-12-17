@@ -4,12 +4,12 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
 
 @Component({
   selector: 'app-page-about-me-klaric',
-  imports: [],
+  imports: [RouterLink, RouterLinkActive],
   templateUrl: './page-about-me-klaric.component.html',
   styleUrl: './page-about-me-klaric.component.scss'
 })
 export class PageAboutMeKLARICComponent {
-  me: Person = klaric; //Variable me vom Typ Person = KONSTANTE MOUSE
+  me: Person = klaric;
 }
 
 
