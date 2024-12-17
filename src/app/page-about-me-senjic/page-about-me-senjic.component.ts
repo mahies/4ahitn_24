@@ -1,8 +1,12 @@
 import { Component } from '@angular/core';
+import {RouterLink, RouterLinkActive} from '@angular/router';
 
 @Component({
   selector: 'app-page-about-me-senjic',
-  imports: [],
+  imports: [
+    RouterLink,
+    RouterLinkActive
+  ],
   templateUrl: './page-about-me-senjic.component.html',
   styleUrl: './page-about-me-senjic.component.scss'
 })
