@@ -48,7 +48,7 @@ export  const klaric : Person = {
   github_nickname: "MatteoHajduk",
   zip_code: 1220,
   city: "Wien",
-  message: "\„You miss 100% of the shots you don’t take.\" \n(KLARIC Matteo)"
+  message: "\„Work so hard that your idols become your rivals\" \n(KLARIC Matteo)"
 };
 
 
