@@ -14,5 +14,7 @@ export class PageAboutMeYOHANNAComponent {
   abteilung: string = "Abteoilung"
   github_username: string = "qaxry"
   wohnort: string = "1210 Wien"
-  uebermich: string = "Text über mich"
+  motto: string = "Motto"
+  email: string = "210424@studierende.htl-donaustadt.at"
+
 }
