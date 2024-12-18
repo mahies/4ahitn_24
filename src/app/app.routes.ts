@@ -14,6 +14,7 @@ import {PageAboutMeSinghComponent} from './page-about-me-singh/page-about-me-sin
 import {PageAboutMeNazariComponent} from './page-about-me-nazari/page-about-me-nazari.component';
 import { SchoeffmannComponent } from './schoeffmann/schoeffmann.component';
 import {PageAboutMeVIRKComponent} from './page-about-me-virk/page-about-me-virk.component';
+import {PageAboutBeckerComponent} from './page-about-becker/page-about-becker.component';
 
 
 
@@ -38,6 +39,10 @@ export const routes: Routes = [
   {
     path: 'about_meMILLICH',
     component: PageAboutMeMILLICHComponent
+  },
+  {
+    path: 'aboutMeBECKER',
+    component: PageAboutBeckerComponent
   },
   {
     path: 'aboutMeKLARIC',

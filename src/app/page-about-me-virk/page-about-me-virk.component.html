@@ -1,3 +1,43 @@
-<p>page-about-me-virk works!</p>
+<!DOCTYPE html>
+<html lang="de">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Über Mich - Gurnoor VIRK</title>
+  <style>
+    body {
+      background-color: #001F54; /*Dunkelblau*/
+      padding: 2rem;
+    }
 
+    @media (max-width: 768px) {
+      body {
+        padding: 1rem;
+      }
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background-color: #E0E0E0;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .container img {
+      height: 120px;
+      width: 100px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body>
+<div class="container">
+  <img [src]="imagePath"  alt="Portrait">
+</div>
+</body>
+
+</html>
