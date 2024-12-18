@@ -41,7 +41,7 @@ export const schoeffmann : Person = {
 export  const klaric : Person = {
   surname: "KLARIC",
   firstname: "Matteo",
-  urlImage: "assets-KLARIC/hajduk.jpg",
+  urlImage: "assets-KLARIC/Ich.jpg",
   birthday: new Date("2005-07-31"),
   department: "ITEL Netzwerktechnik",
   email: "210273@studierende.htl-donaustadt.at",
