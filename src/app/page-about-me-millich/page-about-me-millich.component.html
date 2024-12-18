@@ -1,1 +1,12 @@
-<p>page-about-me-millich works!</p>
+<div style="text-align: center;">
+  <p>{{me.firstname}} {{me.surname.toLocaleUpperCase()}}<br>
+  {{me.birthday.getDate()}}.{{me.birthday.getMonth()}}.{{me.birthday.getFullYear()}}</p>
+  <img src="{{me.urlImage}}">
+  <p>Abteilung: {{me.department}}<br>
+  Email-Adresse: {{me.email}}<br>
+  Github Account: {{me.github_nickname}}<br>
+  Wohnort: {{me.zip_code}} {{me.city}}<br>
+  <i>{{me.message}}</i><br>
+    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Take me home</a>
+  </p>
+</div>

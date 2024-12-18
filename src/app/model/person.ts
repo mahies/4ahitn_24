@@ -51,5 +51,17 @@ export  const klaric : Person = {
   message: "\„Work so hard that your idols become your rivals\" \n(KLARIC Matteo)"
 };
 
+export const millich : Person = {
+  surname: "Millich",
+  firstname: "Alexander",
+  urlImage: "assets-MILLICH/Bild_MILLICH.jpg",
+  birthday: new Date("2007-10-29"),
+  department: "ITEL Netzwerktechnik",
+  email: "210027@studierende.htl-donaustadt.at",
+  github_nickname: "Askaloor",
+  zip_code: 1220,
+  city: "Wien",
+  message: "\„Zitat\" \n(Niemand)"
+}
 
 
