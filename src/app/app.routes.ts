@@ -41,7 +41,7 @@ export const routes: Routes = [
     component: PageAboutMeMILLICHComponent
   },
   {
-    path: 'aboutMeBecker',
+    path: 'aboutMeBECKER',
     component: PageAboutBeckerComponent
   },
   {
