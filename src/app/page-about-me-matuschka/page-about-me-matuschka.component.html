@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bild und Text</title>
   <style>
+    body {
+      font-family: 'Calibri', Times, serif;
+      font-size: 16px;
+      background-color: #80ff5a;
+      padding: 2rem;
+    }
+
     .bild-rechts {
       position: absolute;
       top: 20px;
@@ -19,7 +26,7 @@
       align-items: center;
       margin: 2rem;
       padding: 2rem;
-      background-color: #67ef5f;
+      background-color: #45ff3b;
       border-radius: 120px;
     }
 
@@ -39,6 +46,24 @@
       position: relative;
       width: 0.1%;
     }
+    h5.card-title {
+      font-family: 'Georgia', serif; /* Schriftstil für Überschriften */
+      font-size: 24px; /* Schriftgröße für Überschriften */
+      color: #007bff;
+    }
+
+    p.card-text {
+      font-family: 'Verdana', sans-serif; /* Schriftstil für Absätze */
+      font-size: 14px; /* Schriftgröße für Absätze */
+      line-height: 1.6; /* Zeilenhöhe für bessere Lesbarkeit */
+    }
+
+    a.text-decoration-none {
+      font-family: 'Courier New', monospace; /* Schriftstil für Links */
+      font-size: 14px; /* Schriftgröße für Links */
+      color: #007bff;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
@@ -48,7 +73,7 @@
       <img src="assets-MATUSCHKA/Bild.jpg" class="bild-rechts" alt="Profilbild">
     </div>
     <div class="content">
-      <h5 class="card-title text-primary"><strong>Simon MATUSCHKA</strong></h5>
+      <h1 class="card-title text-primary"><strong>Simon MATUSCHKA</strong></h1>
       <p class="card-text">
         <strong>Geburtsdatum:</strong> 11.09.2006<br>
         <strong>Email:</strong> <a href="mailto:{{Mail}}" class="text-decoration-none">{{ Mail }}</a><br>
