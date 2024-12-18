@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './page-about-me-ibrahim.component.scss'
 })
 export class PageAboutMeIBRAHIMComponent {
-
+  imagePath: string = 'public/assets-IBRAHIM/male-model-francisco-lachowski-on-top-of-being-handsome-asf-v0-rrxuw64ie29c1.jpg';
 }
