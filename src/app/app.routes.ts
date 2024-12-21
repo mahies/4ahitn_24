@@ -8,7 +8,7 @@ import {PageAboutMeAljarrahComponent} from './page-about-me-aljarrah/page-about-
 import {PageAboutMeGEIHSEDERComponent} from './page-about-me-geihseder/page-about-me-geihseder.component';
 import {PageAboutMeYOHANNAComponent} from './page-about-me-yohanna/page-about-me-yohanna.component';
 import {PageAboutMeMATUSCHKAComponent} from './page-about-me-matuschka/page-about-me-matuschka.component';
-import {PageAboutMeSenjicComponent} from './page-about-me-senjic/page-about-me-senjic.component';
+import {PageAboutMeSenjicComponent} from './pages/page-SENJIC/page-about-me-senjic/page-about-me-senjic.component';
 import {PageAboutMeIBRAHIMComponent} from './page-about-me-ibrahim/page-about-me-ibrahim.component';
 import {PageAboutMeSinghComponent} from './page-about-me-singh/page-about-me-singh.component';
 import {PageAboutMeNazariComponent} from './page-about-me-nazari/page-about-me-nazari.component';
