@@ -42,13 +42,21 @@
       width: 300px;
       height: 200px;
     }
-
+    .custom-btn {
+      background-color: #B39EB5 ;
+      color: black;
+      border: none;
+      margin-right: 10px;
+      margin-left: 47%;
+      margin-bottom: 20px;
+    }
 
   </style>
 </head>
 <body>
 <div class="container">
-  <h1 style="text-align: center; margin-bottom: 10px">Meine Reisen</h1>
+  <h1 style="text-align: center; margin-bottom: 20px">Meine Reisen</h1>
+    <a routerLink="/aboutMeSENJIC" routerLinkActive="active" class="btn btn-primary custom-btn">Zurück</a>
   <div class="travel-grid">
     <div class="travel-item">
       <img [src]="Kroatienimg"  alt="Kroatien">
@@ -92,6 +100,7 @@
       <p><em>{{Turkei}}</em></p>
     </div>
   </div>
+  <p style="text-align: center; padding-top: 30px;"><strong>© by Oliver SENJIĆ</strong></p>
 </div>
 </body>
 </html>
