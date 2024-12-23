@@ -14,7 +14,7 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
 export class PageMyTravelsSenjicComponent {
 Kroatien:String="Kroatien – ein Paradies mit kristallklarem Wasser und beeindruckender Küstenlandschaft";
 Italien:String="Italien – ein Land voller Geschichte, Kunst und atemberaubender Landschaften";
-Oesterreich:String="Die majestätischen Alpen Österreichs in ihrer vollen Pracht";
+Oesterreich:String="Österreich – ein Land der Alpen mit beeindruckender Natur und klarer Luft";
 Griechenland:String="Griechenland – ein Land voller antiker Geschichte und traumhafter Inseln";
 Serbien:String="Serbien – ein Land mit reicher Kultur, faszinierender Geschichte und wunderschönen Landschaften";
 Bosnien:String="Bosnien – ein Land mit malerischen Bergen und beeindruckender Natur";
