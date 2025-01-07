@@ -1,8 +1,12 @@
 import { Component } from '@angular/core';
-import {millich, Person, yohanna} from '../model/person';
+import {Person, yohanna} from '../model/person';
+import {RouterLink, RouterLinkActive} from '@angular/router';
 @Component({
   selector: 'app-page-about-me-yohanna',
-  imports: [],
+  imports: [
+    RouterLink,
+    RouterLinkActive
+  ],
   templateUrl: './page-about-me-yohanna.component.html',
   standalone: true,
   styleUrl: './page-about-me-yohanna.component.scss'

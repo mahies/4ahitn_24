@@ -1,7 +1,32 @@
-{{me.email}} <br>
-{{me.city}} <br>
-{{me.firstname}} {{me.surname.toLocaleUpperCase()}}<br>
-{{me.birthday.getDate()}}.{{me.birthday.getMonth()}}.{{me.birthday.getFullYear()}} <br>
-{{me.github_nickname}} <br>
-{{me.department}} <br>
-<img src="{{me.urlImage}}"> <br>
+<!DOCTYPE html>
+<html lang="de" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body >
+<header>
+  <!-- Später, wenn gebraucht wird-->
+</header>
+
+<main>
+  <div style="text-align: center;">
+    {{me.firstname}} {{me.surname.toLocaleUpperCase()}}<br>
+    <img src="{{me.urlImage}}" alt="Bild von {{me.firstname}} {{me.surname}} "> <br>
+    {{me.email}} <br>
+    {{me.city}} <br>
+    {{me.birthday.getDate()}}.{{me.birthday.getMonth()}}.{{me.birthday.getFullYear()}} <br>
+    {{me.github_nickname}} <br>
+    {{me.department}} <br>
+    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Zurück</a> <br>
+  </div>
+</main>
+
+<footer>
+  <!-- Später, wenn gebraucht wird-->
+</footer>
+</body>
+</html>
+
+
+
