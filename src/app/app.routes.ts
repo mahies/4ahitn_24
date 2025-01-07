@@ -7,7 +7,7 @@ import {PageAboutMeKLARICComponent} from './page-about-me-klaric/page-about-me-k
 import {PageAboutMeAljarrahComponent} from './page-about-me-aljarrah/page-about-me-aljarrah.component';
 import {PageAboutMeGEIHSEDERComponent} from './page-about-me-geihseder/page-about-me-geihseder.component';
 import {PageAboutMeYOHANNAComponent} from './page-about-me-yohanna/page-about-me-yohanna.component';
-import {PageAboutMeMATUSCHKAComponent} from './page-about-me-matuschka/page-about-me-matuschka.component';
+import {PageAboutMeMATUSCHKAComponent} from './page-MATUSCHKA/page-about-me-matuschka/page-about-me-matuschka.component';
 import {PageAboutMeSenjicComponent} from './pages/page-SENJIC/page-about-me-senjic/page-about-me-senjic.component';
 import {PageAboutMeIBRAHIMComponent} from './page-about-me-ibrahim/page-about-me-ibrahim.component';
 import {PageAboutMeSinghComponent} from './page-about-me-singh/page-about-me-singh.component';
@@ -16,6 +16,9 @@ import { SchoeffmannComponent } from './schoeffmann/schoeffmann.component';
 import {PageAboutMeVIRKComponent} from './page-about-me-virk/page-about-me-virk.component';
 import {PageAboutBeckerComponent} from './page-about-becker/page-about-becker.component';
 import {PageMyTravelsSenjicComponent} from './pages/page-SENJIC/page-my-travels-senjic/page-my-travels-senjic.component';
+import {
+  PageStadienbesucheMatuschkaComponent
+} from './page-MATUSCHKA/page-stadienbesuche-matuschka/page-stadienbesuche-matuschka.component';
 
 
 
@@ -72,6 +75,10 @@ export const routes: Routes = [
   {
     path: 'aboutMeMATUSCHKA',
     component: PageAboutMeMATUSCHKAComponent
+  },
+  {
+    path: 'stadienbesucheMatuschka',
+    component: PageStadienbesucheMatuschkaComponent
   },
   {
     path: 'aboutMeIBRAHIM',
