@@ -1,15 +1,8 @@
-.container {
-  padding: 2rem;
 
-  @media (max-width: 768px) {
-    padding: 1rem;
-  }
-}
 body {
   background-color: white;
   color: black;
 }
-
 
 @media (prefers-color-scheme: dark) {
   body {
@@ -17,3 +10,5 @@ body {
     color: white;
   }
 }
+
+/*# sourceMappingURL=page-about-me-millich.component.css.map */
