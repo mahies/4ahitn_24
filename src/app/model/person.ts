@@ -68,7 +68,7 @@ export const yohanna : Person = {
   surname: "Yohanna",
   firstname: "Adryano",
   urlImage: "assets-YOHANNA/Bild_YOHANNA.jpg",
-  birthday: new Date("2007-10-29"),
+  birthday: new Date("2006-11-25"),
   department: "ITEL Netzwerktechnik",
   email: "210424@studierende.htl-donaustadt.at",
   github_nickname: "qaxry",
