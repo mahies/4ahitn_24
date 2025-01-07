@@ -64,4 +64,16 @@ export const millich : Person = {
   message: "\„Zitat\" \n(Niemand)"
 }
 
+export const yohanna : Person = {
+  surname: "Yohanna",
+  firstname: "Adryano",
+  urlImage: "assets-YOHANNA/Bild_YOHANNA.jpg",
+  birthday: new Date("2007-10-29"),
+  department: "ITEL Netzwerktechnik",
+  email: "210424@studierende.htl-donaustadt.at",
+  github_nickname: "qaxry",
+  zip_code: 1210,
+  city: "Wien",
+  message: "\„One day or day one. You decide.\" \n(YOHANNA Adryano)"
+}
 
