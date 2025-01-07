@@ -28,7 +28,7 @@ export  const MINNIE : Person = {
 export const schoeffmann : Person = {
   surname: "Schoeffmann",
   firstname: "Raphael",
-  urlImage: "assets/demo/Donald_Duck.webp",
+  urlImage: "assets-SCHOEFFMANN/ohneHaare.webp",
   birthday: new Date("2000-00-01"),
   department: "ITEL Netzwerktechnik",
   email: "donald.duck@htl-donaustadt.at",
