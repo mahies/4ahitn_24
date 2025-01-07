@@ -29,13 +29,13 @@ export const schoeffmann : Person = {
   surname: "Schoeffmann",
   firstname: "Raphael",
   urlImage: "assets-SCHOEFFMANN/ohneHaare.webp",
-  birthday: new Date("2000-00-01"),
+  birthday: new Date("2001-01-01"),
   department: "ITEL Netzwerktechnik",
-  email: "donald.duck@htl-donaustadt.at",
+  email: "Top-G@htl-donaustadt.at",
   github_nickname: "donaldduck042",
   zip_code: 1010,
-  city: "Duckenhausen",
-  message: "\„Wenn du es dir es leisten kannst, kannst du dir es leisten.\" \n(Donald Duck)"
+  city: "DownTownCity",
+  message: "\„Wenn du es dir leisten kannst, kannst du es dir leisten.\" \n(Donald Duck)"
 };
 
 export  const klaric : Person = {
