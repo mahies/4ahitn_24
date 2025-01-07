@@ -20,6 +20,7 @@ import {
   PageStadienbesucheMatuschkaComponent
 } from './page-MATUSCHKA/page-stadienbesuche-matuschka/page-stadienbesuche-matuschka.component';
 import {PageMyFutureSenjicComponent} from './pages/page-SENJIC/page-my-future-senjic/page-my-future-senjic.component';
+import {PageAboutMeStoilovComponent} from './page-about-me-stoilov/page-about-me-stoilov.component';
 
 
 
@@ -101,7 +102,10 @@ export const routes: Routes = [
     path: 'schoeffmann',
     component: SchoeffmannComponent
   },
-
+  {
+    path: 'aboutMeSTOILOV',
+    component: PageAboutMeStoilovComponent
+  },
   {
     path: 'aboutMeVIRK',
     component: PageAboutMeVIRKComponent
