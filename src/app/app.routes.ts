@@ -20,11 +20,8 @@ import {
   PageStadienbesucheMatuschkaComponent
 } from './page-MATUSCHKA/page-stadienbesuche-matuschka/page-stadienbesuche-matuschka.component';
 import {PageMyFutureSenjicComponent} from './pages/page-SENJIC/page-my-future-senjic/page-my-future-senjic.component';
-<<<<<<< HEAD
 import { MeineReisenComponent } from './schoeffmann/meine-reisen/meine-reisen.component';
-=======
-import {PageAboutMeStoilovComponent} from './page-about-me-stoilov/page-about-me-stoilov.component';
->>>>>>> refs/remotes/origin/master
+import { PageAboutMeStoilovComponent } from './page-about-me-stoilov/page-about-me-stoilov.component';
 
 
 
@@ -107,16 +104,14 @@ export const routes: Routes = [
     component: SchoeffmannComponent
   },
   {
-<<<<<<< HEAD
     path: 'schoeffmann-meine-reisen',
     component: MeineReisenComponent
   },
 
-=======
+  {
     path: 'aboutMeSTOILOV',
     component: PageAboutMeStoilovComponent
   },
->>>>>>> refs/remotes/origin/master
   {
     path: 'aboutMeVIRK',
     component: PageAboutMeVIRKComponent
