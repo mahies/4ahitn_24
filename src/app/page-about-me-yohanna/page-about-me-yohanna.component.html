@@ -12,13 +12,14 @@
 
 <main>
   <div style="text-align: center;">
-    {{me.firstname}} {{me.surname.toLocaleUpperCase()}}<br>
+    <p>{{me.firstname}} {{me.surname.toLocaleUpperCase()}}</p><br>
     <img src="{{me.urlImage}}" alt="Bild von {{me.firstname}} {{me.surname}} "> <br>
-    {{me.email}} <br>
-    {{me.city}} <br>
-    {{me.birthday.getDate()}}.{{me.birthday.getMonth()}}.{{me.birthday.getFullYear()}} <br>
-    {{me.github_nickname}} <br>
-    {{me.department}} <br>
+    <p>{{me.email}}</p> <br>
+    <p>{{me.city}}</p> <br>
+    <p>{{me.birthday.getDate()}}.{{me.birthday.getMonth()}}.{{me.birthday.getFullYear()}} </p> <br>
+    <p>{{me.github_nickname}}</p>   <br>
+    <p>{{me.department}}</p> <br>
+    <p>{{me.message}}</p> <br>
     <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Zurück</a> <br>
   </div>
 </main>
