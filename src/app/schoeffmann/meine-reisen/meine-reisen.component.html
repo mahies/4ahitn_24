@@ -1,2 +1,16 @@
 <h1>Meine Reisen</h1>
-<a routerLink="/schoeffmann" routerLinkActive="active" class="btn btn-primary">Back</a>
+
+<div class="flex">
+    <div class="tripbox">
+        <img [src]="uptipterimg"  alt="Uptipter Image">
+      <h2>Uptipter</h2>
+      <p>{{uptipter}}</p>
+    </div>
+    <div class="tripbox">
+        <img [src]="oesterreichimg"  alt="Österreich Image">
+      <h2>Österreich</h2>
+      <p>{{oesterreich}}</p>
+    </div>
+</div>
+
+<a routerLink="/schoeffmann" routerLinkActive="active" class="btn btn-primary myLink">Back</a>

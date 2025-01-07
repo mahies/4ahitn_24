@@ -8,5 +8,10 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
   styleUrl: './meine-reisen.component.scss'
 })
 export class MeineReisenComponent {
+uptipter:String="Uptipter ist ein Paradies mit kristallklarem Wasser und beeindruckender Küstenlandschaft";
+oesterreich:String="Österreich ist ein schnönes Land";
+
+uptipterimg: string = "assets-SCHOEFFMANN/uptipter.webp";
+oesterreichimg: string = "assets-SCHOEFFMANN/oesterreich.png";
 
 }
