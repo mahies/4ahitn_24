@@ -19,6 +19,7 @@ import {PageMyTravelsSenjicComponent} from './pages/page-SENJIC/page-my-travels-
 import {
   PageStadienbesucheMatuschkaComponent
 } from './page-MATUSCHKA/page-stadienbesuche-matuschka/page-stadienbesuche-matuschka.component';
+import {PageMyFutureSenjicComponent} from './pages/page-SENJIC/page-my-future-senjic/page-my-future-senjic.component';
 
 
 
@@ -71,6 +72,10 @@ export const routes: Routes = [
   {
     path: 'myTravelsSENJIC',
     component: PageMyTravelsSenjicComponent
+  },
+  {
+    path: 'MyFutureSENJIC',
+    component: PageMyFutureSenjicComponent
   },
   {
     path: 'aboutMeMATUSCHKA',
