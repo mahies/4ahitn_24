@@ -6,8 +6,14 @@ body {
 main {
   text-align: center;
   margin: 2rem auto;
+  padding: 2rem;
 }
 
+@media (max-width: 768px) {
+  main {
+    padding: 1rem;
+  }
+}
 .profile-container {
   margin-top: 2rem;
 }
