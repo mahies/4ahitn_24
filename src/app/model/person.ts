@@ -55,7 +55,7 @@ export const millich : Person = {
   surname: "Millich",
   firstname: "Alexander",
   urlImage: "assets-MILLICH/Bild_MILLICH.jpg",
-  birthday: new Date("2007-10-29"),
+  birthday: new Date("2007-09-29"),
   department: "ITEL Netzwerktechnik",
   email: "210027@studierende.htl-donaustadt.at",
   github_nickname: "Askaloor",
@@ -68,12 +68,12 @@ export const yohanna : Person = {
   surname: "Yohanna",
   firstname: "Adryano",
   urlImage: "assets-YOHANNA/Bild_YOHANNA.jpg",
-  birthday: new Date("2006-11-25"),
+  birthday: new Date("2006-10-25"),
   department: "ITEL Netzwerktechnik",
   email: "210424@studierende.htl-donaustadt.at",
   github_nickname: "qaxry",
   zip_code: 1210,
   city: "Wien",
-  message: "\„One day or day one. You decide.\" \n(YOHANNA Adryano)"
+  message: "\„One day or day one.\" \n(YOHANNA Adryano)"
 }
 

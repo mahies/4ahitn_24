@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import {Person, millich} from '../model/person';
 import {RouterLink, RouterLinkActive} from '@angular/router';
+import {DatePipe} from '@angular/common';
 
 @Component({
   selector: 'app-page-about-me-millich',
   imports: [
     RouterLink,
-    RouterLinkActive
+    RouterLinkActive,
+    DatePipe
   ],
   templateUrl: './page-about-me-millich.component.html',
   styleUrl: './page-about-me-millich.component.scss'
