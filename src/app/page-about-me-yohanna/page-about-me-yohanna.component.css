@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Allgemeine Stile */
 body {
   font-family: Arial, sans-serif;
@@ -32,3 +33,5 @@ main {
   width: 150px; /* Gleiche Breite wie das Bild */
   text-align: left; /* Labels links ausrichten */
 }
+
+/*# sourceMappingURL=page-about-me-yohanna.component.css.map */

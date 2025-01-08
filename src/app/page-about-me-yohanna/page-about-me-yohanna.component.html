@@ -1,34 +1,40 @@
-<!DOCTYPE html>
-<html lang="de" >
+<html lang="de">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adryano Yohanna</title>
+  <link rel="stylesheet" href="page-about-me-yohanna.component.css">
 </head>
-<body >
+<body>
 <header>
-  <!-- Später, wenn gebraucht wird-->
+  <!-- Später, wenn gebraucht wird -->
 </header>
 
 <main>
-  <div style="text-align: center;">
-    <p>{{me.firstname}} {{me.surname.toLocaleUpperCase()}}</p><br>
-    <img src="{{me.urlImage}}" alt="Bild von {{me.firstname}} {{me.surname}} "> <br>
-    <p>{{me.email}}</p> <br>
-    <p>{{me.city}}</p> <br>
-    <p>{{me.birthday.getDate()}}.{{me.birthday.getMonth()}}.{{me.birthday.getFullYear()}} </p> <br>
-    <p>{{me.github_nickname}}</p>   <br>
-    <p>{{me.department}}</p> <br>
-    <p>{{me.message}}</p> <br>
-    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Zurück</a> <br>
+  <div>
+    <p>{{me.firstname}} {{me.surname.toLocaleUpperCase()}}</p>
+    <div class="profile-container">
+      <img src="{{me.urlImage}}" alt="Bild von {{me.firstname}} {{me.surname}}">
+    </div>
+    <div class="details-container">
+      <p><b>Wohnort:</b> {{me.zip_code}} {{me.city}}</p>
+      <p><b>Geburtsdatum:</b> {{me.birthday | date:'dd.MM.yyyy'}}</p>
+      <p><b>Github:</b> {{me.github_nickname}}</p>
+      <p><b>Abteilung:</b> {{me.department}}</p>
+      <p><b>Email:</b> {{me.email}}</p>
+      <p><b>Motto:</b> <i>{{me.message}}</i></p>
+      <br>
+    </div>
+  <div style="text-align: center">
+    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Zurück</a>
+  </div>
+
+
   </div>
 </main>
 
 <footer>
-  <!-- Später, wenn gebraucht wird-->
+  <!-- Später, wenn gebraucht wird -->
 </footer>
 </body>
 </html>
-
-
-
