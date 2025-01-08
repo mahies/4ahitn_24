@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PageAboutMeMoelzerComponent } from './page-about-me-moelzer.component';
+import { PageAboutMeMoelzerComponent } from './epics-moelzer.component';
 
 describe('PageAboutMeMoelzerComponent', () => {
   let component: PageAboutMeMoelzerComponent;

@@ -3,8 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-page-about-me-moelzer',
   imports: [],
-  templateUrl: './page-about-me-moelzer.component.html',
-  styleUrl: './page-about-me-moelzer.component.scss'
+  templateUrl: './epics-moelzer.component.html',
+  styleUrl: './epics-moelzer.component.scss'
 })
 export class PageAboutMeMoelzerComponent {
 
