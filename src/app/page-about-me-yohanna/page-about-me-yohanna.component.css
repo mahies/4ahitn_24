@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* Allgemeine Stile */
 body {
   font-family: Arial, sans-serif;
@@ -6,32 +5,32 @@ body {
 
 main {
   text-align: center;
-  margin: 20px auto;
+  margin: 2rem auto;
 }
 
 .profile-container {
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .profile-container img {
-  max-width: 150px; /* Feste Breite für das Bild */
+  max-width: 9.375rem;
   height: auto;
 }
 
 .details-container {
   display: inline-block;
   text-align: left;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .details-container p {
-  margin: 5px 0;
+  margin: 0.3125rem 0;
 }
 
 .details-container b {
   display: inline-block;
-  width: 150px; /* Gleiche Breite wie das Bild */
-  text-align: left; /* Labels links ausrichten */
+  width: 9.375rem;
+  text-align: left;
 }
 
 /*# sourceMappingURL=page-about-me-yohanna.component.css.map */
