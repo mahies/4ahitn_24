@@ -1,3 +1,34 @@
-{{email}} <br>
-{{wohnort}} <br>
-{{nachname.toLocaleUpperCase()}} <br>
+<!DOCTYPE html>
+<html lang="de" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adryano Yohanna</title>
+</head>
+<body >
+<header>
+  <!-- Später, wenn gebraucht wird-->
+</header>
+
+<main>
+  <div style="text-align: center;">
+    <p>{{me.firstname}} {{me.surname.toLocaleUpperCase()}}</p><br>
+    <img src="{{me.urlImage}}" alt="Bild von {{me.firstname}} {{me.surname}} "> <br>
+    <p>{{me.email}}</p> <br>
+    <p>{{me.city}}</p> <br>
+    <p>{{me.birthday.getDate()}}.{{me.birthday.getMonth()}}.{{me.birthday.getFullYear()}} </p> <br>
+    <p>{{me.github_nickname}}</p>   <br>
+    <p>{{me.department}}</p> <br>
+    <p>{{me.message}}</p> <br>
+    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Zurück</a> <br>
+  </div>
+</main>
+
+<footer>
+  <!-- Später, wenn gebraucht wird-->
+</footer>
+</body>
+</html>
+
+
+

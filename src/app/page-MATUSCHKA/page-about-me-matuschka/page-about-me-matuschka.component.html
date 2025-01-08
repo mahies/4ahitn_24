@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bild und Text</title>
+  <style>
+    body {
+      font-family: 'Calibri', Times, serif;
+      font-size: 16px;
+      background-color: #80ff5a;
+      padding: 2rem;
+    }
+
+    .bild-rechts {
+      position: absolute;
+      top: 20px;
+      left: 525px;
+      max-width: 100px;
+      height: auto;
+    }
+
+    .custom-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 2rem;
+      padding: 2rem;
+      background-color: #45ff3b;
+      border-radius: 120px;
+    }
+
+    .custom-card {
+      display: flex;
+      max-width: 1000px;
+      border: 2px solid #007bff;
+      border-radius: 12px;
+    }
+
+    .custom-card .content {
+      padding: 1.5rem;
+      width: 80%;
+    }
+
+    .custom-card .image {
+      position: relative;
+      width: 0.1%;
+    }
+    h5.card-title {
+      font-family: 'Georgia', serif;
+      font-size: 24px;
+      color: #007bff;
+    }
+
+    p.card-text {
+      font-family: 'Verdana', sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    a.text-decoration-none {
+      font-family: 'Courier New', monospace;
+      font-size: 14px;
+      color: #007bff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+<section class="custom-container">
+  <div class="custom-card">
+    <div class="image">
+      <img src="assets-MATUSCHKA/Bild.jpg" class="bild-rechts" alt="Profilbild">
+    </div>
+    <div class="content">
+      <h1 class="card-title text-primary"><strong>Simon MATUSCHKA</strong></h1>
+      <p class="card-text">
+        <strong>Geburtsdatum:</strong> 11.09.2006<br>
+        <strong>Email:</strong> <a href="mailto:{{Mail}}" class="text-decoration-none">{{ Mail }}</a><br>
+        <strong>Wohnort:</strong> Wien 1220<br>
+        <strong>Abteilung:</strong> ITEL (Netzwerktechnologie)<br>
+        <strong>GitHub: </strong> <a href="https://github.com/{{Github}}" target="_blank" class="text-decoration-none text-primary">&#64;{{ Github }}</a><br>
+        <strong>Hobbys:</strong> Handball, Skifahren, Sport im allgemeinen, mit Freunden was unternehmen<br>
+
+      </p>
+      <p class="card-text"><em>You miss 100% of the shots you don't take. ~Wayne Gretzky</em></p>
+      <a routerLink="/home" routerLinkActive="active" class="btn btn-primary"  style="margin-right: 10px">Back</a>
+      <a routerLink="/stadienbesucheMatuschka" routerLinkActive="active" class="btn btn-primary">Stadionbesuche</a>
+    </div>
+  </div>
+</section>
+</body>
+</html>

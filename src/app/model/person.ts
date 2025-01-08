@@ -28,28 +28,52 @@ export  const MINNIE : Person = {
 export const schoeffmann : Person = {
   surname: "Schoeffmann",
   firstname: "Raphael",
-  urlImage: "assets/demo/Donald_Duck.webp",
-  birthday: new Date("2000-00-01"),
+  urlImage: "assets-SCHOEFFMANN/ohneHaare.webp",
+  birthday: new Date("2001-01-01"),
   department: "ITEL Netzwerktechnik",
-  email: "donald.duck@htl-donaustadt.at",
+  email: "Top-G@htl-donaustadt.at",
   github_nickname: "donaldduck042",
   zip_code: 1010,
-  city: "Duckenhausen",
-  message: "\„Wenn du es dir es leisten kannst, kannst du dir es leisten.\" \n(Donald Duck)"
+  city: "DownTownCity",
+  message: "\„Wenn du es dir leisten kannst, kannst du es dir leisten.\" \n(Donald Duck)"
 };
 
 export  const klaric : Person = {
   surname: "KLARIC",
   firstname: "Matteo",
-  urlImage: "assets-KLARIC/hajduk.jpg",
+  urlImage: "assets-KLARIC/Ich.jpg",
   birthday: new Date("2005-07-31"),
   department: "ITEL Netzwerktechnik",
   email: "210273@studierende.htl-donaustadt.at",
   github_nickname: "MatteoHajduk",
   zip_code: 1220,
   city: "Wien",
-  message: "\„You miss 100% of the shots you don’t take.\" \n(KLARIC Matteo)"
+  message: "\„Work so hard that your idols become your rivals\" \n(KLARIC Matteo)"
 };
 
+export const millich : Person = {
+  surname: "Millich",
+  firstname: "Alexander",
+  urlImage: "assets-MILLICH/Bild_MILLICH.jpg",
+  birthday: new Date("2007-10-29"),
+  department: "ITEL Netzwerktechnik",
+  email: "210027@studierende.htl-donaustadt.at",
+  github_nickname: "Askaloor",
+  zip_code: 1220,
+  city: "Wien",
+  message: "\„Zitat\" \n(Niemand)"
+}
 
+export const yohanna : Person = {
+  surname: "Yohanna",
+  firstname: "Adryano",
+  urlImage: "assets-YOHANNA/Bild_YOHANNA.jpg",
+  birthday: new Date("2006-11-25"),
+  department: "ITEL Netzwerktechnik",
+  email: "210424@studierende.htl-donaustadt.at",
+  github_nickname: "qaxry",
+  zip_code: 1210,
+  city: "Wien",
+  message: "\„One day or day one. You decide.\" \n(YOHANNA Adryano)"
+}
 

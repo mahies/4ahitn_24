@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meine Reisen</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      background-color: burlywood;
+      padding: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 1rem;
+      }
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #f3f2f2;
+      border-radius: 20px;
+    }
+    .travel-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: center;
+    }
+
+    .travel-item {
+      width: 325px;
+      background-color: #fafafa;
+      border: 1px;
+      text-align: center;
+      border-radius: 20px;
+    }
+
+    .travel-item img {
+      width: 325px;
+      height: 200px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+    .custom-btn {
+      background-color: #B39EB5 ;
+      color: black;
+      border: none;
+      margin-right: 10px;
+      margin-left: 47%;
+      margin-bottom: 25px;
+    }
+
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1 style="text-align: center; margin-bottom: 20px">Meine Reisen</h1>
+    <a routerLink="/aboutMeSENJIC" routerLinkActive="active" class="btn btn-primary custom-btn">Zurück</a>
+  <div class="travel-grid">
+    <div class="travel-item">
+      <img [src]="Kroatienimg"  alt="Kroatien">
+      <h2>Kroatien</h2>
+      <p><em style="margin: 5px">{{Kroatien}}</em></p>
+    </div>
+    <div class="travel-item">
+      <img [src]="Italienimg"  alt="Italien">
+      <h2>Italien</h2>
+      <p><em style="margin: 5px">{{Italien}}</em></p>
+    </div>
+    <div class="travel-item">
+      <img [src]="Oesterreichimg"  alt="Österreich">
+      <h2>Österreich</h2>
+      <p><em style="margin: 5px">{{Oesterreich}}</em></p>
+    </div>
+    <div class="travel-item">
+      <img [src]="Griechenlandimg"  alt="Griechenland">
+      <h2>Griechenland</h2>
+      <p><em style="margin: 5px">{{Griechenland}}</em></p>
+    </div>
+    <div class="travel-item">
+      <img [src]="Serbienimg"  alt="Serbien">
+      <h2>Serbien</h2>
+      <p><em style="margin: 5px">{{Serbien}}</em></p>
+    </div>
+    <div class="travel-item">
+      <img [src]="Bosnienimg"  alt="Bosnien">
+      <h2>Bosnien</h2>
+      <p><em style="margin: 5px">{{Bosnien}}</em></p>
+    </div>
+    <div class="travel-item">
+      <img [src]="Mazedonienimg"  alt="Bosnien">
+      <h2>Mazedonien</h2>
+      <p><em style="margin: 5px">{{Mazedonien}}</em></p>
+    </div>
+    <div class="travel-item">
+      <img [src]="Turkeiimg"  alt="Türkei">
+      <h2>Türkei</h2>
+      <p><em style="margin: 5px">{{Turkei}}</em></p>
+    </div>
+  </div>
+  <p style="text-align: center; padding-top: 40px;"><strong>© by Oliver SENJIĆ</strong></p>
+</div>
+</body>
+</html>

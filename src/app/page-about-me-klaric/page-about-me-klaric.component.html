@@ -1,4 +1,4 @@
-<div class="container mt-5">
+<div class="container mt-5" style="background-color: #0000FF; padding: 1rem;">
   <div class="card border-primary rounded-3 shadow-lg" style="max-width: 2000px; margin: 2rem;">
     <div class="row g-0">
       <div class="col-md-4 p-3">
@@ -6,19 +6,18 @@
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title text-primary">{{ me.firstname }} {{ me.surname }}</h5>
-          <p class="card-text">
+          <h5 class="card-title text-primary">{{ me.firstname }} <span style="font-weight: bold; font-family: 'Courier New', monospace;">{{ me.surname }}</span></h5>
+          <p class="card-text" style="font-family: 'Georgia', serif;">
             <strong>Birthday:</strong> {{ me.birthday }}<br>
             <strong>Department:</strong> {{ me.department }}<br>
             <strong>Email: </strong> <a href="mailto:{{ me.email }}" class="text-decoration-none">{{ me.email }}</a><br>
             <strong>GitHub: </strong> <a href="https://github.com/{{ me.github_nickname }}" target="_blank" class="text-decoration-none text-primary">&#64;{{ me.github_nickname }}</a><br>
             <strong>City:</strong> {{ me.zip_code }} {{ me.city }}
           </p>
-          <p class="card-text"><em>{{ me.message }}</em></p>
+          <p class="card-text" style="font-style: italic; font-family: 'Cursive', sans-serif;">{{ me.message }}</p>
           <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Back</a>
         </div>
       </div>
     </div>
   </div>
 </div>
-

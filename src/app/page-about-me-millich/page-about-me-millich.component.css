@@ -1,0 +1,37 @@
+body {
+  padding: 2rem;
+}
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+}
+
+html {
+  font-family: "Georgia", serif;
+  background-color: white;
+  color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    font-family: "Georgia", serif;
+    background-color: black;
+    color: white;
+  }
+}
+body {
+  font-family: "Georgia", serif;
+  background-color: white;
+  color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    font-family: "Georgia", serif;
+    background-color: black;
+    color: white;
+  }
+}
+
+/*# sourceMappingURL=page-about-me-millich.component.css.map */
