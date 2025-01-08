@@ -4,9 +4,9 @@
 </head>
 <body>
 <main>
-  <div style="text-align: center;" class="container">
+  <div class="container centered textSize">
     <h3>{{ me.firstname }} {{ me.surname.toLocaleUpperCase() }}</h3>
-    <p>{{ me.birthday.getDate() }}.{{ me.birthday.getMonth() }}.{{ me.birthday.getFullYear() }}</p>
+    <p>{{ me.birthday | date:'dd.MM.yyyy'  }}</p>
     <img src="{{me.urlImage}}">
     <p>
       Abteilung: {{ me.department }}<br>

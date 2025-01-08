@@ -26,4 +26,12 @@ body {
   min-height: 100vh;
 }
 
+.centered {
+  text-align: center;
+}
+
+.textSize {
+  font-size: 1.2rem;
+}
+
 /*# sourceMappingURL=page-about-me-millich.component.css.map */

@@ -55,7 +55,7 @@ export const millich : Person = {
   surname: "Millich",
   firstname: "Alexander",
   urlImage: "assets-MILLICH/Bild_MILLICH.jpg",
-  birthday: new Date("2007-10-29"),
+  birthday: new Date("2007-09-29"),
   department: "ITEL Netzwerktechnik",
   email: "210027@studierende.htl-donaustadt.at",
   github_nickname: "Askaloor",
