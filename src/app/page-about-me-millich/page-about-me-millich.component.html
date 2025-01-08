@@ -1,19 +1,22 @@
 <html lang="de">
 <head>
-<link rel="stylesheet" href="page-about-me-millich.component.css">
+  <link rel="stylesheet" href="page-about-me-millich.component.css">
 </head>
 <body>
- <div style="text-align: center;" class="container">
-   <h3>{{me.firstname}} {{me.surname.toLocaleUpperCase()}}</h3>
-   <p>{{me.birthday.getDate()}}.{{me.birthday.getMonth()}}.{{me.birthday.getFullYear()}}</p>
+<main>
+  <div style="text-align: center;" class="container">
+    <h3>{{ me.firstname }} {{ me.surname.toLocaleUpperCase() }}</h3>
+    <p>{{ me.birthday.getDate() }}.{{ me.birthday.getMonth() }}.{{ me.birthday.getFullYear() }}</p>
     <img src="{{me.urlImage}}">
-    <p>Abteilung: {{me.department}}<br>
-    Email-Adresse: {{me.email}}<br>
-    Github Account: {{me.github_nickname}}<br>
-    Wohnort: {{me.zip_code}} {{me.city}}<br>
-    <i>{{me.message}}</i><br>
-      <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Take me home</a>
+    <p>
+      Abteilung: {{ me.department }}<br>
+      Email-Adresse: <a href="mailto:210027@studiernde.htl-donaustadt.at">{{ me.email }}</a><br>
+      Github Account: <a href="https://github.com/askaloor">{{ me.github_nickname }}</a><br>
+      Wohnort: {{ me.zip_code }} {{ me.city }}<br>
+      <i>{{ me.message }}</i><br>
     </p>
+    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Take me home</a>
   </div>
+</main>
 </body>
 </html>
