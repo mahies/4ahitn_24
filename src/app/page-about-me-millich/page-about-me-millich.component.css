@@ -8,18 +8,20 @@ body {
 }
 
 body {
-  font-family: "Georgia", serif;
   background-color: white;
   color: black;
 }
 
 @media (prefers-color-scheme: dark) {
   body {
-    font-family: "Georgia", serif;
     background-color: black;
     color: white;
   }
 }
+body {
+  font-family: "Georgia", serif;
+}
+
 .container {
   min-height: 100vh;
 }
