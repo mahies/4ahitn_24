@@ -7,19 +7,6 @@ body {
   }
 }
 
-html {
-  font-family: "Georgia", serif;
-  background-color: white;
-  color: black;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    font-family: "Georgia", serif;
-    background-color: black;
-    color: white;
-  }
-}
 body {
   font-family: "Georgia", serif;
   background-color: white;
@@ -32,6 +19,9 @@ body {
     background-color: black;
     color: white;
   }
+}
+.container {
+  min-height: 100vh;
 }
 
 /*# sourceMappingURL=page-about-me-millich.component.css.map */

@@ -5,21 +5,6 @@ body {
     padding: 1rem;
   }
 }
-html {
-  font-family: 'Georgia', serif;
-  background-color: white;
-  color: black;
-}
-
-
-@media (prefers-color-scheme: dark) {
-  html {
-    font-family: 'Georgia', serif;
-    background-color: black;
-    color: white;
-  }
-}
-
 body {
   font-family: 'Georgia', serif;
   background-color: white;
@@ -34,3 +19,8 @@ body {
     color: white;
   }
 }
+
+.container {
+  min-height: 100vh;
+}
+
