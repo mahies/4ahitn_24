@@ -9,7 +9,7 @@
           <div class="card-body">
             <h5 class="card-title text-primary">{{ me.firstname }} {{ me.surname }}</h5>
             <p class="card-text">
-              <strong>Birthday:</strong> {{ me.birthday }}<br>
+              <strong>Birthday:&nbsp;</strong> {{me.birthday.getDate()}}.{{me.birthday.getMonth() + 1 }}.{{me.birthday.getFullYear()}}<br>
               <strong>Department:</strong> {{ me.department }}<br>
               <strong>Email: </strong> <a href="mailto:{{ me.email }}" class="text-decoration-none">{{ me.email }}</a><br>
               <strong>GitHub: </strong> <a href="https://github.com/{{ me.github_nickname }}" target="_blank" class="text-decoration-none text-primary">&#64;{{ me.github_nickname }}</a><br>

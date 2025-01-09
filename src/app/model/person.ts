@@ -26,16 +26,16 @@ export  const MINNIE : Person = {
 };
 
 export const schoeffmann : Person = {
-  surname: "Schoeffmann",
+  surname: "Schöffmann",
   firstname: "Raphael",
-  urlImage: "assets-SCHOEFFMANN/ohneHaare.webp",
-  birthday: new Date("2001-01-01"),
+  urlImage: "assets-SCHOEFFMANN/Raphael.jpeg",
+  birthday: new Date("2006-09-26"),
   department: "ITEL Netzwerktechnik",
-  email: "Top-G@htl-donaustadt.at",
-  github_nickname: "donaldduck042",
-  zip_code: 1010,
-  city: "DownTownCity",
-  message: "\„Wenn du es dir leisten kannst, kannst du es dir leisten.\" \n(Donald Duck)"
+  email: "210422@htl-donaustadt.at",
+  github_nickname: "theBroGrammer2624",
+  zip_code: 1120,
+  city: "Wien",
+  message: "\„Just do it.\" \n(Raphael Schöffmann)"
 };
 
 export  const klaric : Person = {

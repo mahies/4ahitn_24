@@ -2,24 +2,25 @@
 
 <div class="flex">
     <div class="tripbox">
-        <img [src]="uptipterimg"  alt="Uptipter Image">
-      <h2>Uptipter</h2>
-      <p>{{uptipter}}</p>
+        <img [src]="nizzaimg"  alt="Nizza Image">
+      <h2>Nizza</h2>
+      <p>{{nizza}}</p>
     </div>
+    <div class="tripbox">
+      <img [src]="imperiaimg"  alt="Imperia Image">
+    <h2>Imperia</h2>
+    <p>{{imperia}}</p>
+  </div>
     <div class="tripbox">
         <img [src]="oesterreichimg"  alt="Österreich Image">
       <h2>Österreich</h2>
       <p>{{oesterreich}}</p>
     </div>
     <div class="tripbox">
-        <img [src]="norwegenimg"  alt="Norwegen Image">
-      <h2>Norwegen</h2>
-      <p>{{norwegen}}</p>
-    </div>
-    <div class="tripbox">
-        <img [src]="usaimg"  alt="USA Image">
-      <h2>USA</h2>
-      <p>{{usa}}</p>
+        <img [src]="innsbruckimg"  alt="Innsbruck Image">
+      <h2>Innsbruck</h2>
+      <!--<p>{{innsbruck}}</p> <div [innerHTML]="emojiCode"></div>-->
+      <p [innerHTML]="innsbruck + ' ' + emojiCode"></p>
     </div>
 </div>
 

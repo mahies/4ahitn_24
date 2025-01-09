@@ -8,14 +8,16 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
   styleUrl: './meine-reisen.component.scss'
 })
 export class MeineReisenComponent {
-uptipter:String="Uptipter ist ein Paradies mit kristallklarem Wasser und beeindruckender Küstenlandschaft";
-oesterreich:String="Österreich ist ein schnönes Land";
-norwegen:String="Norwegen ist ein winterliches Land";
-usa:String="Die USA hat viele coole Brücken";
+nizza:String="Nizza ist eine Stadt in Frankreich nahe der Italienischen Grenze. Ich war einen Tag in Nizza mit meiner Familie, während wir in Imperia wohnten.";
+oesterreich:String="Österreich ist ein schnönes Land. (Ich lebe aktuell in Österreich)";
+imperia:String="Imperia ist eine Stadt in Italien.";
+innsbruck:String="Im Sommer fuhr ich von Wien zusammen mit meinem Vater per Fahrrad nach Innsbruck. Der Kaiserschmarren war lecker";
+emojiCode: string = '&#128523;';
 
-uptipterimg: string = "assets-SCHOEFFMANN/uptipter.webp";
+
+nizzaimg: string = "assets-SCHOEFFMANN/nizza.jpg";
 oesterreichimg: string = "assets-SCHOEFFMANN/oesterreich.png";
-norwegenimg: string = "assets-SCHOEFFMANN/norwegen-winter.jpg";
-usaimg: string = "assets-SCHOEFFMANN/usa-bruecke.jpg";
+imperiaimg: string = "assets-SCHOEFFMANN/imperia.webp";
+innsbruckimg: string = "assets-SCHOEFFMANN/innsbruck.jpg";
 
 }
