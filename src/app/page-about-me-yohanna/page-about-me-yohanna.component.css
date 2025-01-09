@@ -8,12 +8,12 @@ main {
   margin: 2rem auto;
   padding: 2rem;
 }
+
 @media (max-width: 768px) {
   main {
     padding: 1rem;
   }
 }
-
 .profile-container {
   margin-top: 2rem;
 }
@@ -38,3 +38,5 @@ main {
   width: 9.375rem;
   text-align: left;
 }
+
+/*# sourceMappingURL=page-about-me-yohanna.component.css.map */
