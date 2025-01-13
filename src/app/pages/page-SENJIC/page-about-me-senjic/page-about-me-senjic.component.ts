@@ -12,7 +12,7 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
 })
 export class PageAboutMeSenjicComponent {
   name:String = "SENJIĆ Oliver";
-  imagePath: string = 'assets-SENJIC/fghjkdibfeb.png';
+  Portrait: string = 'assets-SENJIC/fghjkdibfeb.png';
   GB: string = "29.10.2006";
   Wohnort: string= "Wien | Floridsdorf";
   Mail: string = "210278@studierende.htl-donaustadt.at";
