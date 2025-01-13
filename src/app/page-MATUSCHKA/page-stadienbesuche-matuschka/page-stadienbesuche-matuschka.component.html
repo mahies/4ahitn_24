@@ -38,6 +38,9 @@
       max-width: 100%;
       border-radius: 5px;
     }
+    .stadion p:first-of-type {
+      font-size: 2rem;
+    }
     .stadion:nth-child(1) p:first-of-type {
       font-family: 'Georgia', serif;
       font-size: 1.4em;
@@ -81,6 +84,14 @@
     .stadion p:last-of-type {
       font-style: italic;
       font-size: 1.3em;
+    }
+    @media (max-width: 768px) {
+      .stadion p:first-of-type {
+        font-size: 1rem;
+      }
+      .stadion p:last-of-type {
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
