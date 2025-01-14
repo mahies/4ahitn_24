@@ -26,7 +26,7 @@ export  const MINNIE : Person = {
 };
 
 export const schoeffmann : Person = {
-  surname: "Schöffmann",
+  surname: "SCHÖFFMANN",
   firstname: "Raphael",
   urlImage: "assets-SCHOEFFMANN/Raphael.jpeg",
   birthday: new Date("2006-09-26"),
