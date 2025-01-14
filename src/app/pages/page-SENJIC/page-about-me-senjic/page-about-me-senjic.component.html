@@ -12,23 +12,23 @@
   <div class="header">
     <h1>SENJIĆ Oliver</h1>
     <h6>Willkommen zu meiner Webseite über mich!</h6>
-    <img [src]="imagePath"  alt="Portrait">
+    <img [src] = me.urlImage alt="Portrait">
   </div>
 
   <div class="info">
-    <p><strong>Name:</strong> {{name}}</p>
-    <p><strong>Geburtsdatum:</strong> {{GB}}</p>
-    <p><strong>Wohnort:</strong> {{Wohnort}}</p>
-    <p><strong>E-Mail:</strong> <a href="mailto:210278@studierende.htl-donaustadt.at">{{Mail}}</a></p>
-    <p><strong>Github: </strong> <a href="https://github.com/oliver5977">{{Github}}</a></p>
-    <p><strong>Abteilung:</strong> {{ABT}}</p>
+    <p><strong>Name:</strong> {{me.surname}} {{me.firstname}}</p>
+    <p><strong>Geburtsdatum:</strong> {{ me.birthday | date:'dd MMMM yyyy'  }}</p>
+    <p><strong>Wohnort:</strong> {{me.city}}</p>
+    <p><strong>E-Mail:</strong> <a href="mailto:210278@studierende.htl-donaustadt.at">{{me.email}}</a></p>
+    <p><strong>Github: </strong> <a href="https://github.com/oliver5977">{{me.github_nickname}}</a></p>
+    <p><strong>Abteilung:</strong> {{me.department}}</p>
     <a routerLink="/home" routerLinkActive="active" class="btn btn-primary; custom-btn">Zurück</a>
     <a routerLink="/myTravelsSENJIC" routerLinkActive="active" class="btn btn-primary; custom-btn">Meine Reisen</a>
     <a routerLink="/MyFutureSENJIC" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Zukunft</a>
   </div>
 
   <div class="Zitat">
-    <p>{{Zitat}}</p>
+    <p>{{me.message}}</p>
   </div>
   <p style="text-align: center"><strong>© by Oliver SENJIĆ</strong></p>
 </div>
