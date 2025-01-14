@@ -77,6 +77,22 @@ export const yohanna : Person = {
   message: "\„One day or day one.\" \n(YOHANNA Adryano)"
 }
 
+
+export const virk : Person = {
+  surname: "Virk",
+  firstname: "Gurnoor",
+  urlImage: "assets-VIRK/M9gK6W1D85YOw.png",
+  birthday: new Date("2006-11-15"),
+  department: "ITEL Netzwerktechnik",
+  email: "210044@studierende.htl-donaustadt.at",
+  github_nickname: "gurnoor44",
+  zip_code: 1220,
+  city: "Wien",
+  message: "\„We are what we repeatedly do. Excellence is not an act, but a habit\" \n(Aristotle)"
+}
+
+
+
 export const senjic : Person = {
   surname: "SENJIĆ ",
   firstname: "Oliver",

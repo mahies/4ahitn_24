@@ -49,54 +49,74 @@
     .info .italic {
       font-style: italic;
     }
+
+    .button {
+      margin-top: 20px;
+    }
+
+    .button button {
+      padding: 10px 20px;
+      background-color: #0056b3;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .button button:hover {
+      background-color: #003d80;
+    }
   </style>
 </head>
 
 <body>
 <div class="container">
-  <img src="{{ imagePath }}" alt="Portrait">
+  <img src="{{ me.urlImage }}" alt="Portrait">
 
   <div class="info">
     <strong>Name:</strong>
-    <span>{{ Name }}</span>
+    <span>{{ me.firstname }} <span style="text-transform: uppercase;">{{ me.surname }}</span></span>
+
+
   </div>
 
   <div class="info">
     <strong>Geburtsdatum:</strong>
-    <span>{{ GB }}</span>
+    <span>{{ me.birthday | date:'dd.MM.yyyy' }}</span>
   </div>
 
   <div class="info">
     <strong>Wohnort:</strong>
-    <span>{{ Wohnort }}</span>
+    <span>{{ me.zip_code }} {{ me.city }}</span>
   </div>
 
   <div class="info">
     <strong>E-Mail:</strong>
-    <span>{{ Mail }}</span>
+    <span>{{ me.email }}</span>
   </div>
 
   <div class="info">
     <strong>GitHub:</strong>
-    <span><a href="https://github.com/{{ Github }}" target="_blank">{{ Github }}</a></span>
+    <span><a href="https://github.com/{{ me.github_nickname }}" target="_blank">{{ me.github_nickname }}</a></span>
   </div>
 
   <div class="info">
     <strong>Abteilung:</strong>
-    <span>{{ ABT }}</span>
+    <span>{{ me.department }}</span>
   </div>
 
   <div class="info">
     <strong>Zitat:</strong>
-    <span class="italic">{{ Zitat }}</span>
+    <span class="italic">{{ me.message }}</span>
   </div>
 
   <div class="button">
     <button onclick="window.location.href='/'">Zurück zur Startseite</button>
   </div>
-
-
 </div>
 </body>
 
 </html>
+
+
