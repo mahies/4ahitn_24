@@ -77,6 +77,23 @@ export const yohanna : Person = {
   message: "\„One day or day one.\" \n(YOHANNA Adryano)"
 }
 
+export const senjic : Person = {
+  surname: "SENJIĆ ",
+  firstname: "Oliver",
+  urlImage: 'assets-SENJIC/fghjkdibfeb.png',
+  birthday: new Date("2006-10-29"),
+  city: "Wien | Floridsdorf",
+  email: "210278@studierende.htl-donaustadt.at",
+  github_nickname: "oliver5977",
+  zip_code: 1210,
+  department: "ITEL | Netzwerktechnik",
+  message:"Wisst ihr, was die billigste warme Mahlzeit in Österreich ist? Sie ist nicht gesund, aber sie ist billig." +
+    " Ein Hamburger bei McDonalds. 1,40 Euro. Wenn ich jetzt noch Pommes dazu kaufe - 3,50 Euro." +
+    " Und jetzt behauptet wirklich einer ernsthaft, wir leben in einem Land, wo Eltern sich dieses Essen für ihr Kind nicht leisten können?"
+}
+
+
+
 export  const matuschka : Person = {
   surname: "MATUSCHKA",
   firstname: "Simon",
