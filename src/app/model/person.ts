@@ -77,3 +77,16 @@ export const yohanna : Person = {
   message: "\„One day or day one.\" \n(YOHANNA Adryano)"
 }
 
+export const ibrahim : Person = {
+  surname: "Ibrahim",
+  firstname: "Mohamad kosai",
+  urlImage: "",
+  birthday: new Date("2006-19-06"),
+  department: "ITEL Netzwerktechnik",
+  email: "210028@studierende.htl-donaustadt.at",
+  github_nickname: "kosaiib",
+  zip_code: 1100,
+  city: "Wien",
+  message: "\„Zitat ende gänsehosen\" \n(John Zitat)"
+}
+

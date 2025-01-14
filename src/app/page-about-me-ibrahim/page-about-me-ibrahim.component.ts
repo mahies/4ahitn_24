@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {millich} from '../model/person';
 
 @Component({
   selector: 'app-page-about-me-ibrahim',
@@ -8,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class PageAboutMeIBRAHIMComponent {
   imagePath: string = 'public/assets-IBRAHIM/male-model-francisco-lachowski-on-top-of-being-handsome-asf-v0-rrxuw64ie29c1.jpg';
+  protected readonly me = millich;
 }
