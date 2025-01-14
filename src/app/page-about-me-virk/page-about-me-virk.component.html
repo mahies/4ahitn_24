@@ -7,8 +7,10 @@
   <title>Über Mich - Gurnoor VIRK</title>
   <style>
     body {
-      background-color: #001F54; /*Dunkelblau*/
+      background-color: #001F54; /* Dunkelblau */
       padding: 2rem;
+      color: #FFFFFF;
+      font-family: Arial, sans-serif;
     }
 
     @media (max-width: 768px) {
@@ -24,19 +26,76 @@
       padding: 20px;
       border-radius: 10px;
       text-align: center;
+      color: #000000;
     }
 
     .container img {
       height: 120px;
       width: 100px;
       border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+
+    .info {
+      margin: 10px 0;
+    }
+
+    .info strong {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 1.1em;
+    }
+
+    .info .italic {
+      font-style: italic;
     }
   </style>
 </head>
 
 <body>
 <div class="container">
-  <img [src]="imagePath"  alt="Portrait">
+  <img src="{{ imagePath }}" alt="Portrait">
+
+  <div class="info">
+    <strong>Name:</strong>
+    <span>{{ Name }}</span>
+  </div>
+
+  <div class="info">
+    <strong>Geburtsdatum:</strong>
+    <span>{{ GB }}</span>
+  </div>
+
+  <div class="info">
+    <strong>Wohnort:</strong>
+    <span>{{ Wohnort }}</span>
+  </div>
+
+  <div class="info">
+    <strong>E-Mail:</strong>
+    <span>{{ Mail }}</span>
+  </div>
+
+  <div class="info">
+    <strong>GitHub:</strong>
+    <span><a href="https://github.com/{{ Github }}" target="_blank">{{ Github }}</a></span>
+  </div>
+
+  <div class="info">
+    <strong>Abteilung:</strong>
+    <span>{{ ABT }}</span>
+  </div>
+
+  <div class="info">
+    <strong>Zitat:</strong>
+    <span class="italic">{{ Zitat }}</span>
+  </div>
+
+  <div class="button">
+    <button onclick="window.location.href='/'">Zurück zur Startseite</button>
+  </div>
+
+
 </div>
 </body>
 
