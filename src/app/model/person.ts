@@ -77,6 +77,19 @@ export const yohanna : Person = {
   message: "\„One day or day one.\" \n(YOHANNA Adryano)"
 }
 
+export  const matuschka : Person = {
+  surname: "MATUSCHKA",
+  firstname: "Simon",
+  urlImage: "assets-MATUSCHKA/Bild.jpg",
+  birthday: new Date("2006-09-11"),
+  department: "ITEL Netzwerktechnik",
+  email: "210062@studierende.htl-donaustadt.at",
+  github_nickname: "Simon3294",
+  zip_code: 1220,
+  city: "Wien",
+  message: "\„You miss 100% of the shots you don't take.\" \n(Wayne Gretzky)"
+};
+
 export const ibrahim : Person = {
   surname: "Ibrahim",
   firstname: "Mohamad kosai",
