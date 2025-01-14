@@ -76,4 +76,15 @@ export const yohanna : Person = {
   city: "Wien",
   message: "\„One day or day one.\" \n(YOHANNA Adryano)"
 }
-
+export const moelzer : Person = {
+  surname: "moelzer",
+  firstname: "Patrick",
+  urlImage: "assets-Moelzer/pat.jpeg",
+  birthday: new Date("2005-05-29"),
+  department: " Netzwerktechnik",
+  email: "190185@studierende.htl-donaustadt.at",
+  github_nickname: "onesowngoal",
+  zip_code: 2286,
+  city: "Haringsee",
+  message: "\„The oldest and strongest emotion of mankind is fear, and the oldest and strongest kind of fear is fear of the unknown.\" \n(HP Lovecraft)"
+};

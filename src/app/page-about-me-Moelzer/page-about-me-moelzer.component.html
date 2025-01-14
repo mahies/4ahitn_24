@@ -1,1 +1,23 @@
-<p>page-about-me-millich works!</p>
+<html lang="de">
+<head>
+  <link rel="stylesheet" href="page-about-me-moelzer.component.scss">
+</head>
+<body>
+<main>
+  <div class="container centered textSize">
+    <h3>{{ me.firstname }} {{ me.surname.toLocaleUpperCase() }}</h3>
+    <p>{{ me.birthday | date:'dd.MM.yyyy'  }}</p>
+    <img src="{{me.urlImage}}">
+    <p>
+      Abteilung: {{ me.department }}<br>
+      Email-Adresse: <a href="mailto:210027@studiernde.htl-donaustadt.at">{{ me.email }}</a><br>
+      Github Account: <a href="https://github.com/askaloor">{{ me.github_nickname }}</a><br>
+      Wohnort: {{ me.zip_code }} {{ me.city }}<br>
+      <i>{{ me.message }}</i><br>
+    </p>
+    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Take me home</a>
+  </div>
+</main>
+</body>
+</html>
+

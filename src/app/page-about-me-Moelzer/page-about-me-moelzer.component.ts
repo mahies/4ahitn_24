@@ -1,11 +1,17 @@
 import { Component } from '@angular/core';
-
+import {Person, moelzer} from '../model/person';
+import {RouterLink, RouterLinkActive} from '@angular/router';
+import {DatePipe} from '@angular/common';
 @Component({
-  selector: 'app-page-about-me-millich',
-  imports: [],
-  templateUrl: './page-about-me-millich.component.html',
-  styleUrl: './page-about-me-millich.component.scss'
+  selector: 'app-page-about-me-moelzer',
+  imports: [
+    RouterLink,
+    RouterLinkActive,
+    DatePipe
+  ],
+  templateUrl: './page-about-me-moelzer.component.html',
+  styleUrl: './page-about-me-moelzer.component.scss'
 })
-export class PageAboutMeMILLICHComponent {
-
+export class PageAboutmoelzerComponent {
+  me: Person = moelzer;
 }
