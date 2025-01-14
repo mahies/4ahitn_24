@@ -22,6 +22,8 @@ import {
 import {PageMyFutureSenjicComponent} from './pages/page-SENJIC/page-my-future-senjic/page-my-future-senjic.component';
 import { MeineReisenComponent } from './schoeffmann/meine-reisen/meine-reisen.component';
 import { PageAboutMeStoilovComponent } from './page-about-me-stoilov/page-about-me-stoilov.component';
+import { ProjekteComponent } from './schoeffmann/projekte/projekte.component';
+import { HobbysComponent } from './schoeffmann/hobbys/hobbys.component';
 
 
 
@@ -106,6 +108,14 @@ export const routes: Routes = [
   {
     path: 'schoeffmann-meine-reisen',
     component: MeineReisenComponent
+  },
+  {
+    path: 'schoeffmann-projekte',
+    component: ProjekteComponent
+  },
+  {
+    path: 'schoeffmann-hobbys',
+    component: HobbysComponent
   },
 
   {

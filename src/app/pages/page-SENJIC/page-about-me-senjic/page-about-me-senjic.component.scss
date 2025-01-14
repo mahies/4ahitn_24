@@ -1,6 +1,8 @@
+$primary: burlywood;
+$secondary: #B39EB5;
 body {
   font-family: 'Times New Roman', Times, serif;
-  background-color: burlywood;
+  background-color: $primary;
   padding: 2rem;
 }
 @media (max-width: 768px) {
@@ -39,7 +41,7 @@ body {
 
 }
 .custom-btn {
-  background-color: #B39EB5 ;
+  background-color: $secondary ;
   color: black;
   border: none;
   margin-right: 10px;
