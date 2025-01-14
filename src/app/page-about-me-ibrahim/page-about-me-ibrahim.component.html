@@ -31,16 +31,16 @@
 </head>
 <body>
 <header>
-  <h1>{{ me.firstname }} {{ me.surname.toLocaleUpperCase() }}</h1>
+  <h1>{{ me.firstname }} {{ me.surname}}</h1>
   <h2>Willkommen zu meiner Webseite über mich!</h2>
-  <img src="imagePath"  alt="Portrait">
+  <img src="{{me.urlImage}}">
   <div class="contact-info">
-    <p><strong>Name:</strong> Mohamad Kosai Ibrahim</p>
-    <p><strong>Geburtsdatum:</strong> 19.6.2006</p>
-    <p><strong>Wohnort:</strong>1100</p>
-    <p><strong>E-Mail:</strong>210028&#64;"studierende.htl-donaustadt.at </p>
-    <p><strong>Telefonnummer:</strong>0676453378652</p>
-    <p><strong>Abteilung:</strong> IT</p>
+    <p><strong>Name:</strong>{{ me.firstname }} {{ me.surname}}</p>
+    <p><strong>Geburtsdatum:</strong>{{ me.birthday }}</p>
+    <p><strong>Wohnort:</strong>{{ me.zip_code }}</p>
+    <p><strong>E-Mail:</strong>{{ me.email }}</p>
+    <p><strong>Abteilung:</strong> {{ me.department }}</p>
+    <p><strong>Zitat:</strong> {{ me.message }}</p>
   </div>
 </header>
 </body>

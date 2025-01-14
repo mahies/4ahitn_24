@@ -80,8 +80,8 @@ export const yohanna : Person = {
 export const ibrahim : Person = {
   surname: "Ibrahim",
   firstname: "Mohamad kosai",
-  urlImage: "",
-  birthday: new Date("2006-19-06"),
+  urlImage: "public/assets-IBRAHIM/male-model-francisco-lachowski-on-top-of-being-handsome-asf-v0-rrxuw64ie29c1.jpg",
+  birthday: new Date("2006-06-19"),
   department: "ITEL Netzwerktechnik",
   email: "210028@studierende.htl-donaustadt.at",
   github_nickname: "kosaiib",
