@@ -24,8 +24,7 @@ import { MeineReisenComponent } from './schoeffmann/meine-reisen/meine-reisen.co
 import { PageAboutMeStoilovComponent } from './page-about-me-stoilov/page-about-me-stoilov.component';
 import { ProjekteComponent } from './schoeffmann/projekte/projekte.component';
 import { HobbysComponent } from './schoeffmann/hobbys/hobbys.component';
-
-
+import {ReiseorteComponent} from './pages/pages-KLARIC/reiseorte/reiseorte.component';
 
 
 export const routes: Routes = [
@@ -125,6 +124,10 @@ export const routes: Routes = [
   {
     path: 'aboutMeVIRK',
     component: PageAboutMeVIRKComponent
+  },
+  {
+    path: 'reiseorte',
+    component: ReiseorteComponent
   },
 
 ];
