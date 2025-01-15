@@ -10,7 +10,7 @@ describe('PageAboutMeGEIHSEDERComponent', () => {
     await TestBed.configureTestingModule({
       imports: [PageAboutMeGEIHSEDERComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(PageAboutMeGEIHSEDERComponent);
     component = fixture.componentInstance;

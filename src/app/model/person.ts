@@ -147,3 +147,17 @@ export const ibrahim : Person = {
   message: "\„Zitat ende gänsehosen\" \n(John Zitat)"
 }
 
+export  const geihseder : Person = {
+  surname: "GEIHSEDER",
+  firstname: "Sebastian",
+  urlImage: "",
+  birthday: new Date("04-10-2006"),
+  department: "ITEL Netzwerktechnik",
+  email: "210031@studierende.htl-donaustadt.at",
+  github_nickname: "sebastian447",
+  zip_code: 1220,
+  city: "Wien",
+  message: "\"Manchmal zeigt sich der Weg erst, wenn man anfängt zu gehen.\"",
+};
+
+
