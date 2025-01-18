@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {ibrahim, millich} from '../model/person';
+import {ibrahim, millich} from '../../../model/person';
 
 @Component({
   selector: 'app-page-about-me-ibrahim',

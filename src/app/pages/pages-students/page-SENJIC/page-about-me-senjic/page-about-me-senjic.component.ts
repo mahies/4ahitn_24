@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {RouterLink, RouterLinkActive} from '@angular/router';
-import {Person, senjic} from '../../../model/person';
+import {Person, senjic} from '../../../../model/person';
 import {DatePipe} from '@angular/common';
 
 

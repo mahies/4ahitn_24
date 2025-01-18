@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {Person, virk} from '../model/person';
+import {Person, virk} from '../../../model/person';
 
 import {DatePipe} from '@angular/common';
 @Component({
