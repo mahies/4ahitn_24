@@ -78,9 +78,9 @@ export const yohanna : Person = {
 export const moelzer : Person = {
   surname: "Mölzer",
   firstname: "Patrick",
-  urlImage: "assets-Moelzer/pat.jpeg",
+  urlImage: "assets-Moelzer/Moelzer.jpeg",
   birthday: new Date("2005-05-29"),
-  department: " Netzwerktechnik",
+  department: "ITEL Netzwerktechnik",
   email: "190185@studierende.htl-donaustadt.at",
   github_nickname: "onesowngoal",
   zip_code: 2286,
