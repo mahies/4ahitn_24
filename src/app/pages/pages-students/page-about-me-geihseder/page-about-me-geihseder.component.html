@@ -50,12 +50,12 @@
       <h2>Persönliche Informationen</h2>
       <p><strong>Vorname:</strong> Sebastian</p>
       <p><strong>Nachname:</strong> Geihseder</p>
-      <p><strong>Geburtstag:</strong> {{me.birthday}}</p>
+      <p><strong>Geburtstag:</strong> <span> {{me.birthday | date: 'dd.MM.yyyy'}}</span></p>
       <p><strong>Geburtsort:</strong> {{me.city}} {{me.zip_code}}</p>
       <p><strong>Alter:</strong> 18 Jahre</p>
       <p><strong>Email:</strong> <a href="mailto:{{me.email}}"> {{me.email}}</a></p>
       <p><strong>Github:</strong> <a href="https://github.com/sebastian447" target="_blank"> sebastian447</a></p>
-      <p><strong>Message:</strong><i> "Manchmal zeigt sich der Weg erst, wenn man anfängt zu gehen."</i></p>
+      <p><i>"Manchmal zeigt sich der Weg erst, wenn man anfängt zu gehen."</i></p>
     </section>
   </main>
 </div>
