@@ -27,7 +27,7 @@ export  const MINNIE : Person = {
   routerLink: "/page_demo"
 };
 
-export const SCHOEFFMANN : Person = {
+export const schoeffmann : Person = {
   surname: "Schöffmann",
   firstname: "Raphael",
   urlImage: "assets-SCHOEFFMANN/Raphael.jpeg",
@@ -40,7 +40,7 @@ export const SCHOEFFMANN : Person = {
   message: "\„Just do it.\" \n(Raphael Schöffmann)"
 };
 
-export  const KLARIC : Person = {
+export  const klaric : Person = {
   surname: "KLARIC",
   firstname: "Matteo",
   urlImage: "assets-KLARIC/Ich.jpg",
@@ -53,7 +53,7 @@ export  const KLARIC : Person = {
   message: "\„Work so hard that your idols become your rivals\" \n(KLARIC Matteo)"
 };
 
-export const MILLICH : Person = {
+export const millich : Person = {
   surname: "Millich",
   firstname: "Alexander",
   urlImage: "assets-MILLICH/Bild_MILLICH.jpg",
@@ -123,7 +123,7 @@ export const senjic : Person = {
 
 
 
-export  const MATUSCHKA : Person = {
+export  const matuschka : Person = {
   surname: "MATUSCHKA",
   firstname: "Simon",
   urlImage: "assets-MATUSCHKA/Bild.jpg",
@@ -136,24 +136,10 @@ export  const MATUSCHKA : Person = {
   message: "\„You miss 100% of the shots you don't take.\" \n(Wayne Gretzky)"
 };
 
-export  const BECKER : Person = {
-  surname: "BECKE",
-  firstname: "Karina",
-  urlImage: "",
-  birthday: new Date("2006-09-07"),
-  department: "ITEL Netzwerktechnik",
-  email: "210033@studierende.htl-donaustadt.at",
-  github_nickname: "karinaB777",
-  zip_code: 1220,
-  city: "Wien",
-  message: "\„.\" \n()"
-};
-
-
 export const ibrahim : Person = {
   surname: "Ibrahim",
   firstname: "Mohamad kosai",
-  urlImage: "assets-IBRAHIM/kosaibild.jpg",
+  urlImage: "public/assets-IBRAHIM/male-model-francisco-lachowski-on-top-of-being-handsome-asf-v0-rrxuw64ie29c1.jpg",
   birthday: new Date("2006-06-19"),
   department: "ITEL Netzwerktechnik",
   email: "210028@studierende.htl-donaustadt.at",
@@ -163,23 +149,10 @@ export const ibrahim : Person = {
   message: "\„Zitat ende gänsehosen\" \n(John Zitat)"
 }
 
-export const STOILOV : Person = {
-  surname: "STOILOV",
-  firstname: "Daniel",
-  urlImage: "assets-STOILOV/Ich.jpg",
-  birthday: new Date("2005-12-05"),
-  department: "ITEL Netzwerktechnik",
-  email: "210417@studierende.htl-donaustadt.at",
-  github_nickname: "Danielzis",
-  zip_code: 1220,
-  city: "Wien",
-  message: "Denn Gott hat die Menschen so sehr geliebt, dass er seinen einzigen Sohn für sie hergab.\n Jeder, der an ihn glaubt, wird nicht zugrunde gehen, sondern das ewige Leben haben.\n - Johannes 3:16"
-}
-
 export  const geihseder : Person = {
   surname: "GEIHSEDER",
   firstname: "Sebastian",
-  urlImage: "assets-GEIHSEDER/geihsederbild.jpg",
+  urlImage: "",
   birthday: new Date("10-04-2006"),
   department: "ITEL Netzwerktechnik",
   email: "210031@studierende.htl-donaustadt.at",
@@ -192,4 +165,4 @@ export  const geihseder : Person = {
 
 
 //list all students
-export const STUDENTS:Person[] = [virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC, MATUSCHKA,MILLICH];
+export const STUDENTS:Person[] = [virk, yohanna,schoeffmann,geihseder,klaric, matuschka,millich];
