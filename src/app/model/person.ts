@@ -121,7 +121,9 @@ export const senjic : Person = {
     " Und jetzt behauptet wirklich einer ernsthaft, wir leben in einem Land, wo Eltern sich dieses Essen für ihr Kind nicht leisten können?"
 }
 
-export  const matuschka : Person = {
+
+
+export  const MATUSCHKA : Person = {
   surname: "MATUSCHKA",
   firstname: "Simon",
   urlImage: "assets-MATUSCHKA/Bild.jpg",
@@ -134,23 +136,10 @@ export  const matuschka : Person = {
   message: "\„You miss 100% of the shots you don't take.\" \n(Wayne Gretzky)"
 };
 
-export const BECKER : Person = {
-  surname: "BECKER",
-  firstname: "Karina",
-  urlImage: "",
-  birthday: new Date("2006-09-07"),
-  department: "ITEL Netzwerktechnik",
-  email: "210033@studierende.htl-donaustadt.at",
-  github_nickname: "karinaB777",
-  zip_code: 1220,
-  city: "Wien",
-  message: "\„\" \n"
-};
-
 export const ibrahim : Person = {
   surname: "Ibrahim",
   firstname: "Mohamad kosai",
-  urlImage: "public/assets-IBRAHIM/male-model-francisco-lachowski-on-top-of-being-handsome-asf-v0-rrxuw64ie29c1.jpg",
+  urlImage: "assets-IBRAHIM/kosaibild.jpg",
   birthday: new Date("2006-06-19"),
   department: "ITEL Netzwerktechnik",
   email: "210028@studierende.htl-donaustadt.at",
@@ -163,7 +152,7 @@ export const ibrahim : Person = {
 export  const geihseder : Person = {
   surname: "GEIHSEDER",
   firstname: "Sebastian",
-  urlImage: "",
+  urlImage: "assets-GEIHSEDER/geihsederbild.jpg",
   birthday: new Date("10-04-2006"),
   department: "ITEL Netzwerktechnik",
   email: "210031@studierende.htl-donaustadt.at",
@@ -174,5 +163,6 @@ export  const geihseder : Person = {
 };
 
 
+
 //list all students
-export const STUDENTS:Person[] = [virk, BECKER,yohanna,schoeffmann,geihseder,klaric, matuschka,millich];
+export const STUDENTS:Person[] = [virk, yohanna,schoeffmann,geihseder,klaric, MATUSCHKA,millich];
