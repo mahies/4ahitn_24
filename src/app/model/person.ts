@@ -194,7 +194,7 @@ export  const SPELITZ : Person = {
   surname: "Spelitz",
   firstname: "Fabian",
   urlImage: "assets-SPELITZ/image.jfif",
-  birthday: new Date("30-10-2006"),
+  birthday: new Date("2006-10-30"),
   department: "ITEL Netzwerktechnik",
   email: "210270@studierende.htl-donaustadt.at",
   github_nickname: "Sxlyyy",
