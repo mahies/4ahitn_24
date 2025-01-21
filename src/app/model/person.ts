@@ -27,7 +27,7 @@ export  const MINNIE : Person = {
   routerLink: "/page_demo"
 };
 
-export const schoeffmann : Person = {
+export const SCHOEFFMANN : Person = {
   surname: "Schöffmann",
   firstname: "Raphael",
   urlImage: "assets-SCHOEFFMANN/Raphael.jpeg",
@@ -163,6 +163,19 @@ export const ibrahim : Person = {
   message: "\„Zitat ende gänsehosen\" \n(John Zitat)"
 }
 
+export const STOILOV : Person = {
+  surname: "STOILOV",
+  firstname: "Daniel",
+  urlImage: "assets-STOILOV/Ich.jpg",
+  birthday: new Date("2005-12-05"),
+  department: "ITEL Netzwerktechnik",
+  email: "210417@studierende.htl-donaustadt.at",
+  github_nickname: "Danielzis",
+  zip_code: 1220,
+  city: "Wien",
+  message: "Denn Gott hat die Menschen so sehr geliebt, dass er seinen einzigen Sohn für sie hergab.\n Jeder, der an ihn glaubt, wird nicht zugrunde gehen, sondern das ewige Leben haben.\n - Johannes 3:16"
+}
+
 export  const geihseder : Person = {
   surname: "GEIHSEDER",
   firstname: "Sebastian",
@@ -179,4 +192,4 @@ export  const geihseder : Person = {
 
 
 //list all students
-export const STUDENTS:Person[] = [virk, BECKER, yohanna,schoeffmann,geihseder,KLARIC, MATUSCHKA,MILLICH];
+export const STUDENTS:Person[] = [virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC, MATUSCHKA,MILLICH];

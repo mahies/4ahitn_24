@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
-import {Person, ibrahim} from '../../../model/person';
+import {Person, ibrahim} from '../../../../model/person';
+import {DatePipe} from '@angular/common';
 
 @Component({
   selector: 'app-page-about-me-ibrahim',
-  imports: [],
+  imports: [
+    DatePipe
+  ],
   templateUrl: './page-about-me-ibrahim.component.html',
   styleUrl: './page-about-me-ibrahim.component.scss'
 })
