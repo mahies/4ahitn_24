@@ -40,7 +40,7 @@ export const schoeffmann : Person = {
   message: "\„Just do it.\" \n(Raphael Schöffmann)"
 };
 
-export  const klaric : Person = {
+export  const KLARIC : Person = {
   surname: "KLARIC",
   firstname: "Matteo",
   urlImage: "assets-KLARIC/Ich.jpg",
@@ -179,4 +179,4 @@ export  const geihseder : Person = {
 
 
 //list all students
-export const STUDENTS:Person[] = [virk, BECKER, yohanna,schoeffmann,geihseder,klaric, MATUSCHKA,millich];
+export const STUDENTS:Person[] = [virk, BECKER, yohanna,schoeffmann,geihseder,KLARIC, MATUSCHKA,millich];
