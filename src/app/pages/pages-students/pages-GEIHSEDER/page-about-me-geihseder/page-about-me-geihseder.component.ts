@@ -7,7 +7,8 @@ import {DatePipe} from '@angular/common';
   selector: 'app-page-about-me-geihseder',
   imports: [RouterLink, RouterLinkActive, DatePipe],
   templateUrl: './page-about-me-geihseder.component.html',
-  styleUrl: './page-about-me-geihseder.component.scss'
+  styleUrl: './page-about-me-geihseder.component.scss',
+  standalone: true
 })
 export class PageAboutMeGEIHSEDERComponent {
   me: Person = geihseder;
