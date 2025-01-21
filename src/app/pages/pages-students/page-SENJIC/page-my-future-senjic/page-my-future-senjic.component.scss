@@ -19,4 +19,18 @@ body {
   background-color: #f3f2f2;
   border-radius: 20px;
 }
+.school-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  justify-content: center;
+}
+
+.school-item {
+  width: 300px;
+  background-color: #fafafa;
+  border: 1px;
+  text-align: center;
+  border-radius: 20px;
+}
 
