@@ -1,24 +1,12 @@
-body {
-  padding: 2rem;
 
-  @media (max-width: 768px) {
-    padding: 1rem;
-  }
-}
 body {
   background-color: white;
-  color: black;
+  color: lemonchiffon;
 }
 
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: black;
-    color: white;
-  }
-}
 body{
-  font-family: 'Georgia', serif;
+  font-family: 'Arial', serif;
 }
 
 .container {
@@ -26,7 +14,7 @@ body{
 }
 
 .centered {
-  text-align: center;
+  text-align: left;
 }
 
 .textSize {

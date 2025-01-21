@@ -5,17 +5,17 @@
 <body>
 <main>
   <div class="container centered textSize">
-    <h3>{{ me.firstname }} {{ me.surname.toLocaleUpperCase() }}</h3>
-    <p>{{ me.birthday | date:'dd.MM.yyyy'  }}</p>
     <img src="{{me.urlImage}}">
+    <h2>{{ me.firstname }} {{ me.surname.toLocaleUpperCase() }}</h2>
+    <p>{{ me.birthday | date:'dd.MM.yyyy'  }}</p>
     <p>
       Abteilung: {{ me.department }}<br>
-      Email-Adresse: <a href="mailto:210027@studiernde.htl-donaustadt.at">{{ me.email }}</a><br>
-      Github Account: <a href="https://github.com/askaloor">{{ me.github_nickname }}</a><br>
+      Email-Adresse: <a href="mailto:190185@studiernde.htl-donaustadt.at">{{ me.email }}</a><br>
+      Github Account: <a href="https://github.com/onesowngoal">{{ me.github_nickname }}</a><br>
       Wohnort: {{ me.zip_code }} {{ me.city }}<br>
       <i>{{ me.message }}</i><br>
     </p>
-    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Take me home</a>
+    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Return</a>
   </div>
 </main>
 </body>
