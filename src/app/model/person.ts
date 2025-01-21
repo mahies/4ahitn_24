@@ -63,7 +63,8 @@ export const millich : Person = {
   github_nickname: "Askaloor",
   zip_code: 1220,
   city: "Wien",
-  message: "\„Zitat\" \n(Niemand)"
+  message: "\„Zitat\" \n(Niemand)",
+  routerLink: "/about_meMILLICH"
 }
 
 export const yohanna : Person = {

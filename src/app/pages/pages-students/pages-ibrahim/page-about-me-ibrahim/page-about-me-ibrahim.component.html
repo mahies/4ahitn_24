@@ -8,11 +8,11 @@
   <h2>Willkommen zu meiner Webseite über mich!</h2>
 </header>
 <div id="myDiv">
-  <img src="{{me.urlImage}}" width="15%" height="15%">
-  <p><strong>Name:</strong>{{ me.firstname }} {{ me.surname}}</p>
-  <p><strong>Geburtsdatum:</strong>{{ me.birthday }}</p>
-  <p><strong>Wohnort:</strong>{{ me.zip_code }}</p>
-  <p><strong>E-Mail:</strong>{{ me.email }}</p>
+  <img src=" {{me.urlImage}}" width="15%" height="15%" alt="">
+  <p><strong>Name:</strong> {{ me.firstname }} {{ me.surname}}</p>
+  <p><strong>Geburtsdatum:</strong> {{ me.birthday | date: 'dd.MM.yyyy' }}</p>
+  <p><strong>Wohnort:</strong> {{ me.zip_code }}</p>
+  <p><strong>E-Mail:</strong> {{ me.email }}</p>
   <p><strong>Abteilung:</strong> {{ me.department }}</p>
   <p><strong>Zitat:</strong> {{ me.message }}</p>
 </div>

@@ -6,17 +6,18 @@
 <body>
 <main>
     <h2>{{ me.firstname }} {{ me.surname}}</h2>
-    <p><img src="{{me.urlImage}}">
+    <p>          <img src="{{ me.urlImage }}"  alt="{{ me.firstname }}">
+
       Abteilung: {{ me.department }}<br>
       Email-Adresse: <a href="mailto:190185@studierende.htl-donaustadt.at">{{ me.email }}</a><br>
-      Wohnort: {{ me.zip_code }} {{ me.city }}<br>
+      Wohnort:  {{ me.city }}{{ me.zip_code }}<br>
       Github Account: <a href="https://github.com/onesowngoal">{{ me.github_nickname }}</a><br>
 
       <i>{{ me.message }}</i><br>
     </p>
     <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Return</a>
-  <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Return</a>
-  <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Return</a>
+  <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">hobbies</a>
+  <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">travels</a>
 </main>
 </body>
 </html>
