@@ -10,7 +10,7 @@ import {PageAboutMeGEIHSEDERComponent} from './pages/pages-students/pages-GEIHSE
 import {PageAboutMeYOHANNAComponent} from './pages/pages-students/page-about-me-yohanna/page-about-me-yohanna.component';
 import {PageAboutMeMATUSCHKAComponent} from './pages/pages-students/page-MATUSCHKA/page-about-me-matuschka/page-about-me-matuschka.component';
 import {PageAboutMeSenjicComponent} from './pages/pages-students/page-SENJIC/page-about-me-senjic/page-about-me-senjic.component';
-import {PageAboutMeIBRAHIMComponent} from './pages/pages-students/page-about-me-ibrahim/page-about-me-ibrahim.component';
+import {PageAboutMeIBRAHIMComponent} from './pages/pages-students/pages-ibrahim/page-about-me-ibrahim/page-about-me-ibrahim.component';
 import {PageAboutMeSinghComponent} from './pages/pages-students/page-about-me-singh/page-about-me-singh.component';
 import {PageAboutMeNazariComponent} from './pages/pages-students/page-about-me-nazari/page-about-me-nazari.component';
 import { SchoeffmannComponent } from './pages/pages-students/schoeffmann/schoeffmann.component';
