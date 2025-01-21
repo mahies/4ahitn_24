@@ -4,28 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Über mich</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #d3d3d3;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 600px;
+      position: relative;
+    }
+    header h1 {
+      margin-top: 0;
+    }
+    section img {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 150px;
+      border-radius: 8px;
+    }
+    a {
+      color: #0073e6;
+    }
+  </style>
 </head>
 <body>
-
-<header>
-  <h1>Über mich</h1>
-</header>
-
-<main>
-  <section>
-    <h2>Persönliche Informationen</h2>
-    <img src="dein-bild.jpg" alt="Dein Bild" width="200">
-    <p><strong>Vorname:</strong> Sebastian</p>
-    <p><strong>Nachname:</strong> Geihseder</p>
-    <p><strong>Geburtstag:</strong> 04.10.2006</p>
-    <p><strong>Geburtsort:</strong> Wien</p>
-    <p><strong>Alter:</strong> 18 Jahre</p>
-<!--    <p><strong>Email:</strong> <a href="mailto:210031@studierende.htl-donaustadt.at">210031@studierende.htl-donaustadt.at</a></p>-->
-    <p><strong>Github:</strong> <a href="https://github.com/sebastian447" target="_blank">sebastian447</a></p>
-  </section>
-</main>
-<footer>
-
-</footer>
+<div class="container">
+  <header>
+    <h1>Über mich</h1>
+  </header>
+  <main>
+    <section>
+      <img src="" alt="">
+      <h2>Persönliche Informationen</h2>
+      <p><strong>Vorname:</strong> Sebastian</p>
+      <p><strong>Nachname:</strong> Geihseder</p>
+      <p><strong>Geburtstag:</strong> <span> {{me.birthday | date: 'dd.MM.yyyy'}}</span></p>
+      <p><strong>Geburtsort:</strong> {{me.city}} {{me.zip_code}}</p>
+      <p><strong>Alter:</strong> 18 Jahre</p>
+      <p><strong>Email:</strong> <a href="mailto:{{me.email}}"> {{me.email}}</a></p>
+      <p><strong>Github:</strong> <a href="https://github.com/sebastian447" target="_blank"> sebastian447</a></p>
+      <p><i>"Manchmal zeigt sich der Weg erst, wenn man anfängt zu gehen."</i></p>
+    </section>
+  </main>
+</div>
 </body>
 </html>
