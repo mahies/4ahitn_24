@@ -12,7 +12,7 @@ import {PageAboutMeMATUSCHKAComponent} from './pages/pages-students/page-MATUSCH
 import {PageAboutMeSenjicComponent} from './pages/pages-students/page-SENJIC/page-about-me-senjic/page-about-me-senjic.component';
 import {PageAboutMeIBRAHIMComponent} from './pages/pages-students/page-about-me-ibrahim/page-about-me-ibrahim.component';
 import {PageAboutMeSinghComponent} from './pages/pages-students/page-about-me-singh/page-about-me-singh.component';
-import {PageAboutMeNazariComponent} from './pages/pages-students/page-about-me-nazari/page-about-me-nazari.component';
+import {PageAboutMeNazariComponent} from './pages/pages-students/page-NAZARI/page-about-me-nazari/page-about-me-nazari.component';
 import { SchoeffmannComponent } from './pages/pages-students/schoeffmann/schoeffmann.component';
 import { MeineReisenComponent } from './pages/pages-students/schoeffmann/meine-reisen/meine-reisen.component';
 import {PageAboutMeVIRKComponent} from './pages/pages-students/page-about-me-virk/page-about-me-virk.component';
