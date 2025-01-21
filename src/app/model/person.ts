@@ -76,7 +76,7 @@ export const yohanna : Person = {
   city: "Wien",
   message: "\„One day or day one.\" \n(YOHANNA Adryano)"
 }
-export const moelzer : Person = {
+export const MOELZER : Person = {
   surname: "moelzer",
   firstname: "Patrick",
   urlImage: "assets-Moelzer/Moelzer.jpeg",
