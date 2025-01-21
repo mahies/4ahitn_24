@@ -1,3 +1,6 @@
+$primary: #3e748e;
+$secondary: #64d16c;
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -85,4 +88,11 @@ header {
   .stadion p:last-of-type {
     font-size: 1rem;
   }
+}
+
+.custom-btn {
+  background-color: $secondary ;
+  color: black;
+  border: none;
+  margin-right: 10px;
 }
