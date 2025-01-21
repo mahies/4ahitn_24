@@ -123,7 +123,7 @@ export const senjic : Person = {
 
 
 
-export  const matuschka : Person = {
+export  const MATUSCHKA : Person = {
   surname: "MATUSCHKA",
   firstname: "Simon",
   urlImage: "assets-MATUSCHKA/Bild.jpg",
@@ -165,4 +165,4 @@ export  const geihseder : Person = {
 
 
 //list all students
-export const STUDENTS:Person[] = [virk, yohanna,schoeffmann,geihseder,klaric, matuschka,millich];
+export const STUDENTS:Person[] = [virk, yohanna,schoeffmann,geihseder,klaric, MATUSCHKA,millich];
