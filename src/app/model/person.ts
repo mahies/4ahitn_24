@@ -27,7 +27,7 @@ export  const MINNIE : Person = {
   routerLink: "/page_demo"
 };
 
-export const schoeffmann : Person = {
+export const SCHOEFFMANN : Person = {
   surname: "Schöffmann",
   firstname: "Raphael",
   urlImage: "assets-SCHOEFFMANN/Raphael.jpeg",
@@ -165,4 +165,4 @@ export  const geihseder : Person = {
 
 
 //list all students
-export const STUDENTS:Person[] = [virk, yohanna,schoeffmann,geihseder,klaric, MATUSCHKA,millich];
+export const STUDENTS:Person[] = [virk, yohanna,SCHOEFFMANN,geihseder,klaric, MATUSCHKA,millich];
