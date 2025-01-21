@@ -1,11 +1,10 @@
 <html lang="de">
 <head>
   <link rel="stylesheet" href="page-about-me-moelzer.component.scss">
+  <title> <img src="{{me.urlImage}}" alt=""> </title>
 </head>
 <body>
 <main>
-  <div class="container centered textSize">
-    <img src="{{me.urlImage}}">
     <h2>{{ me.firstname }} {{ me.surname}}</h2>
     <p>
       Abteilung: {{ me.department }}<br>
@@ -16,7 +15,6 @@
       <i>{{ me.message }}</i><br>
     </p>
     <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Return</a>
-  </div>
 </main>
 </body>
 </html>

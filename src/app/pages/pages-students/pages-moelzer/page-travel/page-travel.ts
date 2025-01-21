@@ -7,9 +7,9 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
     RouterLink,
     RouterLinkActive,
   ],
-  templateUrl: './page-about-me-moelzer.component.html',
-  styleUrl: './page-about-me-moelzer.component.scss'
+  templateUrl: './page-travel.html',
+  styleUrl: './page-travel.scss'
 })
-export class PageAboutMeMoelzerComponent {
+export class PageTravel {
   me: Person = moelzer;
 }
