@@ -1,20 +1,22 @@
 <html lang="de">
 <head>
   <link rel="stylesheet" href="page-about-me-moelzer.component.scss">
-  <title> <img src="{{me.urlImage}}" alt=""> </title>
+  <title>  </title>
 </head>
 <body>
 <main>
     <h2>{{ me.firstname }} {{ me.surname}}</h2>
-    <p>
+    <p><img src="{{me.urlImage}}">
       Abteilung: {{ me.department }}<br>
-      Email-Adresse: <a href="mailto:190185@studiernde.htl-donaustadt.at">{{ me.email }}</a><br>
+      Email-Adresse: <a href="mailto:190185@studierende.htl-donaustadt.at">{{ me.email }}</a><br>
       Wohnort: {{ me.zip_code }} {{ me.city }}<br>
       Github Account: <a href="https://github.com/onesowngoal">{{ me.github_nickname }}</a><br>
 
       <i>{{ me.message }}</i><br>
     </p>
     <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Return</a>
+  <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Return</a>
+  <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Return</a>
 </main>
 </body>
 </html>

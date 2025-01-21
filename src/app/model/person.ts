@@ -152,7 +152,7 @@ export const ibrahim : Person = {
 export  const geihseder : Person = {
   surname: "GEIHSEDER",
   firstname: "Sebastian",
-  urlImage: "",
+  urlImage: "assets-GEIHSEDER/geihsederbild.jpg",
   birthday: new Date("10-04-2006"),
   department: "ITEL Netzwerktechnik",
   email: "210031@studierende.htl-donaustadt.at",
