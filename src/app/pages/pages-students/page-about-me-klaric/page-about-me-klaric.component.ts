@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Person, klaric } from '../../../model/person';
+import { Person, KLARIC } from '../../../model/person';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
@@ -9,5 +9,5 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   styleUrls: ['./page-about-me-klaric.component.scss']
 })
 export class PageAboutMeKLARICComponent {
-  me: Person = klaric;
+  me: Person = KLARIC;
 }
