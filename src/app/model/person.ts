@@ -139,7 +139,7 @@ export  const matuschka : Person = {
 export const ibrahim : Person = {
   surname: "Ibrahim",
   firstname: "Mohamad kosai",
-  urlImage: "public/assets-IBRAHIM/male-model-francisco-lachowski-on-top-of-being-handsome-asf-v0-rrxuw64ie29c1.jpg",
+  urlImage: "assets-IBRAHIM/kosaibild.jpg",
   birthday: new Date("2006-06-19"),
   department: "ITEL Netzwerktechnik",
   email: "210028@studierende.htl-donaustadt.at",
