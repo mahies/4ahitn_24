@@ -53,7 +53,7 @@ export  const klaric : Person = {
   message: "\„Work so hard that your idols become your rivals\" \n(KLARIC Matteo)"
 };
 
-export const millich : Person = {
+export const MILLICH : Person = {
   surname: "Millich",
   firstname: "Alexander",
   urlImage: "assets-MILLICH/Bild_MILLICH.jpg",
