@@ -27,7 +27,7 @@ export  const MINNIE : Person = {
   routerLink: "/page_demo"
 };
 
-export const schoeffmann : Person = {
+export const SCHOEFFMANN : Person = {
   surname: "Schöffmann",
   firstname: "Raphael",
   urlImage: "assets-SCHOEFFMANN/Raphael.jpeg",
@@ -53,7 +53,7 @@ export  const klaric : Person = {
   message: "\„Work so hard that your idols become your rivals\" \n(KLARIC Matteo)"
 };
 
-export const millich : Person = {
+export const MILLICH : Person = {
   surname: "Millich",
   firstname: "Alexander",
   urlImage: "assets-MILLICH/Bild_MILLICH.jpg",
@@ -152,7 +152,7 @@ export const ibrahim : Person = {
 export  const geihseder : Person = {
   surname: "GEIHSEDER",
   firstname: "Sebastian",
-  urlImage: "",
+  urlImage: "assets-GEIHSEDER/geihsederbild.jpg",
   birthday: new Date("10-04-2006"),
   department: "ITEL Netzwerktechnik",
   email: "210031@studierende.htl-donaustadt.at",
@@ -165,4 +165,4 @@ export  const geihseder : Person = {
 
 
 //list all students
-export const STUDENTS:Person[] = [virk, yohanna,schoeffmann,geihseder,klaric, MATUSCHKA,millich];
+export const STUDENTS:Person[] = [virk, yohanna,SCHOEFFMANN,geihseder,klaric, MATUSCHKA,MILLICH];
