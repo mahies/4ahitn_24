@@ -40,7 +40,7 @@ export const SCHOEFFMANN : Person = {
   message: "\„Just do it.\" \n(Raphael Schöffmann)"
 };
 
-export  const klaric : Person = {
+export  const KLARIC : Person = {
   surname: "KLARIC",
   firstname: "Matteo",
   urlImage: "assets-KLARIC/Ich.jpg",
@@ -147,6 +147,20 @@ export  const MATUSCHKA : Person = {
   message: "\„You miss 100% of the shots you don't take.\" \n(Wayne Gretzky)"
 };
 
+export  const BECKER : Person = {
+  surname: "BECKE",
+  firstname: "Karina",
+  urlImage: "",
+  birthday: new Date("2006-09-07"),
+  department: "ITEL Netzwerktechnik",
+  email: "210033@studierende.htl-donaustadt.at",
+  github_nickname: "karinaB777",
+  zip_code: 1220,
+  city: "Wien",
+  message: "\„.\" \n()"
+};
+
+
 export const ibrahim : Person = {
   surname: "Ibrahim",
   firstname: "Mohamad kosai",
@@ -176,4 +190,4 @@ export  const geihseder : Person = {
 
 
 //list all students
-export const STUDENTS:Person[] = [virk, STOILOV, yohanna,SCHOEFFMANN,geihseder,klaric, MATUSCHKA,MILLICH];
+export const STUDENTS:Person[] = [virk, BECKER, yohanna,schoeffmann,geihseder,KLARIC, MATUSCHKA,millich];
