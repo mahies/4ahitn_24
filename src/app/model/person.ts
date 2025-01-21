@@ -104,7 +104,18 @@ export const virk : Person = {
   message: "\„We are what we repeatedly do. Excellence is not an act, but a habit\" \n(Aristotle)"
 }
 
-
+export const STOILOV : Person = {
+  surname: "Stoilov",
+  firstname: "Daniel",
+  urlImage: "assets-STOILOV/Ich.jpg",
+  birthday: new Date("2005-12-05"),
+  department: "ITEL Netzwerktechnik",
+  email: "210417@studierende.htl-donaustadt.at",
+  github_nickname: "Danielzis",
+  zip_code: 1220, //aequivalent to integer in java
+  city: "Wien",
+  message: "Denn Gott hat die Menschen so sehr geliebt, dass er seinen einzigen Sohn für sie hergab. \" \nJeder, der an ihn glaubt, wird nicht zugrunde gehen, sondern das ewige Leben haben.\" - Johannes 3:16"
+}
 
 export const senjic : Person = {
   surname: "SENJIĆ ",
@@ -165,4 +176,4 @@ export  const geihseder : Person = {
 
 
 //list all students
-export const STUDENTS:Person[] = [virk, yohanna,SCHOEFFMANN,geihseder,klaric, MATUSCHKA,MILLICH];
+export const STUDENTS:Person[] = [virk, STOILOV, yohanna,SCHOEFFMANN,geihseder,klaric, MATUSCHKA,MILLICH];
