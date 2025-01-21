@@ -10,6 +10,7 @@ export interface Person {
   zip_code: number; //aequivalent to integer in java
   city: string;
   message: string;
+  routerLink?:string;
 }
 
 export  const MINNIE : Person = {
@@ -22,7 +23,8 @@ export  const MINNIE : Person = {
   github_nickname: "minnie",
   zip_code: 1010,
   city: "Entenhausen",
-  message: "\„Wenn du es dir vorstellen kannst, kannst du es auch machen.\" \n(Walt Disney)"
+  message: "\„Wenn du es dir vorstellen kannst, kannst du es auch machen.\" \n(Walt Disney)",
+  routerLink: "/page_demo"
 };
 
 export const schoeffmann : Person = {
@@ -161,3 +163,6 @@ export  const geihseder : Person = {
 };
 
 
+
+//list all students
+export const STUDENTS:Person[] = [virk, yohanna,schoeffmann,geihseder,klaric, matuschka,millich];
