@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PageTravel } from './page-travel';
+import { PageTravels } from './page-travels';
 
 describe('PageAboutMeMoelzerComponent', () => {
-  let component: PageTravel;
-  let fixture: ComponentFixture<PageTravel>;
+  let component: PageTravels;
+  let fixture: ComponentFixture<PageTravels>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PageTravel]
+      imports: [PageTravels]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PageTravel);
+    fixture = TestBed.createComponent(PageTravels);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
