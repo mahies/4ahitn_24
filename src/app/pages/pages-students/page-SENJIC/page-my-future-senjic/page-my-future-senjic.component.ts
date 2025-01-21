@@ -16,4 +16,7 @@ export class PageMyFutureSenjicComponent {
   F26: string = "2017 – 2021";
   HTL: string = "2021 - laufend";
 
+  MengergasseIMG: string = 'assets-SENJIC/Mengergasse.png';
+  F26IMG: string = 'assets-SENJIC/F26.png';
+  HTLIMG: string = 'assets-SENJIC/HTL.png';
 }
