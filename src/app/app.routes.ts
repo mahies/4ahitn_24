@@ -26,6 +26,9 @@ import {Subpage2Component} from './pages/pages-demo/subpage2/subpage2.component'
 import {
   PageMyJerseysSenjicComponent
 } from './pages/pages-students/page-SENJIC/page-my-jerseys-senjic/page-my-jerseys-senjic.component';
+import {
+  PageAboutMeSpelitzComponent
+} from './pages/pages-students/pages-SPELITZ/page-about-me-spelitz/page-about-me-spelitz.component';
 
 export const routes: Routes = [
   {
@@ -141,6 +144,9 @@ export const routes: Routes = [
     path: 'reiseorte',
     component: ReiseorteComponent
   },
-
+  {
+    path: 'about_meSPELITZ',
+    component: PageAboutMeSpelitzComponent
+  },
 ];
 

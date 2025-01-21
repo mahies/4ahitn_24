@@ -190,7 +190,19 @@ export  const geihseder : Person = {
   message: "\"Manchmal zeigt sich der Weg erst, wenn man anfängt zu gehen.\"",
 };
 
+export  const SPELITZ : Person = {
+  surname: "Spelitz",
+  firstname: "Fabian",
+  urlImage: "assets-SPELITZ/image.jfif",
+  birthday: new Date("30-10-2006"),
+  department: "ITEL Netzwerktechnik",
+  email: "210270@studierende.htl-donaustadt.at",
+  github_nickname: "Sxlyyy",
+  zip_code: 1220,
+  city: "Wien",
+  message: "\"Der frühe Wurm wurde vom Vogel gepackt, Zitat halbiert, Hose Gänse, Schönen Tag Champion, Attacke! - Tanyo Tanev\"",
+};
 
 
 //list all students
-export const STUDENTS:Person[] = [virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,senjic,MATUSCHKA,MILLICH];
+export const STUDENTS:Person[] = [virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,senjic,MATUSCHKA,MILLICH,SPELITZ];
