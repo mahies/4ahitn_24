@@ -6,13 +6,13 @@
 <main>
   <div class="container centered textSize">
     <img src="{{me.urlImage}}">
-    <h2>{{ me.firstname }} {{ me.surname.toLocaleUpperCase() }}</h2>
-    <p>{{ me.birthday | date:'dd.MM.yyyy'  }}</p>
+    <h2>{{ me.firstname }} {{ me.surname}}</h2>
     <p>
       Abteilung: {{ me.department }}<br>
       Email-Adresse: <a href="mailto:190185@studiernde.htl-donaustadt.at">{{ me.email }}</a><br>
-      Github Account: <a href="https://github.com/onesowngoal">{{ me.github_nickname }}</a><br>
       Wohnort: {{ me.zip_code }} {{ me.city }}<br>
+      Github Account: <a href="https://github.com/onesowngoal">{{ me.github_nickname }}</a><br>
+
       <i>{{ me.message }}</i><br>
     </p>
     <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Return</a>
