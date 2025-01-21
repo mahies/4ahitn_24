@@ -23,6 +23,9 @@ import {PageMyFutureSenjicComponent} from './pages/pages-students/page-SENJIC/pa
 import { PageAboutMeStoilovComponent } from './pages/pages-students/page-about-me-stoilov/page-about-me-stoilov.component';
 import {Subpage1Component} from './pages/pages-demo/subpage1/subpage1.component';
 import {Subpage2Component} from './pages/pages-demo/subpage2/subpage2.component';
+import {
+  PageMyJerseysSenjicComponent
+} from './pages/pages-students/page-SENJIC/page-my-jerseys-senjic/page-my-jerseys-senjic.component';
 
 export const routes: Routes = [
   {
@@ -84,6 +87,10 @@ export const routes: Routes = [
   {
     path: 'MyFutureSENJIC',
     component: PageMyFutureSenjicComponent
+  },
+  {
+    path: 'MyJerseysSENJIC',
+    component: PageMyJerseysSenjicComponent
   },
   {
     path: 'aboutMeMATUSCHKA',
