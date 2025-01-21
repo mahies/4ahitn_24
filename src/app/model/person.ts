@@ -190,4 +190,4 @@ export  const geihseder : Person = {
 
 
 //list all students
-export const STUDENTS:Person[] = [virk, BECKER, yohanna,schoeffmann,geihseder,KLARIC, MATUSCHKA,millich];
+export const STUDENTS:Person[] = [virk, STOILOV, BECKER, yohanna,schoeffmann,geihseder,KLARIC, MATUSCHKA,millich];
