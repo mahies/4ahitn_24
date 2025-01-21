@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {Person, millich} from '../../../model/person';
+import {Person, MILLICH} from '../../../../model/person';
 import {RouterLink, RouterLinkActive} from '@angular/router';
 import {DatePipe} from '@angular/common';
 
@@ -14,5 +14,5 @@ import {DatePipe} from '@angular/common';
   styleUrl: './page-about-me-millich.component.scss'
 })
 export class PageAboutMeMILLICHComponent {
-  me: Person = millich;
+  me: Person = MILLICH;
 }
