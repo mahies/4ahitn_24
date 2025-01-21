@@ -6,7 +6,7 @@ import {PageAboutMeMILLICHComponent} from './pages/pages-students/page-about-me-
 import {PageAboutMeKLARICComponent} from './pages/pages-students/page-about-me-klaric/page-about-me-klaric.component';
 import {ReiseorteComponent} from './pages/pages-students/pages-KLARIC/reiseorte/reiseorte.component';
 import {PageAboutMeAljarrahComponent} from './pages/pages-students/page-about-me-aljarrah/page-about-me-aljarrah.component';
-import {PageAboutMeGEIHSEDERComponent} from './pages/pages-students/page-about-me-geihseder/page-about-me-geihseder.component';
+import {PageAboutMeGEIHSEDERComponent} from './pages/pages-students/pages-GEIHSEDER/page-about-me-geihseder/page-about-me-geihseder.component';
 import {PageAboutMeYOHANNAComponent} from './pages/pages-students/page-about-me-yohanna/page-about-me-yohanna.component';
 import {PageAboutMeMATUSCHKAComponent} from './pages/pages-students/page-MATUSCHKA/page-about-me-matuschka/page-about-me-matuschka.component';
 import {PageAboutMeSenjicComponent} from './pages/pages-students/page-SENJIC/page-about-me-senjic/page-about-me-senjic.component';
