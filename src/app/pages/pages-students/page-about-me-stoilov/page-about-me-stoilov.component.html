@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <title>About Daniel Stoilov</title>
+  <style>
+    :root {
+      --main-color: #4caf50;
+      --text-color: #ffffff;
+      --secondary-color: #333333;
+    }
+
+    body {
+      font-family: 'Georgia', serif;
+      /*background-color: #d3d3d3; falls ich Hintergrund machen will*/
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: var(--secondary-color);
+      color: var(--text-color);
+      padding: 2rem;
+      border-bottom: 1px solid #ccc;
+    }
+
+    header h1 {
+      margin-top: 0;
+    }
+
+    .contact-info, .description, .quote {
+      margin: 2rem;
+    }
+
+    .contact-info p, .description p {
+      margin: 1rem 0;
+    }
+
+    .quote {
+      font-style: italic;
+      text-align: center;
+    }
+
+    .contact-info .last-name {
+      text-transform: uppercase; /* Nachname in Blockschrift */
+    }
+
+    .profile-image {
+      display: block;
+      max-width: 200px;
+      /*border-radius: 20%;  Runde Form für das Bild */
+      margin: 2rem auto;
+      border: 3px solid var(--text-color);
+    }
+
+    @media (max-width: 768px) {
+      header, .contact-info, .description, .quote {
+        padding: 1rem;
+        margin: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<header style="--text-color: white; background-color: #333333">
+  <h1>{{firstName}} <span class="last-name">{{lastName}}</span></h1>
+  <img align="left" src="{{profileImage}}" alt="Profilbild von {{firstName}}" class="profile-image">
+</header>
+
+<div class="contact-info">
+  <p><strong>Geburtsdatum:</strong> {{birthDate}}</p>
+  <p><strong>Email:</strong> {{email}}</p>
+  <p><strong>Wohnort:</strong> Wien, Donaustadt</p>
+  <p><strong>Abteilung:</strong> IT</p>
+  <p><strong>GitHub:</strong> <a href="https://github.com/Danielzis" target="_blank">{{github}}</a></p>
+</div>
+
+<div class="description">
+  <p><strong>Beschreibung:</strong> Ich bin ein vielseitiger Mensch, gehe gerne mit Freunde raus, betreibe Fitness, spiele Volleyball und übe Klavier. Neben meinem Hobby liebe ich es, neue Orte zu entdecken, und strebe eine Karriere in der IT-Branche an.</p>
+</div>
+
+<div class="quote">
+  <p>"Denn Gott hat die Menschen so sehr geliebt, dass er seinen einzigen Sohn für sie hergab.</p>
+  <p>Jeder, der an ihn glaubt, wird nicht zugrunde gehen, sondern das ewige Leben haben." - Johannes 3:16</p>
+</div>
+</body>
+</html>

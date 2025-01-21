@@ -10,6 +10,7 @@ export interface Person {
   zip_code: number; //aequivalent to integer in java
   city: string;
   message: string;
+  routerLink?: string;
 }
 
 export  const MINNIE : Person = {
@@ -22,7 +23,8 @@ export  const MINNIE : Person = {
   github_nickname: "minnie",
   zip_code: 1010,
   city: "Entenhausen",
-  message: "\„Wenn du es dir vorstellen kannst, kannst du es auch machen.\" \n(Walt Disney)"
+  message: "\„Wenn du es dir vorstellen kannst, kannst du es auch machen.\" \n(Walt Disney)",
+  routerLink: "/page_demo",
 };
 
 export const schoeffmann : Person = {
@@ -37,7 +39,6 @@ export const schoeffmann : Person = {
   city: "Wien",
   message: "\„Just do it.\" \n(Raphael Schöffmann)"
 };
-
 export  const klaric : Person = {
   surname: "KLARIC",
   firstname: "Matteo",
@@ -50,7 +51,6 @@ export  const klaric : Person = {
   city: "Wien",
   message: "\„Work so hard that your idols become your rivals\" \n(KLARIC Matteo)"
 };
-
 export const millich : Person = {
   surname: "Millich",
   firstname: "Alexander",
@@ -63,7 +63,6 @@ export const millich : Person = {
   city: "Wien",
   message: "\„Zitat\" \n(Niemand)"
 }
-
 export const yohanna : Person = {
   surname: "Yohanna",
   firstname: "Adryano",
@@ -77,7 +76,7 @@ export const yohanna : Person = {
   message: "\„One day or day one.\" \n(YOHANNA Adryano)"
 }
 export const moelzer : Person = {
-  surname: "moelzer",
+  surname: "Mölzer",
   firstname: "Patrick",
   urlImage: "assets-Moelzer/pat.jpeg",
   birthday: new Date("2005-05-29"),
@@ -88,7 +87,6 @@ export const moelzer : Person = {
   city: "Haringsee",
   message: "\„The oldest and strongest emotion of mankind is fear, and the oldest and strongest kind of fear is fear of the unknown.\" \n(HP Lovecraft)"
 };
-
 export const virk : Person = {
   surname: "Virk",
   firstname: "Gurnoor",
@@ -101,9 +99,6 @@ export const virk : Person = {
   city: "Wien",
   message: "\„We are what we repeatedly do. Excellence is not an act, but a habit\" \n(Aristotle)"
 }
-
-
-
 export const senjic : Person = {
   surname: "SENJIĆ ",
   firstname: "Oliver",
@@ -118,9 +113,6 @@ export const senjic : Person = {
     " Ein Hamburger bei McDonalds. 1,40 Euro. Wenn ich jetzt noch Pommes dazu kaufe - 3,50 Euro." +
     " Und jetzt behauptet wirklich einer ernsthaft, wir leben in einem Land, wo Eltern sich dieses Essen für ihr Kind nicht leisten können?"
 }
-
-
-
 export  const matuschka : Person = {
   surname: "MATUSCHKA",
   firstname: "Simon",
@@ -133,11 +125,10 @@ export  const matuschka : Person = {
   city: "Wien",
   message: "\„You miss 100% of the shots you don't take.\" \n(Wayne Gretzky)"
 };
-
 export const ibrahim : Person = {
   surname: "Ibrahim",
   firstname: "Mohamad kosai",
-  urlImage: "public/assets-IBRAHIM/male-model-francisco-lachowski-on-top-of-being-handsome-asf-v0-rrxuw64ie29c1.jpg",
+  urlImage: "assets-IBRAHIM/kosaibild.jpg",
   birthday: new Date("2006-06-19"),
   department: "ITEL Netzwerktechnik",
   email: "210028@studierende.htl-donaustadt.at",
@@ -147,17 +138,7 @@ export const ibrahim : Person = {
   message: "\„Zitat ende gänsehosen\" \n(John Zitat)"
 }
 
-export  const geihseder : Person = {
-  surname: "GEIHSEDER",
-  firstname: "Sebastian",
-  urlImage: "",
-  birthday: new Date("04-10-2006"),
-  department: "ITEL Netzwerktechnik",
-  email: "210031@studierende.htl-donaustadt.at",
-  github_nickname: "sebastian447",
-  zip_code: 1220,
-  city: "Wien",
-  message: "\"Manchmal zeigt sich der Weg erst, wenn man anfängt zu gehen.\"",
-};
 
+//list all students
+export const STUDENTS:Person[] = [ibrahim,matuschka,moelzer,millich,senjic,virk,yohanna,klaric,schoeffmann];
 
