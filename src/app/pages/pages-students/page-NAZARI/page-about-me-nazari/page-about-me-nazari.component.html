@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Über Mich - Nina Nazari</title>
+</head>
+
+<body>
+<div class="container">
+  <div class="header">
+    <h1>Nina Nazari</h1>
+    <h6>Willkommen zu meiner Webseite über mich!</h6>
+    <img [src] = me.urlImage alt="Portrait">
+  </div>
+
+  <div class="info">
+    <p><strong>Name:</strong> {{me.surname}} {{me.firstname}}</p>
+    <p><strong>Geburtsdatum:</strong> {{ me.birthday | date:'dd MMMM yyyy'  }}</p>
+    <p><strong>Wohnort:</strong> {{me.city}}</p>
+    <p><strong>E-Mail:</strong> <a href="mailto:210274@studierende.htl-donaustadt.at">{{me.email}}</a></p>
+    <p><strong>Github: </strong> <a href="https://github.com/ninjanazarii">{{me.github_nickname}}</a></p>
+    <p><strong>Abteilung:</strong> {{me.department}}</p>
+    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary; custom-btn">Zurück</a>
+    <a routerLink="/meine Reisen" routerLinkActive="active" class="btn btn-primary; custom-btn">Meine Reisen</a>
+  </div>
+
+  <div class="Zitat">
+    <p>{{me.message}}</p>
+  </div>
+  <p style="text-align: center"><strong>© by Nina Nazari</strong></p>
+</div>
+</body>
+
+</html>
