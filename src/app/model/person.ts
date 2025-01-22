@@ -136,7 +136,8 @@ export  const MATUSCHKA : Person = {
   github_nickname: "Simon3294",
   zip_code: 1220,
   city: "Wien",
-  message: "\„You miss 100% of the shots you don't take.\" \n(Wayne Gretzky)"
+  message: "\„You miss 100% of the shots you don't take.\" \n(Wayne Gretzky)",
+  routerLink: "/aboutMeMATUSCHKA"
 };
 
 export  const BECKER : Person = {
