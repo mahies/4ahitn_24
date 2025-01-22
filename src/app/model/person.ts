@@ -188,6 +188,7 @@ export  const geihseder : Person = {
   zip_code: 1220,
   city: "Wien",
   message: "\"Manchmal zeigt sich der Weg erst, wenn man anfängt zu gehen.\"",
+  routerLink: "/aboutMeGEIHSEDER",
 };
 
 export  const SPELITZ : Person = {
