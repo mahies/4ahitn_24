@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {Person, SPELITZ} from '../../../../model/person';
+import {MILLICH, Person, SPELITZ} from '../../../../model/person';
 import {DatePipe} from '@angular/common';
 import {RouterLink, RouterLinkActive} from '@angular/router';
 
