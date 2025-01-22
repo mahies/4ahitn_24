@@ -1,26 +1,33 @@
 
-<main class="main container m-5">
+<main class="main container-fluid m-5">
   <div class="content ">
     <h4>DEMO</h4>
-    <a routerLink="{{demo.routerLink}}" routerLinkActive="active" class="students">
+    <a routerLink="{{demo.routerLink}}" routerLinkActive="active" class="demo">
       <li>
         <img src="{{demo.urlImage}}">
       </li>
+      <span class="badge badge-primary">Primary</span>
     </a>
   </div>
-  <div class="content ">
-    <h1>Das ist die Startseite der {{title}}</h1>
+  <div class="content">
+    <h1>Wir sind die {{title}}!</h1>
   </div>
-  <ul class="students d-flex flex-row">
-    <li *ngFor="let student of students  | orderBy: 'surname' ; let i = index" class="m-2">
-       <img src="{{student.urlImage}}">
-        <span class="badge">{{i}}</span>
-        <span class="name">{{student.surname}}</span>
-    </li>
+  <ul class="students d-flex flex-row flex-wrap ">
+    <span *ngFor="let student of students  | orderBy: 'surname' ; let i = index" class="col-2 m-2">
+      <a routerLink="{{student.routerLink}}" routerLinkActive="active" class="students">
+        <li>
+          <div class="d-flex flex-column ">
+              <img src="{{student.urlImage}}">
+          <span class="badge badge-pill badge-info">{{i}}</span>
+          <span class="name">{{student.surname}}</span>
+          </div>
+        </li>
+      </a>
+    </span>
   </ul>
 
   <a routerLink="/about_meMILLICH" routerLinkActive="active">Link zu Millich: Über Mich</a><br>
-  <a routerLink="/about_meSPELITZ" routerLinkActive="active">Link zu Spelitz: Über Mich</a><br>
+  <a routerLink="/about_me_moelzer" routerLinkActive="active">Link zu Moelzer: Über Mich</a><br>
   <a routerLink="/aboutMeKLARIC" routerLinkActive="active">Link zu Klaric: Über Mich</a><br>
   <a routerLink="/about_me_krapf" routerLinkActive="active">Link zu Krapf Über Mich</a><br>
   <a routerLink="/about_me_aljarrah" routerLinkActive="active">Link zu Al Jarrah Über Mich</a>
@@ -46,9 +53,5 @@
   <a routerLink="/schoeffmann" routerLinkActive="active">Link zu Schoeffmann</a>
   <br>
   <a routerLink="/aboutMeIBRAHIM" routerLinkActive="active">Link zu IBRAHIM</a>
-
-
 </main>
-
-
 

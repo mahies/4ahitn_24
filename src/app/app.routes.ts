@@ -1,7 +1,7 @@
 import {Routes} from '@angular/router';
 import {PageDemoComponent} from './pages/pages-demo/page-demo/page-demo.component';
 import {PageHomeComponent} from './pages/page-home/page-home.component';
-import {PageAboutMeKRAPFComponent} from './pages/pages-students/page-about-me-krapf/page-about-me-krapf.component';
+import {PageAboutMeKRAPFComponent} from './pages/pages-students/pages-KRAPF/page-about-me-krapf/page-about-me-krapf.component';
 import {PageAboutMeMILLICHComponent} from './pages/pages-students/pages-MILLICH/page-about-me-millich/page-about-me-millich.component';
 import {PageAboutMeKLARICComponent} from './pages/pages-students/page-about-me-klaric/page-about-me-klaric.component';
 import {ReiseorteComponent} from './pages/pages-students/pages-KLARIC/reiseorte/reiseorte.component';
@@ -23,12 +23,12 @@ import {PageMyFutureSenjicComponent} from './pages/pages-students/page-SENJIC/pa
 import { PageAboutMeStoilovComponent } from './pages/pages-students/page-about-me-stoilov/page-about-me-stoilov.component';
 import {Subpage1Component} from './pages/pages-demo/subpage1/subpage1.component';
 import {Subpage2Component} from './pages/pages-demo/subpage2/subpage2.component';
-import {
-  PageMyJerseysSenjicComponent
-} from './pages/pages-students/page-SENJIC/page-my-jerseys-senjic/page-my-jerseys-senjic.component';
-import {
-  PageAboutMeSpelitzComponent
-} from './pages/pages-students/pages-SPELITZ/page-about-me-spelitz/page-about-me-spelitz.component';
+import {PageMyJerseysSenjicComponent} from './pages/pages-students/page-SENJIC/page-my-jerseys-senjic/page-my-jerseys-senjic.component';
+// import {
+//   PageAboutMeSpelitzComponent
+// } from './pages/pages-students/pages-SPELITZ/page-about-me-spelitz/page-about-me-spelitz.component';
+
+import {PageMeineReisenMatuschkaComponent} from './pages/pages-students/page-MATUSCHKA/page-meine-reisen-matuschka/page-meine-reisen-matuschka.component';
 
 export const routes: Routes = [
   {
@@ -104,6 +104,10 @@ export const routes: Routes = [
     component: PageStadienbesucheMatuschkaComponent
   },
   {
+    path: 'meinereisenMatuschka',
+    component: PageMeineReisenMatuschkaComponent
+  },
+  {
     path: 'aboutMeIBRAHIM',
     component: PageAboutMeIBRAHIMComponent
   },
@@ -144,9 +148,9 @@ export const routes: Routes = [
     path: 'reiseorte',
     component: ReiseorteComponent
   },
-  {
-    path: 'about_meSPELITZ',
-    component: PageAboutMeSpelitzComponent
-  },
+  // {
+  //   path: 'about_meSPELITZ',
+  //   component: PageAboutMeSpelitzComponent
+  // },
 ];
 

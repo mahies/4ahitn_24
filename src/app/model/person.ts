@@ -205,4 +205,4 @@ export  const SPELITZ : Person = {
 
 
 //list all students
-export const STUDENTS:Person[] = [ibrahim, virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,senjic,MATUSCHKA,MILLICH,SPELITZ];
+export const STUDENTS:Person[] = [virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,senjic,MATUSCHKA,MILLICH,SPELITZ];
