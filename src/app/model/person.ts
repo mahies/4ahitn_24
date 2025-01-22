@@ -38,7 +38,7 @@ export const SCHOEFFMANN : Person = {
   zip_code: 1120,
   city: "Wien",
   message: "\„Just do it.\" \n(Raphael Schöffmann)",
-  routerLink: "/schoeffmann"
+  routerLink: "/pages-schoeffmann"
 };
 
 export  const KLARIC : Person = {

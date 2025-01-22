@@ -3,7 +3,7 @@ import { Person, SCHOEFFMANN } from '../../../model/person';
 import {RouterLink, RouterLinkActive} from '@angular/router';
 
 @Component({
-  selector: 'app-schoeffmann',
+  selector: 'app-pages-schoeffmann',
   imports: [RouterLink,RouterLinkActive],
   templateUrl: './schoeffmann.component.html',
   styleUrl: './schoeffmann.component.scss'

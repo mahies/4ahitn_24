@@ -13,8 +13,8 @@ import {PageAboutMeSenjicComponent} from './pages/pages-students/page-SENJIC/pag
 import {PageAboutMeIBRAHIMComponent} from './pages/pages-students/pages-ibrahim/page-about-me-ibrahim/page-about-me-ibrahim.component';
 import {PageAboutMeSinghComponent} from './pages/pages-students/page-about-me-singh/page-about-me-singh.component';
 import {PageAboutMeNazariComponent} from './pages/pages-students/page-NAZARI/page-about-me-nazari/page-about-me-nazari.component';
-import { SchoeffmannComponent } from './pages/pages-students/schoeffmann/schoeffmann.component';
-import { MeineReisenComponent } from './pages/pages-students/schoeffmann/meine-reisen/meine-reisen.component';
+import { SchoeffmannComponent } from './pages/pages-students/pages-schoeffmann/schoeffmann.component';
+import { MeineReisenComponent } from './pages/pages-students/pages-schoeffmann/meine-reisen/meine-reisen.component';
 import {PageAboutMeVIRKComponent} from './pages/pages-students/page-about-me-virk/page-about-me-virk.component';
 import {PageAboutBeckerComponent} from './pages/pages-students/page-about-becker/page-about-becker.component';
 import {PageMyTravelsSenjicComponent} from './pages/pages-students/page-SENJIC/page-my-travels-senjic/page-my-travels-senjic.component';
@@ -120,19 +120,19 @@ export const routes: Routes = [
     component: PageAboutMeNazariComponent
   },
   {
-    path: 'schoeffmann',
+    path: 'pages-schoeffmann',
     component: SchoeffmannComponent
   },
   {
-    path: 'schoeffmann-meine-reisen',
+    path: 'pages-schoeffmann-meine-reisen',
     component: MeineReisenComponent
   },
   // {
-  //   path: 'schoeffmann-projekte',
+  //   path: 'pages-schoeffmann-projekte',
   //   component: ProjekteComponent
   // },
   // {
-  //   path: 'schoeffmann-hobbys',
+  //   path: 'pages-schoeffmann-hobbys',
   //   component: HobbysComponent
   // },
 
