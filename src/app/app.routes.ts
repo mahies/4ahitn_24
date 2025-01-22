@@ -29,6 +29,9 @@ import {
 import {
   PageAboutMeSpelitzComponent
 } from './pages/pages-students/pages-SPELITZ/page-about-me-spelitz/page-about-me-spelitz.component';
+import {
+  PageMeineReisenMatuschkaComponent
+} from './pages/pages-students/page-MATUSCHKA/page-meine-reisen-matuschka/page-meine-reisen-matuschka.component';
 
 export const routes: Routes = [
   {
@@ -102,6 +105,10 @@ export const routes: Routes = [
   {
     path: 'stadienbesucheMatuschka',
     component: PageStadienbesucheMatuschkaComponent
+  },
+  {
+    path: 'meinereisenMatuschka',
+    component: PageMeineReisenMatuschkaComponent
   },
   {
     path: 'aboutMeIBRAHIM',
