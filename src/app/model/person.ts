@@ -51,7 +51,8 @@ export  const KLARIC : Person = {
   github_nickname: "MatteoHajduk",
   zip_code: 1220,
   city: "Wien",
-  message: "\„Work so hard that your idols become your rivals\" \n(KLARIC Matteo)"
+  message: "\„Work so hard that your idols become your rivals\" \n(KLARIC Matteo)",
+  routerLink:"/aboutMeKLARIC"
 };
 
 export const MILLICH : Person = {
