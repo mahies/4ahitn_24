@@ -162,7 +162,8 @@ export const ibrahim : Person = {
   github_nickname: "kosaiib",
   zip_code: 1100,
   city: "Wien",
-  message: "\„Zitat ende gänsehosen\" \n(John Zitat)"
+  message: "\„Zitat ende gänsehosen\" \n(John Zitat)",
+  routerLink: "/aboutMeIBRAHIM"
 }
 
 export const STOILOV : Person = {
@@ -194,4 +195,4 @@ export  const geihseder : Person = {
 
 
 //list all students
-export const STUDENTS:Person[] = [virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,senjic,MATUSCHKA,MILLICH];
+export const STUDENTS:Person[] = [ibrahim, virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,senjic,MATUSCHKA,MILLICH];
