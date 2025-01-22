@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <title>About Daniel Stoilov</title>
+  <link rel="stylesheet" href="C:\Users\Danie\WebstormProjects\4ahitn_24\src\app\pages\pages-students\page-about-me-klaric\page-about-me-klaric.component.scss">
+</head>
+<body>
+<header style="--text-color: white; background-color: #333333">
+  <h1>{{firstName}} <span class="last-name">{{lastName}}</span></h1>
+  <img align="left" src="{{profileImage}}" alt="Profilbild von {{firstName}}" class="profile-image">
+</header>
+
+<div class="contact-info">
+  <p><strong>Geburtsdatum:</strong> {{birthDate}}</p>
+  <p><strong>Email:</strong> {{email}}</p>
+  <p><strong>Wohnort:</strong> Wien, Donaustadt</p>
+  <p><strong>Abteilung:</strong> IT</p>
+  <p><strong>GitHub:</strong> <a href="https://github.com/Danielzis" target="_blank">{{github}}</a></p>
+</div>
+
+<div class="description">
+  <p><strong>Beschreibung: </strong>{{beschreibung}}</p>
+</div>
+
+<div class="navigation-buttons">
+  <a href="index.html" class="button">Zur Homepage</a>
+  <br>
+  <a routerLink="/meineHobbiesSTOILOV" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Hobbies</a>
+  <br>
+  <a routerLink="/meineReiseSTOILOV" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Reise</a>
+  <br>
+  <a routerLink="/meineVisionUndZieleSTOILOV" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Vision & Ziele</a>
+</div>
+
+<div class="quote">
+  <p>{{zitat}}</p>
+</div>
+</body>
+</html>

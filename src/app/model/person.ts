@@ -51,7 +51,8 @@ export  const KLARIC : Person = {
   github_nickname: "MatteoHajduk",
   zip_code: 1220,
   city: "Wien",
-  message: "\„Work so hard that your idols become your rivals\" \n(KLARIC Matteo)"
+  message: "\„Work so hard that your idols become your rivals\" \n(KLARIC Matteo)",
+  routerLink:"/aboutMeKLARIC"
 };
 
 export const MILLICH : Person = {
@@ -103,7 +104,7 @@ export const virk : Person = {
   github_nickname: "gurnoor44",
   zip_code: 1220,
   city: "Wien",
-  message: "\„We are what we repeatedly do. Excellence is not an act, but a habit\" \n(Aristotle)"
+  message: "\„We are what we repeatedly do. Excellence is not an act, but a habit\" \n(Aristoteles)"
 }
 
 
@@ -190,6 +191,7 @@ export  const geihseder : Person = {
   zip_code: 1220,
   city: "Wien",
   message: "\"Manchmal zeigt sich der Weg erst, wenn man anfängt zu gehen.\"",
+  routerLink: "/aboutMeGEIHSEDER",
 };
 
 
