@@ -1,0 +1,76 @@
+@import "../pages-STOILOV-variables";
+
+// Farben und Schriftarten definieren
+$primary-color: #333333;
+$text-color: white;
+$accent-color: #ffffff;
+$font-family: 'Arial', sans-serif;
+$special-font: 'Courier New', monospace;
+
+// Abstände
+$spacing-desktop: 2rem;
+$spacing-mobile: 1rem;
+
+// Basisstile
+body {
+  font-family: $font-family;
+  margin: 0;
+  padding: 0;
+  background-color: lighten($primary-color, 20%);
+}
+
+header {
+  background-color: $primary-color;
+  color: $text-color;
+  padding: $spacing-desktop;
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .last-name {
+    text-transform: uppercase;
+  }
+
+  .profile-image {
+    border-radius: 10%;
+    width: 150px;
+    height: 200px;
+    margin-right: $spacing-desktop;
+  }
+}
+
+.contact-info {
+  padding: $spacing-desktop;
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+.description {
+  padding: $spacing-desktop;
+  background-color: darken($primary-color, 10%);
+  color: $text-color;
+}
+
+.quote {
+  font-style: italic;
+  font-family: $special-font;
+  padding: $spacing-desktop;
+  color: $accent-color;
+}
+
+// Mobile Anpassungen
+@media (max-width: 768px) {
+  header, .contact-info, .description, .quote {
+    padding: $spacing-mobile;
+  }
+
+  header {
+    text-align: center;
+
+    .profile-image {
+      margin: 0 auto;
+    }
+  }
+}

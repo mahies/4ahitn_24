@@ -13,14 +13,19 @@ import {PageAboutMeSenjicComponent} from './pages/pages-students/page-SENJIC/pag
 import {PageAboutMeIBRAHIMComponent} from './pages/pages-students/pages-ibrahim/page-about-me-ibrahim/page-about-me-ibrahim.component';
 import {PageAboutMeSinghComponent} from './pages/pages-students/page-about-me-singh/page-about-me-singh.component';
 import {PageAboutMeNazariComponent} from './pages/pages-students/page-NAZARI/page-about-me-nazari/page-about-me-nazari.component';
-import { SchoeffmannComponent } from './pages/pages-students/schoeffmann/schoeffmann.component';
-import { MeineReisenComponent } from './pages/pages-students/schoeffmann/meine-reisen/meine-reisen.component';
+import { SchoeffmannComponent } from './pages/pages-students/pages-schoeffmann/schoeffmann.component';
+import { MeineReisenComponent } from './pages/pages-students/pages-schoeffmann/meine-reisen/meine-reisen.component';
 import {PageAboutMeVIRKComponent} from './pages/pages-students/page-about-me-virk/page-about-me-virk.component';
 import {PageAboutBeckerComponent} from './pages/pages-students/page-about-becker/page-about-becker.component';
 import {PageMyTravelsSenjicComponent} from './pages/pages-students/page-SENJIC/page-my-travels-senjic/page-my-travels-senjic.component';
 import {PageStadienbesucheMatuschkaComponent} from './pages/pages-students/page-MATUSCHKA/page-stadienbesuche-matuschka/page-stadienbesuche-matuschka.component';
 import {PageMyFutureSenjicComponent} from './pages/pages-students/page-SENJIC/page-my-future-senjic/page-my-future-senjic.component';
-import { PageAboutMeStoilovComponent } from './pages/pages-students/page-about-me-stoilov/page-about-me-stoilov.component';
+//STOILOV
+import { PageAboutMeStoilovComponent } from './pages/pages-students/pages-STOILOV/page-about-me-stoilov/page-about-me-stoilov.component';
+import {PageMeineHobbiesStoilovComponentComponent} from './pages/pages-students/pages-STOILOV/page-meine-hobbies-stoilov.component/page-meine-hobbies-stoilov.component.component';
+import {PageMeineReiseStoilovComponentComponent} from './pages/pages-students/pages-STOILOV/page-meine-reise-stoilov.component/page-meine-reise-stoilov.component.component';
+import {PageMeineVisionUndZieleStoilovComponent} from './pages/pages-students/pages-STOILOV/page-meine-vision-und-ziele-stoilov/page-meine-vision-und-ziele-stoilov.component';
+//----
 import {Subpage1Component} from './pages/pages-demo/subpage1/subpage1.component';
 import {Subpage2Component} from './pages/pages-demo/subpage2/subpage2.component';
 import {PageMyJerseysSenjicComponent} from './pages/pages-students/page-SENJIC/page-my-jerseys-senjic/page-my-jerseys-senjic.component';
@@ -120,26 +125,40 @@ export const routes: Routes = [
     component: PageAboutMeNazariComponent
   },
   {
-    path: 'schoeffmann',
+    path: 'pages-schoeffmann',
     component: SchoeffmannComponent
   },
   {
-    path: 'schoeffmann-meine-reisen',
+    path: 'pages-schoeffmann-meine-reisen',
     component: MeineReisenComponent
   },
   // {
-  //   path: 'schoeffmann-projekte',
+  //   path: 'pages-schoeffmann-projekte',
   //   component: ProjekteComponent
   // },
   // {
-  //   path: 'schoeffmann-hobbys',
+  //   path: 'pages-schoeffmann-hobbys',
   //   component: HobbysComponent
   // },
 
+  //STOILOV
   {
     path: 'aboutMeSTOILOV',
     component: PageAboutMeStoilovComponent
   },
+  {
+    path: 'meineHobbiesSTOILOV',
+    component: PageMeineHobbiesStoilovComponentComponent
+  },
+  {
+    path: 'meineReiseSTOILOV',
+    component: PageMeineReiseStoilovComponentComponent
+  },
+  {
+    path: 'meineVisionUndZieleSTOILOV',
+    component: PageMeineVisionUndZieleStoilovComponent
+  },
+  //---------
   {
     path: 'aboutMeVIRK',
     component: PageAboutMeVIRKComponent

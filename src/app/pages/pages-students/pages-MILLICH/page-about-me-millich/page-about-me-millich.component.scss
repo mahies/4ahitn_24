@@ -1,24 +1,24 @@
 @import "../pages-MILLICH_variables";
-body {
+main {
   padding: 2rem;
 
   @media (max-width: 768px) {
     padding: 1rem;
   }
 }
-body {
+main {
   background-color: white;
   color: black;
 }
 
 
 @media (prefers-color-scheme: dark) {
-  body {
+  main {
     background-color: black;
     color: white;
   }
 }
-body{
+main{
   font-family: 'Georgia', serif;
 }
 

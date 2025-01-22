@@ -1,12 +1,7 @@
-<html lang="de">
-<head>
-  <link rel="stylesheet" href="page-about-me-millich.component.css">
-</head>
-<body>
 <main>
   <div class="container centered textSize">
     <h3>{{ me.firstname }} {{ me.surname.toLocaleUpperCase() }}</h3>
-    <p>{{ me.birthday | date:'dd.MM.yyyy'  }}</p>
+    <p>{{ me.birthday | date:'dd.MM.yyyy' }}</p>
     <img src="{{me.urlImage}}">
     <p>
       <b>Abteilung:</b> {{ me.department }}<br>
@@ -18,5 +13,3 @@
     <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Take me home</a>
   </div>
 </main>
-</body>
-</html>

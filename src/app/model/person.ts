@@ -37,7 +37,8 @@ export const SCHOEFFMANN : Person = {
   github_nickname: "theBroGrammer2624",
   zip_code: 1120,
   city: "Wien",
-  message: "\„Just do it.\" \n(Raphael Schöffmann)"
+  message: "\„Just do it.\" \n(Raphael Schöffmann)",
+  routerLink: "/pages-schoeffmann"
 };
 
 export  const KLARIC : Person = {
@@ -50,7 +51,8 @@ export  const KLARIC : Person = {
   github_nickname: "MatteoHajduk",
   zip_code: 1220,
   city: "Wien",
-  message: "\„Work so hard that your idols become your rivals\" \n(KLARIC Matteo)"
+  message: "\„Work so hard that your idols become your rivals\" \n(KLARIC Matteo)",
+  routerLink:"/aboutMeKLARIC"
 };
 
 export const MILLICH : Person = {
@@ -102,7 +104,7 @@ export const virk : Person = {
   github_nickname: "gurnoor44",
   zip_code: 1220,
   city: "Wien",
-  message: "\„We are what we repeatedly do. Excellence is not an act, but a habit\" \n(Aristotle)"
+  message: "\„We are what we repeatedly do. Excellence is not an act, but a habit\" \n(Aristoteles)"
 }
 
 
@@ -188,21 +190,10 @@ export  const geihseder : Person = {
   zip_code: 1220,
   city: "Wien",
   message: "\"Manchmal zeigt sich der Weg erst, wenn man anfängt zu gehen.\"",
+  routerLink: "/aboutMeGEIHSEDER",
 };
 
-export  const SPELITZ : Person = {
-  surname: "Spelitz",
-  firstname: "Fabian",
-  urlImage: "assets-SPELITZ/image.jfif",
-  birthday: new Date("2006-10-30"),
-  department: "ITEL Netzwerktechnik",
-  email: "210270@studierende.htl-donaustadt.at",
-  github_nickname: "Sxlyyy",
-  zip_code: 1220,
-  city: "Wien",
-  message: "\"Der frühe Wurm wurde vom Vogel gepackt, Zitat halbiert, Hose Gänse, Schönen Tag Champion, Attacke! - Tanyo Tanev\"",
-};
 
 
 //list all students
-export const STUDENTS:Person[] = [ibrahim, virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,senjic,MATUSCHKA,MILLICH,SPELITZ];
+export const STUDENTS:Person[] = [virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,senjic,MATUSCHKA,MILLICH];
