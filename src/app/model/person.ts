@@ -37,7 +37,8 @@ export const SCHOEFFMANN : Person = {
   github_nickname: "theBroGrammer2624",
   zip_code: 1120,
   city: "Wien",
-  message: "\„Just do it.\" \n(Raphael Schöffmann)"
+  message: "\„Just do it.\" \n(Raphael Schöffmann)",
+  routerLink: "/schoeffmann"
 };
 
 export  const KLARIC : Person = {
