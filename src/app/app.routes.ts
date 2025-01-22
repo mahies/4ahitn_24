@@ -26,7 +26,6 @@ import {Subpage2Component} from './pages/pages-demo/subpage2/subpage2.component'
 import {
   PageMyJerseysSenjicComponent
 } from './pages/pages-students/page-SENJIC/page-my-jerseys-senjic/page-my-jerseys-senjic.component';
-
 import {
   PageMeineReisenMatuschkaComponent
 } from './pages/pages-students/page-MATUSCHKA/page-meine-reisen-matuschka/page-meine-reisen-matuschka.component';
