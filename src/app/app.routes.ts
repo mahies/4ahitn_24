@@ -27,6 +27,9 @@ import {
   PageMyJerseysSenjicComponent
 } from './pages/pages-students/page-SENJIC/page-my-jerseys-senjic/page-my-jerseys-senjic.component';
 import {
+  PageAboutMeSpelitzComponent
+} from './pages/pages-students/pages-SPELITZ/page-about-me-spelitz/page-about-me-spelitz.component';
+import {
   PageMeineReisenMatuschkaComponent
 } from './pages/pages-students/page-MATUSCHKA/page-meine-reisen-matuschka/page-meine-reisen-matuschka.component';
 
@@ -102,6 +105,10 @@ export const routes: Routes = [
   {
     path: 'stadienbesucheMatuschka',
     component: PageStadienbesucheMatuschkaComponent
+  },
+  {
+    path: 'meinereisenMatuschka',
+    component: PageMeineReisenMatuschkaComponent
   },
   {
     path: 'aboutMeIBRAHIM',
