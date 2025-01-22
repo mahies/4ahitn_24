@@ -104,7 +104,7 @@ export const virk : Person = {
   github_nickname: "gurnoor44",
   zip_code: 1220,
   city: "Wien",
-  message: "\„We are what we repeatedly do. Excellence is not an act, but a habit\" \n(Aristotle)"
+  message: "\„We are what we repeatedly do. Excellence is not an act, but a habit\" \n(Aristoteles)"
 }
 
 
