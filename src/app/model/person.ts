@@ -121,8 +121,9 @@ export const senjic : Person = {
   department: "ITEL | Netzwerktechnik",
   message:"Wisst ihr, was die billigste warme Mahlzeit in Österreich ist? Sie ist nicht gesund, aber sie ist billig." +
     " Ein Hamburger bei McDonalds. 1,40 Euro. Wenn ich jetzt noch Pommes dazu kaufe - 3,50 Euro." +
-    " Und jetzt behauptet wirklich einer ernsthaft, wir leben in einem Land, wo Eltern sich dieses Essen für ihr Kind nicht leisten können?"
-}
+    " Und jetzt behauptet wirklich einer ernsthaft, wir leben in einem Land, wo Eltern sich dieses Essen für ihr Kind nicht leisten können?",
+  routerLink: "/aboutMeSENJIC"
+};
 
 
 
