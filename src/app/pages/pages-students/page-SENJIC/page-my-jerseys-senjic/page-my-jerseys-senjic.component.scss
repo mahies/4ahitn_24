@@ -1,5 +1,5 @@
 $primary: burlywood;
-
+$secondary: #B39EB5;
 body {
   font-family: 'Times New Roman', Times, serif;
   background-color: $primary;
@@ -41,6 +41,13 @@ h2{
   p {
     text-align: center;
   }
-
+  .custom-btn {
+    background-color: $secondary ;
+    color: black;
+    border: none;
+    margin-right: 10px;
+    margin-left: 47.5%;
+    margin-bottom: 25px;
+  }
 
 
