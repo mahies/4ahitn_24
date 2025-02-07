@@ -10,3 +10,29 @@ body {
     padding: 1rem;
   }
 }
+.league-section {
+  margin-bottom: 40px;
+}
+h2{
+  text-align: center;
+  margin: 10px;
+}
+.trikot-liste {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.trikot-card {
+  background-color: #e3e0e0;
+  border-radius: 10px;
+  width: 300px;
+  padding: 15px;
+}
+  .trikot-img {
+    width: 100%;
+    height: 275px;
+    border-radius: 10px;
+  }
+
+
+
