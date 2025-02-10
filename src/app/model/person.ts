@@ -142,18 +142,17 @@ export  const MATUSCHKA : Person = {
 };
 
 export  const BECKER : Person = {
-  surname: "BECKE",
+  surname: "BECKER",
   firstname: "Karina",
-  urlImage: "",
+  urlImage: "assets-BECKER/BildK.jpeg",
   birthday: new Date("2006-09-07"),
   department: "ITEL Netzwerktechnik",
   email: "210033@studierende.htl-donaustadt.at",
   github_nickname: "karinaB777",
   zip_code: 1220,
   city: "Wien",
-  message: "\„.\" \n()"
+  message: "\„Was wäre das Leben, häten wir nicht den Mut, etwas zu riskieren?\" \n(Vincent van Gogh)"
 };
-
 
 export const ibrahim : Person = {
   surname: "Ibrahim",
@@ -195,7 +194,6 @@ export  const geihseder : Person = {
   message: "\"Manchmal zeigt sich der Weg erst, wenn man anfängt zu gehen.\"",
   routerLink: "/aboutMeGEIHSEDER",
 };
-
 
 
 //list all students
