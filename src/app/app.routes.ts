@@ -16,7 +16,7 @@ import {PageAboutMeNazariComponent} from './pages/pages-students/page-NAZARI/pag
 import { SchoeffmannComponent } from './pages/pages-students/pages-schoeffmann/schoeffmann.component';
 import { MeineReisenComponent } from './pages/pages-students/pages-schoeffmann/meine-reisen/meine-reisen.component';
 import {PageAboutMeVIRKComponent} from './pages/pages-students/page-about-me-virk/page-about-me-virk.component';
-import {PageAboutBeckerComponent} from './pages/pages-students/page-about-becker/page-about-becker.component';
+import {PageAboutBeckerComponent} from './pages/pages-students/page-BECKER/page-about-me-becker/page-about-becker.component';
 import {PageMyTravelsSenjicComponent} from './pages/pages-students/page-SENJIC/page-my-travels-senjic/page-my-travels-senjic.component';
 import {PageStadienbesucheMatuschkaComponent} from './pages/pages-students/page-MATUSCHKA/page-stadienbesuche-matuschka/page-stadienbesuche-matuschka.component';
 import {PageMyFutureSenjicComponent} from './pages/pages-students/page-SENJIC/page-my-future-senjic/page-my-future-senjic.component';
