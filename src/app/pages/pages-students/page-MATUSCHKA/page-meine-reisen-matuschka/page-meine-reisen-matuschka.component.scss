@@ -1,18 +1,20 @@
 $primary: #3e748e;
 $secondary: #64d16c;
+$background-color: #64d16c;
+$card-background: #0d590d;
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
+  background-color: $background-color;
 }
 
 .container {
   max-width: 1200px;
   margin: 20px auto;
   padding: 10px;
-  background: #ffffff;
+  background: $card-background;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -35,8 +37,8 @@ body {
   width: 400px;
   height: 250px;
   object-fit: cover;
-  border-radius: 0 0 8px 8px; /* Nur oben abgerundet */
-  border: 2px solid #ddd;
+  border-radius: 0 0 8px 8px;
+  border: 2px solid #000000;
 }
 
 .gallery img:hover {
@@ -71,4 +73,4 @@ body {
   margin-right: 10px;
 }
 
-.österreich { background-color: #dff0d8; }
+.box { background-color: #dff0d8; }
