@@ -27,6 +27,20 @@ export  const MINNIE : Person = {
   routerLink: "/page_demo"
 };
 
+export  const NAZARI : Person = {
+  surname: "Nazari",
+  firstname: "Nina",
+  urlImage: "assets-NAZARI/schulfoto.jpeg",
+  birthday: new Date("1928-11-18"),
+  department: "ITEL Netzwerktechnik",
+  email: "210274@htl-donaustadt.at",
+  github_nickname: "ninjanazari",
+  zip_code: 2230,
+  city: "Gänserndorf",
+  message: "\„4 gewinnt\" \n(Walt Disney)",
+  routerLink: "/page_demo"
+};
+
 export const SCHOEFFMANN : Person = {
   surname: "Schöffmann",
   firstname: "Raphael",
