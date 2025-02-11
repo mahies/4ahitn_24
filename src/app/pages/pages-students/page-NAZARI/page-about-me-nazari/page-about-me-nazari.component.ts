@@ -1,18 +1,13 @@
 import { Component } from '@angular/core';
-import {Person, MINNIE} from "../../../../model/person";
-import {DatePipe} from '@angular/common';
+import {Person, NAZARI} from "../../../../model/person";
+import {CommonModule} from '@angular/common';
 import {RouterLink, RouterLinkActive} from '@angular/router';
 @Component({
   selector: 'app-page-about-me-nazari',
-  imports: [
-    DatePipe,
-    RouterLink,
-    RouterLinkActive
-  ],
+  imports: [CommonModule],
   templateUrl: './page-about-me-nazari.component.html',
-  styleUrl: './page-about-me-nazari.component.scss',
-  standalone: true
+  styleUrl: './page-about-me-nazari.component.scss'
 })
 export class PageAboutMeNazariComponent {
-  protected readonly me = MINNIE;
+  me: Person = NAZARI;
 }
