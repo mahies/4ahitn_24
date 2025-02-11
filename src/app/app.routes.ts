@@ -32,9 +32,8 @@ import {PageMyJerseysSenjicComponent} from './pages/pages-students/page-SENJIC/p
 import {PageAboutMeSpelitzComponent} from './pages/pages-students/pages-SPELITZ/page-about-me-spelitz/page-about-me-spelitz.component';
 
 import {PageMeineReisenMatuschkaComponent} from './pages/pages-students/page-MATUSCHKA/page-meine-reisen-matuschka/page-meine-reisen-matuschka.component';
-import {
-  PageAboutMeineReisenBeckerComponent
-} from './pages/pages-students/page-BECKER/page-about-meine-reisen-becker/page-about-meine-reisen-becker.component';
+import {ProjekteComponent} from './pages/pages-students/pages-schoeffmann/projekte/projekte.component';
+import {HobbysComponent} from './pages/pages-students/pages-schoeffmann/hobbys/hobbys.component';
 
 export const routes: Routes = [
   {
@@ -68,10 +67,6 @@ export const routes: Routes = [
   {
     path: 'aboutMeBECKER',
     component: PageAboutBeckerComponent
-  },
-  {
-    path: 'meineReisenBecker',
-    component: PageAboutMeineReisenBeckerComponent
   },
   {
     path: 'aboutMeKLARIC',
@@ -137,14 +132,14 @@ export const routes: Routes = [
     path: 'pages-schoeffmann-meine-reisen',
     component: MeineReisenComponent
   },
-  // {
-  //   path: 'pages-schoeffmann-projekte',
-  //   component: ProjekteComponent
-  // },
-  // {
-  //   path: 'pages-schoeffmann-hobbys',
-  //   component: HobbysComponent
-  // },
+   {
+     path: 'pages-schoeffmann-projekte',
+     component: ProjekteComponent
+   },
+   {
+     path: 'pages-schoeffmann-hobbys',
+     component: HobbysComponent
+   },
 
   //STOILOV
   {
