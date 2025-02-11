@@ -34,9 +34,6 @@ import {PageMyJerseysSenjicComponent} from './pages/pages-students/page-SENJIC/p
 // } from './pages/pages-students/pages-SPELITZ/page-about-me-spelitz/page-about-me-spelitz.component';
 
 import {PageMeineReisenMatuschkaComponent} from './pages/pages-students/page-MATUSCHKA/page-meine-reisen-matuschka/page-meine-reisen-matuschka.component';
-import {
-  PageAboutMeineReisenBeckerComponent
-} from './pages/pages-students/page-BECKER/page-about-meine-reisen-becker/page-about-meine-reisen-becker.component';
 
 export const routes: Routes = [
   {
@@ -70,10 +67,6 @@ export const routes: Routes = [
   {
     path: 'aboutMeBECKER',
     component: PageAboutBeckerComponent
-  },
-  {
-    path: 'meineReisen',
-    component: PageAboutMeineReisenBeckerComponent,
   },
   {
     path: 'aboutMeKLARIC',
