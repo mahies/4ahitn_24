@@ -11,5 +11,7 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
   styleUrl: './projekte.component.scss'
 })
 export class ProjekteComponent {
+  angularimg: string = "assets-SCHOEFFMANN/angular.jpg";
+  tankrobot: string = "assets-SCHOEFFMANN/freenove-tank-robot.jpg";
 
 }
