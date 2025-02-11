@@ -22,8 +22,8 @@ import {PageStadienbesucheMatuschkaComponent} from './pages/pages-students/page-
 import {PageMyFutureSenjicComponent} from './pages/pages-students/page-SENJIC/page-my-future-senjic/page-my-future-senjic.component';
 //STOILOV
 import { PageAboutMeStoilovComponent } from './pages/pages-students/pages-STOILOV/page-about-me-stoilov/page-about-me-stoilov.component';
-import {PageMeineHobbiesStoilovComponentComponent} from './pages/pages-students/pages-STOILOV/page-meine-hobbies-stoilov.component/page-meine-hobbies-stoilov.component.component';
-import {PageMeineReiseStoilovComponentComponent} from './pages/pages-students/pages-STOILOV/page-meine-reise-stoilov.component/page-meine-reise-stoilov.component.component';
+import {PageMeineHobbiesStoilovComponent} from './pages/pages-students/pages-STOILOV/page-meine-hobbies-stoilov/page-meine-hobbies-stoilov.component';
+import {PageMeineReiseStoilovComponent} from './pages/pages-students/pages-STOILOV/page-meine-reise-stoilov/page-meine-reise-stoilov.component';
 import {PageMeineVisionUndZieleStoilovComponent} from './pages/pages-students/pages-STOILOV/page-meine-vision-und-ziele-stoilov/page-meine-vision-und-ziele-stoilov.component';
 //----
 import {Subpage1Component} from './pages/pages-demo/subpage1/subpage1.component';
@@ -155,11 +155,11 @@ export const routes: Routes = [
   },
   {
     path: 'meineHobbiesSTOILOV',
-    component: PageMeineHobbiesStoilovComponentComponent
+    component: PageMeineHobbiesStoilovComponent
   },
   {
     path: 'meineReiseSTOILOV',
-    component: PageMeineReiseStoilovComponentComponent
+    component: PageMeineReiseStoilovComponent
   },
   {
     path: 'meineVisionUndZieleSTOILOV',

@@ -178,7 +178,8 @@ export const STOILOV : Person = {
   github_nickname: "Danielzis",
   zip_code: 1220,
   city: "Wien",
-  message: "Denn Gott hat die Menschen so sehr geliebt, dass er seinen einzigen Sohn für sie hergab.\n Jeder, der an ihn glaubt, wird nicht zugrunde gehen, sondern das ewige Leben haben.\n - Johannes 3:16"
+  message: "\"Denn Gott hat die Menschen so sehr geliebt, dass er seinen einzigen Sohn für sie hergab.\n Jeder, der an ihn glaubt, wird nicht zugrunde gehen, sondern das ewige Leben haben.\n - Johannes 3:16\"",
+  routerLink: "/aboutMeSTOILOV",
 }
 
 export  const geihseder : Person = {
