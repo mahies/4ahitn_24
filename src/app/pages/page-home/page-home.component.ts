@@ -17,3 +17,4 @@ export class PageHomeComponent {
     students: Person[] = STUDENTS; //Variable students vom Typ array of Person = KONSTANTE
 
 }
+
