@@ -151,7 +151,7 @@ export  const BECKER : Person = {
   github_nickname: "karinaB777",
   zip_code: 1220,
   city: "Wien",
-  message: "\„Was wäre das Leben, häten wir nicht den Mut, etwas zu riskieren?\" \n(Vincent van Gogh)"
+  message: "\„Was wäre das Leben, hätten wir nicht den Mut, etwas zu riskieren?\" \n(Vincent van Gogh)"
 };
 
 export const ibrahim : Person = {
