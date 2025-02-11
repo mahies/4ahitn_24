@@ -1,13 +1,11 @@
 <html lang="de">
-<head>
-  <link rel="stylesheet" href="page-about-me-moelzer.component.scss">
+<link rel="stylesheet" href="page-about-me-moelzer.component.scss">
   <title>  </title>
-</head>
-<body>
+
+
 <main>
     <h2>{{ me.firstname }} {{ me.surname}}</h2>
     <p>          <img src="{{ me.urlImage }}"  alt="{{ me.firstname }}">
-
       Abteilung: {{ me.department }}<br>
       Email-Adresse: <a href="mailto:190185@studierende.htl-donaustadt.at">{{ me.email }}</a><br>
       Wohnort:  {{ me.city }}{{ me.zip_code }}<br>
@@ -19,6 +17,5 @@
   <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">hobbies</a>
   <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">travels</a>
 </main>
-</body>
 </html>
 
