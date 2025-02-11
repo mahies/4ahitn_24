@@ -121,8 +121,9 @@ export const senjic : Person = {
   department: "ITEL | Netzwerktechnik",
   message:"Wisst ihr, was die billigste warme Mahlzeit in Österreich ist? Sie ist nicht gesund, aber sie ist billig." +
     " Ein Hamburger bei McDonalds. 1,40 Euro. Wenn ich jetzt noch Pommes dazu kaufe - 3,50 Euro." +
-    " Und jetzt behauptet wirklich einer ernsthaft, wir leben in einem Land, wo Eltern sich dieses Essen für ihr Kind nicht leisten können?"
-}
+    " Und jetzt behauptet wirklich einer ernsthaft, wir leben in einem Land, wo Eltern sich dieses Essen für ihr Kind nicht leisten können?",
+  routerLink: "/aboutMeSENJIC"
+};
 
 
 
@@ -136,22 +137,22 @@ export  const MATUSCHKA : Person = {
   github_nickname: "Simon3294",
   zip_code: 1220,
   city: "Wien",
-  message: "\„You miss 100% of the shots you don't take.\" \n(Wayne Gretzky)"
+  message: "\„You miss 100% of the shots you don't take.\" \n(Wayne Gretzky)",
+  routerLink: "/aboutMeMATUSCHKA"
 };
 
 export  const BECKER : Person = {
-  surname: "BECKE",
+  surname: "BECKER",
   firstname: "Karina",
-  urlImage: "",
+  urlImage: "assets-BECKER/BildK.jpeg",
   birthday: new Date("2006-09-07"),
   department: "ITEL Netzwerktechnik",
   email: "210033@studierende.htl-donaustadt.at",
   github_nickname: "karinaB777",
   zip_code: 1220,
   city: "Wien",
-  message: "\„.\" \n()"
+  message: "\„Was wäre das Leben, häten wir nicht den Mut, etwas zu riskieren?\" \n(Vincent van Gogh)"
 };
-
 
 export const ibrahim : Person = {
   surname: "Ibrahim",
@@ -163,7 +164,8 @@ export const ibrahim : Person = {
   github_nickname: "kosaiib",
   zip_code: 1100,
   city: "Wien",
-  message: "\„Zitat ende gänsehosen\" \n(John Zitat)"
+  message: "\„Zitat ende gänsehosen\" \n(John Zitat)",
+  routerLink: "/aboutMeIBRAHIM"
 }
 
 export const STOILOV : Person = {
@@ -194,6 +196,5 @@ export  const geihseder : Person = {
 };
 
 
-
 //list all students
-export const STUDENTS:Person[] = [virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,senjic,MATUSCHKA,MILLICH];
+export const STUDENTS:Person[] = [ibrahim, virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,senjic,MATUSCHKA,MILLICH];

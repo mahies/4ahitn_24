@@ -1,1 +1,99 @@
-<p>page-my-jerseys-senjic works!</p>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meine Trikotsammlung</title>
+</head>
+<body>
+<h1 style="text-align: center">Meine Trikotsammlung</h1>
+
+<a routerLink="/aboutMeSENJIC" routerLinkActive="active" class="btn btn-primary custom-btn">Zurück</a>
+
+<div class="league-section">
+  <h2>Bundesliga</h2>
+  <div class="trikot-liste">
+    <div class="trikot-card">
+      <img class="trikot-img" [src]="bayernA202425"  alt="bayern 2024/25">
+      <h2>FC Bayern München Auswärts 2024/25 </h2>
+      <p><em>PAVLOVIĆ #45</em></p>
+    </div>
+
+    <div class="trikot-card">
+      <img class="trikot-img" [src]="bayernH202324"  alt="bayern 2023/24">
+      <h2>FC Bayern München Heim 2023/24 </h2>
+      <p><em>MÜLLER #25</em></p>
+    </div>
+
+    <div class="trikot-card">
+      <img class="trikot-img" [src]="bayernA202122"  alt="bayern 2021/22">
+      <h2>FC Bayern München Auswärts 2021/22</h2>
+      <p><em>KIMMICH #6</em></p>
+    </div>
+  </div>
+</div>
+
+<div class="league-section">
+  <h2>Premier League</h2>
+  <div class="trikot-liste">
+    <div class="trikot-card">
+      <img class="trikot-img" [src]="mancity"  alt="Manchester City">
+      <h2>Manchester City Auswärts 2023/24</h2>
+      <p><em>GVARDIOL #24</em></p>
+    </div>
+
+    <div class="trikot-card">
+      <img class="trikot-img" [src]="liverpool"  alt="Liverpool">
+      <h2>Liverpool FC Auswärts 2022/23</h2>
+      <p><em>NUNEZ #27</em></p>
+    </div>
+  </div>
+</div>
+
+<div class="league-section">
+  <h2>Serie A</h2>
+  <div class="trikot-liste">
+    <div class="trikot-card">
+      <img class="trikot-img" [src]="juve"  alt="Juventus">
+      <h2>Juventus Turin Heim 2022/23</h2>
+      <p><em>VLAHOVIĆ #9</em></p>
+    </div>
+
+    <div class="trikot-card">
+      <img class="trikot-img" [src]="milan"  alt="AC Milan">
+      <h2>AC Milan Auswärts 2006/07</h2>
+      <p><em>KAKÁ #22</em></p>
+    </div>
+  </div>
+</div>
+
+<div class="league-section">
+  <h2>La Liga</h2>
+  <div class="trikot-liste">
+    <div class="trikot-card">
+      <img class="trikot-img" [src]="barca"  alt="Barcelona">
+      <h2>Barcelona Heim 2014/15</h2>
+      <p><em>RAKITIĆ #4</em></p>
+    </div>
+  </div>
+</div>
+
+<div class="league-section">
+  <h2>International</h2>
+  <div class="trikot-liste">
+    <div class="trikot-card">
+      <img class="trikot-img" [src]="kroatienH"  alt="Kroatien Heim">
+      <h2>Kroatien Heim 2022</h2>
+      <p><em>MODRIĆ #10</em></p>
+    </div>
+
+    <div class="trikot-card">
+      <img class="trikot-img" [src]="kroatienA"  alt="Kroatien Auswärts">
+      <h2>Kroatien Auswärts 2022</h2>
+      <p><em>KOVAČIĆ #8</em></p>
+    </div>
+  </div>
+</div>
+<p style="text-align: center"><strong>© by Oliver SENJIĆ</strong></p>
+</body>
+</html>
