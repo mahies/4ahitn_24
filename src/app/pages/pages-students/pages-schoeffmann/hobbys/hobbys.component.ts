@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import {RouterLink, RouterLinkActive} from '@angular/router';
+import {NavbarSchoeffmannComponent} from '../navbar-schoeffmann/navbar-schoeffmann.component';
 
 @Component({
   selector: 'app-hobbys',
   imports: [
-    RouterLink,
-    RouterLinkActive
+    NavbarSchoeffmannComponent
   ],
   templateUrl: './hobbys.component.html',
   styleUrl: './hobbys.component.scss'
@@ -13,3 +12,4 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
 export class HobbysComponent {
 
 }
+

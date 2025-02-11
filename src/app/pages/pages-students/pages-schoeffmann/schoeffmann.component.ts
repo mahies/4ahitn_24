@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { Person, SCHOEFFMANN } from '../../../model/person';
-import {RouterLink, RouterLinkActive} from '@angular/router';
+import {NavbarSchoeffmannComponent} from './navbar-schoeffmann/navbar-schoeffmann.component';
 
 @Component({
   selector: 'app-pages-schoeffmann',
-  imports: [RouterLink,RouterLinkActive],
+  imports: [NavbarSchoeffmannComponent],
   templateUrl: './schoeffmann.component.html',
   styleUrl: './schoeffmann.component.scss'
 })

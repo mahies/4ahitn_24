@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import {RouterLink, RouterLinkActive} from '@angular/router';
+import {NavbarSchoeffmannComponent} from '../navbar-schoeffmann/navbar-schoeffmann.component';
 
 @Component({
   selector: 'app-meine-reisen',
-  imports: [RouterLink,RouterLinkActive],
+  imports: [NavbarSchoeffmannComponent],
   templateUrl: './meine-reisen.component.html',
   styleUrl: './meine-reisen.component.scss'
 })

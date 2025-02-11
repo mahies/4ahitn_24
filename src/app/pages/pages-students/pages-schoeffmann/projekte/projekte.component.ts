@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import {RouterLink, RouterLinkActive} from '@angular/router';
+import {NavbarSchoeffmannComponent} from '../navbar-schoeffmann/navbar-schoeffmann.component';
 
 @Component({
   selector: 'app-projekte',
   imports: [
-    RouterLink,
-    RouterLinkActive
+    NavbarSchoeffmannComponent
   ],
   templateUrl: './projekte.component.html',
   styleUrl: './projekte.component.scss'
