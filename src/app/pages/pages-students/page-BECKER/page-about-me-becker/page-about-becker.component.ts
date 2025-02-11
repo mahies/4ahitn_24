@@ -10,7 +10,5 @@ import { CommonModule } from '@angular/common';
 })
 export class PageAboutBeckerComponent {
   me: Person = BECKER;
-  firstname: string = "Karina";
-  surname: string = "BECKER";
-  birthday: Date = new Date(2006, 8, 7);
+
 }
