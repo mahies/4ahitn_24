@@ -1,3 +1,9 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffffff, #ffffff);
+  text-align: center;
+  padding: 20px;
+}
 .container {
   max-width: 900px;
   margin: 0 auto;
@@ -6,3 +12,23 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.timeline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.day {
+  background: linear-gradient(to bottom, #ffffff, #ffffff);
+  width: 220px;
+  height: 320px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
