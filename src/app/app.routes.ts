@@ -37,6 +37,9 @@ import {HobbysComponent} from './pages/pages-students/pages-schoeffmann/hobbys/h
 import {
   PageAboutMeineReisenBeckerComponent
 } from './pages/pages-students/page-BECKER/page-about-meine-reisen-becker/page-about-meine-reisen-becker.component';
+import {
+  PageThailandreiseMatuschkaComponent
+} from './pages/pages-students/page-MATUSCHKA/page-thailandreise-matuschka/page-thailandreise-matuschka.component';
 
 export const routes: Routes = [
   {
@@ -118,6 +121,10 @@ export const routes: Routes = [
   {
     path: 'meinereisenMatuschka',
     component: PageMeineReisenMatuschkaComponent
+  },
+  {
+    path: 'thailandreisenMatuschka',
+    component: PageThailandreiseMatuschkaComponent
   },
   {
     path: 'aboutMeIBRAHIM',
