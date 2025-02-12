@@ -54,10 +54,19 @@ header {
 }
 
 .quote {
+  background-color: #f0f0f0; /* Heller Grauton */
+  padding: 1rem;
+  border-left: 5px solid #333; /* Stilvolle Markierung an der Seite */
+  margin-top: 20px;
   font-style: italic;
-  font-family: $special-font;
-  padding: $spacing-desktop;
-  color: $accent-color;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px; /* Abgerundete Ecken */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 // Mobile Anpassungen
