@@ -37,6 +37,12 @@ import {HobbysComponent} from './pages/pages-students/pages-schoeffmann/hobbys/h
 import {
   PageAboutMeineReisenBeckerComponent
 } from './pages/pages-students/page-BECKER/page-about-meine-reisen-becker/page-about-meine-reisen-becker.component';
+import {
+  MeineZieleGeihsederComponent
+} from './pages/pages-students/pages-GEIHSEDER/meine-ziele-geihseder/meine-ziele-geihseder.component';
+import {
+  MeineReisenGeihsederComponent
+} from './pages/pages-students/pages-GEIHSEDER/meine-reisen-geihseder/meine-reisen-geihseder.component';
 
 export const routes: Routes = [
   {
@@ -87,6 +93,17 @@ export const routes: Routes = [
     path: 'aboutMeGEIHSEDER',
     component: PageAboutMeGEIHSEDERComponent
   },
+
+  {
+    path: 'meine-reisen-geihseder',
+    component: MeineReisenGeihsederComponent
+  },
+
+  {
+    path: 'meine-ziele-geihseder',
+    component: MeineZieleGeihsederComponent
+  },
+
   {
     path: 'aboutMeYOHANNA',
     component: PageAboutMeYOHANNAComponent

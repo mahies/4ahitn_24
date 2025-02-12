@@ -1,1 +1,91 @@
-<p>meine-reisen-geihseder works!</p>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meine Reisen</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #add8e6; /* Helles Blau */
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 80%;
+      max-width: 900px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .gallery-item {
+      width: 30%; /* Max. 3 Bilder pro Reihe */
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .gallery-item p {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>Meine Reisen</h1>
+  <div class="gallery">
+
+    <div class="gallery-item">
+      <img src="https://via.placeholder.com/300x200" alt="">
+      <p>Kroatien</p>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://via.placeholder.com/300x200" alt="">
+      <p>Italien</p>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://via.placeholder.com/300x200" alt="">
+      <p>Spanien</p>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://via.placeholder.com/300x200" alt="">
+      <p>Belgien</p>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://via.placeholder.com/300x200" alt="">
+      <p>Frankreich</p>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://via.placeholder.com/300x200" alt="">
+      <p>Schweiz</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
