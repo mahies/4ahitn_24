@@ -40,6 +40,9 @@ import {
 import {
   PageThailandreiseMatuschkaComponent
 } from './pages/pages-students/page-MATUSCHKA/page-thailandreise-matuschka/page-thailandreise-matuschka.component';
+import {
+  PageAboutMeineReisenComponent
+} from './pages/pages-students/page-NAZARI/page-meine-reisen-nazari/page-about-meine-reisen.component';
 
 export const routes: Routes = [
   {
@@ -137,6 +140,10 @@ export const routes: Routes = [
   {
     path: 'aboutMeNAZARI',
     component: PageAboutMeNazariComponent
+  },
+  {
+    path: 'meineReisen',
+    component: PageAboutMeineReisenComponent
   },
   {
     path: 'pages-schoeffmann',

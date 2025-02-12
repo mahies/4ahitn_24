@@ -4,7 +4,7 @@ import {CommonModule} from '@angular/common';
 import {RouterLink, RouterLinkActive} from '@angular/router';
 @Component({
   selector: 'app-page-about-me-nazari',
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink, RouterLinkActive],
   templateUrl: './page-about-me-nazari.component.html',
   styleUrl: './page-about-me-nazari.component.scss'
 })
