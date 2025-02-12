@@ -33,6 +33,11 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+.arrow {
+  font-size: 30px;
+  color: #ff5722;
+  margin-top: 10px;
+}
 .custom-btn {
   background-color: $secondary ;
   color: black;
