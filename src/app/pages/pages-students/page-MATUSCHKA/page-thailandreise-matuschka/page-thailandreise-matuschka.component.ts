@@ -1,8 +1,12 @@
 import { Component } from '@angular/core';
+import {RouterLink, RouterLinkActive} from "@angular/router";
 
 @Component({
   selector: 'app-page-thailandreise-matuschka',
-  imports: [],
+    imports: [
+        RouterLink,
+        RouterLinkActive
+    ],
   templateUrl: './page-thailandreise-matuschka.component.html',
   styleUrl: './page-thailandreise-matuschka.component.scss'
 })
