@@ -15,8 +15,9 @@ import {PageAboutMeSinghComponent} from './pages/pages-students/page-about-me-si
 import {PageAboutMeNazariComponent} from './pages/pages-students/page-NAZARI/page-about-me-nazari/page-about-me-nazari.component';
 import { SchoeffmannComponent } from './pages/pages-students/pages-schoeffmann/schoeffmann.component';
 import { MeineReisenComponent } from './pages/pages-students/pages-schoeffmann/meine-reisen/meine-reisen.component';
-import {PageAboutMeVIRKComponent} from './pages/pages-students/page-about-me-virk/page-about-me-virk.component';
+import {PageAboutMeVIRKComponent} from './pages/pages-students/pages-VIRK/page-about-me-virk/page-about-me-virk.component';
 import {PageAboutBeckerComponent} from './pages/pages-students/page-BECKER/page-about-me-becker/page-about-becker.component';
+import {PageAboutMeineReisenBeckerComponent} from './pages/pages-students/page-BECKER/page-about-meine-reisen-becker/page-about-meine-reisen-becker.component';
 import {PageMyTravelsSenjicComponent} from './pages/pages-students/page-SENJIC/page-my-travels-senjic/page-my-travels-senjic.component';
 import {PageStadienbesucheMatuschkaComponent} from './pages/pages-students/page-MATUSCHKA/page-stadienbesuche-matuschka/page-stadienbesuche-matuschka.component';
 import {PageMyFutureSenjicComponent} from './pages/pages-students/page-SENJIC/page-my-future-senjic/page-my-future-senjic.component';
@@ -34,9 +35,7 @@ import {PageAboutMeSpelitzComponent} from './pages/pages-students/pages-SPELITZ/
 import {PageMeineReisenMatuschkaComponent} from './pages/pages-students/page-MATUSCHKA/page-meine-reisen-matuschka/page-meine-reisen-matuschka.component';
 import {ProjekteComponent} from './pages/pages-students/pages-schoeffmann/projekte/projekte.component';
 import {HobbysComponent} from './pages/pages-students/pages-schoeffmann/hobbys/hobbys.component';
-import {
-  PageAboutMeineReisenBeckerComponent
-} from './pages/pages-students/page-BECKER/page-about-meine-reisen-becker/page-about-meine-reisen-becker.component';
+
 import {
   PageThailandreiseMatuschkaComponent
 } from './pages/pages-students/page-MATUSCHKA/page-thailandreise-matuschka/page-thailandreise-matuschka.component';
