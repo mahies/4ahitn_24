@@ -1,0 +1,26 @@
+.profil-container {
+  display: flex;
+  align-items: center;
+  gap: 50px; // Abstand zwischen Bild und Text
+}
+
+.profilbild {
+  width: 50px !important;
+  height: 50px !important;
+  max-width: 50px !important;
+  max-height: 50px !important;
+  display: block !important;
+  object-fit: cover;
+}
+
+.profil-text {
+  flex: 1; // Nimmt den restlichen Platz ein
+}
+
+.container-fluid {
+  background-color: #add8e6; // Pastellblauer Hintergrund
+  min-height: 100vh; // Damit es die ganze Seite füllt
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

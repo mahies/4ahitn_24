@@ -1,14 +1,14 @@
 <div class="container-fluid m-5">
-  <div class="card" style="width: 18rem;">
-    <img src="assets-BECKER/BildK.jpeg" class="bild-mitte" alt="Profilbild">
-    <div class="card-body">
-      <h5 class="card-title">{{ me.firstname }} {{ me.surname }}</h5>
-      <p class="card-text">Geburtsdatum: {{me.birthday | date:'dd.MM.yyyy'}}</p>
-      <p class="card-text">Email: {{me.email}}</p>
-      <p class="card-text">Abteilung: {{me.department}}</p>
-      <p class="card-text">GitHub: {{me.github_nickname}}</p>
-      <p class="card-text">Wohnort: {{me.city}}</p>
-      <p class="card-text"> {{me.message}}</p>
+  <div class="profile-container" style="width: 18rem;">
+    <img src="assets-BECKER/BildK.jpeg" class="profilbild" alt="Profilbild">
+    <div class="class-text">
+      <h5>{{ me.firstname }} {{ me.surname }}</h5>
+      <p>Geburtsdatum: {{me.birthday | date:'dd.MM.yyyy'}}</p>
+      <p>Email: {{me.email}}</p>
+      <p>Abteilung: {{me.department}}</p>
+      <p>GitHub: {{me.github_nickname}}</p>
+      <p>Wohnort: {{me.city}}</p>
+      <p> {{me.message}}</p>
       <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Zurück</a>
       <a routerLink="/meineReisenBecker" routerLinkActive="active" class="btn btn-primary">Meine Reisen</a>
 

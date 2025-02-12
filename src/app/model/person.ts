@@ -166,7 +166,7 @@ export  const BECKER : Person = {
   zip_code: 1220,
   city: "Wien",
   message: "\„Was wäre das Leben, hätten wir nicht den Mut, etwas zu riskieren?\" \n(Vincent van Gogh)",
-  routerLink: "/aboutMeBECKER"
+  routerLink: "/aboutMeBECKER",
 }
 
 export const ibrahim : Person = {
