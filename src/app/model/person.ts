@@ -37,8 +37,8 @@ export  const NAZARI : Person = {
   github_nickname: "ninjanazari",
   zip_code: 2230,
   city: "Gänserndorf",
-  message: "\„4 gewinnt\" \n(Walt Disney)",
-  routerLink: "/page_demo"
+  message: "\„4 gewinnt\" ",
+  routerLink: "/aboutMeNAZARI"
 };
 
 export const SCHOEFFMANN : Person = {
@@ -166,7 +166,7 @@ export  const BECKER : Person = {
   zip_code: 1220,
   city: "Wien",
   message: "\„Was wäre das Leben, hätten wir nicht den Mut, etwas zu riskieren?\" \n(Vincent van Gogh)",
-  routerLink: "/aboutMeBECKER"
+  routerLink: "/aboutMeBECKER",
 }
 
 export const ibrahim : Person = {
@@ -225,4 +225,4 @@ export  const SPELITZ : Person = {
 };
 
 //list all students
-export const STUDENTS:Person[] = [ibrahim, virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,senjic,MATUSCHKA,MILLICH, SPELITZ];
+export const STUDENTS:Person[] = [ibrahim, virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,senjic,MATUSCHKA,MILLICH, SPELITZ, NAZARI];
