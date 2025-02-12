@@ -10,6 +10,14 @@ import {NavbarSchoeffmannComponent} from '../navbar-schoeffmann/navbar-schoeffma
   styleUrl: './hobbys.component.scss'
 })
 export class HobbysComponent {
+  feuerimg: string = "assets-SCHOEFFMANN/Bilder/Hobbys/Feuer.jpg";
+  serverimg: string = "assets-SCHOEFFMANN/Bilder/Hobbys/Server.jpg";
+  eine380kVLeitungimg: string = "assets-SCHOEFFMANN/Bilder/Hobbys/380kV-Leitung.jpg";
+  lifepoakkuimg: string = "assets-SCHOEFFMANN/Bilder/Hobbys/Vorsicht-Starkstrom.jpg";
+  eisabfallimg: string = "assets-SCHOEFFMANN/Bilder/Hobbys/Eisabfall.jpg";
+  kraftwerkduernrohrimg: string = "assets-SCHOEFFMANN/Bilder/Hobbys/Kraftwerk-Dürnrohr.jpg";
+  grashuepferimg: string = "assets-SCHOEFFMANN/Bilder/Hobbys/Grashüpfer.jpg";
+  kettcarimg: string = "assets-SCHOEFFMANN/Bilder/Hobbys/Kettcar.jpg";
 
 }
 
