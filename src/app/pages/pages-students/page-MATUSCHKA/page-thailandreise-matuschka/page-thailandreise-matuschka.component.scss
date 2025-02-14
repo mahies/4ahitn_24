@@ -62,6 +62,11 @@ body {
   align-items: center;
   margin: 10px 0;
 }
+.image-gallery {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .custom-btn {
   background-color: $secondary ;
   color: black;
