@@ -1,0 +1,43 @@
+body {
+  background-color: #656565;
+  font-family: 'Roboto', sans-serif;
+}
+
+.vision-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  background-color: #cccccc;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.vision-text p {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.quote {
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+.vision-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.home-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: #007BFF;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
