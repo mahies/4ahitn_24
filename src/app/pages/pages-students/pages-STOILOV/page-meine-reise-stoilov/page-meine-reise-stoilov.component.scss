@@ -1,0 +1,89 @@
+// Allgemeine Stile
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+// Header-Styling
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #1E90FF;
+  color: white;
+}
+
+// H2-Styling
+h2 {
+  color: #1E90FF;
+  text-align: center;
+}
+
+.ortschaft {
+  color: #787878;
+  font-family: "Arial";
+  font-style: italic;
+}
+
+.back {
+  color: #787878;
+}
+
+// Reisebericht-Styling
+.reiseberichte {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.reise {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 820px;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reise img {
+  display: block;
+  width: 800px;
+  height: 600px;
+  border-radius: 15px;
+  margin: 10px auto;
+}
+
+.bewertung {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+// Text-Styling
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+// Button-Styling
+.home-button {
+  display: block;
+  width: fit-content;
+  margin: 30px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #1E90FF;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  text-align: center;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #1565C0;
+  }
+}
