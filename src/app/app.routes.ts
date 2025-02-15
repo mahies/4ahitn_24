@@ -39,6 +39,15 @@ import {HobbysComponent} from './pages/pages-students/pages-schoeffmann/hobbys/h
 import {
   PageThailandreiseMatuschkaComponent
 } from './pages/pages-students/page-MATUSCHKA/page-thailandreise-matuschka/page-thailandreise-matuschka.component';
+import {
+  MeineReisenSpelitzComponent
+} from './pages/pages-students/pages-SPELITZ/meine-reisen-spelitz/meine-reisen-spelitz.component';
+import {
+  SportHistorieSpelitzComponent
+} from './pages/pages-students/pages-SPELITZ/sport-historie-spelitz/sport-historie-spelitz.component';
+import {
+  MeineHaustiereSpelitzComponent
+} from './pages/pages-students/pages-SPELITZ/meine-haustiere-spelitz/meine-haustiere-spelitz.component';
 
 export const routes: Routes = [
   {
@@ -183,6 +192,18 @@ export const routes: Routes = [
   {
     path: 'aboutMeSPELITZ',
     component: PageAboutMeSpelitzComponent
+  },
+  {
+    path: 'meinereisenSpelitz',
+    component: MeineReisenSpelitzComponent
+  },
+  {
+    path: 'sporthistorieSPELITZ',
+    component: SportHistorieSpelitzComponent
+  },
+  {
+    path: 'meinehaustiereSPELITZ',
+    component: MeineHaustiereSpelitzComponent
   }
 ];
 
