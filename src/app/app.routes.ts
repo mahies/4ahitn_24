@@ -198,11 +198,11 @@ export const routes: Routes = [
     component: MeineReisenSpelitzComponent
   },
   {
-    path: 'sporthistorieSPELITZ',
+    path: 'sporthistorieSpelitz',
     component: SportHistorieSpelitzComponent
   },
   {
-    path: 'meinehaustiereSPELITZ',
+    path: 'meinehaustiereSpelitz',
     component: MeineHaustiereSpelitzComponent
   }
 ];
