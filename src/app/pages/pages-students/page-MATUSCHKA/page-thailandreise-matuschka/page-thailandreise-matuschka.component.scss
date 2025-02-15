@@ -62,11 +62,18 @@ body {
   align-items: center;
   margin: 10px 0;
 }
-.image-gallery {
-  flex-direction: row;
-  flex-wrap: wrap;
+@media (max-width: 768px) {
+  .timeline {
+    flex-direction: column;
+  }
+  .arrow {
+    display: none;
+  }
+  .image-gallery {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
-
 .custom-btn {
   background-color: $secondary ;
   color: black;
