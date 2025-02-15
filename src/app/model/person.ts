@@ -213,7 +213,7 @@ export  const geihseder : Person = {
 export  const SPELITZ : Person = {
   surname: "Spelitz",
   firstname: "Fabian",
-  urlImage: "assets-SPELITZ/Disney.png",
+  urlImage: "assets-SPELITZ/spelitz_image.png",
   birthday: new Date("30-10-2006"),
   department: "ITEL Netzwerktechnik",
   email: "210270@studierende.htl-donaustadt.at",
