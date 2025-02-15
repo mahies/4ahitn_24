@@ -1,0 +1,15 @@
+<main>
+  <div class="container centered textSize">
+    <h3>{{ me.firstname }} {{ me.surname.toLocaleUpperCase() }}</h3>
+    <p>{{ me.birthday | date:'dd.MM.yyyy' }}</p>
+    <img [src]="me.urlImage" alt="Profilbild von {{ me.firstname }}" class="profile-image">
+    <p>
+      <b>Abteilung:</b> {{ me.department }}<br>
+      <b>Email-Adresse: </b> <a [href]="'mailto:' + me.email">{{ me.email }}</a><br>
+      <b>Github Account: </b> <a [href]="'https://github.com/' + me.github_nickname" target="_blank">{{ me.github_nickname }}</a><br>
+      <b>Wohnort: </b> {{ me.zip_code }} {{ me.city }}<br>
+      <i>{{ me.message }}</i><br>
+    </p>
+    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Take me home</a>
+  </div>
+</main>

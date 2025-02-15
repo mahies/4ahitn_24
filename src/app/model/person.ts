@@ -214,13 +214,13 @@ export  const SPELITZ : Person = {
   surname: "Spelitz",
   firstname: "Fabian",
   urlImage: "assets-SPELITZ/spelitz_image.png",
-  birthday: new Date("30-10-2006"),
+  birthday: new Date("2006-10-30"),
   department: "ITEL Netzwerktechnik",
   email: "210270@studierende.htl-donaustadt.at",
   github_nickname: "Sxlyyy",
   zip_code: 1220,
   city: "Wien",
-  message: "\"Der frühe Wurm wurde vom Vogel gepackt, Zitat halbiert, Hose Gänse, Schönen Tag Champion, Attacke! - Tanyo Tanev\"",
+  message: "\"Der frühe Wurm wurde vom Vogel gepackt\"",
   routerLink: "/aboutMeSPELITZ",
 };
 
