@@ -26,7 +26,7 @@ body {
   height: 520px;
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
   text-align: center;
   position: relative;
   display: flex;
@@ -43,12 +43,13 @@ body {
 .title {
   font-size: 1.1em;
   font-weight: bold;
-  color: #ffffff;
+  color: #004d40
+;
 }
 
 .description {
   font-size: 0.9em;
-  color: #ffffff;
+  color: #2e7d32;
 }
 
 .arrow {
