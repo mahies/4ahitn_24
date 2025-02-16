@@ -54,6 +54,15 @@ import {
 import {
   PageMeineAusbildungMillichComponent
 } from './pages/pages-students/pages-MILLICH/page-meine-ausbildung-millich/page-meine-ausbildung-millich.component';
+import {
+  PageReisenKrapfComponent
+} from './pages/pages-students/pages-KRAPF/page-reisen-krapf/page-reisen-krapf.component';
+import {
+  PageReisezieleKrapfComponent
+} from './pages/pages-students/pages-KRAPF/page-reiseziele-krapf/page-reiseziele-krapf.component';
+import {
+  PageHobbiesKrapfComponent
+} from './pages/pages-students/pages-KRAPF/page-hobbies-krapf/page-hobbies-krapf.component';
 
 export const routes: Routes = [
   {
@@ -79,6 +88,18 @@ export const routes: Routes = [
   {
     path: 'aboutMeKrapf',
     component: PageAboutMeKRAPFComponent
+  },
+  {
+    path: 'reisenKrapf',
+    component: PageReisenKrapfComponent
+  },
+  {
+    path: 'reisezieleKrapf',
+    component: PageReisezieleKrapfComponent
+  },
+  {
+    path: 'hobbiesKrapf',
+    component: PageHobbiesKrapfComponent
   },
   {
     path: 'about_meMILLICH',

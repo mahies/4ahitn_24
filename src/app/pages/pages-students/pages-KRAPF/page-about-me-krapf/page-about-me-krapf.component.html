@@ -7,8 +7,11 @@
     <p>Github: <a href="https://github.com/TRJulian">{{me.github_nickname}}</a></p>
     <p>Wohntort: {{ me.zip_code }} {{ me.city }}<br></p>
     <p>Schule: HTL Donaustadt</p>
-    <p> {{ me.department }}<br></p>
-    <p class="zitat"> "{{ me.message }}"</p>
+    <p>Abteilung: {{ me.department }}<br></p>
+    <p class="zitat">{{ me.message }}</p>
     <a routerLink="/home" routerLinkActive="active" class="btn">Startseite</a>
+    <a routerLink="/reisenKrapf" routerLinkActive="active" class="btn">Meine Reisen</a>
+    <a routerLink="/reisezieleKrapf" routerLinkActive="active" class="btn">Meine Reiseziele</a>
+    <a routerLink="/hobbiesKrapf" routerLinkActive="active" class="btn">Meine Hobbies</a>
   </div>
 </div>

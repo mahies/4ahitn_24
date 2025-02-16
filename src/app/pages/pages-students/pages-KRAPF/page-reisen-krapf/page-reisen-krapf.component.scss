@@ -15,6 +15,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .centered {
@@ -49,6 +50,13 @@
 }
 
 .image {
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.flagge {
+  width: 10%;
   border: 1px solid black;
   border-radius: 10px;
 }
