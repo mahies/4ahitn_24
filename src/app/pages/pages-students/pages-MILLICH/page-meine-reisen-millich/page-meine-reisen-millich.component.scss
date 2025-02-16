@@ -1,0 +1,36 @@
+.fullscreen {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.pin {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #303F9F;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.italien{
+  position: absolute;
+  top: 24%;
+  left: 53%;
+}
+.frankreich{
+  position: absolute;
+  top: 21%;
+  left: 50.5%;
+}
+.spanien{
+  position: absolute;
+  top: 26%;
+  left: 48.5%;
+}
+.griechenland{
+  position: absolute;
+  top: 26%;
+  left: 55.8%;
+}
