@@ -80,7 +80,7 @@ export  const KRAPF : Person = {
   zip_code: 1220,
   city: "Wien",
   message: "\„A smooth sea never made a skilled sailor.\" \n(Franklin D. Roosevelt)",
-  routerLink:"/aboutMeKRAPF"
+  routerLink:"/aboutMeKrapf"
 };
 
 export const MILLICH : Person = {
@@ -88,7 +88,7 @@ export const MILLICH : Person = {
   firstname: "Alexander",
   urlImage: "assets-MILLICH/Bild_MILLICH.jpg",
   birthday: new Date("2007-09-29"),
-  department: "ITEL Netzwerktechnik",
+  department: "IT Netzwerktechnik",
   email: "210027@studierende.htl-donaustadt.at",
   github_nickname: "Askaloor",
   zip_code: 1220,
