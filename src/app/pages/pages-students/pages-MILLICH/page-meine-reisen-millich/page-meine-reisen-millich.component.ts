@@ -3,7 +3,10 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
 
 @Component({
   selector: 'app-page-meine-reisen-millich',
-  imports: [],
+  imports: [
+    RouterLink,
+    RouterLinkActive
+  ],
   templateUrl: './page-meine-reisen-millich.component.html',
   styleUrl: './page-meine-reisen-millich.component.scss'
 })
