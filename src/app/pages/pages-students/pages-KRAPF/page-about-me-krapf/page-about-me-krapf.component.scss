@@ -1,9 +1,23 @@
 .container {
-  min-height: 100vh;
+  width: 100%;
+  min-height: 45rem;
+  min-width: 50rem;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  border: 1px solid black;
+  background-color: #80ffd4;
+  border-radius: 3rem;
+}
+
+.anchor {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .centered {
   text-align: center;
+  justify-content: center;
 }
 
 .textSize {
@@ -21,3 +35,8 @@
 .zitat {
   font-style: italic;
 }
+
+.inline {
+  display: inline;
+}
+
