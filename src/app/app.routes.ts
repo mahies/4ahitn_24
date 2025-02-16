@@ -48,6 +48,9 @@ import {
 import {
   MeineHaustiereSpelitzComponent
 } from './pages/pages-students/pages-SPELITZ/meine-haustiere-spelitz/meine-haustiere-spelitz.component';
+import {
+  PageMeineReisenMILLICHComponent
+} from './pages/pages-students/pages-MILLICH/page-meine-reisen-millich/page-meine-reisen-millich.component';
 
 export const routes: Routes = [
   {
@@ -77,6 +80,10 @@ export const routes: Routes = [
   {
     path: 'about_meMILLICH',
     component: PageAboutMeMILLICHComponent
+  },
+  {
+    path: 'meineReisenMillich',
+    component: PageMeineReisenMILLICHComponent
   },
   {
     path: 'aboutMeBECKER',
