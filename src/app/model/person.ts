@@ -69,6 +69,20 @@ export  const KLARIC : Person = {
   routerLink:"/aboutMeKLARIC"
 };
 
+export  const KRAPF : Person = {
+  surname: "KRAPF",
+  firstname: "Julian",
+  urlImage: "assets-KRAPF/Krapf.jpg",
+  birthday: new Date("2006-12-06"),
+  department: "ITEL Netzwerktechnik",
+  email: "210008@studierende.htl-donaustadt.at",
+  github_nickname: "TRJulian",
+  zip_code: 1220,
+  city: "Wien",
+  message: "\„A smooth sea never made a skilled sailor.\" \n(Franklin D. Roosevelt)",
+  routerLink:"/aboutMeKRAPF"
+};
+
 export const MILLICH : Person = {
   surname: "Millich",
   firstname: "Alexander",
@@ -225,4 +239,4 @@ export  const SPELITZ : Person = {
 };
 
 //list all students
-export const STUDENTS:Person[] = [ibrahim, virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,senjic,MATUSCHKA,MILLICH, SPELITZ, NAZARI];
+export const STUDENTS:Person[] = [ibrahim, virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,KRAPF,senjic,MATUSCHKA,MILLICH, SPELITZ, NAZARI];
