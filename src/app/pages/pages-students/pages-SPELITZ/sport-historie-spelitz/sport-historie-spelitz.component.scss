@@ -32,9 +32,13 @@ h1 {
   font-weight: bold;
   color: #3355ff;
 }
+.nohighlight {
+  font-weight: bold;
+  color: #ff3333;
+}
 .critical {
   font-weight: bold;
-  color: red;
+  color: #ff6a00;
 }
 .sport-image {
   width: 100%;
@@ -42,4 +46,13 @@ h1 {
   display: block;
   margin: 10px auto;
   border-radius: 8px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
