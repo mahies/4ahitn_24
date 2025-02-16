@@ -1,9 +1,11 @@
-<h1>{{"Über Mich"}}</h1>
-<img src="{{me.urlImage}}">
-<p>
-  Name: {{me.firstname}} {{me.surname}}<br>
-  Geboren am {{me.birthday}}<br>
-  Wohnt in {{me.zip_code}} {{me.city}}<br>
-  Besucht derzeit die HTL Donaustadt mit Schwerpunkt {{me.department}}.<br>
-
-</p>
+<div class="container textFont textSize centered">
+  <img src="{{me.urlImage}}">
+  <p class="name"> {{ me.firstname }} {{ me.surname }}<br></p>
+  <p>Geburtstag: {{ me.birthday | date:'dd MMMM yyyy' }}<br></p>
+  <p>E-Mail: {{me.email}}</p>
+  <p>Github: {{me.github_nickname}}</p>
+  <p>Wohntort: {{ me.zip_code }} {{ me.city }}<br></p>
+  <p>Schule: HTL Donaustadt</p>
+  <p> {{ me.department }}<br></p>
+  <p class="zitat"> "{{me.message}}"</p>
+</div>

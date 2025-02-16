@@ -77,7 +77,7 @@ export const routes: Routes = [
     component: Subpage2Component,
   },
   {
-    path: 'about_me_krapf',
+    path: 'aboutMeKrapf',
     component: PageAboutMeKRAPFComponent
   },
   {
