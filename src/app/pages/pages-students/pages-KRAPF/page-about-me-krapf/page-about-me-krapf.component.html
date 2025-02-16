@@ -1,6 +1,6 @@
 <div class="anchor">
   <div class="container textFont textSize centered">
-    <img src="{{me.urlImage}}">
+    <img class="image" src="{{me.urlImage}}">
     <p class="name"> {{ me.firstname }} {{ me.surname }}<br></p>
     <p>Geburtstag: {{ me.birthday | date:'dd MMMM yyyy' }}<br></p>
     <p>E-Mail: <a href="mailto:210008@htl-donaustadt.at">{{ me.email }}</a></p>
@@ -9,5 +9,6 @@
     <p>Schule: HTL Donaustadt</p>
     <p> {{ me.department }}<br></p>
     <p class="zitat"> "{{ me.message }}"</p>
+    <a routerLink="/home" routerLinkActive="active" class="btn">Startseite</a>
   </div>
 </div>
