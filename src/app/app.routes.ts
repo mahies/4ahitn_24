@@ -51,6 +51,9 @@ import {
 import {
   PageMeineReisenMILLICHComponent
 } from './pages/pages-students/pages-MILLICH/page-meine-reisen-millich/page-meine-reisen-millich.component';
+import {
+  PageMeineAusbildungMillichComponent
+} from './pages/pages-students/pages-MILLICH/page-meine-ausbildung-millich/page-meine-ausbildung-millich.component';
 
 export const routes: Routes = [
   {
@@ -85,6 +88,10 @@ export const routes: Routes = [
     path: 'meineReisenMillich',
     component: PageMeineReisenMILLICHComponent
   },
+  {
+    path: 'meineAusbildungMillich',
+    component: PageMeineAusbildungMillichComponent
+},
   {
     path: 'aboutMeBECKER',
     component: PageAboutBeckerComponent
