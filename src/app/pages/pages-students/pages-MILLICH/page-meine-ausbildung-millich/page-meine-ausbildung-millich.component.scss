@@ -3,11 +3,16 @@
   font-family: 'Verdana', sans-serif;
 }
 main{
-  background: #007BFF;
+  background: #007BAF;
   padding: 2rem;
 }
 .container{
   display : flex;
   gap: 20px;
   justify-content: center;
+}
+.centerbutton{
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
 }
