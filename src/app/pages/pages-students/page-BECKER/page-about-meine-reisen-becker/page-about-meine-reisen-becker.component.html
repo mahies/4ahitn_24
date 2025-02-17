@@ -2,10 +2,12 @@
   <h2>Meine besuchten Reiseziele</h2>
 
   <div class="destination-card" *ngFor="let destination of visitedDestinations">
-
-    <div class="destination-info">
+       <div class="destination-info">
       <h3>{{ destination.name }}</h3>
       <p>{{ destination.description }}</p>
+         <div class="destination-images">
+           <img *ngFor="let image of destination.images" [src]="image" alt="{{ destination.name }}" class="destination-image">
+         </div>
     </div>
   </div>
 </div>

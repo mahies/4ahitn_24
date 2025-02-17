@@ -5,39 +5,66 @@
 
 .destination-card {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   margin-bottom: 2rem;
+  padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 8px;
-  overflow: hidden;
   background-color: #f8f9fa;
 }
 
-.destination-image {
-  width: 250px;
-  height: 150px;
-  object-fit: cover;
-  border-right: 2px solid #ddd;
-}
-
 .destination-info {
-  padding: 1rem;
+  text-align: center;
 }
 
 .destination-info h3 {
   font-size: 1.5rem;
-  font-family: 'Bickley Script', cursive; /* Falls du eine andere Schrift für Überschrift willst */
-  color: #4682b4; /* Blauton */
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .destination-info p {
   font-size: 1rem;
-  font-family: 'Aptos', sans-serif; /* Textschrift */
   color: #555;
+  margin-bottom: 1rem;
 }
 
-/* Optional: Hover-Effekte für die Karten */
-.destination-card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.destination-images {
+  display: flex;
+  flex-wrap: wrap; /* Bilder können umgebrochen werden, wenn nötig */
+  justify-content: center; /* Verteile die Bilder gleichmäßig */
+  gap: 1rem; /* Abstand zwischen den Bildern */
+}
+
+.destination-image {
+  width: 80px;  /* Feste, kleine Breite */
+  height: 80px; /* Feste, kleine Höhe */
+  object-fit: cover; /* Sorgt dafür, dass das Bild den Container ausfüllt */
+  border-radius: 5px;
+}
+
+/* Wenn der Bildschirm größer als 768px ist, für Tablets und größere Geräte */
+@media (min-width: 768px) {
+  .destination-images {
+    justify-content: center; /* Mehr Abstand, falls gewünscht */
+  }
+
+  .destination-image {
+    width: 100px;  /* Etwas größere Bilder */
+    height: 100px;
+  }
+}
+
+/* Wenn der Bildschirm größer als 1024px ist (Desktops) */
+@media (min-width: 1024px) {
+  .destination-images {
+    justify-content: center; /* Drei Bilder nebeneinander */
+  }
+
+  .destination-image {
+    width: 300px;  /* Noch größere Bilder auf größeren Bildschirmen */
+    height: 300px;
+  }
 }
