@@ -69,7 +69,7 @@ export  const KLARIC : Person = {
   routerLink:"/aboutMeKLARIC"
 };
 
-export  const KRAPF : Person = {
+export const KRAPF : Person = {
   surname: "KRAPF",
   firstname: "Julian",
   urlImage: "assets-KRAPF/Krapf.jpg",

@@ -49,8 +49,15 @@ import {
   PageMyStadiumVisitsVirkComponent
 } from './pages/pages-students/pages-VIRK/page-my-stadium-visits-virk/page-my-stadium-visits-virk.component';
 import {
-  PageMyTravelsVirkComponent
-} from './pages/pages-students/pages-VIRK/page-my-travels-virk/page-my-travels-virk.component';
+  PageReisezieleKrapfComponent
+} from './pages/pages-students/pages-KRAPF/page-reiseziele-krapf/page-reiseziele-krapf.component';
+import {
+  PageHobbiesKrapfComponent
+} from './pages/pages-students/pages-KRAPF/page-hobbies-krapf/page-hobbies-krapf.component';
+import {
+  PageReisenKrapfComponent
+} from './pages/pages-students/pages-KRAPF/page-reisen-krapf/page-reisen-krapf.component';
+
 
 export const routes: Routes = [
   {
@@ -74,8 +81,20 @@ export const routes: Routes = [
     component: Subpage2Component,
   },
   {
-    path: 'about_me_krapf',
+    path: 'aboutMeKrapf',
     component: PageAboutMeKRAPFComponent
+  },
+  {
+    path: 'reisenKrapf',
+    component: PageReisenKrapfComponent
+  },
+  {
+    path: 'reisezieleKrapf',
+    component: PageReisezieleKrapfComponent
+  },
+  {
+    path: 'hobbiesKrapf',
+    component: PageHobbiesKrapfComponent
   },
   {
     path: 'about_meMILLICH',
@@ -150,10 +169,6 @@ export const routes: Routes = [
     component: PageAboutMeNazariComponent
   },
   {
-    path: 'meineReisen',
-    component: PageAboutMeineReisenComponent
-  },
-  {
     path: 'pages-schoeffmann',
     component: SchoeffmannComponent
   },
@@ -192,23 +207,6 @@ export const routes: Routes = [
     path: 'aboutMeVIRK',
     component: PageAboutMeVIRKComponent
   },
-
-  {
-    path: 'pageMyGoalsVIRK',
-    component: PageMyGoalsVirkComponent
-  },
-
-  {
-    path: 'pageMyStadiumVisitsVIRK',
-    component: PageMyStadiumVisitsVirkComponent
-  },
-
-  {
-    path: 'pageMyTravelsVIRK',
-    component: PageMyTravelsVirkComponent
-  },
-
-
   {
     path: 'reiseorte',
     component: ReiseorteComponent
@@ -216,6 +214,6 @@ export const routes: Routes = [
   {
     path: 'aboutMeSPELITZ',
     component: PageAboutMeSpelitzComponent
-  }
+  },
 ];
 
