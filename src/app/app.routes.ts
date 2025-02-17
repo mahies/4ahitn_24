@@ -4,6 +4,7 @@ import {PageHomeComponent} from './pages/page-home/page-home.component';
 import {PageAboutMeKRAPFComponent} from './pages/pages-students/pages-KRAPF/page-about-me-krapf/page-about-me-krapf.component';
 import {PageAboutMeMILLICHComponent} from './pages/pages-students/pages-MILLICH/page-about-me-millich/page-about-me-millich.component';
 import {PageAboutMeKLARICComponent} from './pages/pages-students/page-about-me-klaric/page-about-me-klaric.component';
+import {HobbiesComponent} from './pages/pages-students/pages-KLARIC/hobbies/hobbies.component';
 import {ReiseorteComponent} from './pages/pages-students/pages-KLARIC/reiseorte/reiseorte.component';
 import {PageAboutMeAljarrahComponent} from './pages/pages-students/page-about-me-aljarrah/page-about-me-aljarrah.component';
 import {PageAboutMeGEIHSEDERComponent} from './pages/pages-students/pages-GEIHSEDER/page-about-me-geihseder/page-about-me-geihseder.component';
@@ -149,6 +150,11 @@ export const routes: Routes = [
   {
     path: 'aboutMeKLARIC',
     component: PageAboutMeKLARICComponent
+  },
+  {
+    path: 'hobbies',
+    component: HobbiesComponent
+
   },
   {
     path: 'about_me_aljarrah',
@@ -298,5 +304,6 @@ export const routes: Routes = [
     path: 'sporthistorieSpelitz',
     component: SportHistorieSpelitzComponent
   }
+
 ];
 
