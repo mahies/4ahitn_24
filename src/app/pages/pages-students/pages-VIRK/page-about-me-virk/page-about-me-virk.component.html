@@ -9,7 +9,10 @@
 </head>
 
 <body>
+
+
 <div class="container">
+  <h1>Über Mich - Gurnoor Virk</h1>
   <img src="{{ me.urlImage }}" alt="Portrait">
 
   <div class="info">
@@ -49,9 +52,17 @@
     <span class="italic">{{ me.message }}</span>
   </div>
 
+
+
   <div class="button">
-    <button onclick="window.location.href='/'">Zurück zur Startseite</button>
+    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary custom-btn">Zurück zur Startseite</a>
+    <a routerLink="/pageMyTravelsVIRK" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Reisen</a>
+    <a routerLink="/pageMyGoalsVIRK" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Ziele</a>
+    <a routerLink="/pageMyStadiumVisitsVIRK" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Stadienbesuche</a>
   </div>
+
+
+
 </div>
 </body>
 
