@@ -51,6 +51,12 @@ import {
 import {
   PageMyTravelsVirkComponent
 } from './pages/pages-students/pages-VIRK/page-my-travels-virk/page-my-travels-virk.component';
+import {
+  PageMeineTraumreisezieleNazariComponent
+} from './pages/pages-students/page-NAZARI/page-meine-traumreiseziele-nazari/page-meine-traumreiseziele-nazari.component';
+import {
+  PageMeineKonzerteNazariComponent
+} from './pages/pages-students/page-NAZARI/page-meine-konzerte-nazari/page-meine-konzerte-nazari.component';
 
 export const routes: Routes = [
   {
@@ -152,6 +158,14 @@ export const routes: Routes = [
   {
     path: 'meineReisen',
     component: PageAboutMeineReisenComponent
+  },
+  {
+    path: 'meineTraumreiseziele',
+    component: PageMeineTraumreisezieleNazariComponent
+  },
+  {
+    path: 'meineKonzerte',
+    component: PageMeineKonzerteNazariComponent
   },
   {
     path: 'pages-schoeffmann',
