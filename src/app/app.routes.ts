@@ -51,6 +51,28 @@ import {
 import {
   PageMyTravelsVirkComponent
 } from './pages/pages-students/pages-VIRK/page-my-travels-virk/page-my-travels-virk.component';
+import {
+  PageMeineTraumreisezieleNazariComponent
+} from './pages/pages-students/page-NAZARI/page-meine-traumreiseziele-nazari/page-meine-traumreiseziele-nazari.component';
+import {
+  PageMeineKonzerteNazariComponent
+} from './pages/pages-students/page-NAZARI/page-meine-konzerte-nazari/page-meine-konzerte-nazari.component';
+import {
+  PageHobbiesKrapfComponent
+} from './pages/pages-students/pages-KRAPF/page-hobbies-krapf/page-hobbies-krapf.component';
+import {
+  PageReisenKrapfComponent
+} from './pages/pages-students/pages-KRAPF/page-reisen-krapf/page-reisen-krapf.component';
+import {
+  PageReisezieleKrapfComponent
+} from './pages/pages-students/pages-KRAPF/page-reiseziele-krapf/page-reiseziele-krapf.component';
+import {
+  MeineReisenGeihsederComponent
+} from './pages/pages-students/pages-GEIHSEDER/meine-reisen-geihseder/meine-reisen-geihseder.component';
+import {
+  MeineZieleGeihsederComponent
+} from './pages/pages-students/pages-GEIHSEDER/meine-ziele-geihseder/meine-ziele-geihseder.component';
+
 
 export const routes: Routes = [
   {
@@ -74,8 +96,20 @@ export const routes: Routes = [
     component: Subpage2Component,
   },
   {
-    path: 'about_me_krapf',
+    path: 'aboutMeKrapf',
     component: PageAboutMeKRAPFComponent
+  },
+  {
+    path: 'reisenKrapf',
+    component: PageReisenKrapfComponent
+  },
+  {
+    path: 'reisezieleKrapf',
+    component: PageReisezieleKrapfComponent
+  },
+  {
+    path: 'hobbiesKrapf',
+    component: PageHobbiesKrapfComponent
   },
   {
     path: 'about_meMILLICH',
@@ -100,6 +134,14 @@ export const routes: Routes = [
   {
     path: 'aboutMeGEIHSEDER',
     component: PageAboutMeGEIHSEDERComponent
+  },
+  {
+    path: 'meine-reisen-geihseder',
+    component: MeineReisenGeihsederComponent
+  },
+  {
+    path: 'meine-ziele-geihseder',
+    component: MeineZieleGeihsederComponent
   },
   {
     path: 'aboutMeYOHANNA',

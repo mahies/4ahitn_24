@@ -1,1 +1,94 @@
-<p>meine-ziele-geihseder works!</p>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meine Ziele</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #add8e6;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 80%;
+      max-width: 900px;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .goal-section {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: #f8f9fa;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .goal-section img {
+      width: 80px;
+      height: 80px;
+      margin-right: 15px;
+      border-radius: 10px;
+    }
+    .back-button {
+      display: block;
+      margin: 20px auto 0;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      background-color: #007BFF;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .back-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>Meine Ziele</h1>
+
+  <div class="goal-section">
+    <img src="assets-GEIHSEDER/sport.jpg" alt="">
+    <div>
+      <h2>Persönliche Ziele</h2>
+      <p>Mein persönliches Ziel ist, mehr Sport zu machen, um fit zu bleiben.</p>
+    </div>
+  </div>
+
+  <div class="goal-section">
+    <img src="assets-GEIHSEDER/Netzwerktechnik.jpg">
+    <div>
+      <h2>Berufliche Ziele</h2>
+      <p>Mein berufliches Ziel ist es, nach der Schule Netzwerktechniker zu werden.</p>
+    </div>
+  </div>
+
+  <div class="goal-section">
+    <img src="assets-GEIHSEDER/Haus.jpg" alt="">
+    <div>
+      <h2>Langfristige Ziele</h2>
+      <p>Zu meinen langfristigen Zielen gehört es, ein eigenes Haus zu kaufen und eine Familie zu gründen.</p>
+    </div>
+  </div>
+
+  <button class="back-button" onclick="history.back()">Zurück</button>
+</div>
+</body>
+</html>

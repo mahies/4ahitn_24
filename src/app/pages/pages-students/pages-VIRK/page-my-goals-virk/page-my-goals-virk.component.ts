@@ -1,8 +1,14 @@
 import { Component } from '@angular/core';
+import {RouterLink, RouterLinkActive} from '@angular/router';
+
 
 @Component({
   selector: 'app-page-my-goals-virk',
-  imports: [],
+  imports: [
+    RouterLink,
+    RouterLinkActive,
+
+  ],
   templateUrl: './page-my-goals-virk.component.html',
   styleUrl: './page-my-goals-virk.component.scss'
 })
