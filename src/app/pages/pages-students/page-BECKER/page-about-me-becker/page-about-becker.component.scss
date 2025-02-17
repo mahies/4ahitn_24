@@ -21,15 +21,16 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Schatten für besseren Look */
   display: flex;
   align-items: center;
-  gap: 1.5rem;
-  max-width: 500px; /* Begrenzte Breite */
+  gap: 0.5rem;
+  max-width: 1200px; /* Begrenzte Breite */
   width: 100%;
+  box-sizing: border-box;
   text-align: center;
 }
 
 .profilbild {
-  width: 150px;
-  height: 200px;
+  width: 200px;
+  height:300px;
   object-fit: cover;
   border-radius: 10%; /* Runde Form */
 }
@@ -43,9 +44,9 @@
   .profile-container {
     flex-direction: column; /* Bild über dem Text */
     padding: 2rem;
+    width: 80%;
   }
-
-  .container-fluid {
-    padding: 1rem;
+  .btn {
+    margin: 1.5rem;
   }
 }
