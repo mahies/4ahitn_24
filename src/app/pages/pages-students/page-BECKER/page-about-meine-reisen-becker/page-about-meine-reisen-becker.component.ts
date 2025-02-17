@@ -9,5 +9,19 @@ import { CommonModule } from '@angular/common';
   styleUrl: './page-about-meine-reisen-becker.component.scss'
 })
 export class PageAboutMeineReisenBeckerComponent {
-
+  visitedDestinations = [
+    {
+      name: 'St. Johann, Salzburg',
+      description: ''
+    },
+    {
+      name: 'Polen',
+      description: ''
+    },
+    {
+      name: 'Nassfeld, Kärnten',
+      description: ''
+    }
+    // Füge hier weitere Reiseziele hinzu
+  ];
 }
