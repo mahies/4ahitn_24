@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Aptos:wght@400&family=Bickley+Script&display=swap');
+
+body {
+  font-family: 'Aptos', sans-serif;
+  font-weight: 400;
+}
+
+h5 {
+  font-family: 'Bickley Script', cursive;
+  font-weight: bold;
+}
+
+.profil-text p {
+  font-style: italic;
+}
 .container-fluid {
   background-color: #b0e0e6; /* Pastellblauer Hintergrund */
   min-height: 100vh; /* Volle Höhe */
