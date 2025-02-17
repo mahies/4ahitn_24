@@ -1,54 +1,81 @@
 @import "../pages-KRAPF_variables";
 
-.container {
-  width: 100%;
-  min-height: 45rem;
-  min-width: 50rem;
-  padding: 1.5rem;
-  margin: 1.5rem;
-  border: 1px solid black;
-  background-color: $primary;
-  border-radius: 3rem;
-}
-
 .anchor {
-  width: 100%;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #303030;
+  width: 100vw;
+  min-height: 100vh;
 }
 
-.centered {
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #202020;
+  width: 45%;
+  min-height: 50vh;
+  border: 5px solid white;
+  border-radius: 50px;
+  padding: 3.5em;
+  margin-top: 3rem;
+}
+
+.parallel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  color: white;
   text-align: center;
-  justify-content: center;
-}
-
-.textSize {
-  font-size: 1.4rem;
-}
-
-.textFont {
-  font-family: 'Oxygen', Verdana, sans-serif;
-}
-
-.name {
-  font-size: 3rem;
-}
-
-.zitat {
-  font-style: italic;
-}
-
-.inline {
-  display: inline;
+  font-size: 1em;
+  font-family: Oxygen, Geneva, Tahoma, sans-serif;
 }
 
 .btn {
-  background-color: $secondary;
-  color: black;
-  border: 1px solid black;
+  color: white;
+  border: 2px solid white;
+}
+
+.btn:hover {
+  background-color: rebeccapurple;
+  border: 2px solid white;
+  transform: scale(1.1);
+  transition: transform 0.15s ease-in-out;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 3.5em;
 }
 
 .image {
-  border: 1px solid black;
-  border-radius: 10px;
+  border: 2px solid white;
+  border-radius: 25px;
+  width: 25%;
+  margin-top: -3px;
+}
+
+.container {
+}
+
+hr {
+  border: 1px solid grey;
+  margin: 2px 0;
+}
+
+p {
+  margin:0;
+}
+
+.footer {
+  margin-top: 1em;
+  margin-bottom: -1em;
+}
+
+.quote {
+  font-style: italic;
 }

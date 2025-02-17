@@ -1,17 +1,46 @@
 <div class="anchor">
-  <div class="container textFont textSize centered">
-    <img class="image" src="{{me.urlImage}}">
-    <p class="name"> {{ me.firstname }} {{ me.surname }}<br></p>
-    <p>Geburtstag: {{ me.birthday | date:'dd MMMM yyyy' }}<br></p>
-    <p>E-Mail: <a href="mailto:210008@htl-donaustadt.at">{{ me.email }}</a></p>
-    <p>Github: <a href="https://github.com/TRJulian">{{me.github_nickname}}</a></p>
-    <p>Wohntort: {{ me.zip_code }} {{ me.city }}<br></p>
-    <p>Schule: HTL Donaustadt</p>
-    <p>Abteilung: {{ me.department }}<br></p>
-    <p class="zitat">{{ me.message }}</p>
-    <a routerLink="/home" routerLinkActive="active" class="btn">Startseite</a> |
-    <a routerLink="/reisenKrapf" routerLinkActive="active" class="btn">Meine Reisen</a> |
-    <a routerLink="/reisezieleKrapf" routerLinkActive="active" class="btn">Meine Reiseziele</a> |
-    <a routerLink="/hobbiesKrapf" routerLinkActive="active" class="btn">Meine Hobbies</a>
+  <div class="box text">
+    <div class="parallel">
+      <img class="image" src="{{me.urlImage}}">
+      <p class="name"> {{ me.firstname }} {{ me.surname }}<br></p>
+    </div>
+    <hr>
+    <div class="parallel">
+      <p><strong>Geburtstag:</strong></p>
+      <p>{{ me.birthday | date:'dd MMMM yyyy' }}<br></p>
+    </div>
+    <hr>
+    <div class="parallel">
+      <p><strong>E-Mail:</strong></p>
+      <p><a href="mailto:210008@htl-donaustadt.at">{{ me.email }}</a></p>
+    </div>
+    <hr>
+    <div class="parallel">
+      <p><strong>Github:</strong></p>
+      <p><a href="https://github.com/TRJulian">{{ me.github_nickname }}</a></p>
+    </div>
+    <hr>
+    <div class="parallel">
+      <p><strong>Wohntort:</strong></p>
+      <p> {{ me.zip_code }} {{ me.city }}<br></p>
+    </div>
+    <hr>
+    <div class="parallel">
+      <p><strong>Schule:</strong></p>
+      <p>HTL Donaustadt</p>
+    </div>
+    <hr>
+    <div class="parallel">
+      <p><strong>Abteilung:</strong></p>
+      <p> {{ me.department }}<br></p>
+    </div>
+    <hr>
+    <p class="quote">{{ me.message }}</p>
+    <div class="footer parallel">
+      <a routerLink="/home" routerLinkActive="active" class="btn">Startseite</a> |
+      <a routerLink="/reisenKrapf" routerLinkActive="active" class="btn">Meine Reisen</a> |
+      <a routerLink="/reisezieleKrapf" routerLinkActive="active" class="btn">Meine Reiseziele</a> |
+      <a routerLink="/hobbiesKrapf" routerLinkActive="active" class="btn">Meine Hobbies</a>
+    </div>
   </div>
 </div>
