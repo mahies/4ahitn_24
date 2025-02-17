@@ -40,29 +40,8 @@ import {
   PageThailandreiseMatuschkaComponent
 } from './pages/pages-students/page-MATUSCHKA/page-thailandreise-matuschka/page-thailandreise-matuschka.component';
 import {
-  MeineReisenSpelitzComponent
-} from './pages/pages-students/pages-SPELITZ/meine-reisen-spelitz/meine-reisen-spelitz.component';
-import {
-  SportHistorieSpelitzComponent
-} from './pages/pages-students/pages-SPELITZ/sport-historie-spelitz/sport-historie-spelitz.component';
-import {
-  MeineHaustiereSpelitzComponent
-} from './pages/pages-students/pages-SPELITZ/meine-haustiere-spelitz/meine-haustiere-spelitz.component';
-import {
-  PageMeineReisenMILLICHComponent
-} from './pages/pages-students/pages-MILLICH/page-meine-reisen-millich/page-meine-reisen-millich.component';
-import {
-  PageMeineAusbildungMillichComponent
-} from './pages/pages-students/pages-MILLICH/page-meine-ausbildung-millich/page-meine-ausbildung-millich.component';
-import {
-  PageReisenKrapfComponent
-} from './pages/pages-students/pages-KRAPF/page-reisen-krapf/page-reisen-krapf.component';
-import {
-  PageReisezieleKrapfComponent
-} from './pages/pages-students/pages-KRAPF/page-reiseziele-krapf/page-reiseziele-krapf.component';
-import {
-  PageHobbiesKrapfComponent
-} from './pages/pages-students/pages-KRAPF/page-hobbies-krapf/page-hobbies-krapf.component';
+  PageAboutMeineReisenComponent
+} from './pages/pages-students/page-NAZARI/page-meine-reisen-nazari/page-about-meine-reisen.component';
 
 export const routes: Routes = [
   {
@@ -86,33 +65,13 @@ export const routes: Routes = [
     component: Subpage2Component,
   },
   {
-    path: 'aboutMeKrapf',
+    path: 'about_me_krapf',
     component: PageAboutMeKRAPFComponent
-  },
-  {
-    path: 'reisenKrapf',
-    component: PageReisenKrapfComponent
-  },
-  {
-    path: 'reisezieleKrapf',
-    component: PageReisezieleKrapfComponent
-  },
-  {
-    path: 'hobbiesKrapf',
-    component: PageHobbiesKrapfComponent
   },
   {
     path: 'about_meMILLICH',
     component: PageAboutMeMILLICHComponent
   },
-  {
-    path: 'meineReisenMillich',
-    component: PageMeineReisenMILLICHComponent
-  },
-  {
-    path: 'meineAusbildungMillich',
-    component: PageMeineAusbildungMillichComponent
-},
   {
     path: 'aboutMeBECKER',
     component: PageAboutBeckerComponent
@@ -182,6 +141,10 @@ export const routes: Routes = [
     component: PageAboutMeNazariComponent
   },
   {
+    path: 'meineReisen',
+    component: PageAboutMeineReisenComponent
+  },
+  {
     path: 'pages-schoeffmann',
     component: SchoeffmannComponent
   },
@@ -227,18 +190,6 @@ export const routes: Routes = [
   {
     path: 'aboutMeSPELITZ',
     component: PageAboutMeSpelitzComponent
-  },
-  {
-    path: 'meinereisenSpelitz',
-    component: MeineReisenSpelitzComponent
-  },
-  {
-    path: 'sporthistorieSpelitz',
-    component: SportHistorieSpelitzComponent
-  },
-  {
-    path: 'meinehaustiereSpelitz',
-    component: MeineHaustiereSpelitzComponent
   }
 ];
 

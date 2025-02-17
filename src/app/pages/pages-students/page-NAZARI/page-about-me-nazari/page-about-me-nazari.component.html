@@ -5,6 +5,98 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Über Mich - Nina Nazari</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 800px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+      background: linear-gradient(135deg, #FFB6C1, #FFC0CB);
+      padding: 20px;
+      border-radius: 10px;
+      color: white;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .header h6 {
+      margin: 10px 0;
+    }
+
+    .header img {
+      width: 150px;
+      height: auto;
+      border-radius: 50%;
+      border: 2px solid white;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      margin-top: 15px;
+    }
+
+    .info {
+      padding: 20px;
+      background: #f8f8f8;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .info p {
+      margin: 10px 0;
+      font-size: 1.1em;
+    }
+
+    .info strong {
+      color: #FFB6C1;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px 5px;
+      padding: 10px 15px;
+      font-size: 1em;
+      text-decoration: none;
+      border-radius: 5px;
+      color: white;
+      background-color: #FFB6C1; /* Helles Pastellblau */
+    }
+
+    .btn:hover {
+      opacity: 0.8;
+    }
+
+    @media (max-width: 600px) {
+      .header h1 {
+        font-size: 2em;
+      }
+
+      .info p {
+        font-size: 1em;
+      }
+
+      .btn {
+        font-size: 0.9em;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -12,26 +104,24 @@
   <div class="header">
     <h1>Nina Nazari</h1>
     <h6>Willkommen zu meiner Webseite über mich!</h6>
-    <img [src] = me.urlImage alt="Portrait">
+    <img src="me.urlImage" alt="Portrait">
   </div>
 
   <div class="info">
     <p><strong>Name:</strong> {{me.surname}} {{me.firstname}}</p>
-    <p class = "card-text"><strong> Geburtsdatum:</strong> "19.06.2007"</p>
-    <p class = "card-text"><strong> E-Mail:</strong> {{me.email}}</p>
-    <p class = "card-text"><strong> Github:</strong> {{me.github_nickname}}</p>
-    <p class = "card-text"><strong> Abteilung:</strong> {{me.department}}</p>
-    <p class = "card-text"><strong> Wohnort:</strong> {{me.city}} {{me.zip_code}}</p>
-    <p class = "card-text"><strong> Zitat:</strong> {{me.message}}</p>
+    <p class="card-text"><strong>Geburtsdatum:</strong> 19.06.2007</p>
+    <p class="card-text"><strong>E-Mail:</strong> {{me.email}}</p>
+    <p class="card-text"><strong>Github:</strong> {{me.github_nickname}}</p>
+    <p class="card-text"><strong>Abteilung:</strong> {{me.department}}</p>
+    <p class="card-text"><strong>Wohnort:</strong> {{me.city}} {{me.zip_code}}</p>
+    <p class="card-text"><strong>Zitat:</strong> {{me.message}}</p>
 
-    <a routerLink="/home" routerLinkActive="active" class="btn btn-secondary">Back</a>
-    <a routerLink="/meineReisen" routerLinkActive="active" class="btn btn-primary">Meine Reisen</a>
-
-    <a routerLink="/meine Hobbies" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Hobbies</a>
+    <a href="/home" class="btn">Back</a>
+    <a href="/meineReisen" class="btn">Meine Reisen</a>
+    <a href="/meineTraumreiseziele" class="btn">Meine Traumreiseziele</a>
+    <a href="/meineKonzerte" class="btn">Meine Konzerte</a>
   </div>
-
 </div>
 </body>
 
 </html>
-
