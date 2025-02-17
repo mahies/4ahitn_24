@@ -72,6 +72,21 @@ import {
 import {
   MeineZieleGeihsederComponent
 } from './pages/pages-students/pages-GEIHSEDER/meine-ziele-geihseder/meine-ziele-geihseder.component';
+import {
+  PageMeineReisenMILLICHComponent
+} from './pages/pages-students/pages-MILLICH/page-meine-reisen-millich/page-meine-reisen-millich.component';
+import {
+  PageMeineAusbildungMillichComponent
+} from './pages/pages-students/pages-MILLICH/page-meine-ausbildung-millich/page-meine-ausbildung-millich.component';
+import {
+  PageMeineReisenComponent
+} from './pages/pages-students/pages-ibrahim/page-meine-reisen/page-meine-reisen.component';
+import {
+  MeineReisenSpelitzComponent
+} from './pages/pages-students/pages-SPELITZ/meine-reisen-spelitz/meine-reisen-spelitz.component';
+import {
+  SportHistorieSpelitzComponent
+} from './pages/pages-students/pages-SPELITZ/sport-historie-spelitz/sport-historie-spelitz.component';
 
 
 export const routes: Routes = [
@@ -114,6 +129,14 @@ export const routes: Routes = [
   {
     path: 'about_meMILLICH',
     component: PageAboutMeMILLICHComponent
+  },
+  {
+    path: 'meineReisenMillich',
+    component: PageMeineReisenMILLICHComponent
+  },
+  {
+    path: 'meineAusbildungMillich',
+    component: PageMeineAusbildungMillichComponent
   },
   {
     path: 'aboutMeBECKER',
@@ -196,6 +219,14 @@ export const routes: Routes = [
     component: PageAboutMeineReisenComponent
   },
   {
+    path: 'meineTraumreiseziele',
+    component: PageMeineTraumreisezieleNazariComponent
+  },
+  {
+    path: 'meineKonzerte',
+    component: PageMeineKonzerteNazariComponent
+  },
+  {
     path: 'pages-schoeffmann',
     component: SchoeffmannComponent
   },
@@ -258,6 +289,14 @@ export const routes: Routes = [
   {
     path: 'aboutMeSPELITZ',
     component: PageAboutMeSpelitzComponent
+  },
+  {
+    path: 'meinereisenSpelitz',
+    component: MeineReisenSpelitzComponent
+  },
+  {
+    path: 'sporthistorieSpelitz',
+    component: SportHistorieSpelitzComponent
   }
 ];
 
