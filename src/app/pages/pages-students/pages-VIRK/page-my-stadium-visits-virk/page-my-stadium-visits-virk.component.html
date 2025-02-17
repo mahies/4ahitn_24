@@ -1,1 +1,54 @@
-<p>page-my-stadium-visits-virk works!</p>
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stadienbesuche - Gurnoor VIRK</title>
+
+</head>
+
+<body>
+<div class="container">
+  <h1>Meine Stadienbesuche</h1>
+
+  <div class="stadion-box">
+    <img [src]="giuseppeMeazza" alt="Giuseppe Meazza Stadion">
+    <div class="stadion-info">
+      <h2>Giuseppe-Meazza-Stadion</h2>
+      <p>So., 31.01.2016 | 20:45 - Milan Derby - Semesterferien - Volksschule 3.Klasse</p>
+      <p>Stimmung unvergesslich! Die Fans haben das Stadion zum Beben gebracht.</p>
+    </div>
+  </div>
+
+  <div class="stadion-box">
+    <img [src]="ernstHappelStadion" alt="Ernst Happel Stadion">
+    <div class="stadion-info">
+      <h2>Ernst Happel Stadion</h2>
+      <p>Mo., 12.01.2015 | 18:00 - Österreich v. Lichtenstein - Normaler Montag - Volksschule 2.Klasse</p>
+      <p>Kleines Spiel, aber tolle Atmosphäre!</p>
+    </div>
+  </div>
+
+  <div class="stadion-box">
+    <img [src]="emiratesStadion" alt="Emirates Stadium">
+    <div class="stadion-info">
+      <h2>Emirates Stadium</h2>
+      <p>Sa., 03.02.2018 | 18:30 - Arsenal v. Everton - 17/18 - Sem Ferien - Mittelschule 1.Klasse</p>
+      <p>Das Stadion ist einfach beeindruckend. Unvergessliches Erlebnis!</p>
+    </div>
+  </div>
+
+  <div class="button">
+    <a routerLink="/aboutMeVIRK" routerLinkActive="active" class="btn btn-primary custom-btn">Zurück zur Über Mich Seite</a>
+    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary custom-btn">Zurück zur Startseite</a>
+    <a routerLink="/pageMyTravelsVIRK" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Reisen</a>
+    <a routerLink="/pageMyGoalsVIRK" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Ziele</a>
+
+
+  </div>
+</div>
+</body>
+
+</html>
+
