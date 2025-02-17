@@ -1,11 +1,14 @@
 .container-fluid {
-  background-color: #add8e6; /* Pastellblauer Hintergrund */
+  background-color: #b0e0e6; /* Pastellblauer Hintergrund */
   min-height: 100vh; /* Volle Höhe */
   display: flex;
   align-items: center; /* Vertikal zentrieren */
   justify-content: center; /* Horizontal zentrieren */
   padding: 2rem; /* Abstand */
   box-sizing: border-box;
+}
+h5{
+  color: #4682b4;
 }
 
 @media (max-width: 768px) {
@@ -47,6 +50,6 @@
     width: 80%;
   }
   .btn {
-    margin: 1.5rem;
+    margin: 1rem;
   }
 }
