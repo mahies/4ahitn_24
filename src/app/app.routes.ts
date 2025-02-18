@@ -48,6 +48,43 @@ import {
 import {
   MeineZieleGeihsederComponent
 } from './pages/pages-students/pages-GEIHSEDER/meine-ziele-geihseder/meine-ziele-geihseder.component';
+import {
+  PageReisenKrapfComponent
+} from './pages/pages-students/pages-KRAPF/page-reisen-krapf/page-reisen-krapf.component';
+import {
+  PageReisezieleKrapfComponent
+} from './pages/pages-students/pages-KRAPF/page-reiseziele-krapf/page-reiseziele-krapf.component';
+import {
+  PageHobbiesKrapfComponent
+} from './pages/pages-students/pages-KRAPF/page-hobbies-krapf/page-hobbies-krapf.component';
+import {
+  PageMeineReisenMILLICHComponent
+} from './pages/pages-students/pages-MILLICH/page-meine-reisen-millich/page-meine-reisen-millich.component';
+import {
+  PageMeineAusbildungMillichComponent
+} from './pages/pages-students/pages-MILLICH/page-meine-ausbildung-millich/page-meine-ausbildung-millich.component';
+import {HobbiesComponent} from './pages/pages-students/pages-KLARIC/hobbies/hobbies.component';
+import {
+  PageMeineTraumreisezieleNazariComponent
+} from './pages/pages-students/page-NAZARI/page-meine-traumreiseziele-nazari/page-meine-traumreiseziele-nazari.component';
+import {
+  PageMeineKonzerteNazariComponent
+} from './pages/pages-students/page-NAZARI/page-meine-konzerte-nazari/page-meine-konzerte-nazari.component';
+import {
+  PageMyGoalsVirkComponent
+} from './pages/pages-students/pages-VIRK/page-my-goals-virk/page-my-goals-virk.component';
+import {
+  PageMyStadiumVisitsVirkComponent
+} from './pages/pages-students/pages-VIRK/page-my-stadium-visits-virk/page-my-stadium-visits-virk.component';
+import {
+  PageMyTravelsVirkComponent
+} from './pages/pages-students/pages-VIRK/page-my-travels-virk/page-my-travels-virk.component';
+import {
+  MeineReisenSpelitzComponent
+} from './pages/pages-students/pages-SPELITZ/meine-reisen-spelitz/meine-reisen-spelitz.component';
+import {
+  SportHistorieSpelitzComponent
+} from './pages/pages-students/pages-SPELITZ/sport-historie-spelitz/sport-historie-spelitz.component';
 
 export const routes: Routes = [
   {
@@ -71,12 +108,32 @@ export const routes: Routes = [
     component: Subpage2Component,
   },
   {
-    path: 'about_me_krapf',
+    path: 'aboutMeKrapf',
     component: PageAboutMeKRAPFComponent
+  },
+  {
+    path: 'reisenKrapf',
+    component: PageReisenKrapfComponent
+  },
+  {
+    path: 'reisezieleKrapf',
+    component: PageReisezieleKrapfComponent
+  },
+  {
+    path: 'hobbiesKrapf',
+    component: PageHobbiesKrapfComponent
   },
   {
     path: 'about_meMILLICH',
     component: PageAboutMeMILLICHComponent
+  },
+  {
+    path: 'meineReisenMillich',
+    component: PageMeineReisenMILLICHComponent
+  },
+  {
+    path: 'meineAusbildungMillich',
+    component: PageMeineAusbildungMillichComponent
   },
   {
     path: 'aboutMeBECKER',
@@ -89,6 +146,10 @@ export const routes: Routes = [
   {
     path: 'aboutMeKLARIC',
     component: PageAboutMeKLARICComponent
+  },
+  {
+    path: 'hobbies',
+    component: HobbiesComponent
   },
   {
     path: 'about_me_aljarrah',
@@ -159,6 +220,14 @@ export const routes: Routes = [
     component: PageAboutMeineReisenComponent
   },
   {
+    path: 'meineTraumreiseziele',
+    component: PageMeineTraumreisezieleNazariComponent
+  },
+  {
+    path: 'meineKonzerte',
+    component: PageMeineKonzerteNazariComponent
+  },
+  {
     path: 'pages-schoeffmann',
     component: SchoeffmannComponent
   },
@@ -198,12 +267,34 @@ export const routes: Routes = [
     component: PageAboutMeVIRKComponent
   },
   {
+    path: 'pageMyGoalsVIRK',
+    component: PageMyGoalsVirkComponent
+  },
+
+  {
+    path: 'pageMyStadiumVisitsVIRK',
+    component: PageMyStadiumVisitsVirkComponent
+  },
+
+  {
+    path: 'pageMyTravelsVIRK',
+    component: PageMyTravelsVirkComponent
+  },
+  {
     path: 'reiseorte',
     component: ReiseorteComponent
   },
   {
     path: 'aboutMeSPELITZ',
     component: PageAboutMeSpelitzComponent
+  },
+  {
+    path: 'meinereisenSpelitz',
+    component: MeineReisenSpelitzComponent
+  },
+  {
+    path: 'sporthistorieSpelitz',
+    component: SportHistorieSpelitzComponent
   }
 ];
 
