@@ -11,7 +11,7 @@ import {PageAboutMeYOHANNAComponent} from './pages/pages-students/page-about-me-
 import {PageAboutMeMATUSCHKAComponent} from './pages/pages-students/page-MATUSCHKA/page-about-me-matuschka/page-about-me-matuschka.component';
 import {PageAboutMeSenjicComponent} from './pages/pages-students/page-SENJIC/page-about-me-senjic/page-about-me-senjic.component';
 import {PageAboutMeIBRAHIMComponent} from './pages/pages-students/pages-ibrahim/page-about-me-ibrahim/page-about-me-ibrahim.component';
-import {PageAboutMeSinghComponent} from './pages/pages-students/page-about-me-singh/page-about-me-singh.component';
+import {PageAboutMeSinghComponent} from './pages/pages-students/page-SINGH/page-about-me-singh/page-about-me-singh.component';
 import {PageAboutMeNazariComponent} from './pages/pages-students/page-NAZARI/page-about-me-nazari/page-about-me-nazari.component';
 import { SchoeffmannComponent } from './pages/pages-students/pages-schoeffmann/schoeffmann.component';
 import { MeineReisenComponent } from './pages/pages-students/pages-schoeffmann/meine-reisen/meine-reisen.component';

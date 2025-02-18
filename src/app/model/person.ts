@@ -69,7 +69,7 @@ export  const KLARIC : Person = {
   routerLink:"/aboutMeKLARIC"
 };
 
-export const KRAPF : Person = {
+export  const KRAPF : Person = {
   surname: "KRAPF",
   firstname: "Julian",
   urlImage: "assets-KRAPF/Krapf.jpg",
@@ -132,9 +132,8 @@ export const virk : Person = {
   github_nickname: "gurnoor44",
   zip_code: 1220,
   city: "Wien",
-  message: "\„We are what we repeatedly do. Excellence is not an act, but a habit\" \n(Aristoteles)",
-  routerLink: "/aboutMeVIRK"
-};
+  message: "\„We are what we repeatedly do. Excellence is not an act, but a habit\" \n(Aristoteles)"
+}
 
 
 
@@ -152,6 +151,20 @@ export const senjic : Person = {
     " Ein Hamburger bei McDonalds. 1,40 Euro. Wenn ich jetzt noch Pommes dazu kaufe - 3,50 Euro." +
     " Und jetzt behauptet wirklich einer ernsthaft, wir leben in einem Land, wo Eltern sich dieses Essen für ihr Kind nicht leisten können?",
   routerLink: "/aboutMeSENJIC"
+};
+
+export const singh : Person = {
+  surname: "SINGH ",
+  firstname: "Harleen",
+  urlImage: 'assets-SINGH/Bild_SINGH.jpg',
+  birthday: new Date("2007-02-06"),
+  city: "Wien | Donaustadt",
+  email: "210279@studierende.htl-donaustadt.at",
+  github_nickname: "harleen-gitbash",
+  zip_code: 1220,
+  department: "ITEL | Netzwerktechnik",
+  message:"Die Zukunft gehört denen, die an die Schönheit ihrer Träume glauben, aber sie gehört noch mehr denen, die den Mut haben, sie zu verfolgen.",
+  routerLink: "/aboutMeSINGH"
 };
 
 
@@ -238,18 +251,6 @@ export  const SPELITZ : Person = {
   message: "\"Der frühe Wurm wurde vom Vogel gepackt\"",
   routerLink: "/aboutMeSPELITZ",
 };
-export const ibisevic: Person = {
-  surname: 'Ibisevic',
-  firstname: 'Benjamin',
-  birthday: new Date(2006, 7, 4), // Beispiel-Datum
-  city: 'Wien',
-  zip_code: 1210,
-  email: '200326@studierende.htl-donaustadt.at',
-  github_nickname: 'BenjaminIbi',
-  department: 'ITEL Netzwerktechnik',
-  urlImage: "assets-IBISEVIC/Ibisbild.png",
-  routerLink: "/aboutMeIBISEVIC",
-  message: 'Nun, '
-};
+
 //list all students
-export const STUDENTS:Person[] = [ibrahim, virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,KRAPF,senjic,MATUSCHKA,MILLICH, SPELITZ, NAZARI, ibisevic];
+export const STUDENTS:Person[] = [ibrahim, virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,KRAPF,senjic,singh,MATUSCHKA,MILLICH, SPELITZ, NAZARI];
