@@ -1,26 +1,70 @@
-.profil-container {
+@import url('https://fonts.googleapis.com/css2?family=Aptos:wght@400&family=Bickley+Script&display=swap');
+
+body {
+  font-family: 'Aptos', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bickley Script', cursive;
+  font-weight: bold;
+}
+
+.profil-text p {
+  font-style: italic;
+}
+.container-fluid {
+  background-color: #b0e0e6; /* Pastellblauer Hintergrund */
+  min-height: 100vh; /* Volle Höhe */
+  display: flex;
+  align-items: center; /* Vertikal zentrieren */
+  justify-content: center; /* Horizontal zentrieren */
+  padding: 2rem; /* Abstand */
+  box-sizing: border-box;
+}
+h5{
+  color: #4682b4;
+}
+
+@media (max-width: 768px) {
+  .container-fluid {
+    padding: 1rem; /* Weniger Abstand auf mobilen Geräten */
+  }
+}
+
+.profile-container {
+  background: white; /* Box-Hintergrund */
+  padding: 2rem;
+  border-radius: 10px; /* Abgerundete Ecken */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Schatten für besseren Look */
   display: flex;
   align-items: center;
-  gap: 50px; // Abstand zwischen Bild und Text
+  gap: 0.5rem;
+  max-width: 1200px; /* Begrenzte Breite */
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .profilbild {
-  width: 50px !important;
-  height: 50px !important;
-  max-width: 50px !important;
-  max-height: 50px !important;
-  display: block !important;
+  width: 200px;
+  height:300px;
   object-fit: cover;
+  border-radius: 10%; /* Runde Form */
 }
 
 .profil-text {
-  flex: 1; // Nimmt den restlichen Platz ein
+  flex: 1;
 }
 
-.container-fluid {
-  background-color: #add8e6; // Pastellblauer Hintergrund
-  min-height: 100vh; // Damit es die ganze Seite füllt
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* Responsive Anpassung */
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column; /* Bild über dem Text */
+    padding: 2rem;
+    width: 80%;
+  }
+  .btn {
+    margin: 1rem;
+  }
 }

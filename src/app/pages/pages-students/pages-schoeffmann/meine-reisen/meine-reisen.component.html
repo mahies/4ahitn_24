@@ -1,27 +1,58 @@
+
 <app-navbar-schoeffmann></app-navbar-schoeffmann>
 
-<h1>Meine Reisen</h1>
+<div class="container mt-5">
+  <h1 class="text-center">Meine Reisen:</h1>
+  <div class="row mt-4">
+    <div class="col-md-4">
+      <div class="card">
+        <img [src]="nizzaimg" class="card-img-top p-3" alt="Projekt 1">
+        <div class="card-body">
+          <h5 class="card-title">Nizza</h5>
+          <p class="card-text">{{nizza}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img [src]="imperiaimg" class="card-img-top p-3" alt="Projekt 2">
+        <div class="card-body">
+          <h5 class="card-title">Imperia</h5>
+          <p class="card-text">{{imperia}}</p>
+        </div>
+      </div>
+    </div>
 
-<div class="flex">
-    <div class="tripbox">
-        <img [src]="nizzaimg"  alt="Nizza Image">
-      <h2>Nizza</h2>
-      <p>{{nizza}}</p>
+    <div class="col-md-4">
+      <div class="card">
+        <img [src]="oesterreichimg" class="card-img-top p-3" alt="Projekt 3">
+        <div class="card-body">
+          <h5 class="card-title">Österreich</h5>
+          <p class="card-text">{{oesterreich}}</p>
+        </div>
+      </div>
     </div>
-    <div class="tripbox">
-      <img [src]="imperiaimg"  alt="Imperia Image">
-    <h2>Imperia</h2>
-    <p>{{imperia}}</p>
+
+
+
+
+  <!--Neue Reihe-->
+  <div class="row mt-4">
+
+
+    <div class="col-md-4">
+      <div class="card">
+        <img [src]="innsbruckimg" class="card-img-top p-3" alt="Projekt 3">
+        <div class="card-body">
+          <h5 class="card-title">Innsbruck</h5>
+          <p class="card-text" [innerHTML]="innsbruck + ' ' + emojiCode"></p>
+        </div>
+      </div>
+    </div>
+
   </div>
-    <div class="tripbox">
-        <img [src]="oesterreichimg"  alt="Österreich Image">
-      <h2>Österreich</h2>
-      <p>{{oesterreich}}</p>
-    </div>
-    <div class="tripbox">
-        <img [src]="innsbruckimg"  alt="Innsbruck Image">
-      <h2>Innsbruck</h2>
-      <!--<p>{{innsbruck}}</p> <div [innerHTML]="emojiCode"></div>-->
-      <p [innerHTML]="innsbruck + ' ' + emojiCode"></p>
-    </div>
+
+
+
+</div>
 </div>

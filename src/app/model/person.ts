@@ -69,7 +69,7 @@ export  const KLARIC : Person = {
   routerLink:"/aboutMeKLARIC"
 };
 
-export  const KRAPF : Person = {
+export const KRAPF : Person = {
   surname: "KRAPF",
   firstname: "Julian",
   urlImage: "assets-KRAPF/Krapf.jpg",
@@ -132,8 +132,9 @@ export const virk : Person = {
   github_nickname: "gurnoor44",
   zip_code: 1220,
   city: "Wien",
-  message: "\„We are what we repeatedly do. Excellence is not an act, but a habit\" \n(Aristoteles)"
-}
+  message: "\„We are what we repeatedly do. Excellence is not an act, but a habit\" \n(Aristoteles)",
+  routerLink: "/aboutMeVIRK"
+};
 
 
 

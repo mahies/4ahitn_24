@@ -1,3 +1,16 @@
-$primary: rgb(20, 204, 127);
 
+/*@import "../../../../../node_modules/bootstrap/scss/bootstrap.scss"; //use full path to bootstrap.scss
+@import "../../../../../node_modules/bootstrap/scss/bootstrap-utilities.scss";
+@import "../../../../../node_modules/bootstrap/scss/bootstrap-grid.scss";
+@import "../../../../../node_modules/bootstrap/scss/bootstrap-reboot.scss";
+
+$primary: rgb(20, 204, 127);
+$theme-colors: map-merge($theme-colors, (
+  "primary": $primary
+));
+*/
+
+$primary: rgb(20, 204, 127);
 @import "../../../../../node_modules/bootstrap/scss/bootstrap.scss"; //use full path to bootstrap.scss
+
+

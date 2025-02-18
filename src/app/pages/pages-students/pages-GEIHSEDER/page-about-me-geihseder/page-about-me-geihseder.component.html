@@ -37,6 +37,24 @@
     a {
       color: #0073e6;
     }
+    .btn-container {
+      margin-top: 15px;
+    }
+    .btn {
+      display: inline-block;
+      margin-right: 10px;
+      padding: 10px 15px;
+      background-color: #0073e6;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .btn:last-child {
+      margin-right: 0;
+    }
+    .btn:hover {
+      background-color: #005bb5;
+    }
   </style>
 </head>
 <body>
@@ -56,9 +74,11 @@
       <p><strong>Email:</strong> <a href="mailto:{{me.email}}"> {{me.email}}</a></p>
       <p><strong>Github:</strong> <a href="https://github.com/sebastian447" target="_blank"> sebastian447</a></p>
       <p><i>{{me.message}}</i></p>
-      <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Home</a>
-      <a routerLink="/meine-reisen-geihseder" routerLinkActive="active" class="btn btn-primary">Meine Reisen</a>
-      <a routerLink="/meine-ziele-geihseder" routerLinkActive="active" class="btn btn-primary">Meine Ziele</a>
+      <div class="btn-container">
+        <a routerLink="/home" routerLinkActive="active" class="btn">Home</a>
+        <a routerLink="/meine-reisen-geihseder" routerLinkActive="active" class="btn">Meine Reisen</a>
+        <a routerLink="/meine-ziele-geihseder" routerLinkActive="active" class="btn">Meine Ziele</a>
+      </div>
     </section>
   </main>
 </div>

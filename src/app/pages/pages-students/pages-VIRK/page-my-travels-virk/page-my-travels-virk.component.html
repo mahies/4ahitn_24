@@ -1,1 +1,58 @@
-<p>page-my-travels-virk works!</p>
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meine Reisen - Gurnoor VIRK</title>
+
+</head>
+
+<body>
+<div class="container">
+  <h1>Meine Reisen</h1>
+  <h5>Meine letzen 4 Urlaubsorte:</h5>
+  <div class="reise-box">
+    <img [src]="paris" alt="Paris">
+    <div class="reise-info">
+      <h2>Paris</h2>
+      <p>Wheinachtsferien 2024 - Eine schöne Stadt für den Winterbesuch und viele Sehenswürdigkeiten.</p>
+    </div>
+  </div>
+
+
+  <div class="reise-box">
+    <img [src]="rodos" alt="Rodos">
+    <div class="reise-info">
+      <h2>Rodos</h2>
+      <p>Sommerferien 2024 - Sonne, Strand und ein Altstadt-Teil mit viel Geschichte!</p>
+    </div>
+  </div>
+
+
+  <div class="reise-box">
+    <img [src]="barcelona" alt="Barcelona">
+    <div class="reise-info">
+      <h2>Barcelona</h2>
+      <p>Sommerferien 2023 - Die Stadt war schön und groß, eignet sich perfekt für den Sommer und hat viele Sehenswürdigkeiten </p>
+    </div>
+  </div>
+
+  <div class="reise-box">
+    <img [src]="venedig" alt="Venedig">
+    <div class="reise-info">
+      <h2>Venedig</h2>
+      <p>Sommerferien 2022 - Eine eher kleinere Stadt im Verhältnis, aber sehr schön und eine interesante Architektur </p>
+    </div>
+  </div>
+
+  <div class="button">
+    <a routerLink="/aboutMeVIRK" routerLinkActive="active" class="btn btn-primary custom-btn">Zurück zur Über Mich Seite</a>
+    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary custom-btn">Zurück zur Startseite</a>
+    <a routerLink="/pageMyStadiumVisitsVIRK" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Stadienbesuche</a>
+    <a routerLink="/pageMyGoalsVIRK" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Ziele</a>
+  </div>
+</div>
+</body>
+
+</html>

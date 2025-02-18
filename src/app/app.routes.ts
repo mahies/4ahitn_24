@@ -42,14 +42,7 @@ import {
 import {
   PageAboutMeineReisenComponent
 } from './pages/pages-students/page-NAZARI/page-meine-reisen-nazari/page-about-meine-reisen.component';
-//IBISEVIC
-import {
-  PageAboutMeIbisevicComponent
-} from './pages/pages-students/pages-ibisevic/page-about-me-ibisevic/page-about-me-pages-ibisevic.component';
-import {
-  PageMeineReisenIbisevicComponent
-} from './pages/pages-students/pages-ibisevic/page-meine-reisen-ibisevic/page-meine-reisen-ibisevic.component';
-//IBISEVIC
+
 export const routes: Routes = [
   {
     path: '', // default route
@@ -194,20 +187,9 @@ export const routes: Routes = [
     path: 'reiseorte',
     component: ReiseorteComponent
   },
-  //IBISEVIC
-  {
-    path: 'aboutMeIBISEVIC',
-    component: PageAboutMeIbisevicComponent
-  },
-  {
-    path: 'meineReisenIBISEVIC',
-    component: PageMeineReisenIbisevicComponent
-  },
-  //IBISEVIC
   {
     path: 'aboutMeSPELITZ',
     component: PageAboutMeSpelitzComponent
   }
 ];
-
 

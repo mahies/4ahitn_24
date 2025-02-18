@@ -1,40 +1,33 @@
 @import "../pages-KRAPF_variables";
 
 .container {
-  width: 70%;
+  width: 50%;
   min-height: 30rem;
   min-width: 50rem;
-  padding: 1.5rem;
+  padding: 0;
   margin: 1.5rem;
-  border: 1px solid black;
-  background-color: $primary;
+  border: 5px solid white;
+  background-color: #202020;
   border-radius: 3rem;
 }
 
 .anchor {
-  width: 100%;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #303030;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   gap: 2.5rem;
+  color: white;
 }
 
-.centered {
+.text {
+  color: white;
   text-align: center;
-  justify-content: center;
-}
-
-.textSize {
-  font-size: 1.4rem;
-}
-
-.textFont {
-  font-family: 'Oxygen', Verdana, sans-serif;
-}
-
-.name {
-  font-size: 3rem;
+  font-size: 1em;
+  font-family: Oxygen, Geneva, Tahoma, sans-serif;
 }
 
 .zitat {
@@ -46,20 +39,26 @@
 }
 
 .btn {
+  color: white;
+  border: 2px solid white;
+  border-radius: 1rem;
   width: 8rem;
   height: 4rem;
-  background-color: $secondary;
-  color: black;
-  border: 1px solid black;
   margin-bottom: 4rem;
   font-size: 2rem;
   text-align: center;
 }
 
+.btn:hover {
+  background-color: rebeccapurple;
+  border: 2px solid white;
+  transform: scale(1.1);
+  transition: transform 0.15s ease-in-out;
+}
+
 .image {
-  width: 80%;
-  border: 1px solid black;
-  border-radius: 10px;
+  width: 100%;
+  border-radius: 3rem 3rem 0 0;
 }
 
 .flagge {
@@ -75,4 +74,26 @@ h1 {
   font-weight: bold;
   text-align: center;
   font-family: 'Oxygen', Verdana, sans-serif;
+}
+
+h2 {
+  margin-bottom: -3rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Oxygen', Verdana, sans-serif;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  margin: 0;
+}
+
+hr {
+  border: 1px solid grey;
+  margin: 1rem 0;
 }

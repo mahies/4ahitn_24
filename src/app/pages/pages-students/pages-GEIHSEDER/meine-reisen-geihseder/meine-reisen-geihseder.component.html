@@ -23,6 +23,7 @@
       padding: 20px;
       width: 80%;
       max-width: 900px;
+      text-align: center;
     }
 
     .gallery {
@@ -48,44 +49,55 @@
       font-weight: bold;
       color: #333;
     }
+
+    .back-button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      background-color: #007BFF;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .back-button:hover {
+      background-color: #0056b3;
+    }
   </style>
 </head>
 <body>
 <div class="container">
   <h1>Meine Reisen</h1>
   <div class="gallery">
-
     <div class="gallery-item">
-      <img src="https://via.placeholder.com/300x200" alt="">
+      <img src="assets-GEIHSEDER/Kroatien.jpg" alt="">
       <p>Kroatien</p>
     </div>
-
     <div class="gallery-item">
-      <img src="https://via.placeholder.com/300x200" alt="">
+      <img src="assets-GEIHSEDER/Italien.jpg" alt="">
       <p>Italien</p>
     </div>
-
     <div class="gallery-item">
-      <img src="https://via.placeholder.com/300x200" alt="">
+      <img src="assets-GEIHSEDER/Spanien.jpg" alt="">
       <p>Spanien</p>
     </div>
-
     <div class="gallery-item">
-      <img src="https://via.placeholder.com/300x200" alt="">
+      <img src="assets-GEIHSEDER/Belgien.jpg" alt="">
       <p>Belgien</p>
     </div>
-
     <div class="gallery-item">
-      <img src="https://via.placeholder.com/300x200" alt="">
+      <img src="assets-GEIHSEDER/Frankreich.jpg" alt="">
       <p>Frankreich</p>
     </div>
-
     <div class="gallery-item">
-      <img src="https://via.placeholder.com/300x200" alt="">
+      <img src="assets-GEIHSEDER/Schweiz.jpg" alt="">
       <p>Schweiz</p>
     </div>
   </div>
+  <button class="back-button" onclick="history.back()">Zurück</button>
 </div>
 </body>
 </html>
-
