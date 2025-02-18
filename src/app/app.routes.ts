@@ -88,6 +88,9 @@ import {
 import {
   PagesMeineWerkeComponent
 } from './pages/pages-students/pages-ALJARRAH/pages-meine-werke/pages-meine-werke.component';
+import {
+  EAutoSchoeffmannComponent
+} from './pages/pages-students/pages-schoeffmann/e-auto-schoeffmann/e-auto-schoeffmann.component';
 
 export const routes: Routes = [
   {
@@ -250,6 +253,10 @@ export const routes: Routes = [
      path: 'pages-schoeffmann-hobbys',
      component: HobbysComponent
    },
+  {
+    path: 'pages-schoeffmann-eauto',
+    component: EAutoSchoeffmannComponent
+  },
 
   //STOILOV
   {
