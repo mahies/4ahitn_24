@@ -27,6 +27,20 @@ export  const MINNIE : Person = {
   routerLink: "/page_demo"
 };
 
+export  const aljarrah : Person = {
+  surname: "Al Jarrah",
+  firstname: "Alexander",
+  urlImage: "assets-ALJARRAH/Selfie.jpg",
+  birthday: new Date("2005-05-2005"),
+  department: "ITEL Netzwerktechnik",
+  email: "200046@studierende.htl-donaustadt.at",
+  github_nickname: "A0J7",
+  zip_code: 1210,
+  city: "Wien",
+  message: "\"Es gibt überall Blumen für den, der sie sehen will.\"Henri Matisse",
+  routerLink: "/about_me_aljarrah",
+}
+
 export  const NAZARI : Person = {
   surname: "Nazari",
   firstname: "Nina",
@@ -255,4 +269,4 @@ export  const SPELITZ : Person = {
 };
 
 //list all students
-export const STUDENTS:Person[] = [ibrahim, virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,KRAPF,senjic,singh,MATUSCHKA,MILLICH, SPELITZ, NAZARI];
+export const STUDENTS:Person[] = [aljarrah, ibrahim, virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,KRAPF,senjic,singh,MATUSCHKA,MILLICH, SPELITZ, NAZARI];

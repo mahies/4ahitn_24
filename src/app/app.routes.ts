@@ -5,7 +5,7 @@ import {PageAboutMeKRAPFComponent} from './pages/pages-students/pages-KRAPF/page
 import {PageAboutMeMILLICHComponent} from './pages/pages-students/pages-MILLICH/page-about-me-millich/page-about-me-millich.component';
 import {PageAboutMeKLARICComponent} from './pages/pages-students/page-about-me-klaric/page-about-me-klaric.component';
 import {ReiseorteComponent} from './pages/pages-students/pages-KLARIC/reiseorte/reiseorte.component';
-import {PageAboutMeAljarrahComponent} from './pages/pages-students/page-about-me-aljarrah/page-about-me-aljarrah.component';
+import {PageAboutMeAljarrahComponent} from './pages/pages-students/pages-ALJARRAH/page-about-me-aljarrah/page-about-me-aljarrah.component';
 import {PageAboutMeGEIHSEDERComponent} from './pages/pages-students/pages-GEIHSEDER/page-about-me-geihseder/page-about-me-geihseder.component';
 import {PageAboutMeYOHANNAComponent} from './pages/pages-students/page-about-me-yohanna/page-about-me-yohanna.component';
 import {PageAboutMeMATUSCHKAComponent} from './pages/pages-students/page-MATUSCHKA/page-about-me-matuschka/page-about-me-matuschka.component';
@@ -85,6 +85,9 @@ import {
 import {
   SportHistorieSpelitzComponent
 } from './pages/pages-students/pages-SPELITZ/sport-historie-spelitz/sport-historie-spelitz.component';
+import {
+  PagesMeineWerkeComponent
+} from './pages/pages-students/pages-ALJARRAH/pages-meine-werke/pages-meine-werke.component';
 
 export const routes: Routes = [
   {
@@ -154,6 +157,10 @@ export const routes: Routes = [
   {
     path: 'about_me_aljarrah',
     component: PageAboutMeAljarrahComponent
+  },
+  {
+    path: 'meineWerke',
+    component: PagesMeineWerkeComponent
   },
   {
     path: 'aboutMeGEIHSEDER',
