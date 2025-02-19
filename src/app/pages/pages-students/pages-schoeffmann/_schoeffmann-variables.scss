@@ -10,7 +10,7 @@ $theme-colors: map-merge($theme-colors, (
 ));
 */
 
-$primary: rgb(20, 204, 127);
-@import "../../../../../node_modules/bootstrap/scss/bootstrap.scss"; //use full path to bootstrap.scss
+$primary: #FF0000;
+//@import "../../../../../node_modules/bootstrap/scss/bootstrap.scss"; //use full path to bootstrap.scss
 
-
+@import "bootstrap/scss/bootstrap";
