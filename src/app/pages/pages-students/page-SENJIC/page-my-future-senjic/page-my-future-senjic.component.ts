@@ -19,4 +19,5 @@ export class PageMyFutureSenjicComponent {
   MengergasseIMG: string = 'assets-SENJIC/Mengergasse.png';
   F26IMG: string = 'assets-SENJIC/F26.png';
   HTLIMG: string = 'assets-SENJIC/HTL.png';
+  Insta:string = 'assets/Insta.png';
 }

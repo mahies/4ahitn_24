@@ -1,15 +1,14 @@
-<!DOCTYPE html>
-<html lang="de">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Über Mich - SENJIĆ Oliver</title>
-</head>
+<header class="header">
+        <a href="https://www.instagram.com/oliver.597_">
+          <img src= "assets-SENJIC/insta.png" alt="Instagram" class="header-icon">
+       </a>
 
-<body>
+</header>
+
+<main>
 <div class="container">
-  <div class="header">
+  <div class="head">
     <h1>SENJIĆ Oliver</h1>
     <h6>Willkommen zu meiner Webseite über mich!</h6>
     <img [src] = me.urlImage alt="Portrait">
@@ -26,13 +25,14 @@
     <a routerLink="/myTravelsSENJIC" routerLinkActive="active" class="btn btn-primary; custom-btn">Meine Reisen</a>
     <a routerLink="/MyFutureSENJIC" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Zukunft</a>
     <a routerLink="/MyJerseysSENJIC" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Trikots</a>
-  </div>
 
+  </div>
   <div class="Zitat">
     <p>{{me.message}}</p>
   </div>
-  <p style="text-align: center"><strong>© by Oliver SENJIĆ</strong></p>
-</div>
-</body>
 
-</html>
+</div>
+</main>
+<footer class="footer">
+  <p style="text-align: center; color: white"><strong>© by Oliver SENJIĆ</strong></p>
+</footer>
