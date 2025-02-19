@@ -6,7 +6,7 @@ main {
   padding: 2rem;
 }
 @media (max-width: 768px) {
-  body {
+  main {
     padding: 1rem;
   }
 }
@@ -64,6 +64,31 @@ main {
   height: 25px;
   margin-left: 10px;
   }
+.footer{
+  background-color: #4c250a;
+  height: 75px;
+  width: 100%;
+  font-size: 30px;
+}
+.scroll-top-btn {
+  display: block;
+  text-align: center;
+  background-color: #875634;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.scroll-top-btn:hover {
+  background-color: #6d4427;
+}
+
+
 
 
 
