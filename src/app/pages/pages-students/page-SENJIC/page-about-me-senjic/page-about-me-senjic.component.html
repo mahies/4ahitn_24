@@ -1,15 +1,28 @@
-<!DOCTYPE html>
-<html lang="de">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Über Mich - SENJIĆ Oliver</title>
-</head>
+<header class="header">
+        <a href="https://www.instagram.com/oliver.597_">
+          <img src= "assets-SENJIC/insta.png" alt="Instagram" class="header-icon">
+       </a>
+  <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
+    <img src= "assets-SENJIC/youtube.png" alt="youtube" class="header-icon" >
+  </a>
+  <a href="mailto:210278@studierende.htl-donaustadt.at">
+    <img src= "assets-SENJIC/email.png" alt="youtube" class="header-icon" >
+  </a>
+  <a href="https://github.com/oliver5977">
+    <img src= "assets-SENJIC/github.png" alt="youtube" class="header-icon" >
+  </a>
+  <div class="button-format">
+    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary; custom-btn">Zurück</a>
+    <a routerLink="/myTravelsSENJIC" routerLinkActive="active" class="btn btn-primary; custom-btn">Meine Reisen</a>
+    <a routerLink="/MyFutureSENJIC" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Zukunft</a>
+    <a routerLink="/MyJerseysSENJIC" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Trikots</a>
+  </div>
+</header>
 
-<body>
+<main>
 <div class="container">
-  <div class="header">
+  <div class="head">
     <h1>SENJIĆ Oliver</h1>
     <h6>Willkommen zu meiner Webseite über mich!</h6>
     <img [src] = me.urlImage alt="Portrait">
@@ -22,17 +35,15 @@
     <p><strong>E-Mail:</strong> <a href="mailto:210278@studierende.htl-donaustadt.at">{{me.email}}</a></p>
     <p><strong>Github: </strong> <a href="https://github.com/oliver5977">{{me.github_nickname}}</a></p>
     <p><strong>Abteilung:</strong> {{me.department}}</p>
-    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary; custom-btn">Zurück</a>
-    <a routerLink="/myTravelsSENJIC" routerLinkActive="active" class="btn btn-primary; custom-btn">Meine Reisen</a>
-    <a routerLink="/MyFutureSENJIC" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Zukunft</a>
-    <a routerLink="/MyJerseysSENJIC" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Trikots</a>
-  </div>
 
+
+  </div>
   <div class="Zitat">
     <p>{{me.message}}</p>
   </div>
-  <p style="text-align: center"><strong>© by Oliver SENJIĆ</strong></p>
-</div>
-</body>
 
-</html>
+</div>
+</main>
+<footer class="footer">
+  <p style="text-align: center; color: white"><strong>© by Oliver SENJIĆ</strong></p>
+</footer>

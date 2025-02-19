@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #303030; /* Anthrazit Hintergrund */
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+img {
+  width: 120%; /* Bildgröße */
+  max-width: 720px; /* Maximale Breite */
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text {
+  position: absolute;
+  top: 70%; /* Bulletpoints leicht nach unten verschoben */
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-size: 1.4em;
+  text-align: left;
+}
+
+.text ul {
+  padding-left: 20px;
+  font-size: 1em; /* Kleinere Bulletpoints */
+}
+
+.quote {
+  font-size: 1em;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Button-Styling */
+.button-container {
+  margin-top: 40px; /* Abstand unterhalb des Bildes */
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #B7E4C7; /* Pastellgrün */
+  color: black;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #F4A3C5; /* Rosa beim Hover */
+}
+
+
+

@@ -1,0 +1,36 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { PageAboutMeIbisevicComponent } from './page-about-me-pages-ibisevic.component';
+import { CommonModule } from '@angular/common';
+import { RouterTestingModule } from '@angular/router/testing';
+
+describe('PageAboutMeIbisevicComponent', () => {
+  let component: PageAboutMeIbisevicComponent;
+  let fixture: ComponentFixture<PageAboutMeIbisevicComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [PageAboutMeIbisevicComponent], // Komponente hier deklarieren
+      imports: [
+        CommonModule, // Falls Pipes wie 'date' verwendet werden
+        RouterTestingModule // Falls RouterLink verwendet wird
+      ]
+    }).compileComponents();
+
+    fixture = TestBed.createComponent(PageAboutMeIbisevicComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+
+  it('should have a defined "me" property', () => {
+    expect(component.me).toBeDefined();
+  });
+
+  it('should render the name correctly', () => {
+    const compiled = fixture.nativeElement as HTMLElement;
+    expect(compiled.querySelector('p')?.textContent).toContain(component.me.surname);
+  });
+});

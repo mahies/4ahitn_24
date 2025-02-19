@@ -1,0 +1,70 @@
+.about-me {
+  font-family: 'Aptos', sans-serif;
+  background-color: #fff8dc;
+  color: black;
+  margin: 2rem;
+  padding: 4rem;
+
+  .title {
+    font-family: 'Bickley Script', cursive;
+    color: lightblue;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .name {
+    color: lightseagreen;
+    text-align: center;
+  }
+
+  .profilbild {
+    display: block;
+    margin: auto;
+    width: 200px;
+    border-radius: 10px;
+  }
+
+  p {
+    font-style: normal;
+  }
+
+  i {
+    font-style: italic;
+    color: lightseagreen;
+  }
+
+  .beschreibung {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-me {
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
+
+.bee-image {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  margin-left: 900px;
+}
+
+.flower-image {
+  width: 75px;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  margin-left: 300px;
+}
+
+.custom-btn {
+  background-color: lightseagreen;
+  color: black;
+  border: none;
+  margin-top: 50px;
+  margin-right: 20px;
+}

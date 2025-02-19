@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import {NavbarSchoeffmannComponent} from '../navbar-schoeffmann/navbar-schoeffmann.component';
+import {FooterComponent} from "../footer/footer.component";
 
 @Component({
   selector: 'app-meine-reisen',
-  imports: [NavbarSchoeffmannComponent],
+    imports: [NavbarSchoeffmannComponent, FooterComponent],
   templateUrl: './meine-reisen.component.html',
   styleUrl: './meine-reisen.component.scss'
 })

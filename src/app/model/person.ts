@@ -27,6 +27,20 @@ export  const MINNIE : Person = {
   routerLink: "/page_demo"
 };
 
+export  const aljarrah : Person = {
+  surname: "Al Jarrah",
+  firstname: "Alexander",
+  urlImage: "assets-ALJARRAH/Selfie.jpg",
+  birthday: new Date("2005-05-2005"),
+  department: "ITEL Netzwerktechnik",
+  email: "200046@studierende.htl-donaustadt.at",
+  github_nickname: "A0J7",
+  zip_code: 1210,
+  city: "Wien",
+  message: "\"Es gibt überall Blumen für den, der sie sehen will.\"Henri Matisse",
+  routerLink: "/about_me_aljarrah",
+}
+
 export  const NAZARI : Person = {
   surname: "Nazari",
   firstname: "Nina",
@@ -69,7 +83,7 @@ export  const KLARIC : Person = {
   routerLink:"/aboutMeKLARIC"
 };
 
-export const KRAPF : Person = {
+export  const KRAPF : Person = {
   surname: "KRAPF",
   firstname: "Julian",
   urlImage: "assets-KRAPF/Krapf.jpg",
@@ -107,7 +121,8 @@ export const yohanna : Person = {
   github_nickname: "qaxry",
   zip_code: 1210,
   city: "Wien",
-  message: "\„One day or day one.\" \n(YOHANNA Adryano)"
+  message: "\„One day or day one.\" \n(YOHANNA Adryano)",
+  routerLink: "/aboutMeYOHANNA"
 }
 export const MOELZER : Person = {
   surname: "moelzer",
@@ -134,7 +149,7 @@ export const virk : Person = {
   city: "Wien",
   message: "\„We are what we repeatedly do. Excellence is not an act, but a habit\" \n(Aristoteles)",
   routerLink: "/aboutMeVIRK"
-};
+}
 
 
 
@@ -152,6 +167,20 @@ export const senjic : Person = {
     " Ein Hamburger bei McDonalds. 1,40 Euro. Wenn ich jetzt noch Pommes dazu kaufe - 3,50 Euro." +
     " Und jetzt behauptet wirklich einer ernsthaft, wir leben in einem Land, wo Eltern sich dieses Essen für ihr Kind nicht leisten können?",
   routerLink: "/aboutMeSENJIC"
+};
+
+export const singh : Person = {
+  surname: "SINGH ",
+  firstname: "Harleen",
+  urlImage: 'assets-SINGH/Bild_SINGH.jpg',
+  birthday: new Date("2007-02-06"),
+  city: "Wien | Donaustadt",
+  email: "210279@studierende.htl-donaustadt.at",
+  github_nickname: "harleen-gitbash",
+  zip_code: 1220,
+  department: "ITEL | Netzwerktechnik",
+  message:"Die Zukunft gehört denen, die an die Schönheit ihrer Träume glauben, aber sie gehört noch mehr denen, die den Mut haben, sie zu verfolgen.",
+  routerLink: "/aboutMeSINGH"
 };
 
 
@@ -240,4 +269,4 @@ export  const SPELITZ : Person = {
 };
 
 //list all students
-export const STUDENTS:Person[] = [ibrahim, virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,KRAPF,senjic,MATUSCHKA,MILLICH, SPELITZ, NAZARI];
+export const STUDENTS:Person[] = [aljarrah, ibrahim, virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,KRAPF,senjic,singh,MATUSCHKA,MILLICH, SPELITZ, NAZARI];

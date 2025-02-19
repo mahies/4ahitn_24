@@ -1,35 +1,44 @@
 <app-navbar-schoeffmann></app-navbar-schoeffmann>
 
-<div class="container mt-5">
+<div class="container mt-5 mb-5">
   <h1 class="text-center">Meine Projekte</h1>
   <div class="row mt-4 justify-content-center">
-    <div class="col-md-4">
+    <div class="col-md-4 mb-3">
       <div class="card">
         <img [src]="angularimg" class="card-img-top p-3" alt="Projekt 1">
         <div class="card-body">
-          <h5 class="card-title">Projekt Angular Webseite</h5>
+          <h5 class="card-title">Angular Webseite</h5>
           <p class="card-text">Dies beinhaltet diese Webseite hier.</p>
+          <p class="bg-warning text-white d-inline-block px-2 py-1 rounded-1">in Bearbeitung</p>
         </div>
       </div>
     </div>
-    <div class="col-md-4">
+
+    <div class="col-md-4 mb-3">
       <div class="card">
         <img [src]="tankrobot" class="card-img-top p-3" alt="Projekt 2">
         <div class="card-body">
-          <h5 class="card-title">Projekt Roboter</h5>
+          <h5 class="card-title">Roboter</h5>
           <p class="card-text">Ein mobiler Arbeitsroboter für den industriellen Einsatz.</p>
           <p class="card-text"><a href="https://github.com/theBroGrammer2624/Fahrzeugsteuerung" >Link zum Github Code</a></p>
+          <p class="bg-info text-white d-inline-block px-2 py-1 rounded-1">Abgeschlossen</p>
         </div>
       </div>
     </div>
-    <!--<div class="col-md-4">
+
+    <div class="col-md-4 mb-3">
       <div class="card">
-        <img src="" class="card-img-top p-3" alt="Projekt 3">
+        <img [src]="lifepoakkuimg" class="card-img-top p-3" alt="Projekt 3">
         <div class="card-body">
-          <h5 class="card-title">Projekt Gamma</h5>
-          <p class="card-text">Eine KI-gestützte Lösung für automatisierte Kundenanfragen.</p>
+          <h5 class="card-title">Elektro Fahrzeug bauen</h5>
+          <p class="card-text">Hier am Bild ist ein LiFePo Akkupack zu sehen der parallel geschaltet ist.</p>
+          <p><a routerLink="/pages-schoeffmann-eauto" routerLinkActive="active">Weitere Infos zu meinem E-Fahrzeug</a></p>
+          <p class="bg-warning text-white d-inline-block px-2 py-1 rounded-1">in Bearbeitung</p>
         </div>
       </div>
-    </div>-->
+    </div>
+
   </div>
 </div>
+
+<app-footer></app-footer>

@@ -4,16 +4,15 @@ import {PageHomeComponent} from './pages/page-home/page-home.component';
 import {PageAboutMeKRAPFComponent} from './pages/pages-students/pages-KRAPF/page-about-me-krapf/page-about-me-krapf.component';
 import {PageAboutMeMILLICHComponent} from './pages/pages-students/pages-MILLICH/page-about-me-millich/page-about-me-millich.component';
 import {PageAboutMeKLARICComponent} from './pages/pages-students/page-about-me-klaric/page-about-me-klaric.component';
-import {HobbiesComponent} from './pages/pages-students/pages-KLARIC/hobbies/hobbies.component';
 import {ReiseorteComponent} from './pages/pages-students/pages-KLARIC/reiseorte/reiseorte.component';
-import {PageAboutMeAljarrahComponent} from './pages/pages-students/page-about-me-aljarrah/page-about-me-aljarrah.component';
+import {PageAboutMeAljarrahComponent} from './pages/pages-students/pages-ALJARRAH/page-about-me-aljarrah/page-about-me-aljarrah.component';
 import {PageAboutMeGEIHSEDERComponent} from './pages/pages-students/pages-GEIHSEDER/page-about-me-geihseder/page-about-me-geihseder.component';
 import {StadionbesucheKlaricComponent} from './pages/pages-students/pages-KLARIC/stadionbesuche-klaric/stadionbesuche-klaric.component';
 import {PageAboutMeYOHANNAComponent} from './pages/pages-students/page-about-me-yohanna/page-about-me-yohanna.component';
 import {PageAboutMeMATUSCHKAComponent} from './pages/pages-students/page-MATUSCHKA/page-about-me-matuschka/page-about-me-matuschka.component';
 import {PageAboutMeSenjicComponent} from './pages/pages-students/page-SENJIC/page-about-me-senjic/page-about-me-senjic.component';
 import {PageAboutMeIBRAHIMComponent} from './pages/pages-students/pages-ibrahim/page-about-me-ibrahim/page-about-me-ibrahim.component';
-import {PageAboutMeSinghComponent} from './pages/pages-students/page-about-me-singh/page-about-me-singh.component';
+import {PageAboutMeSinghComponent} from './pages/pages-students/page-SINGH/page-about-me-singh/page-about-me-singh.component';
 import {PageAboutMeNazariComponent} from './pages/pages-students/page-NAZARI/page-about-me-nazari/page-about-me-nazari.component';
 import { SchoeffmannComponent } from './pages/pages-students/pages-schoeffmann/schoeffmann.component';
 import { MeineReisenComponent } from './pages/pages-students/pages-schoeffmann/meine-reisen/meine-reisen.component';
@@ -45,6 +44,34 @@ import {
   PageAboutMeineReisenComponent
 } from './pages/pages-students/page-NAZARI/page-meine-reisen-nazari/page-about-meine-reisen.component';
 import {
+  MeineReisenGeihsederComponent
+} from './pages/pages-students/pages-GEIHSEDER/meine-reisen-geihseder/meine-reisen-geihseder.component';
+import {
+  MeineZieleGeihsederComponent
+} from './pages/pages-students/pages-GEIHSEDER/meine-ziele-geihseder/meine-ziele-geihseder.component';
+import {
+  PageReisenKrapfComponent
+} from './pages/pages-students/pages-KRAPF/page-reisen-krapf/page-reisen-krapf.component';
+import {
+  PageReisezieleKrapfComponent
+} from './pages/pages-students/pages-KRAPF/page-reiseziele-krapf/page-reiseziele-krapf.component';
+import {
+  PageHobbiesKrapfComponent
+} from './pages/pages-students/pages-KRAPF/page-hobbies-krapf/page-hobbies-krapf.component';
+import {
+  PageMeineReisenMILLICHComponent
+} from './pages/pages-students/pages-MILLICH/page-meine-reisen-millich/page-meine-reisen-millich.component';
+import {
+  PageMeineAusbildungMillichComponent
+} from './pages/pages-students/pages-MILLICH/page-meine-ausbildung-millich/page-meine-ausbildung-millich.component';
+import {HobbiesComponent} from './pages/pages-students/pages-KLARIC/hobbies/hobbies.component';
+import {
+  PageMeineTraumreisezieleNazariComponent
+} from './pages/pages-students/page-NAZARI/page-meine-traumreiseziele-nazari/page-meine-traumreiseziele-nazari.component';
+import {
+  PageMeineKonzerteNazariComponent
+} from './pages/pages-students/page-NAZARI/page-meine-konzerte-nazari/page-meine-konzerte-nazari.component';
+import {
   PageMyGoalsVirkComponent
 } from './pages/pages-students/pages-VIRK/page-my-goals-virk/page-my-goals-virk.component';
 import {
@@ -54,27 +81,17 @@ import {
   PageMyTravelsVirkComponent
 } from './pages/pages-students/pages-VIRK/page-my-travels-virk/page-my-travels-virk.component';
 import {
-  PageMeineTraumreisezieleNazariComponent
-} from './pages/pages-students/page-NAZARI/page-meine-traumreiseziele-nazari/page-meine-traumreiseziele-nazari.component';
+  MeineReisenSpelitzComponent
+} from './pages/pages-students/pages-SPELITZ/meine-reisen-spelitz/meine-reisen-spelitz.component';
 import {
-  PageMeineKonzerteNazariComponent
-} from './pages/pages-students/page-NAZARI/page-meine-konzerte-nazari/page-meine-konzerte-nazari.component';
+  SportHistorieSpelitzComponent
+} from './pages/pages-students/pages-SPELITZ/sport-historie-spelitz/sport-historie-spelitz.component';
 import {
-  PageHobbiesKrapfComponent
-} from './pages/pages-students/pages-KRAPF/page-hobbies-krapf/page-hobbies-krapf.component';
+  PagesMeineWerkeComponent
+} from './pages/pages-students/pages-ALJARRAH/pages-meine-werke/pages-meine-werke.component';
 import {
-  PageReisenKrapfComponent
-} from './pages/pages-students/pages-KRAPF/page-reisen-krapf/page-reisen-krapf.component';
-import {
-  PageReisezieleKrapfComponent
-} from './pages/pages-students/pages-KRAPF/page-reiseziele-krapf/page-reiseziele-krapf.component';
-import {
-  MeineReisenGeihsederComponent
-} from './pages/pages-students/pages-GEIHSEDER/meine-reisen-geihseder/meine-reisen-geihseder.component';
-import {
-  MeineZieleGeihsederComponent
-} from './pages/pages-students/pages-GEIHSEDER/meine-ziele-geihseder/meine-ziele-geihseder.component';
-
+  EAutoSchoeffmannComponent
+} from './pages/pages-students/pages-schoeffmann/e-auto-schoeffmann/e-auto-schoeffmann.component';
 
 export const routes: Routes = [
   {
@@ -118,6 +135,14 @@ export const routes: Routes = [
     component: PageAboutMeMILLICHComponent
   },
   {
+    path: 'meineReisenMillich',
+    component: PageMeineReisenMILLICHComponent
+  },
+  {
+    path: 'meineAusbildungMillich',
+    component: PageMeineAusbildungMillichComponent
+  },
+  {
     path: 'aboutMeBECKER',
     component: PageAboutBeckerComponent
   },
@@ -136,11 +161,14 @@ export const routes: Routes = [
   {
     path: 'hobbies',
     component: HobbiesComponent
-
   },
   {
     path: 'about_me_aljarrah',
     component: PageAboutMeAljarrahComponent
+  },
+  {
+    path: 'meineWerke',
+    component: PagesMeineWerkeComponent
   },
   {
     path: 'aboutMeGEIHSEDER',
@@ -207,6 +235,14 @@ export const routes: Routes = [
     component: PageAboutMeineReisenComponent
   },
   {
+    path: 'meineTraumreiseziele',
+    component: PageMeineTraumreisezieleNazariComponent
+  },
+  {
+    path: 'meineKonzerte',
+    component: PageMeineKonzerteNazariComponent
+  },
+  {
     path: 'pages-schoeffmann',
     component: SchoeffmannComponent
   },
@@ -222,6 +258,10 @@ export const routes: Routes = [
      path: 'pages-schoeffmann-hobbys',
      component: HobbysComponent
    },
+  {
+    path: 'pages-schoeffmann-eauto',
+    component: EAutoSchoeffmannComponent
+  },
 
   //STOILOV
   {
@@ -245,7 +285,6 @@ export const routes: Routes = [
     path: 'aboutMeVIRK',
     component: PageAboutMeVIRKComponent
   },
-
   {
     path: 'pageMyGoalsVIRK',
     component: PageMyGoalsVirkComponent
@@ -260,8 +299,6 @@ export const routes: Routes = [
     path: 'pageMyTravelsVIRK',
     component: PageMyTravelsVirkComponent
   },
-
-
   {
     path: 'reiseorte',
     component: ReiseorteComponent
@@ -269,7 +306,14 @@ export const routes: Routes = [
   {
     path: 'aboutMeSPELITZ',
     component: PageAboutMeSpelitzComponent
+  },
+  {
+    path: 'meinereisenSpelitz',
+    component: MeineReisenSpelitzComponent
+  },
+  {
+    path: 'sporthistorieSpelitz',
+    component: SportHistorieSpelitzComponent
   }
-
 ];
 
