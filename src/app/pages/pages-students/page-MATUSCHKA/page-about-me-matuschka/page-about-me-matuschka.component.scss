@@ -68,15 +68,15 @@ a.text-decoration-none {
 }
 
 .custom-btn {
-  background-color: $secondary ;
-  color: black;
+  background: none;
+  color: $secondary;
   border: none;
-  margin-right: 10px;
+  font-size: 20px;
 }
 .header {
   font-family: 'Calibri', Times, serif;
-  background-color: #000000;
-  height: 80px;
+  background-color: $primary;
+  height: 120px;
   width: 100%;
   font-size: 25px;
 }
@@ -87,5 +87,8 @@ a.text-decoration-none {
   width: 100%;
   font-size: 25px;
 }
-
+.button-header{
+  font-family: 'Calibri', Times, serif;
+  text-align: center;
+}
 

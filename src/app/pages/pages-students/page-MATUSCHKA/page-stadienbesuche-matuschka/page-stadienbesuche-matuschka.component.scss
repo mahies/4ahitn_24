@@ -91,12 +91,11 @@ header {
 }
 
 .custom-btn {
-  background-color: $secondary ;
-  color: black;
+  background: none;
+  color: $secondary;
   border: none;
-  margin-right: 10px;
+  font-size: 20px;
 }
-
 .header {
   font-family: 'Calibri', Times, serif;
   background-color: #ae3232;
@@ -110,4 +109,8 @@ header {
   height: 80px;
   width: 100%;
   font-size: 25px;
+}
+.button-header{
+  font-family: 'Calibri', Times, serif;
+  text-align: center;
 }

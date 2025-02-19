@@ -77,10 +77,10 @@ $card-background: #0d590d;
   }
 }
 .custom-btn {
-  background-color: $secondary;
-  color: black;
+  background: none;
+  color: $secondary;
   border: none;
-  margin-right: 10px;
+  font-size: 20px;
 }
 
 .box {
@@ -101,4 +101,7 @@ $card-background: #0d590d;
   width: 100%;
   font-size: 25px;
 }
-
+.button-header{
+  font-family: 'Calibri', Times, serif;
+  text-align: center;
+}

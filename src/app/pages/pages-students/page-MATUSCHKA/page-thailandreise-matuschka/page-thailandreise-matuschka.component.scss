@@ -75,10 +75,10 @@ $secondary: #64d16c;
   }
 }
 .custom-btn {
-  background-color: $secondary;
-  color: black;
+  background: none;
+  color: $secondary;
   border: none;
-  margin-right: 10px;
+  font-size: 20px;
 }
 
 .header {
@@ -95,4 +95,7 @@ $secondary: #64d16c;
   width: 100%;
   font-size: 25px;
 }
-
+.button-header{
+  font-family: 'Calibri', Times, serif;
+  text-align: center;
+}
