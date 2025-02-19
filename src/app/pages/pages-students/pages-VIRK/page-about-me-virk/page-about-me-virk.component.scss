@@ -1,4 +1,4 @@
-body {
+main {
   background-color: #001F54; // Dunkelblau
   padding: 2rem;
   color: #FFFFFF;
@@ -6,7 +6,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  body {
+  main {
     padding: 1rem;
   }
 }

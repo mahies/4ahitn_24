@@ -1,11 +1,16 @@
 
-body {
+main {
   background-color: #001F54; // Dunkelblau
   padding: 2rem;
   color: #FFFFFF;
   font-family: Arial, sans-serif;
 }
 
+@media (max-width: 768px) {
+  main {
+    padding: 1rem;
+  }
+}
 
 .stadion-box {
   background-color: #E0E0E0;
