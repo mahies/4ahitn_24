@@ -1,7 +1,7 @@
 $primary: #3e748e;
 $secondary: #64d16c;
 
-body {
+.body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
@@ -91,8 +91,26 @@ header {
 }
 
 .custom-btn {
-  background-color: $secondary ;
-  color: black;
+  background: none;
+  color: $secondary;
   border: none;
-  margin-right: 10px;
+  font-size: 20px;
+}
+.header {
+  font-family: 'Calibri', Times, serif;
+  background-color: #ae3232;
+  height: 80px;
+  width: 100%;
+  font-size: 25px;
+}
+.footer {
+  font-family: 'Calibri', Times, serif;
+  background-color: #ae3232;
+  height: 80px;
+  width: 100%;
+  font-size: 25px;
+}
+.button-header{
+  font-family: 'Calibri', Times, serif;
+  text-align: center;
 }

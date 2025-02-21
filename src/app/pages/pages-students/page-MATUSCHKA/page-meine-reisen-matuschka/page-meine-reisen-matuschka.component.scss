@@ -3,7 +3,7 @@ $secondary: #64d16c;
 $background-color: #64d16c;
 $card-background: #0d590d;
 
-body {
+.body {
   font-family: Poppins, sans-serif;
   margin: 0;
   padding: 0;
@@ -77,10 +77,37 @@ body {
   }
 }
 .custom-btn {
-  background-color: $secondary;
+  background: none;
+  color: $secondary;
+  border: none;
+  font-size: 20px;
+}
+.custom-btn2{
+  background-color: $secondary ;
   color: black;
   border: none;
   margin-right: 10px;
 }
 
-.box { background-color: #dff0d8; }
+.box {
+  background-color: #dff0d8;
+
+}
+.header {
+  font-family: 'Calibri', Times, serif;
+  background-color: #000000;
+  height: 80px;
+  width: 100%;
+  font-size: 25px;
+}
+.footer {
+  font-family: 'Calibri', Times, serif;
+  background-color: #ae3232;
+  height: 80px;
+  width: 100%;
+  font-size: 25px;
+}
+.button-header{
+  font-family: 'Calibri', Times, serif;
+  text-align: center;
+}

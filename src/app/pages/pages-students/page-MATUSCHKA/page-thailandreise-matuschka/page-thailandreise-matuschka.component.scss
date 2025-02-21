@@ -1,6 +1,6 @@
 $primary: #3e748e;
 $secondary: #64d16c;
-body {
+.body {
   font-family: Arial, sans-serif;
   background: linear-gradient(to bottom, #64d16c, #ffffff);
   text-align: center;
@@ -8,7 +8,7 @@ body {
 }
 .container {
   max-width: 1150px;
-  margin: 0 auto;
+  margin: 20px auto;
   background: white;
   padding: 20px;
   border-radius: 10px;
@@ -43,8 +43,7 @@ body {
 .title {
   font-size: 1.1em;
   font-weight: bold;
-  color: #004d40
-;
+  color: #004d40;
 }
 
 .description {
@@ -76,9 +75,27 @@ body {
   }
 }
 .custom-btn {
-  background-color: $secondary ;
-  color: black;
+  background: none;
+  color: $secondary;
   border: none;
-  margin-right: 10px;
+  font-size: 20px;
 }
 
+.header {
+  font-family: 'Calibri', Times, serif;
+  background-color: #000000;
+  height: 80px;
+  width: 100%;
+  font-size: 25px;
+}
+.footer {
+  font-family: 'Calibri', Times, serif;
+  background-color: #ae3232;
+  height: 80px;
+  width: 100%;
+  font-size: 25px;
+}
+.button-header{
+  font-family: 'Calibri', Times, serif;
+  text-align: center;
+}
