@@ -20,16 +20,16 @@ export class PageAboutMeineHobbysBeckerComponent {
         'assets-BECKER/regenM.jpeg',
         'assets-BECKER/teesdorf.jpeg'
       ],
-      description: ''
+      description: 'Motorradfahren bedeutet für mich Freiheit und Abenteuer. Egal ob auf kurvigen Landstraßen oder in der Stadt, jede Fahrt ist ein Erlebnis.'
     },
     {
-      name: 'Gym & Fitness',
+      name: 'Fitness',
       images: [
         'assets/hobbies/gym1.jpg',
         'assets/hobbies/gym2.jpg',
         'assets/hobbies/gym3.jpg'
       ],
-      description: ''
+      description: 'Ich gehe gerne ins Gym trainieren. Ich will stärker werden und an meine Grenzen im Gym kommen'
     }
   ];
 }
