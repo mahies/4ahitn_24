@@ -4,6 +4,7 @@
     <div class="hobby-info">
       <h3>{{ hobby.name }}</h3>
       <p>{{ hobby.description }}</p>
+      <p><strong>Wie ich dazu gekommen bin:</strong> {{ hobby.story }}</p>
       <div class="hobby-images">
         <img *ngFor="let image of hobby.images" [src]="image" alt="{{ hobby.name }}" class="hobby-image">
       </div>
