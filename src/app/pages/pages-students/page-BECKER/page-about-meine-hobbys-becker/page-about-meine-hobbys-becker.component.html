@@ -1,5 +1,13 @@
 <div class="container">
   <h2>Meine Hobbys</h2>
-
+  <div class="hobby-card" *ngFor="let hobby of hobbies">
+    <div class="hobby-info">
+      <h3>{{ hobby.name }}</h3>
+      <p>{{ hobby.description }}</p>
+      <div class="hobby-images">
+        <img *ngFor="let image of hobby.images" [src]="image" alt="{{ hobby.name }}" class="hobby-image">
+      </div>
+    </div>
+  </div>
 
 </div>
