@@ -21,20 +21,19 @@ export class PageAboutMeineHobbysBeckerComponent {
         'assets-BECKER/teesdorf.jpeg'
       ],
       description: 'Motorradfahren bedeutet für mich Freiheit und Abenteuer. Egal ob auf kurvigen Landstraßen oder in der Stadt, jede Fahrt ist ein Erlebnis.',
-      story: 'Meine Eltern und mein Bruder sind Motorrad gefahren und ich bin immer als Sozius mitgefahren und habe das immer sehr cool gefunden. Auch mein Cousin und mein Onkel fahren Motorrad, deswegen hatte ich bereits mit 10 Jahren Interesse daran einen Motorrad Führerschein zu machen. ' +
-        'Ich habe mit 15,5 Jahren den 125er Führerschein gemacht und jetzt 2 Jahre später hab ich meinen A2 Führerschein gemacht. Mein erstes Motorrad habe ich mir mit 16 gekauft, eine Yamaha R125. Finanziell hätte ich nie gedacht das ich mir mit 16 eine Yamaha also mein Traummotorrad kaufen kann, aber daher ich mit 15 Jahren schon einen Samstagjob hatte, konnte ich mir diesen Traum erfüllen.' +
-        'Daher ich jetzt meinen A2 Führerschein gemacht hab, also die nächsthöhere Motorradklasse, spare ich auf ein stärkeres Motorrad'
+      story: 'Motorräder haben mich schon früh fasziniert – meine Eltern und mein Bruder fuhren selbst, und ich war oft als Sozius dabei. Auch mein Cousin und mein Onkel fahren, sodass ich schon mit 10 Jahren den Wunsch hatte, einen Motorradführerschein zu machen. Mit 16 Jahren erfüllte ich mir diesen Traum und machte den 125er-Führerschein. ' +
+        'Ich kaufte mir meine erste Maschine, eine Yamaha R125 – mein absolutes Traum-Bike. Dank meines Samstagjobs mit 15 konnte ich mir das finanzieren. Nun, mit meinem frisch bestandenen A2-Führerschein, spare ich auf ein stärkeres Motorrad!'
     },
     {
       name: 'Fitness',
       images: [
-        'assets/hobbies/gym1.jpg',
-        'assets/hobbies/gym2.jpg',
-        'assets/hobbies/gym3.jpg'
+        'assets-BECKER/gym1.jpeg',
+        'assets-BECKER/gym2.jpeg',
+        'assets-BECKER/gym3.jpeg'
       ],
-      description: 'Ich gehe gerne ins Gym trainieren. Ich will stärker werden und an meine Grenzen im Gym kommen',
-      story: 'Ich habe begonnen trainieren zu gehen, nur um bisschen fitter zu werden, jetzt fokussiere ich mich noch viel mehr auf Kraft und Muskelaufbau. ' +
-        'Ich hab begonen wir feste Ziele zu setzen wie zB. habe ich mir vorgenommen Liegestütz zu können, seit Anfang letzten Jahres habe ich dies Ziel erreicht, natürlich arbeite ich daran mich darin zu steigern und habe neue Ziele wie, dass ich bis Ende diesen Jahren 5 KLimmzüge schaffen will'
+      description: 'Ich gehe gerne ins Gym trainieren. Ich will stärker werden und an meine Grenzen kommen',
+      story: 'Ich habe ursprünglich mit dem Training begonnen, um einfach fitter zu werden. Doch mittlerweile liegt mein Fokus viel stärker auf Kraft und Muskelaufbau. ' +
+        'Ich setze mir feste Ziele – eines davon war, Liegestütze zu meistern, was ich seit Anfang letzten Jahres erreicht habe. Natürlich arbeite ich weiterhin daran, mich zu verbessern. Mein nächstes Ziel: Bis Ende dieses Jahres möchte ich fünf Klimmzüge schaffen'
     }
   ];
 }
