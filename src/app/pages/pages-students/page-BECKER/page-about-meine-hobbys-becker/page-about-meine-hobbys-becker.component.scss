@@ -1,46 +1,94 @@
+/* GANZE Seite pastelblau */
+html, body {
+  font-family: Arial, sans-serif;
+  background-color: #e3f2fd !important; /* Pastellblau (HÖCHSTE Priorität) */
+  color: #333;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Stellt sicher, dass KEIN weißer Rand bleibt */
+* {
+  box-sizing: border-box;
+}
+
+/* Container mit Abstand, aber ohne eigene Hintergrundfarbe */
 .container {
-  max-width: 100%;
-  margin: auto;
-  text-align: center;
+  max-width: 95%;
+  margin: 40px auto;
+  padding: 40px;
 }
 
-.hobby-card {
-  background: #f8f9fa;
-  padding: 20px;
-  margin: 20px auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  display: inline-block;
-  flex-direction: column;
-  align-items: center;
-  max-width: 90%;
-
+/* Titel */
+h2 {
+  text-align: left;
+  color: #1e3a5f; /* Dunkles Pastellblau */
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
+/* Hobby-Abschnitt */
 .hobby-info {
-  text-align: center;
-  h3 {
-    color: #333;
-    margin-bottom: 10px;
-  }
-
-  p {
-    font-size: 16px;
-    color: #666;
-  }
+  text-align: left;
+  margin-bottom: 60px;
 }
 
+.hobby-info h3 {
+  color: #1e3a5f;
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+.hobby-info p {
+  font-size: 20px;
+  color: #222;
+  max-width: 100%; /* Text geht über die gesamte Breite */
+}
+
+/* Bilder-Galerie */
 .hobby-images {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 10px;
+  gap: 20px;
+  margin-top: 20px;
 }
 
 .hobby-image {
-  width: 200px;
-  height: 200px;
+  width: 320px;
+  height: 320px;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+/* Responsives Design */
+@media (max-width: 768px) {
+  .container {
+    max-width: 98%;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .hobby-info h3 {
+    font-size: 24px;
+  }
+
+  .hobby-info p {
+    font-size: 18px;
+  }
+
+  .hobby-images {
+    justify-content: center;
+  }
+
+    .hobby-image {
+      width: 250px;
+      height: 250px;
+    }
+  }

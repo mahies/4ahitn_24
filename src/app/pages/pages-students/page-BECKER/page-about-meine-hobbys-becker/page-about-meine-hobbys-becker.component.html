@@ -1,6 +1,6 @@
 <div class="container">
   <h2>Meine Hobbys</h2>
-  <div class="hobby-card" *ngFor="let hobby of hobbies">
+  <div *ngFor="let hobby of hobbies">
     <div class="hobby-info">
       <h3>{{ hobby.name }}</h3>
       <p>{{ hobby.description }}</p>
@@ -10,5 +10,4 @@
       </div>
     </div>
   </div>
-
 </div>
