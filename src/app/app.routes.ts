@@ -91,6 +91,15 @@ import {
 import {
   EAutoSchoeffmannComponent
 } from './pages/pages-students/pages-schoeffmann/e-auto-schoeffmann/e-auto-schoeffmann.component';
+import {
+  PageMyDreamTravelsSinghComponent
+} from './pages/pages-students/page-SINGH/page-my-dream-travels-singh/page-my-dream-travels-singh.component';
+import {
+  PageMyFavouriteBookSinghComponent
+} from './pages/pages-students/page-SINGH/page-my-favourite-book-singh/page-my-favourite-book-singh.component';
+import {
+  PageMyTravelsSinghComponent
+} from './pages/pages-students/page-SINGH/page-my-travels-singh/page-my-travels-singh.component';
 
 export const routes: Routes = [
   {
@@ -309,6 +318,18 @@ export const routes: Routes = [
   {
     path: 'sporthistorieSpelitz',
     component: SportHistorieSpelitzComponent
+  },
+  {
+    path: 'page-my-dream-travels-singh',
+    component: PageMyDreamTravelsSinghComponent
+  },
+  {
+    path: 'page-my-favourite-book-singh',
+    component: PageMyFavouriteBookSinghComponent
+  },
+  {
+    path: 'page-my-travels-singh',
+    component: PageMyTravelsSinghComponent
   }
 ];
 
