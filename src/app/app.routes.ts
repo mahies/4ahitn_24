@@ -7,7 +7,6 @@ import {PageAboutMeKLARICComponent} from './pages/pages-students/page-about-me-k
 import {ReiseorteComponent} from './pages/pages-students/pages-KLARIC/reiseorte/reiseorte.component';
 import {PageAboutMeAljarrahComponent} from './pages/pages-students/pages-ALJARRAH/page-about-me-aljarrah/page-about-me-aljarrah.component';
 import {PageAboutMeGEIHSEDERComponent} from './pages/pages-students/pages-GEIHSEDER/page-about-me-geihseder/page-about-me-geihseder.component';
-import {StadionbesucheKlaricComponent} from './pages/pages-students/pages-KLARIC/stadionbesuche-klaric/stadionbesuche-klaric.component';
 import {PageAboutMeYOHANNAComponent} from './pages/pages-students/page-about-me-yohanna/page-about-me-yohanna.component';
 import {PageAboutMeMATUSCHKAComponent} from './pages/pages-students/page-MATUSCHKA/page-about-me-matuschka/page-about-me-matuschka.component';
 import {PageAboutMeSenjicComponent} from './pages/pages-students/page-SENJIC/page-about-me-senjic/page-about-me-senjic.component';
@@ -92,9 +91,6 @@ import {
 import {
   EAutoSchoeffmannComponent
 } from './pages/pages-students/pages-schoeffmann/e-auto-schoeffmann/e-auto-schoeffmann.component';
-import {
-  PageAboutMeineHobbysBeckerComponent
-} from './pages/pages-students/page-BECKER/page-about-meine-hobbys-becker/page-about-meine-hobbys-becker.component';
 
 export const routes: Routes = [
   {
@@ -154,16 +150,8 @@ export const routes: Routes = [
     component: PageAboutMeineReisenBeckerComponent
   },
   {
-    path: 'meineHobbysBecker',
-    component: PageAboutMeineHobbysBeckerComponent
-  },
-  {
     path: 'aboutMeKLARIC',
     component: PageAboutMeKLARICComponent
-  },
-  {
-    path: 'stadionbesuche-klaric',
-    component: StadionbesucheKlaricComponent
   },
   {
     path: 'hobbies',
