@@ -41,7 +41,8 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  }
+  padding: 0;  /* Padding entfernen, da es schon auf body gesetzt ist */
+}
 
 /* Destination Card */
 .destination-card {
