@@ -4,7 +4,32 @@ body {
   font-family: 'Aptos', sans-serif;
   font-weight: 400;
 }
+/* Allgemeine Header-Stile */
+header {
+  background-color: #1e3a5f;  /* Dunkles Pastellblau für den Header-Hintergrund */
+  color: #fff;  /* Weißer Text */
+  padding: 20px 0;  /* Abstand oben und unten */
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sanfter Schatten für den Header */
+}
 
+/* Container für den Header-Inhalt */
+.header-container {
+  max-width: 100%;
+  padding: 0 20px;  /* Padding für den Inhalt */
+  display: flex;
+  align-items: center;  /* Vertikale Zentrierung */
+  justify-content: flex-start;  /* Links ausgerichtet */
+}
+
+/* Titel im Header */
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+  color: #fff;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Bickley Script', cursive;
   font-weight: bold;
