@@ -1,29 +1,75 @@
-/* Allgemeine Header-Stile */
 header {
   background-color: #1e3a5f;  /* Dunkles Pastellblau für den Header-Hintergrund */
   color: #fff;  /* Weißer Text */
-  padding: 20px 0;  /* Abstand oben und unten */
+  padding: 1rem 0;  /* Abstand oben und unten für den Header */
   width: 100%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sanfter Schatten für den Header */
+  margin-bottom: 2rem;  /* Abstand zum nächsten Element */
 }
 
 /* Container für den Header-Inhalt */
 .header-container {
   max-width: 100%;
-  padding: 0 20px;  /* Padding für den Inhalt */
   display: flex;
-  align-items: center;  /* Vertikale Zentrierung */
-  justify-content: flex-start;  /* Links ausgerichtet */
+  align-items: center;
+  justify-content: space-between;  /* Links und rechts verteilen */
+  padding: 0 2rem;
 }
 
 /* Titel im Header */
 .header-title {
-  font-size: 24px;
+  font-size: 2rem;
   font-weight: bold;
   text-align: left;
   margin: 0;
   color: #fff;
 }
+
+/* Navigation im Header */
+.navbar {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin: 0 1rem;  /* Abstand zwischen den Links */
+}
+
+.nav-item a {
+  color: #fff;  /* Weißer Text für die Links */
+  text-decoration: none;  /* Unterstreichung entfernen */
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;  /* Sanfte Übergänge bei Hover */
+}
+
+/* Hover-Effekte für Links */
+.nav-item a:hover {
+  background-color: #ff7f50;  /* Orange-ähnlicher Farbton bei Hover */
+}
+
+/* Responsive Anpassungen */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;  /* Stapel die Elemente vertikal auf kleinen Geräten */
+    align-items: flex-start;
+  }
+
+  .navbar {
+    width: 100%;  /* Navigation nimmt die gesamte Breite ein */
+    flex-direction: column;  /* Links untereinander auf kleinen Bildschirmen */
+    align-items: flex-start;
+    padding-top: 1rem;
+  }
+
+  .nav-item {
+    margin: 0.5rem 0;  /* Etwas engerer Abstand zwischen den Links */
+  }
+}
+
 html, body {
   margin: 0;
   padding: 0;
