@@ -1,5 +1,4 @@
-$primary: burlywood;
-$secondary: saddlebrown;
+@import "../Variables_SENJIC";
 
 main {
   font-family: 'Times New Roman', Times, serif;
@@ -43,7 +42,7 @@ main {
   border-bottom-right-radius: 5px;
 }
 h6{
-  color: $secondary;
+  color: saddlebrown;
 }
 .ziele-list {
   list-style-type: none;
@@ -54,7 +53,7 @@ h6{
   margin: 10px;
   padding: 10px;
   background-color: #f3f2f2;
-  border-left: 5px solid $secondary;
+  border-left: 5px solid saddlebrown;
   border-radius: 5px;
 }
 
@@ -62,7 +61,7 @@ h6{
   background-color: #f1dcc0;
   padding: 8px;
   margin: 5px;
-  border-left: 4px solid $secondary;
+  border-left: 4px solid saddlebrown;
   border-radius: 4px;
   list-style-type: none;
 }
@@ -79,7 +78,7 @@ h6{
 }
 .header {
   font-family: 'Times New Roman', Times, serif;
-  background-color: #4c250a;
+  background-color: $secondary;
   height: 100px;
   width: 100%;
   font-size: 30px;
@@ -92,7 +91,7 @@ h6{
 }
 .footer{
   font-family: 'Times New Roman', Times, serif;
-  background-color: #4c250a;
+  background-color: $secondary;
   height: 70px;
   width: 100%;
   font-size: 25px;

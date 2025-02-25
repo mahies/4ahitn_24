@@ -1,5 +1,5 @@
-$primary: burlywood;
-$secondary: #B39EB5;
+@import "../Variables_SENJIC";
+
 main {
   font-family: 'Times New Roman', Times, serif;
   background-color: $primary;
@@ -54,7 +54,7 @@ h2{
 }
 .header {
   font-family: 'Times New Roman', Times, serif;
-  background-color: #4c250a;
+  background-color: $secondary;
   height: 100px;
   width: 100%;
   font-size: 30px;
@@ -67,7 +67,7 @@ h2{
 }
 .footer{
   font-family: 'Times New Roman', Times, serif;
-  background-color: #4c250a;
+  background-color: $secondary;
   height: 70px;
   width: 100%;
   font-size: 25px;
