@@ -30,7 +30,7 @@ export class PageAboutMeineHobbysBeckerComponent {
       images: [
         'assets-BECKER/gym1.jpeg',
         'assets-BECKER/gym2.jpeg',
-        'assets-BECKER/gym3.jpeg'
+        'assets-BECKER/gym3.jpeg',
       ],
       description: 'Ich gehe gerne ins Gym trainieren. Ich will stärker werden und an meine Grenzen kommen',
       story: 'Ich habe ursprünglich mit dem Training begonnen, um einfach fitter zu werden. Doch mittlerweile liegt mein Fokus viel stärker auf Kraft und Muskelaufbau. ' +
