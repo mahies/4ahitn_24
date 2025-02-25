@@ -18,7 +18,20 @@ $theme-colors: map-merge($theme-colors, (
 //  "primary": $primary
 //));
 
+//$component-active-bg: #03a35b;
 $primary: #03a35b;
-$component-active-bg: #03a35b;
 
-@import "bootstrap/scss/bootstrap";
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.progress-bar {
+  --bs-progress-bar-bg: $primary !important;
+  background-color: $primary !important;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+//@import "bootstrap/scss/bootstrap";
