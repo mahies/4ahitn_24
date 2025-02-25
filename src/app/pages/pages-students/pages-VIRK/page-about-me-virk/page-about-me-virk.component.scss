@@ -43,19 +43,24 @@ main {
 }
 
 .button {
-  margin: 20px;
+
+  display: block;
+  margin: 30px 0;
+  text-align: center;
 }
 
-.button button {
+.button a {
   padding: 10px 20px;
   background-color: #0056b3;
   color: #FFFFFF;
-  border: none;
+  border: 5px;
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
+
+
 }
 
-.button button:hover {
+.button a:hover {
   background-color: #003d80;
 }
