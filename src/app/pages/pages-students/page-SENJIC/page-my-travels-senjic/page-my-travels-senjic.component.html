@@ -1,15 +1,27 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meine Reisen</title>
-</head>
-
-<body>
+<header class="header">
+  <a href="https://www.instagram.com/oliver.597_">
+    <img src= "assets-SENJIC/insta.png" alt="Instagram" class="header-icon">
+  </a>
+  <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
+    <img src= "assets-SENJIC/youtube.png" alt="youtube" class="header-icon" >
+  </a>
+  <a href="mailto:210278@studierende.htl-donaustadt.at">
+    <img src= "assets-SENJIC/email.png" alt="youtube" class="header-icon" >
+  </a>
+  <a href="https://github.com/oliver5977">
+    <img src= "assets-SENJIC/github.png" alt="youtube" class="header-icon" >
+  </a>
+  <div class="button-format">
+    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary; custom-btn">Zurück</a>
+    <a routerLink="/aboutMeSENJIC" routerLinkActive="active" class="btn btn-primary; custom-btn">Über Mich</a>
+    <a routerLink="/MyFutureSENJIC" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Zukunft</a>
+    <a routerLink="/MyJerseysSENJIC" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Trikots</a>
+  </div>
+</header>
+<main>
 <div class="container">
   <h1 style="text-align: center; margin-bottom: 20px">Meine Reisen</h1>
-    <a routerLink="/aboutMeSENJIC" routerLinkActive="active" class="btn btn-primary custom-btn">Zurück</a>
+
   <div class="travel-grid">
     <div class="travel-item">
       <img [src]="Kroatienimg"  alt="Kroatien">
@@ -59,8 +71,10 @@
       <p><em style="margin: 5px">{{Turkei}}</em></p>
     </div>
   </div>
-
-  <p style="text-align: center; padding-top: 40px;"><strong>© by Oliver SENJIĆ</strong></p>
 </div>
-</body>
-</html>
+</main>
+<footer class="footer">
+  <p style="text-align: center; color: white"><strong>© by Oliver SENJIĆ</strong></p>
+  <a href="/aboutMeSENJIC#top" class="scroll-top-btn">↑ Nach oben</a>
+</footer>
+

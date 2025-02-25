@@ -1,15 +1,25 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meine Trikotsammlung</title>
-</head>
-<body>
+<header class="header">
+  <a href="https://www.instagram.com/oliver.597_">
+    <img src= "assets-SENJIC/insta.png" alt="Instagram" class="header-icon">
+  </a>
+  <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
+    <img src= "assets-SENJIC/youtube.png" alt="youtube" class="header-icon" >
+  </a>
+  <a href="mailto:210278@studierende.htl-donaustadt.at">
+    <img src= "assets-SENJIC/email.png" alt="youtube" class="header-icon" >
+  </a>
+  <a href="https://github.com/oliver5977">
+    <img src= "assets-SENJIC/github.png" alt="youtube" class="header-icon" >
+  </a>
+  <div class="button-format">
+    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary; custom-btn">Zurück</a>
+    <a routerLink="/aboutMeSENJIC" routerLinkActive="active" class="btn btn-primary; custom-btn">Über Mich</a>
+    <a routerLink="/myTravelsSENJIC" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Reisen</a>
+    <a routerLink="/MyFutureSENJIC" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Zukunft</a>
+  </div>
+</header>
+<main>
 <h1 style="text-align: center">Meine Trikotsammlung</h1>
-
-<a routerLink="/aboutMeSENJIC" routerLinkActive="active" class="btn btn-primary custom-btn">Zurück</a>
-
 <div class="league-section">
   <h2>Bundesliga</h2>
   <div class="trikot-liste">
@@ -94,6 +104,9 @@
     </div>
   </div>
 </div>
-<p style="text-align: center"><strong>© by Oliver SENJIĆ</strong></p>
-</body>
-</html>
+</main>
+<footer class="footer">
+  <p style="text-align: center; color: white"><strong>© by Oliver SENJIĆ</strong></p>
+  <a href="/aboutMeSENJIC#top" class="scroll-top-btn">↑ Nach oben</a>
+</footer>
+
