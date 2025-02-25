@@ -104,7 +104,7 @@ h6{
   text-decoration: none;
   padding: 10px 15px;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 50px;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -113,5 +113,10 @@ h6{
 .scroll-top-btn:hover {
   background-color: #6d4427;
 }
-
+.custom-btn:hover {
+  background-color: #7e4f29;
+  color: #cac7c7;
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
 
