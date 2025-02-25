@@ -3,6 +3,7 @@ import {Person, MILLICH} from '../../../../model/person';
 import {RouterLink, RouterLinkActive} from '@angular/router';
 import {DatePipe} from '@angular/common';
 import {HeaderMILLICHComponent} from '../header-millich/header-millich.component';
+import {FooterMILLICHComponent} from '../footer-millich/footer-millich.component';
 
 @Component({
   selector: 'app-page-about-me-millich',
@@ -10,7 +11,8 @@ import {HeaderMILLICHComponent} from '../header-millich/header-millich.component
     RouterLink,
     RouterLinkActive,
     DatePipe,
-    HeaderMILLICHComponent
+    HeaderMILLICHComponent,
+    FooterMILLICHComponent
   ],
   templateUrl: './page-about-me-millich.component.html',
   styleUrl: './page-about-me-millich.component.scss'
