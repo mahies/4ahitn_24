@@ -5,6 +5,7 @@ import {PageAboutMeKRAPFComponent} from './pages/pages-students/pages-KRAPF/page
 import {PageAboutMeMILLICHComponent} from './pages/pages-students/pages-MILLICH/page-about-me-millich/page-about-me-millich.component';
 import {PageAboutMeKLARICComponent} from './pages/pages-students/page-about-me-klaric/page-about-me-klaric.component';
 import {ReiseorteComponent} from './pages/pages-students/pages-KLARIC/reiseorte/reiseorte.component';
+import {StadionbesucheKlaricComponent} from './pages/pages-students/pages-KLARIC/stadionbesuche-klaric/stadionbesuche-klaric.component';
 import {PageAboutMeAljarrahComponent} from './pages/pages-students/pages-ALJARRAH/page-about-me-aljarrah/page-about-me-aljarrah.component';
 import {PageAboutMeGEIHSEDERComponent} from './pages/pages-students/pages-GEIHSEDER/page-about-me-geihseder/page-about-me-geihseder.component';
 import {PageAboutMeYOHANNAComponent} from './pages/pages-students/page-about-me-yohanna/page-about-me-yohanna.component';
@@ -165,6 +166,10 @@ export const routes: Routes = [
   {
     path: 'hobbies',
     component: HobbiesComponent
+  },
+  {
+    path: 'stadionbesuche-klaric',
+    component: StadionbesucheKlaricComponent
   },
   {
     path: 'about_me_aljarrah',
