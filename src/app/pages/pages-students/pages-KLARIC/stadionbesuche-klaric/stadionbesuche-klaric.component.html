@@ -1,105 +1,122 @@
-<h1 style="text-align: center; font-size: 3em; color: #00ffcc; text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 40px #00ffcc; animation: flicker 1.5s infinite alternate; font-family: 'Arial Black', sans-serif;">Meine Hobbies</h1>
+<div class="stadium-page">
+  <section class="hero-section">
+    <h1>Meine Stadionbesuche</h1>
+    <p>Erkunde die legendären Stadien, die ich besucht habe!</p>
+  </section>
 
-<div class="hobby-container">
-  <div class="hobby">
-    <img src="https://static.spektrum.de/fm/912/f1920x1080/Fu__ball_fotolia_110372910_steevy84.jpg" alt="Fußball">
-    <h2>Fußball</h2>
-    <p>Ich liebe es, Fußball zu spielen und meine Lieblingsmannschaften zu unterstützen.</p>
-  </div>
-  <div class="hobby">
-    <img src="https://sportschuleasia.de/wp-content/uploads/2022/09/Boxen-Geschichte-Muhammad-Ali.jpg" alt="Boxen">
-    <h2>Boxen</h2>
-    <p>Boxen ist ein großartiger Sport für Fitness und mentale Stärke.</p>
-  </div>
-  <div class="hobby">
-    <img src="https://img.posterstore.com/zoom/ps52266.jpg?auto=compress%2Cformat&fit=max&w=3840" alt="Basketball">
-    <h2>Basketball</h2>
-    <p>Basketball ist ein schneller und spannender Sport, den ich gerne spiele.</p>
-  </div>
-  <div class="hobby">
-    <img src="https://i.ytimg.com/vi/U8bcCTbG8JU/hqdefault.jpg" alt="Stadionbesuche">
-    <h2>Stadionbesuche</h2>
-    <p>Ich liebe die Atmosphäre in Stadien und besuche gerne verschiedene Arenen.</p>
-  </div>
+  <section class="stadium-highlights">
+    <div class="stadium-card">
+      <h2>Poljud Stadion (Split, Kroatien)</h2>
+      <img src="https://static.hajduk.hr/rev-1720684120/image_transform.php/transform/1/instance_id/1/tasks/thumbnail_fix/width/1200/height/675/format/thumbnail/type/video/video_id/1605" alt="Poljud Stadion">
+      <p>Ein fantastisches Stadion mit einer einzigartigen Architektur!</p>
+      <a href="https://de.wikipedia.org/wiki/Poljudstadion" class="stadium-btn">Mehr erfahren</a>
+    </div>
+
+    <div class="stadium-card">
+      <h2>Marakana Stadion (Belgrad, Serbien)</h2>
+      <img src="https://en.nogomania.com/GetFile.ashx?id=245975" alt="Marakana Stadion">
+      <p>Ein legendäres Stadion in Belgrad, bekannt für seine Geschichte und Atmosphäre!</p>
+      <a href="https://de.wikipedia.org/wiki/Marakana" class="stadium-btn">Mehr erfahren</a>
+    </div>
+
+    <div class="stadium-card">
+      <h2>Stadion von Rapid Wien (Wien, Österreich)</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Vienna_allianz_stadion.jpg" alt="Stadion von Rapid Wien">
+      <p>Ein beliebtes und traditionsreiches Stadion in Österreich.</p>
+      <a href="https://de.wikipedia.org/wiki/Allianz_Stadion" class="stadium-btn">Mehr erfahren</a>
+    </div>
+
+    <div class="stadium-card">
+      <h2>Ernst-Happel-Stadion (Wien, Österreich)</h2>
+      <img src="https://www.wienersportstaetten.at/media/image/c480x255/22.jpg" alt="Ernst-Happel-Stadion">
+      <p>Das größte Stadion Österreichs und eine legendäre Arena!</p>
+      <a href="https://de.wikipedia.org/wiki/Ernst-Happel-Stadion" class="stadium-btn">Mehr erfahren</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Alle Rechte vorbehalten.</p>
+  </footer>
 </div>
 
-<button onclick="window.location.href='index.html'" class="glow-button">Zurück zur Startseite</button>
-
 <style>
-  @keyframes flicker {
-    0% { opacity: 1; }
-    50% { opacity: 0.8; }
-    100% { opacity: 1; }
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
   }
 
-  .hobby-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 30px;
-    background: linear-gradient(45deg, #1e3c72, #2a5298);
-    animation: colorShift 5s infinite alternate;
-  }
-
-  @keyframes colorShift {
-    0% { filter: hue-rotate(0deg); }
-    100% { filter: hue-rotate(360deg); }
-  }
-
-  .hobby {
-    background: rgba(0, 0, 0, 0.7);
-    padding: 15px;
-    border-radius: 15px;
+  .hero-section {
+    background: #003366;
+    color: white;
     text-align: center;
-    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
-    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 50px 20px;
   }
 
-  .hobby:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.6);
+  .hero-section h1 {
+    font-size: 3rem;
   }
 
-  .hobby img {
-    width: 90%;
-    border-radius: 8px;
-    transition: transform 0.3s;
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-top: 10px;
   }
 
-  .hobby img:hover {
-    transform: scale(1.03);
+  .stadium-highlights {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px;
   }
 
-  .hobby h2 {
-    color: #00ffcc;
-    font-size: 1.8em;
-    text-shadow: 0 0 10px #00ffcc;
+  .stadium-card {
+    background: #ffffff;
+    width: 280px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
   }
 
-  .hobby p {
+  .stadium-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  .stadium-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .stadium-card p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+
+  .stadium-btn {
+    background-color: #003366;
     color: white;
-    font-size: 1.1em;
-  }
-
-  .glow-button {
-    display: block;
-    margin: 30px auto;
     padding: 10px 20px;
-    font-size: 1em;
     border: none;
-    border-radius: 8px;
-    background: linear-gradient(135deg, #ff00ff, #ff0080);
-    color: white;
-    box-shadow: 0px 0px 15px #ff00ff;
-    cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
-    position: relative;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
   }
-  .glow-button:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 25px #ff00ff;
+
+  .stadium-btn:hover {
+    background-color: #00509e;
+  }
+
+  .footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
   }
 </style>
