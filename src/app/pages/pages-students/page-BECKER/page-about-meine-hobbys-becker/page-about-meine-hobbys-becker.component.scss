@@ -13,7 +13,7 @@ header {
   padding: 0 20px;  /* Padding für den Inhalt */
   display: flex;
   align-items: center;  /* Vertikale Zentrierung */
-  justify-content: flex-start;  /* Links ausgerichtet */
+  justify-content: space-between;  /* rechts ausgerichtet */
 }
 
 /* Titel im Header */
@@ -23,6 +23,24 @@ header {
   text-align: left;
   margin: 0;
   color: #fff;
+}
+.button-format {
+  display: flex;
+  gap: 15px; /* Abstand zwischen den Buttons */
+}
+
+/* Buttons */
+.custom-btn {
+  background-color: #1e3a5f; /* Blaue Buttons */
+  color: #fff; /* Weiße Schrift */
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.custom-btn:hover {
+  background-color: #1e3a5f;
 }
 /* GANZE Seite pastelblau */
 html, body {
