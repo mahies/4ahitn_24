@@ -101,6 +101,9 @@ import {
 import {
   PageMyTravelsSinghComponent
 } from './pages/pages-students/page-SINGH/page-my-travels-singh/page-my-travels-singh.component';
+import {
+  PageAboutMeineHobbysBeckerComponent
+} from './pages/pages-students/page-BECKER/page-about-meine-hobbys-becker/page-about-meine-hobbys-becker.component';
 
 export const routes: Routes = [
   {
@@ -158,6 +161,10 @@ export const routes: Routes = [
   {
     path: 'meineReisenBecker',
     component: PageAboutMeineReisenBeckerComponent
+  },
+  {
+    path: 'meineHobbysBecker',
+    component: PageAboutMeineHobbysBeckerComponent
   },
   {
     path: 'aboutMeKLARIC',
