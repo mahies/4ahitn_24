@@ -1,9 +1,35 @@
-//@import "./../schoeffmann-variables.scss";
-//@import "../schoeffmann.component.scss";
-
-//$primary: rgb(20, 204, 127);
-//@import "./../../../../../../node_modules/bootstrap/scss/bootstrap.scss";
-//$primary: rgb(20, 204, 127);
-
 @import "./../schoeffmann-variables";
+
+a {
+  display: inline-block; /* Ensures the link behaves like text */
+  word-wrap: break-word; /* Allows the text to break */
+  white-space: normal; /* Prevents the text from being forced to stay on one line */
+}
+
+.light-underline {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+
+
+
+.customcolor {
+  background-color: $primary !important;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
 

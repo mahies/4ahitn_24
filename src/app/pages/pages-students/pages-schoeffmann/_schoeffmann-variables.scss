@@ -13,25 +13,12 @@ $theme-colors: map-merge($theme-colors, (
 //@import "../../../../../node_modules/bootstrap/scss/bootstrap.scss"; //use full path to bootstrap.scss
 //@import "bootstrap/scss/bootstrap";
 
-@import "./../../../../../node_modules/bootstrap/scss/functions";
-@import "./../../../../../node_modules/bootstrap/scss/variables";
-
-//$primary: #FF0000 !important;
-//@import "bootstrap/scss/bootstrap";
-
-/*
-$custom-colors: (
-  "mycolor": rgb(221, 28, 212)
-);
-
-$theme-colors: map-merge($theme-colors, $custom-colors);
- */
-
-$primary: rgb(221, 28, 212); // Deine neue Primärfarbe
-
 // Falls du andere Theme-Farben ebenfalls anpassen möchtest:
 //$theme-colors: map-merge($theme-colors, (
 //  "primary": $primary
 //));
 
-//@import "bootstrap/scss/bootstrap"; // Bootstrap danach importieren!
+$primary: #03a35b;
+$component-active-bg: #03a35b;
+
+@import "bootstrap/scss/bootstrap";
