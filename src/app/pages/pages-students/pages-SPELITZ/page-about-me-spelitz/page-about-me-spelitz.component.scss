@@ -60,12 +60,17 @@ footer-content p,
     flex-direction: column;
     text-align: center;
   }
+
+  .container {
+    padding: 15px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
-.container {
-  max-width: 600px;
-  width: 100%;
-}
 
 .profile-image {
   width: 150px;
