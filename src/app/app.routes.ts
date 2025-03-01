@@ -104,6 +104,9 @@ import {
 import {
   PageAboutMeineHobbysBeckerComponent
 } from './pages/pages-students/page-BECKER/page-about-meine-hobbys-becker/page-about-meine-hobbys-becker.component';
+import {
+  MeineHaustiereSpelitzComponent
+} from './pages/pages-students/pages-SPELITZ/meine-haustiere-spelitz/meine-haustiere-spelitz.component';
 
 export const routes: Routes = [
   {
@@ -330,6 +333,10 @@ export const routes: Routes = [
   {
     path: 'sporthistorieSpelitz',
     component: SportHistorieSpelitzComponent
+  },
+  {
+    path: 'meinehaustiereSpelitz',
+    component: MeineHaustiereSpelitzComponent
   },
   {
     path: 'page-my-dream-travels-singh',
