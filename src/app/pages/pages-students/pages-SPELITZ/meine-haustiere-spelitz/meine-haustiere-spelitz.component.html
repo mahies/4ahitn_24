@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meine Haustiere</title>
+  <link rel="stylesheet" href="meine-haustiere-spelitz.component.scss">
+</head>
 <header class="header">
   <nav class="nav">
     <ul class="nav-list">
-      <li><a routerLink="/home">Home</a></li>
-      <li><a routerLink="/sporthistorieSpelitz">Sporthistorie</a></li>
-      <li><a routerLink="/meinereisenSpelitz">Meine Reisen</a></li>
-      <li><a routerLink="/aboutMeSPELITZ">Über mich</a></li>
+      <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
+      <li><a routerLink="/aboutMeSPELITZ" routerLinkActive="active">Über mich</a></li>
+      <li><a routerLink="/meinereisenSpelitz" routerLinkActive="active">Meine Reisen</a></li>
+      <li><a routerLink="/meinehaustiereSpelitz" routerLinkActive="active">Haustiere</a></li>
     </ul>
   </nav>
 </header>
@@ -25,13 +31,10 @@
 <p>Ashoka oder auch Shoki genannt ist unsere Hündin, welche in einigen Wochen 1 Jahr alt wird!</p>
 <br><p> Ashoka wurde am 14.3.2024 geboren!</p>
 <p> Ashoka ist sehr brav und nimmt es sehr ernst unser Haus vor Einbrechern zu schützen.</p>
-<nav>
-  <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Zur Startseite</a>
-  <a routerLink="/aboutMeSPELITZ" routerLinkActive="active" class="btn btn-primary">About-Me</a>
-</nav>
 </body>
 <footer class="footer">
   <div class="footer-content">
     <p>&copy; 2025 Fabian Spelitz | Alle Rechte vorbehalten</p>
+    <a href="/meinehaustiereSpelitz" class="scroll-top">↑</a>
   </div>
 </footer>
