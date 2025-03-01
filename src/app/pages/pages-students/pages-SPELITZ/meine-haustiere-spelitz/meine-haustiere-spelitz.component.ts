@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {RouterLink, RouterLinkActive} from "@angular/router";
+import {SPELITZ} from '../../../../model/person';
 
 @Component({
   selector: 'app-meine-haustiere-spelitz',
@@ -12,4 +13,5 @@ import {RouterLink, RouterLinkActive} from "@angular/router";
 })
 export class MeineHaustiereSpelitzComponent {
 
+  protected readonly me = SPELITZ;
 }
