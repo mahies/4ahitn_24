@@ -9,6 +9,17 @@ body {
   align-items: center;
   text-align: center;
 }
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
 .container {
   max-width: 600px;

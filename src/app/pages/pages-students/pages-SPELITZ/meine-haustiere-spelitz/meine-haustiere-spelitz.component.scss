@@ -9,7 +9,11 @@ body {
   align-items: center;
   text-align: center;
 }
-
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .container {
   max-width: 800px;
   min-height: 100vh;
@@ -17,6 +21,10 @@ body {
   padding: 20px;
 }
 @media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    text-align: center;
+  }
   .container {
     width: 100%;
     padding: 10px;
