@@ -3,6 +3,7 @@
 body {
   font-family: 'Aptos', sans-serif;
   font-weight: 400;
+
 }
 /* Allgemeine Header-Stile */
 header {
@@ -11,6 +12,10 @@ header {
   padding: 20px 0;  /* Abstand oben und unten */
   width: 100%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sanfter Schatten für den Header */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 /* Container für den Header-Inhalt */
@@ -64,6 +69,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center; /* Horizontal zentrieren */
   padding: 2rem; /* Abstand */
   box-sizing: border-box;
+  margin-top: 80px;
 }
 h5{
   color: #4682b4;

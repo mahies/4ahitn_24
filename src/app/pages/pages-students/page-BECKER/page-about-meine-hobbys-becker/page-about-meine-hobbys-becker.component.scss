@@ -1,10 +1,13 @@
-/* Allgemeine Header-Stile */
 header {
   background-color: #1e3a5f;  /* Dunkles Pastellblau für den Header-Hintergrund */
   color: #fff;  /* Weißer Text */
   padding: 20px 0;  /* Abstand oben und unten */
   width: 100%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sanfter Schatten für den Header */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 /* Container für den Header-Inhalt */
@@ -42,7 +45,7 @@ header {
 .custom-btn:hover {
   background-color: #1e3a5f;
 }
-/* GANZE Seite pastelblau */
+
 html, body {
   font-family: Arial, sans-serif;
   background-color: #e3f2fd !important; /* Pastellblau (HÖCHSTE Priorität) */
@@ -63,6 +66,7 @@ html, body {
 .container {
   max-width: 95%;
   margin: 40px auto;
+  margin-top: 80px;
   padding: 40px;
 }
 

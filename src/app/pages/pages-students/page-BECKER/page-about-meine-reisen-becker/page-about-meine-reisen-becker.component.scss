@@ -4,6 +4,10 @@ header {
   padding: 20px 0;  /* Abstand oben und unten */
   width: 100%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sanfter Schatten für den Header */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 /* Container für den Header-Inhalt */
@@ -41,7 +45,6 @@ header {
 .custom-btn:hover {
   background-color: #1e3a5f;
 }
-
 html, body {
   margin: 0;
   padding: 0;
@@ -68,6 +71,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  margin-top: 80px;
   margin-bottom: 2rem;
   padding: 1rem;
   border: 1px solid #ccc;
