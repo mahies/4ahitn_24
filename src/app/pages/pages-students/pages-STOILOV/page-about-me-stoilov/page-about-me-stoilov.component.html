@@ -2,9 +2,13 @@
 <html lang="de">
 <head>
   <title>About Daniel Stoilov</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="C:\Users\Danie\WebstormProjects\4ahitn_24\src\app\pages\pages-students\page-about-me-stoilov\page-about-me-stoilov.component.scss">
 </head>
-<header style="--text-color: white; background-color: #352F44; display: flex; justify-content: space-between; padding: 10px;">
+<body style="background-color:#2A2438">
+<header>
+  <h1>Über mich</h1>
   <nav>
     <a href="index.html" class="header-button">Zurück</a>
     <a routerLink="/meineHobbiesSTOILOV" routerLinkActive="active" class="header-button">Meine Hobbies</a>
@@ -14,19 +18,28 @@
 </header>
 
 <div class="contact-info">
-  <h1>{{firstName}} <span class="last-name">{{lastName}}</span></h1>
-  <p><strong>Geburtsdatum:</strong> {{birthDate}}</p>
-  <p><strong>Email:</strong> {{email}}</p>
-  <p><strong>Wohnort:</strong> Wien, Donaustadt</p>
-  <p><strong>Abteilung:</strong> IT</p>
-  <p><strong>GitHub:</strong> <a href="https://github.com/Danielzis" target="_blank">{{github}}</a></p>
-</div>
-
-<div class="description">
-  <p><strong>Beschreibung: </strong>{{beschreibung}}</p>
+  <div class="layer2">
+    <img src="{{profileImage}}" align="left" class="profile-image" alt="Bild">
+    <h2>{{firstName}} <span class="last-name">{{lastName}}</span></h2>
+    <p><strong>Geburtsdatum:</strong> {{birthDate}}</p>
+    <p><strong>Email:</strong> {{email}}</p>
+    <p><strong>Wohnort:</strong> Wien, Donaustadt</p>
+    <p><strong>Abteilung:</strong> IT</p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/Danielzis" target="_blank">{{github}}</a></p>
+    <p><strong>Beschreibung: </strong>{{beschreibung}}</p>
+  </div>
 </div>
 
 <div class="quote">
-  <p>{{zitat}}</p>
+  <div class="layer2">
+    <p>{{zitat}}</p>
+  </div>
 </div>
+
+<br>
+
+</body>
+<footer class="footer">
+  <p>&copy; 2025 Daniel Stoilov</p>
+</footer>
 </html>

@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="de">
-
-<header>
+<head>
   <title>Meine Hobbies</title>
-  <h1>Meine Hobbys</h1>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="C:\Users\Danie\WebstormProjects\4ahitn_24\src\app\pages\pages-students\page-meine-hobbies-stoilov\page-meine-hobbies-stoilov.component.scss">
+</head>
+<body style="background-color:#2A2438">
+<header>
+  <h1>Meine Hobbies</h1>
+  <nav>
+    <a href="index.html" class="header-button">Zurück</a>
+    <a routerLink="/aboutMeSTOILOV" routerLinkActive="active" class="header-button">Über mich</a>
+    <a routerLink="/meineReiseSTOILOV" routerLinkActive="active" class="header-button">Meine Reise</a>
+    <a routerLink="/meineVisionUndZieleSTOILOV" routerLinkActive="active" class="header-button">Vision & Ziele</a>
+  </nav>
 </header>
 
-<section class="hobbies">
+<section>
   <div class="hobby">
     <img src="{{klavierBild}}" alt="Klavier spielen">
     <h2>Klavier spielen</h2>
@@ -32,8 +42,9 @@
     <p>Ich liebe es, neue Anwendungen zu entwickeln und kreative Lösungen für Probleme zu finden.</p>
   </div>
 </section>
-
-<footer>
-  <a routerLink="/aboutMeSTOILOV" routerLinkActive="active" class="btn btn-primary custom-btn">Zurück</a>
+<br>
+</body>
+<footer class="footer">
+  <p>&copy; 2025 Daniel Stoilov</p>
 </footer>
-
+</html>
