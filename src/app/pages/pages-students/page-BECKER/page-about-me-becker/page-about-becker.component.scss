@@ -122,7 +122,6 @@ body {
   font-weight: 400;
 }
 
-/* Allgemeine Footer-Stile */
 .footer {
   background-color: #1e3a5f;
   color: #fff;
@@ -134,10 +133,33 @@ body {
 }
 
 .footer-container {
-  max-width: 1200px;
-  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  width: 100%;
+}
+.footer-container p {
+  margin: 0;
+  flex-grow: 1; /* Lässt den Text nach links rutschen */
+  text-align: left;
+}
+.footer-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  min-width: 150px;
 }
 
+.footer-icons a {
+  margin: 0 10px;
+  color: #b0e0e6;
+  text-decoration: none;
+}
+
+.footer-icons a:hover {
+  color: #fff;
+}
 
 
 
