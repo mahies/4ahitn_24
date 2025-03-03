@@ -112,7 +112,36 @@ body {
   border-radius: 5px;
 }
 
-/* Responsive Anpassungen für größere Bildschirme */
+/* Zurück nach oben Button */
+.scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1e3a5f; /* Gleiche Farbe wie Header & Footer */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1000; /* Sicherstellen, dass der Button oben ist */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover-Effekt */
+.scrollToTopBtn:hover {
+  background-color: #4682b4;
+}
+
+/* Button nur sichtbar machen, wenn die Seite gescrollt wird */
+html, body {
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden; /* Verhindert horizontales Scrollen */
+}
+
 
 /* Für Tablets und größere Geräte */
 @media (min-width: 768px) {

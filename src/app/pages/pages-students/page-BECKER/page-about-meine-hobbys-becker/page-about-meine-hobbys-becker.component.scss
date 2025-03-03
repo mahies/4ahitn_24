@@ -140,6 +140,27 @@ h2 {
       height: 250px;
     }
   }
+/* Zurück nach oben Button */
+.scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1e3a5f; /* Gleiche Farbe wie Header & Footer */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1000; /* Sicherstellen, dass der Button oben ist */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover-Effekt */
+.scrollToTopBtn:hover {
+  background-color: #4682b4;
+}
+
 body {
   font-family: 'Aptos', sans-serif;
   font-weight: 400;
