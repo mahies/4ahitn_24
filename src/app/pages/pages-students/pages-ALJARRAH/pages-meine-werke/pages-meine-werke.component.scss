@@ -35,7 +35,6 @@ header {
 
 
 /* Raw Sketches Bereich */
-/* Raw Sketches Bereich */
 .raw-sketches {
   background-color: black;
   padding: 50px 0;
@@ -45,7 +44,7 @@ header {
 .raw-sketches h2 {
   color: white;
   text-align: center;
-  font-size: 2em;
+  font-size: 4em;
   margin-bottom: 30px;
   font-family: 'Permanent Marker', cursive;
 }
@@ -68,6 +67,69 @@ header {
 
 /* Einleitungstext-Styling */
 .intro-text {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Galerie-Styling */
+/* Sticky Header */
+header {
+  position: sticky;
+  top: 0;
+  background-color: #303030;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.8em;
+  font-weight: bold;
+  z-index: 1000;
+  font-family: 'Permanent Marker', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  /* Instagram Icon */
+  .insta-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px; // Nur Kanten abgerundet
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-50%) scale(1.1);
+    }
+  }
+}
+
+/* Raw Sketches Bereich */
+.raw-sketches {
+  background-color: black;
+  padding: 50px 0;
+  margin-top: 50px;
+}
+
+.raw-sketches h2 {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 30px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+/* Sicherstellen, dass der Text unter Raw Sketches weiß ist */
+.raw-sketches .intro-text {
+  color: white;  /* Schriftfarbe auf Weiß setzen */
   font-family: "Courier New", Courier, monospace;
   font-size: 1.4em;
   font-weight: bold;
@@ -114,3 +176,20 @@ header {
   transform: scale(1.05);
 }
 
+/* Stil für die Bildtitel */
+.image-title {
+  color: black; /* Schriftfarbe weiß */
+  font-family: 'Courier New', Courier, monospace; /* Gleiche Schriftart wie bei anderen Texten */
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 15px; /* Vergrößerter Abstand zwischen Bild und Titel */
+}
+
+
+.image-title2 {
+  color: white; /* Schriftfarbe weiß */
+  font-family: 'Courier New', Courier, monospace; /* Gleiche Schriftart wie bei anderen Texten */
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 15px; /* Vergrößerter Abstand zwischen Bild und Titel */
+}
