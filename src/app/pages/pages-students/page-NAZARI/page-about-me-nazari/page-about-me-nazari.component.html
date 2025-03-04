@@ -42,11 +42,9 @@
       margin: 0 5px;
       background-color: rgba(255, 255, 255, 0.2);
       border-radius: 5px;
+      transition: transform 0.3s ease, background-color 0.3s;
     }
 
-    .menu a:hover {
-      background-color: rgba(255, 255, 255, 0.5);
-    }
 
     .container {
       width: 90%;
@@ -62,15 +60,15 @@
       text-align: center;
       font-size: 2.5em;
       font-weight: bold;
-      margin: 20px 0; /* Abstand nach oben und unten */
-      color: #FFB6C1; /* Textfarbe für den Namen */
+      margin: 20px 0;
+      color: #FFB6C1;
     }
 
     h6 {
       text-align: center;
-      margin: 10px 0; /* Verringert den Abstand zum vorherigen Element */
-      color: black; /* Textfarbe für Willkommen */
-      background: none; /* Keine Hintergrundfarbe */
+      margin: 10px 0;
+      color: black;
+      background: none;
     }
 
     .info {
@@ -122,8 +120,8 @@
 </div>
 
 <div class="container">
-  <h1 class="name-title">Nina Nazari</h1> <!-- Name im weißen Container -->
-  <h6>Willkommen zu meiner Webseite über mich!</h6> <!-- Willkommensnachricht in Schwarz -->
+  <h1 class="name-title">Nina Nazari</h1>
+  <h6>Willkommen zu meiner Webseite über mich!</h6>
 
   <div class="info">
     <p><strong>Name:</strong> {{me.surname}} {{me.firstname}}</p>

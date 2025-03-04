@@ -5,7 +5,7 @@
 }
 main{
   background: #007BAF;
-  padding: 2rem;
+  padding: 4.5rem 2rem 2rem;
 }
 .container{
   display : flex;
@@ -16,4 +16,7 @@ main{
   display: block;
   margin: 0 auto;
   width: fit-content;
+}
+.width{
+  width: 30rem;
 }

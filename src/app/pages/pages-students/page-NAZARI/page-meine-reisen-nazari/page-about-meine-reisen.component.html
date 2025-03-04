@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,36 @@
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
-      background-color: #f9f9f9; /* Sehr helles Grau */
+      background-color: #f9f9f9;
       color: #333;
       margin: 0;
       padding: 0;
     }
+
+    .header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #d3d3d3;
+      padding: 10px 20px;
+      border-radius: 10px 10px 0 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .menu {
+      display: flex;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: white;
+      padding: 10px 15px;
+      margin: 0 5px;
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 5px;
+      transition: transform 0.3s ease, background-color 0.3s;
+    }
+
 
     .container {
       width: 90%;
@@ -23,22 +49,16 @@
     .header {
       text-align: center;
       margin-bottom: 20px;
-      background: linear-gradient(135deg, #d3d3d3, #e0e0e0); /* Helles Grau */
+      background: #d3d3d3;
       padding: 20px;
       border-radius: 10px;
+      animation: fadeIn 1s ease-in;
     }
 
     .header h1 {
       margin: 0;
       font-size: 2.5em;
-      color: #333; /* Dunkles Grau für den Text */
-    }
-
-    .intro-text {
-      font-size: 1.2em;
-      margin-bottom: 30px;
-      text-align: center;
-      color: #555; /* Mittelgrau für den Einführungstext */
+      color: #333;
     }
 
     .section {
@@ -47,6 +67,11 @@
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+
+    .section:hover {
+      transform: scale(1.02);
     }
 
     .section h2 {
@@ -70,18 +95,56 @@
       width: 32%;
       border-radius: 8px;
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+
+    .images img:hover {
+      transform: scale(1.05);
+      filter: brightness(0.9);
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+
+
+
+    .footer {
+      text-align: center;
+      padding: 15px;
+      background: #d3d3d3;
+      color: black;
+      margin-top: 20px;
+      border-radius: 0 0 10px 10px;
     }
   </style>
 </head>
 
 <body>
+<div class="header-bar">
+  <div class="menu">
+    <a href="/home" class="btn">Home</a>
+    <a href="/meineReisen" class="btn">Meine Reisen</a>
+    <a href="/meineTraumreiseziele" class="btn">Traumreiseziele</a>
+    <a href="/meineKonzerte" class="btn">Konzerte</a>
+  </div>
+</div>
+
 <div class="container">
   <div class="header">
     <h1>Meine Reisen</h1>
     <h6>Willkommen zu meiner Webseite über meine Reisen in den letzten 3 Jahren!</h6>
   </div>
 
-  <!-- Australien Dezember 2024 bis Jänner 2025 -->
   <div class="section">
     <h2>Australien</h2>
     <p><strong>Reisedatum:</strong> Dezember 2024 bis Jänner 2025</p>
@@ -95,7 +158,6 @@
     </div>
   </div>
 
-  <!-- Zell am See Mai 2024 -->
   <div class="section">
     <h2>Zell am See</h2>
     <p><strong>Reisedatum:</strong> Mai 2024</p>
@@ -109,7 +171,6 @@
     </div>
   </div>
 
-  <!-- London Dezember 2023 bis Januar 2024 -->
   <div class="section">
     <h2>London</h2>
     <p><strong>Reisedatum:</strong> Dezember 2023 bis Januar 2024</p>
@@ -123,7 +184,6 @@
     </div>
   </div>
 
-  <!-- Antalya August 2023 -->
   <div class="section">
     <h2>Antalya</h2>
     <p><strong>Reisedatum:</strong> August 2023</p>
@@ -137,7 +197,6 @@
     </div>
   </div>
 
-  <!-- Nassfeld Dezember 2022 -->
   <div class="section">
     <h2>Nassfeld</h2>
     <p><strong>Reisedatum:</strong> Dezember 2022</p>
@@ -150,21 +209,9 @@
       <p>In Nassfeld waren wir mit der Schule auf Skiwoche.</p>
     </div>
   </div>
-
-  <!-- Istanbul August 2022 -->
-  <div class="section">
-    <h2>Istanbul</h2>
-    <p><strong>Reisedatum:</strong> August 2022</p>
-    <div class="info">
-      <div class="images">
-        <img src="assets-NAZARI/TUR.JPG" alt="Istanbul Bild 1">
-        <img src="assets-NAZARI/TUR2.JPG" alt="Istanbul Bild 2">
-        <img src="assets-NAZARI/TUR Strand.JPG" alt="Istanbul Bild 3">
-      </div>
-      <p>Istanbul war okay. Gutes Essen!</p>
-    </div>
+  <a href="/aboutMeNAZARI" class="btn">über mich</a>
+  <div class="footer">
+    <p>&copy; 2025 Nina Nazari | Alle Rechte vorbehalten</p>
   </div>
-  <a href="/aboutMeNAZARI" class="btn">back</a>
-</div>
-</body>
-</html>
+
+

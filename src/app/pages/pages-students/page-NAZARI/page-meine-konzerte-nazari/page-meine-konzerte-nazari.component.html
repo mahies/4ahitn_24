@@ -12,6 +12,31 @@
       padding: 0;
       color: #333;
     }
+    .header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #B2C8B2;
+      padding: 10px 20px;
+      border-radius: 10px 10px 0 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .menu {
+      display: flex;
+    }
+    .menu a {
+      text-decoration: none;
+      color: white;
+      padding: 10px 15px;
+      margin: 0 5px;
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 5px;
+      transition: transform 0.3s ease, background-color 0.3s;
+    }
+    .menu a:hover {
+      background-color: rgba(255, 255, 255, 0.5);
+      transform: scale(1.1);
+    }
     .container {
       width: 90%;
       max-width: 1200px;
@@ -19,7 +44,7 @@
       text-align: center;
     }
     .header {
-      background: linear-gradient(135deg, #B2C8B2, #B2C8B2); /* Sage green */
+      background: linear-gradient(135deg, #B2C8B2, #B2C8B2);
       padding: 20px;
       border-radius: 10px;
       color: white;
@@ -30,26 +55,50 @@
     }
     .concert {
       background: white;
-      margin: 20px 0;
+      margin: 20px auto;
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      box-sizing: border-box;
+      height: auto;
+    }
+    .concert:hover {
+      transform: scale(1.05);
     }
     .concert h2 {
-      color: #B2C8B2; /* Sage grün */
-    }
-    .text-area {
-      margin-top: 15px;
-      padding: 10px;
-      background: #f8f8f8;
-      border-radius: 5px;
+      margin: 0;
+      color: #B2C8B2;
     }
     .stars {
       color: gold;
     }
+    .footer {
+      text-align: center;
+      padding: 15px;
+      background: #B2C8B2;
+      color: white;
+      margin-top: 20px;
+      border-radius: 0 0 10px 10px;
+    }
   </style>
 </head>
 <body>
+<div class="header-bar">
+  <div class="menu">
+    <a href="/home" class="btn">Home</a>
+    <a href="/meineReisen" class="btn">Meine Reisen</a>
+    <a href="/meineTraumreiseziele" class="btn">Traumreiseziele</a>
+    <a href="/meineKonzerte" class="btn">Konzerte</a>
+  </div>
+</div>
+
 <div class="container">
   <div class="header">
     <h1>Meine Konzertbesuche</h1>
@@ -95,12 +144,18 @@
   <div class="concert">
     <h2>Nimo</h2>
     <div class="text-area">
-      <p>Datum: 22. Februar 2025 (noch nicht)</p>
+      <p>Datum: 22. Februar 2025</p>
       <p>Genre: Deutschrap</p>
-      <p>Bewertung: Noch nicht bewertet</p>
+      <p>Bewertung: <span class="stars">★★★★</span></p>
     </div>
   </div>
-  <a href="/aboutMeNAZARI" class="btn">back</a>
+
+  <a href="/aboutMeNAZARI" class="btn">über mich</a>
 </div>
+
+<div class="footer">
+  <p>&copy; 2025 Nina Nazari | Alle Rechte vorbehalten</p>
+</div>
+
 </body>
 </html>
