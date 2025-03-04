@@ -9,11 +9,58 @@
       font-family: Arial, sans-serif;
       background-color: #add8e6;
       margin: 0;
-      padding: 20px;
+      padding: 0;
+      height: 100vh;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-      min-height: 100vh;
+    }
+    .header {
+      display: flex;
+      flex-direction: column;
+      background-color: #0073e6;
+      color: white;
+      padding: 15px 20px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 10;
+    }
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .header h1 {
+      margin: 0;
+    }
+    .nav-buttons {
+      display: flex;
+    }
+    .nav-buttons a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #005bb5;
+    }
+    .nav-buttons a:hover {
+      background-color: #003f80;
+    }
+    .breadcrumb {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    .breadcrumb a {
+      color: white;
+      text-decoration: none;
+    }
+    .breadcrumb a:hover {
+      text-decoration: underline;
     }
     .container {
       background-color: white;
@@ -22,13 +69,14 @@
       padding: 20px;
       width: 80%;
       max-width: 900px;
-    }
-    h1, h2 {
       text-align: center;
+      margin-top: 80px;
+      margin-bottom: 60px; /* Abstand zum Footer */
     }
     .goal-section {
       display: flex;
       align-items: center;
+      justify-content: center;
       margin-bottom: 20px;
       padding: 10px;
       border-radius: 10px;
@@ -42,25 +90,39 @@
       margin-right: 15px;
       border-radius: 10px;
     }
-    .back-button {
-      display: block;
-      margin: 20px auto 0;
-      padding: 10px 20px;
-      font-size: 16px;
-      font-weight: bold;
-      color: white;
-      background-color: #007BFF;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    .goal-section div {
+      flex: 1;
     }
-    .back-button:hover {
-      background-color: #0056b3;
+    .goal-section h2 {
+      text-align: center; /* Überschriften zentrieren */
+    }
+    .footer {
+      background-color: #0073e6;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
     }
   </style>
 </head>
 <body>
+<header class="header">
+  <div class="header-top">
+    <h1>Meine Ziele</h1>
+    <nav class="nav-buttons">
+      <a href="/home">Home</a>
+      <a href="/aboutMeGEIHSEDER">Über mich</a>
+      <a href="/meine-reisen-geihseder">Meine Reisen</a>
+    </nav>
+  </div>
+  <nav class="breadcrumb">
+    <a href="/home">Home</a> &gt; <a href="/aboutMeGEIHSEDER">Über mich</a> &gt; <span>Meine Ziele</span>
+  </nav>
+</header>
+
 <div class="container">
   <h1>Meine Ziele</h1>
 
@@ -87,8 +149,11 @@
       <p>Zu meinen langfristigen Zielen gehört es, ein eigenes Haus zu kaufen und eine Familie zu gründen.</p>
     </div>
   </div>
-
-  <button class="back-button" onclick="history.back()">Zurück</button>
 </div>
+
+<footer class="footer">
+  &copy; Sebastian Geihseder
+</footer>
+
 </body>
 </html>
