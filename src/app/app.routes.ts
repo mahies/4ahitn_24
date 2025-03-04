@@ -107,6 +107,12 @@ import {
 import {
   MeineHaustiereSpelitzComponent
 } from './pages/pages-students/pages-SPELITZ/meine-haustiere-spelitz/meine-haustiere-spelitz.component';
+import {
+  PageAboutMeIbisevicComponent
+} from './pages/pages-students/pages-ibisevic/page-about-me-ibisevic/page-about-me-pages-ibisevic.component';
+import {
+  PageMeineReisenIbisevicComponent
+} from './pages/pages-students/pages-ibisevic/page-meine-reisen-ibisevic/page-meine-reisen-ibisevic.component';
 
 export const routes: Routes = [
   {
@@ -349,6 +355,14 @@ export const routes: Routes = [
   {
     path: 'page-my-travels-singh',
     component: PageMyTravelsSinghComponent
+  },
+  {
+    path: 'aboutMeIBISEVIC',
+    component: PageAboutMeIbisevicComponent
+  },
+  {
+    path: 'meineReisenIBISEVIC',
+    component: PageMeineReisenIbisevicComponent
   }
 ];
 

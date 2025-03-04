@@ -57,6 +57,7 @@
   }
 }
 
+
 .about-me {
   font-family: 'Aptos', sans-serif;
   background-color: #fff8dc;
@@ -128,11 +129,54 @@
   margin-right: 20px;
 }
 
+
 .footer {
   width: 100%;
-  height: 175px;
-  text-align: center;
-  padding: 20px 0;
-  font-family: 'Aptos', sans-serif;
   background-color: lightseagreen;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 175px;
+  position: relative;
+  line-height: 0.9;
+  border-top: 3px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer-contact {
+  font-family: 'Aptos', sans-serif;
+  color: black;
+  font-size: 0.9rem;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  a {
+    color: darkblue;
+    text-decoration: none;
+    font-style: italic;
+
+    &:hover {
+      text-decoration: underline;
+      color: purple;
+    }
+  }
+}
+
+.footer-content {
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+.name {
+  font-family: 'Bickley Script', cursive;
+  font-size: 1.2rem;
+}
+
+.copyright {
+  font-family: 'Courier New', monospace;
+  font-size: 0.7rem;
 }

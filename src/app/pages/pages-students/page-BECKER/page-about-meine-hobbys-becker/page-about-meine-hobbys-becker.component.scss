@@ -1,51 +1,4 @@
-header {
-  background-color: #1e3a5f;  /* Dunkles Pastellblau für den Header-Hintergrund */
-  color: #fff;  /* Weißer Text */
-  padding: 20px 0;  /* Abstand oben und unten */
-  width: 100%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sanfter Schatten für den Header */
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-}
-
-/* Container für den Header-Inhalt */
-.header-container {
-  max-width: 100%;
-  padding: 0 20px;  /* Padding für den Inhalt */
-  display: flex;
-  align-items: center;  /* Vertikale Zentrierung */
-  justify-content: space-between;  /* rechts ausgerichtet */
-}
-
-/* Titel im Header */
-.header-title {
-  font-size: 24px;
-  font-weight: bold;
-  text-align: left;
-  margin: 0;
-  color: #fff;
-}
-.button-format {
-  display: flex;
-  gap: 15px; /* Abstand zwischen den Buttons */
-}
-
-/* Buttons */
-.custom-btn {
-  background-color: #1e3a5f; /* Blaue Buttons */
-  color: #fff; /* Weiße Schrift */
-  padding: 10px 15px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-}
-
-.custom-btn:hover {
-  background-color: #1e3a5f;
-}
-
+//ALLGEMEINER STYLE
 html, body {
   font-family: Arial, sans-serif;
   background-color: #e3f2fd !important; /* Pastellblau (HÖCHSTE Priorität) */
@@ -55,19 +8,111 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
+  scroll-padding-top: 120px; /* Höhe des Headers */
+  scroll-behavior: smooth;
 }
 
-/* Stellt sicher, dass KEIN weißer Rand bleibt */
+//HEADER
+header {
+   background-color: #1e3a5f;  /* Dunkles Pastellblau für den Header-Hintergrund */
+   color: #fff;  /* Weißer Text */
+   padding: 20px 0;  /* Abstand oben und unten */
+   width: 100%;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sanfter Schatten für den Header */
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+ }
+
+.header-container {
+  max-width: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+  color: #fff;
+}
+
+//NAVIGATION
+.button-format {
+  display: flex;
+  gap: 15px;
+  position: relative;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 15px;
+  text-decoration: none;
+  display: block;
+  font-weight: normal;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.custom-btn {
+  background-color: #1e3a5f;
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.custom-btn:hover {
+  background-color: #4682b4;
+}
+
 * {
   box-sizing: border-box;
 }
 
-/* Container mit Abstand, aber ohne eigene Hintergrundfarbe */
+//INHALT WEBSEITE
+
 .container {
   max-width: 95%;
-  margin: 40px auto;
-  margin-top: 80px;
-  padding: 40px;
+  margin-top: 100px;
+  padding-top: 120px;
+}
+.scroll-margin-top {
+  scroll-margin-top: 150px;  /* Sicherstellen, dass Anker nicht unter Header verschwinden */
+}
+#motorrad, #gym {
+  padding-top: 20px;
+  margin-top: 40px; /* Platz oben für den Header */
 }
 
 /* Titel */
@@ -82,6 +127,8 @@ h2 {
 .hobby-info {
   text-align: left;
   margin-bottom: 60px;
+  scroll-margin-top: 80px; /* Platz für den Header */
+
 }
 
 .hobby-info h3 {

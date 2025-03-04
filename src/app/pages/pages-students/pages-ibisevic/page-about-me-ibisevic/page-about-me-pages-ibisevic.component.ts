@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common'; // ✅ WICHTIG!
-import {Person, ibisevic} from '../../../../model/person';
+import {Person, IBISEVIC} from '../../../../model/person';
 import {RouterLink, RouterLinkActive} from '@angular/router';
 
 @Component({
@@ -10,10 +10,8 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
   templateUrl: './page-about-me-pages-ibisevic.component.html',
   styleUrls: ['./page-about-me-pages-ibisevic.component.scss']
 })
-export class PageAboutMeIbisevicComponent implements OnInit {
-  me!: Person;
+export class PageAboutMeIbisevicComponent{
+  me: Person = IBISEVIC;
 
-  ngOnInit() {
-    this.me = ibisevic;
-  }
+
 }

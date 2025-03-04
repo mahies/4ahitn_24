@@ -11,6 +11,7 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
 export class PageAboutMeineHobbysBeckerComponent {
   hobbies = [
     {
+      id: 'motorrad',
       name: 'Motorradfahren',
       images: [
         'assets-BECKER/gruppe.jpeg',
@@ -26,6 +27,7 @@ export class PageAboutMeineHobbysBeckerComponent {
         'Ich kaufte mir meine erste Maschine, eine Yamaha R125 – mein absolutes Traum-Bike. Dank meines Samstagjobs mit 15 konnte ich mir das finanzieren. Nun, mit meinem frisch bestandenen A2-Führerschein, spare ich auf ein stärkeres Motorrad!'
     },
     {
+      id: 'gym',
       name: 'Fitness',
       images: [
         'assets-BECKER/gym1.jpeg',

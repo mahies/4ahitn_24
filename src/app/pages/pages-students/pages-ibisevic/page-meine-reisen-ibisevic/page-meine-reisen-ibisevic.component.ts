@@ -2,14 +2,14 @@ import { Component } from '@angular/core';
 import {RouterLink, RouterLinkActive} from '@angular/router';
 
 @Component({
-  selector: 'app-page-meine-reisen-ibisevic',
-  imports: [
-    RouterLink,
-    RouterLinkActive
-  ],
+  selector: 'app-meine-reisen-ibisevic',
+  standalone: true,
+  imports: [RouterLink, RouterLinkActive],
   templateUrl: './page-meine-reisen-ibisevic.component.html',
-  styleUrl: './page-meine-reisen-ibisevic.component.scss'
+  styleUrls: ['./page-meine-reisen-ibisevic.component.scss']
 })
-export class PageMeineReisenIbisevicComponent {
+export class PageMeineReisenIbisevicComponent{
+
+
 
 }
