@@ -1,16 +1,4 @@
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adryano Yohanna</title>
-  <link rel="stylesheet" href="page-about-me-yohanna.component.css">
-</head>
-<body>
-<header>
-  <!-- Später, wenn gebraucht wird -->
-</header>
-
-<main>
+<app-header-yohanna></app-header-yohanna>
   <div>
     <p>{{me.firstname}} {{me.surname.toLocaleUpperCase()}}</p>
     <div class="profile-container">
@@ -27,14 +15,9 @@
     </div>
   <div style="text-align: center">
     <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Zurück</a>
+    <a routerLink="/ziele-Yohanna" routerLinkActive="active" class="btn btn-primary">Meine Ziele</a>
+    <a routerLink="/hobbies-Yohanna" routerLinkActive="active" class="btn btn-primary">Meine Hobbies</a>
+    <a routerLink="/projekte-Yohanna" routerLinkActive="active" class="btn btn-primary">Meine Projekte</a>
   </div>
-
-
   </div>
-</main>
-
-<footer>
-  <!-- Später, wenn gebraucht wird -->
-</footer>
-</body>
-</html>
+<app-footer-yohanna></app-footer-yohanna>

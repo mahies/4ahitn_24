@@ -8,7 +8,7 @@ import {ReiseorteComponent} from './pages/pages-students/pages-KLARIC/reiseorte/
 import {StadionbesucheKlaricComponent} from './pages/pages-students/pages-KLARIC/stadionbesuche-klaric/stadionbesuche-klaric.component';
 import {PageAboutMeAljarrahComponent} from './pages/pages-students/pages-ALJARRAH/page-about-me-aljarrah/page-about-me-aljarrah.component';
 import {PageAboutMeGEIHSEDERComponent} from './pages/pages-students/pages-GEIHSEDER/page-about-me-geihseder/page-about-me-geihseder.component';
-import {PageAboutMeYOHANNAComponent} from './pages/pages-students/page-about-me-yohanna/page-about-me-yohanna.component';
+import {PageAboutMeYOHANNAComponent} from './pages/pages-students/pages-YOHANNA/page-about-me-yohanna/page-about-me-yohanna.component';
 import {PageAboutMeMATUSCHKAComponent} from './pages/pages-students/page-MATUSCHKA/page-about-me-matuschka/page-about-me-matuschka.component';
 import {PageAboutMeSenjicComponent} from './pages/pages-students/page-SENJIC/page-about-me-senjic/page-about-me-senjic.component';
 import {PageAboutMeIBRAHIMComponent} from './pages/pages-students/pages-ibrahim/page-about-me-ibrahim/page-about-me-ibrahim.component';
@@ -113,6 +113,15 @@ import {
 import {
   PageMeineReisenIbisevicComponent
 } from './pages/pages-students/pages-ibisevic/page-meine-reisen-ibisevic/page-meine-reisen-ibisevic.component';
+import {
+  PageHobbiesYohannaComponent
+} from './pages/pages-students/pages-YOHANNA/page-hobbies-yohanna/page-hobbies-yohanna.component';
+import {
+  PageProjekteYohannaComponent
+} from './pages/pages-students/pages-YOHANNA/page-projekte-yohanna/page-projekte-yohanna.component';
+import {
+  PageZieleYohannaComponent
+} from './pages/pages-students/pages-YOHANNA/page-ziele-yohanna/page-ziele-yohanna.component';
 
 export const routes: Routes = [
   {
@@ -363,6 +372,22 @@ export const routes: Routes = [
   {
     path: 'meineReisenIBISEVIC',
     component: PageMeineReisenIbisevicComponent
-  }
+  },
+  {
+    path: 'hobbies-Yohanna',
+    component: PageHobbiesYohannaComponent
+  },
+  {
+    path: 'projekte-Yohanna',
+    component: PageProjekteYohannaComponent
+  },
+  {
+    path: 'ziele-Yohanna',
+    component: PageZieleYohannaComponent
+  },
+
+
+
+
 ];
 
