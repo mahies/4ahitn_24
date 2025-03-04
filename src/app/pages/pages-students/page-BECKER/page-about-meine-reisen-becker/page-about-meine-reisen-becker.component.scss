@@ -20,7 +20,7 @@ body {
 
 //HEADER
 header {
-  background-color: #1e3a5f;  /* Dunkles Pastellblau für den Header-Hintergrund */
+  background-color: #5C7080;  /* Dunkles Pastellblau für den Header-Hintergrund */
   color: #fff;  /* Weißer Text */
   padding: 20px 0;  /* Abstand oben und unten */
   width: 100%;
@@ -89,7 +89,7 @@ header {
 }
 
 .custom-btn {
-  background-color: #1e3a5f;
+  background-color: #5C7080;
   color: #fff;
   padding: 10px 15px;
   text-decoration: none;
@@ -117,7 +117,7 @@ header {
   padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 8px;
-  background-color: #f8f9fa;
+  background-color: #F1FBFF;
   width: 100%;
   scroll-margin-top: 100px;
 }
@@ -131,11 +131,11 @@ header {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
+  color: #5C7080;
 }
 
 .destination-info p {
   font-size: 1rem;
-  color: #555;
   margin-bottom: 1rem;
 }
 
@@ -159,7 +159,7 @@ header {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #1e3a5f; /* Gleiche Farbe wie Header & Footer */
+  background-color: #5C7080;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -210,7 +210,7 @@ body {
 
 /* Footer Styles */
 .footer {
-  background-color: #1e3a5f;
+  background-color: #5C7080;
   color: #fff;
   padding: 20px;
   text-align: center;
