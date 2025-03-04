@@ -1,16 +1,6 @@
-<div class="container mt-5" style="
-    background: linear-gradient(135deg, rgba(102, 166, 255, 0.9), rgba(0, 68, 204, 0.9)),
-                url('https://www.transparenttextures.com/patterns/diagmonds.png');
-    background-blend-mode: overlay;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    animation: fadeIn 1.5s ease-in-out;
-    perspective: 1000px;">
+<div class="container mt-5 reise-container">
   <h2 class="text-center mb-4 neon-title">Reiseorte</h2>
-
   <div class="row">
-    <!-- Land 1 -->
     <div class="col-md-4 mb-4">
       <div class="card shadow-lg parallax-card">
         <img src="https://gutberatenreisen.de/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13177700.aa145bd6.jpg&w=3840&q=75" class="card-img-top" alt="Bosnien">
@@ -20,8 +10,6 @@
         </div>
       </div>
     </div>
-
-    <!-- Land 2 -->
     <div class="col-md-4 mb-4">
       <div class="card shadow-lg parallax-card">
         <img src="https://split.gg/wp-content/uploads/2016/04/Hajduk-Split-graffiti.jpg" class="card-img-top" alt="Kroatien">
@@ -31,8 +19,6 @@
         </div>
       </div>
     </div>
-
-    <!-- Land 3 -->
     <div class="col-md-4 mb-4">
       <div class="card shadow-lg parallax-card">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkck9F_8h6AtK_4YpQbkhdw7msmn-cXpCYafOtTysO3sTZr7DIhSEjkww4vSFqe8n2Ogc&usqp=CAU" class="card-img-top" alt="England">
@@ -42,8 +28,6 @@
         </div>
       </div>
     </div>
-
-    <!-- Land 4 -->
     <div class="col-md-4 mb-4">
       <div class="card shadow-lg parallax-card">
         <img src="https://www.berlinsbi.com/uploads/sites/2/2023/06/web-banner-barcelona.jpg?w=1854&h=1043&crop=1" class="card-img-top" alt="Spanien">
@@ -53,8 +37,6 @@
         </div>
       </div>
     </div>
-
-    <!-- Land 5 -->
     <div class="col-md-4 mb-4">
       <div class="card shadow-lg parallax-card">
         <img src="https://www.mdr.de/kultur/bild154144-resimage_v-variantBig16x9_w-1088.jpg?version=272" class="card-img-top" alt="Russland">
@@ -65,61 +47,7 @@
       </div>
     </div>
   </div>
-
   <div class="text-center mt-4">
     <button class="btn btn-primary glowing-button" onclick="window.history.back();">Zurück</button>
   </div>
 </div>
-
-<style>
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  .neon-title {
-    font-family: 'Georgia', serif;
-    font-size: 3.5rem;
-    color: #fff;
-    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff;
-    animation: neonGlow 1.5s ease-in-out infinite alternate;
-  }
-
-  @keyframes neonGlow {
-    from { text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff; }
-    to { text-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff, 0 0 60px #00ffff; }
-  }
-
-  .parallax-card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    transform-style: preserve-3d;
-  }
-
-  .parallax-card:hover {
-    transform: rotateY(15deg) rotateX(10deg) scale(1.05);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
-  }
-
-  .glowing-button {
-    position: relative;
-    background-color: #0044cc;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 30px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    box-shadow: 0 0 15px rgba(0, 68, 204, 0.6);
-    animation: buttonGlow 1.5s infinite alternate;
-  }
-
-  @keyframes buttonGlow {
-    from { box-shadow: 0 0 10px rgba(0, 68, 204, 0.6); }
-    to { box-shadow: 0 0 25px rgba(0, 68, 204, 1); }
-  }
-
-  .glowing-button:hover {
-    background-color: #002a80;
-  }
-</style>

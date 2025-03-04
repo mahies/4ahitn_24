@@ -1,30 +1,30 @@
-<div class="container mt-5" style="background-color: #0000FF; padding: 1rem;">
-  <div class="card border-primary rounded-3 shadow-lg" style="max-width: 2000px; margin: 2rem;">
+<div class="container mt-5">
+  <div class="card profile-card">
     <div class="row g-0">
       <div class="col-md-4 p-3">
-        <img src="{{ me.urlImage }}" class="img-fluid rounded-start border-primary" alt="{{ me.firstname }}">
+        <img src="{{ me.urlImage }}" class="profile-image" alt="{{ me.firstname }}">
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title text-primary">
+          <h5 class="card-title">
             {{ me.firstname }}
-            <span style="font-weight: bold; font-family: 'Courier New', monospace;">{{ me.surname }}</span>
+            <span class="surname">{{ me.surname }}</span>
           </h5>
-          <p class="card-text" style="font-family: 'Georgia', serif;">
+          <p class="card-text details">
             <strong>Birthday:</strong> {{ me.birthday }}<br>
             <strong>Department:</strong> {{ me.department }}<br>
             <strong>Email: </strong>
-            <a href="mailto:{{ me.email }}" class="text-decoration-none">{{ me.email }}</a><br>
+            <a href="mailto:{{ me.email }}" class="email">{{ me.email }}</a><br>
             <strong>GitHub: </strong>
-            <a href="https://github.com/{{ me.github_nickname }}" target="_blank" class="text-decoration-none text-primary">&#64;{{ me.github_nickname }}</a><br>
+            <a href="https://github.com/{{ me.github_nickname }}" target="_blank" class="github">&#64;{{ me.github_nickname }}</a><br>
             <strong>City:</strong> {{ me.zip_code }} {{ me.city }}
           </p>
-          <p class="card-text" style="font-style: italic; font-family: 'Cursive', sans-serif;">{{ me.message }}</p>
+          <p class="card-text message">{{ me.message }}</p>
 
-          <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Back</a>
-          <a routerLink="/reiseorte" routerLinkActive="active" class="btn btn-success ms-2">Reiseorte</a>
-          <a routerLink="/hobbies" routerLinkActive="active" class="btn btn-warning ms-2">Hobbies</a>
-          <a routerLink="/stadionbesuche-klaric" routerLinkActive="active" class="btn btn-info ms-2">Stadionbesuche</a>
+          <a routerLink="/home" class="btn btn-primary">Back</a>
+          <a routerLink="/reiseorte" class="btn btn-success ms-2">Reiseorte</a>
+          <a routerLink="/hobbies" class="btn btn-warning ms-2">Hobbies</a>
+          <a routerLink="/stadionbesuche-klaric" class="btn btn-info ms-2">Stadionbesuche</a>
         </div>
       </div>
     </div>

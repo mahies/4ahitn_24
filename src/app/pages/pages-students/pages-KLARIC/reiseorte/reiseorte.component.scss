@@ -1,0 +1,61 @@
+.reise-container {
+  background: linear-gradient(135deg, rgba(102, 166, 255, 0.9), rgba(0, 68, 204, 0.9)),
+  url('https://www.transparenttextures.com/patterns/diagmonds.png');
+  background-blend-mode: overlay;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 1.5s ease-in-out;
+  perspective: 1000px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.neon-title {
+  font-family: 'Georgia', serif;
+  font-size: 3.5rem;
+  color: #fff;
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff;
+  animation: neonGlow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neonGlow {
+  from { text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff; }
+  to { text-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff, 0 0 60px #00ffff; }
+}
+
+.parallax-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform-style: preserve-3d;
+
+  &:hover {
+    transform: rotateY(15deg) rotateX(10deg) scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.glowing-button {
+  position: relative;
+  background-color: #0044cc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 68, 204, 0.6);
+  animation: buttonGlow 1.5s infinite alternate;
+
+  &:hover {
+    background-color: #002a80;
+  }
+}
+
+@keyframes buttonGlow {
+  from { box-shadow: 0 0 10px rgba(0, 68, 204, 0.6); }
+  to { box-shadow: 0 0 25px rgba(0, 68, 204, 1); }
+}
