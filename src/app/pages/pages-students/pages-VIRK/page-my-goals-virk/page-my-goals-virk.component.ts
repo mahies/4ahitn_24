@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {RouterLink, RouterLinkActive} from '@angular/router';
+import {virk} from "../../../../model/person";
 
 
 @Component({
@@ -14,4 +15,5 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
 })
 export class PageMyGoalsVirkComponent {
 
+    protected readonly me = virk;
 }

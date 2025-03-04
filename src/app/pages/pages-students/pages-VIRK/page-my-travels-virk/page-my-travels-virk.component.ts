@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {RouterLink, RouterLinkActive} from '@angular/router';
+import {virk} from "../../../../model/person";
 
 
 @Component({
@@ -17,4 +18,5 @@ export class PageMyTravelsVirkComponent {
   rodos: string = 'assets-VIRK/rodos.png';
   barcelona: string = 'assets-VIRK/barcelona.png';
   venedig: string = 'assets-VIRK/venedig.png';
+    protected readonly me = virk;
 }
