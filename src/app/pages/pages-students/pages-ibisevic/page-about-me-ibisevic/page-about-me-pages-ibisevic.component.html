@@ -5,16 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Über Mich - IBISEVIC Benjamin</title>
+
 </head>
 
 <body>
+<h1>IBISEVIC Benjamin</h1>
 <div class="container">
   <div class="header">
-    <h1>IBISEVIC Benjamin</h1>
-    <h6>Willkommen bei meiner Webseite!</h6>
-    <img src=" {{me.urlImage}}" width="15%" height="15%" alt="">
-  </div>
+    <div class="header-top">
 
+      </div>
+    <h6>Willkommen bei meiner Webseite!</h6>
+    <img src=" {{me.urlImage}}" width="50%" height="70%" alt="">
+  </div>
   <div class="info">
     <p><strong>Name:</strong> {{me.surname}} {{me.firstname}}</p>
     <p><strong>Geburtsdatum:</strong> {{ me.birthday | date:'dd MMMM yyyy'  }}</p>
@@ -30,8 +33,10 @@
   <div class="Zitat">
     <p>{{me.message}}</p>
   </div>
-  <p style="text-align: center"><strong>© by IBISEVIC Benjamin</strong></p>
+  <p style="text-align: center"><strong>Vielen Dank fürs Vorbeischauen!</strong></p>
 </div>
 </body>
-
+<footer class="footer">
+   <h1>Ibisevic Benjamin</h1><br>
+</footer>
 </html>

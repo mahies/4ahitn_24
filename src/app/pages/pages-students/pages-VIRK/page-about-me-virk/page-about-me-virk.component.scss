@@ -1,5 +1,7 @@
+@import "../Variablen_VIRK";
+
 main {
-  background-color: #001F54; // Dunkelblau
+  background-color: $primary ;
   padding: 2rem;
   color: #FFFFFF;
   font-family: Arial, sans-serif;
@@ -42,6 +44,8 @@ main {
   font-style: italic;
 }
 
+
+
 .button {
 
   display: block;
@@ -49,9 +53,10 @@ main {
   text-align: center;
 }
 
+
 .button a {
   padding: 10px 20px;
-  background-color: #0056b3;
+  background-color: $link-color;
   color: #FFFFFF;
   border: 5px;
   border-radius: 5px;
@@ -64,3 +69,67 @@ main {
 .button a:hover {
   background-color: #003d80;
 }
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: $secondary;
+  height: 100px;
+  padding: 0 20px;
+}
+
+.header-left {
+  display: flex;
+  gap: 15px;
+}
+
+.header-left img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s;
+}
+
+.header-left img:hover {
+  transform: scale(1.1);
+}
+
+.header-right {
+  display: flex;
+  gap: 20px;
+}
+
+.header-right a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.header-right a:hover {
+  color: $link-color;
+}
+
+
+header {
+  flex-direction: column;
+  height: auto;
+  padding: 10px;
+}
+
+.header-left,
+.header-right {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer {
+  font-family: Arial, sans-serif;
+  background-color: $secondary;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+
