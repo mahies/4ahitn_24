@@ -1,7 +1,6 @@
-$primary: #3e748e;
-$secondary: #64d16c;
+@import "../MATUSCHKA_Variables";
 
-body {
+.body {
   font-family: 'Calibri', Times, serif;
   font-size: 16px;
   background-color: #008000;
@@ -68,8 +67,27 @@ a.text-decoration-none {
 }
 
 .custom-btn {
-  background-color: $secondary ;
-  color: black;
+  background: none;
+  color: $secondary;
   border: none;
-  margin-right: 10px;
+  font-size: 20px;
 }
+.header {
+  font-family: 'Calibri', Times, serif;
+  background-color: $primary;
+  height: 120px;
+  width: 100%;
+  font-size: 25px;
+}
+.footer {
+  font-family: 'Calibri', Times, serif;
+  background-color: $primary;
+  height: 80px;
+  width: 100%;
+  font-size: 25px;
+}
+.button-header{
+  font-family: 'Calibri', Times, serif;
+  text-align: center;
+}
+

@@ -1,3 +1,19 @@
+.header {
+  border-bottom: 2px solid #ccc;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  z-index: 1000;
+  height: 120px;
+  align-items: center;
+}
+
+main {
+  margin-top: 150px;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: white;
@@ -9,6 +25,39 @@ body {
   align-items: center;
   text-align: center;
 }
+
+.footer {
+  background-color: #333;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer-content p,
+.footer-content a {
+  font-size: 0.9rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer:hover {
+  background-color: #444;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list a {
+  color: white;
+  font-size: 1.2rem;
+}
+
 .container {
   max-width: 900px;
   margin: 20px auto;
@@ -17,29 +66,45 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
+
 @media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    text-align: center;
+  }
+
   .container {
     padding: 15px;
   }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
 }
+
 h1 {
   text-align: center;
   color: #4CAF50;
   font-size: 2.5em;
   margin-bottom: 20px;
 }
+
 .highlight {
   font-weight: bold;
   color: #3355ff;
 }
+
 .nohighlight {
   font-weight: bold;
   color: #ff3333;
 }
+
 .critical {
   font-weight: bold;
   color: #ff6a00;
 }
+
 .sport-image {
   width: 100%;
   max-width: 600px;
@@ -47,6 +112,7 @@ h1 {
   margin: 10px auto;
   border-radius: 8px;
 }
+
 .btn {
   display: inline-block;
   margin-top: 15px;
@@ -55,4 +121,23 @@ h1 {
   color: white;
   text-decoration: none;
   border-radius: 5px;
+}
+
+.scroll-top {
+  background-color: #FFD700;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 1.5rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  z-index: 1000;
+}
+
+.scroll-top:hover {
+  background-color: #FFC107;
 }

@@ -1,0 +1,46 @@
+<header class="header">
+  <div class="header-container">
+    <h1 class="header-title">Karina Becker</h1>
+
+    <div class="button-format">
+      <a routerLink="/home" routerLinkActive="active" class="btn btn-primary; custom-btn">Home</a>
+      <a routerLink="/aboutMeBECKER" routerLinkActive="active" class="btn btn-primary; custom-btn">Über mich</a>
+      <a routerLink="/meineReisenBecker" routerLinkActive="active" class="btn btn-primary; custom-btn">Reisen</a>
+      <a routerLink="/meineHobbysBecker" routerLinkActive="active" class="btn btn-primary; custom-btn">Hobbys</a>
+
+    </div>
+  </div>
+</header>
+<div class="container">
+  <h2>Meine Hobbys</h2>
+  <div *ngFor="let hobby of hobbies">
+    <div class="hobby-info">
+      <h3>{{ hobby.name }}</h3>
+      <p>{{ hobby.description }}</p>
+      <p><strong>Wie ich dazu gekommen bin:</strong> {{ hobby.story }}</p>
+      <div class="hobby-images">
+        <img *ngFor="let image of hobby.images" [src]="image" alt="{{ hobby.name }}" class="hobby-image">
+      </div>
+    </div>
+  </div>
+  <!-- Zurück nach oben Button -->
+  <button class="scrollToTopBtn" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+    ↑
+  </button>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+<footer class="footer">
+  <div class="footer-container">
+    <p>&copy; 2024 Karina Becker. Alle Rechte vorbehalten.</p>
+    <div class="footer-icons">
+      <a href="https://outlook.live.com/mail/0/deeplink/compose?to=21003@studierende.htl-donaustadt.at" target="_blank" title="E-Mail">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="tel:+4312121212" title="Telefon"><i class="fas fa-phone"></i></a>
+      <a href="https://github.com/karinaB777" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    </div>
+  </div>
+</footer>

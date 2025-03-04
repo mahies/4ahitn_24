@@ -1,20 +1,86 @@
-.container {
-  max-width: 1200px;
-  margin: 2rem auto;
+header {
+  background-color: #1e3a5f;  /* Dunkles Pastellblau für den Header-Hintergrund */
+  color: #fff;  /* Weißer Text */
+  padding: 20px 0;  /* Abstand oben und unten */
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sanfter Schatten für den Header */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
+/* Container für den Header-Inhalt */
+.header-container {
+  max-width: 100%;
+  padding: 0 20px;  /* Padding für den Inhalt */
+  display: flex;
+  align-items: center;  /* Vertikale Zentrierung */
+  justify-content: space-between;  /* rechts ausgerichtet */
+}
+
+/* Titel im Header */
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+  color: #fff;
+}
+.button-format {
+  display: flex;
+  gap: 15px; /* Abstand zwischen den Buttons */
+}
+
+/* Buttons */
+.custom-btn {
+  background-color: #1e3a5f; /* Blaue Buttons */
+  color: #fff; /* Weiße Schrift */
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.custom-btn:hover {
+  background-color: #1e3a5f;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;  /* Bezieht den Padding und Border mit in die Breite ein */
+}
+
+/* Padding für den gesamten Body ohne den Header */
+body {
+  padding: 2rem;
+}
+
+/* Container für den Inhalt */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;  /* Padding entfernen, da es schon auf body gesetzt ist */
+}
+
+/* Destination Card */
 .destination-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  margin-top: 80px;
   margin-bottom: 2rem;
   padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 8px;
   background-color: #f8f9fa;
+  width: 100%;
 }
 
+/* Ziel-Daten */
 .destination-info {
   text-align: center;
 }
@@ -31,24 +97,56 @@
   margin-bottom: 1rem;
 }
 
+/* Bilder in den Destination-Karten */
 .destination-images {
   display: flex;
-  flex-wrap: wrap; /* Bilder können umgebrochen werden, wenn nötig */
-  justify-content: center; /* Verteile die Bilder gleichmäßig */
-  gap: 1rem; /* Abstand zwischen den Bildern */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .destination-image {
-  width: 80px;  /* Feste, kleine Breite */
-  height: 80px; /* Feste, kleine Höhe */
+  width: 80px;  /* Feste Breite */
+  height: 80px; /* Feste Höhe */
   object-fit: cover; /* Sorgt dafür, dass das Bild den Container ausfüllt */
   border-radius: 5px;
 }
 
-/* Wenn der Bildschirm größer als 768px ist, für Tablets und größere Geräte */
+/* Zurück nach oben Button */
+.scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1e3a5f; /* Gleiche Farbe wie Header & Footer */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1000; /* Sicherstellen, dass der Button oben ist */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover-Effekt */
+.scrollToTopBtn:hover {
+  background-color: #4682b4;
+}
+
+/* Button nur sichtbar machen, wenn die Seite gescrollt wird */
+html, body {
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden; /* Verhindert horizontales Scrollen */
+}
+
+
+/* Für Tablets und größere Geräte */
 @media (min-width: 768px) {
   .destination-images {
-    justify-content: center; /* Mehr Abstand, falls gewünscht */
+    justify-content: center;
   }
 
   .destination-image {
@@ -57,14 +155,57 @@
   }
 }
 
-/* Wenn der Bildschirm größer als 1024px ist (Desktops) */
+/* Für Desktops */
 @media (min-width: 1024px) {
   .destination-images {
-    justify-content: center; /* Drei Bilder nebeneinander */
+    justify-content: center;
   }
 
   .destination-image {
-    width: 300px;  /* Noch größere Bilder auf größeren Bildschirmen */
+    width: 300px;  /* Noch größere Bilder */
     height: 300px;
   }
+}
+body {
+  font-family: 'Aptos', sans-serif;
+  font-weight: 400;
+}
+
+.footer {
+  background-color: #1e3a5f;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  font-family: 'Aptos', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  width: 100%;
+}
+.footer-container p {
+  margin: 0;
+  flex-grow: 1; /* Lässt den Text nach links rutschen */
+  text-align: left;
+}
+.footer-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  min-width: 150px;
+}
+
+.footer-icons a {
+  margin: 0 10px;
+  color: #b0e0e6;
+  text-decoration: none;
+}
+
+.footer-icons a:hover {
+  color: #fff;
 }

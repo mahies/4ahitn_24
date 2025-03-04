@@ -1,3 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Über Mich</title>
+  <link rel="stylesheet" href="page-about-me-spelitz.component.scss">
+</head>
+<header class="header">
+  <nav class="nav">
+    <ul class="nav-list">
+      <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
+      <li><a routerLink="/sporthistorieSpelitz" routerLinkActive="active">Sporthistorie</a></li>
+      <li><a routerLink="/meinereisenSpelitz" routerLinkActive="active">Meine Reisen</a></li>
+      <li><a routerLink="/meinehaustiereSpelitz" routerLinkActive="active">Haustiere</a></li>
+    </ul>
+  </nav>
+</header>
 <main>
   <div class="container centered textSize">
     <h3>{{ me.firstname }} {{ me.surname.toLocaleUpperCase() }}</h3>
@@ -6,13 +24,16 @@
     <p>
       <b>Abteilung:</b> {{ me.department }}<br>
       <b>Email-Adresse: </b> <a [href]="'mailto:' + me.email">{{ me.email }}</a><br>
-      <b>Github Account: </b> <a [href]="'https://github.com/' + me.github_nickname" target="_blank">{{ me.github_nickname }}</a><br>
+      <b>Github Account: </b> <a [href]="'https://github.com/' + me.github_nickname"
+                                 target="_blank">{{ me.github_nickname }}</a><br>
       <b>Wohnort: </b> {{ me.zip_code }} {{ me.city }}<br>
       <i>{{ me.message }}</i><br>
     </p>
-    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Take me home</a>
-    <a routerLink="/meinereisenSpelitz" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Reisen</a>
-    <a routerLink="/meinehaustiereSpelitz" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Haustiere</a>
-    <a routerLink="/sporthistorieSpelitz" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Sport Historie</a>
   </div>
 </main>
+<footer class="footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Fabian Spelitz | Alle Rechte vorbehalten</p>
+    <a href="/aboutMeSPELITZ" class="scroll-top">↑</a>
+  </div>
+</footer>

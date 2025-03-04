@@ -3,8 +3,56 @@
 body {
   font-family: 'Aptos', sans-serif;
   font-weight: 400;
+
+}
+/* Allgemeine Header-Stile */
+header {
+  background-color: #1e3a5f;  /* Dunkles Pastellblau für den Header-Hintergrund */
+  color: #fff;  /* Weißer Text */
+  padding: 20px 0;  /* Abstand oben und unten */
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sanfter Schatten für den Header */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
+/* Container für den Header-Inhalt */
+.header-container {
+  max-width: 100%;
+  padding: 0 20px;  /* Padding für den Inhalt */
+  display: flex;
+  align-items: center;  /* Vertikale Zentrierung */
+  justify-content: space-between;  /* rechts ausgerichtet */
+}
+
+/* Titel im Header */
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+  color: #fff;
+}
+.button-format {
+  display: flex;
+  gap: 15px; /* Abstand zwischen den Buttons */
+}
+
+/* Buttons */
+.custom-btn {
+  background-color: #1e3a5f; /* Blaue Buttons */
+  color: #fff; /* Weiße Schrift */
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.custom-btn:hover {
+  background-color: #1e3a5f;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Bickley Script', cursive;
   font-weight: bold;
@@ -21,6 +69,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center; /* Horizontal zentrieren */
   padding: 2rem; /* Abstand */
   box-sizing: border-box;
+  margin-top: 80px;
 }
 h5{
   color: #4682b4;
@@ -68,3 +117,49 @@ h5{
     margin: 1rem;
   }
 }
+body {
+  font-family: 'Aptos', sans-serif;
+  font-weight: 400;
+}
+
+.footer {
+  background-color: #1e3a5f;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  font-family: 'Aptos', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  width: 100%;
+}
+.footer-container p {
+  margin: 0;
+  flex-grow: 1; /* Lässt den Text nach links rutschen */
+  text-align: left;
+}
+.footer-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  min-width: 150px;
+}
+
+.footer-icons a {
+  margin: 0 10px;
+  color: #b0e0e6;
+  text-decoration: none;
+}
+
+.footer-icons a:hover {
+  color: #fff;
+}
+
+
+

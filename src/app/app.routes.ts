@@ -5,6 +5,7 @@ import {PageAboutMeKRAPFComponent} from './pages/pages-students/pages-KRAPF/page
 import {PageAboutMeMILLICHComponent} from './pages/pages-students/pages-MILLICH/page-about-me-millich/page-about-me-millich.component';
 import {PageAboutMeKLARICComponent} from './pages/pages-students/page-about-me-klaric/page-about-me-klaric.component';
 import {ReiseorteComponent} from './pages/pages-students/pages-KLARIC/reiseorte/reiseorte.component';
+import {StadionbesucheKlaricComponent} from './pages/pages-students/pages-KLARIC/stadionbesuche-klaric/stadionbesuche-klaric.component';
 import {PageAboutMeAljarrahComponent} from './pages/pages-students/pages-ALJARRAH/page-about-me-aljarrah/page-about-me-aljarrah.component';
 import {PageAboutMeGEIHSEDERComponent} from './pages/pages-students/pages-GEIHSEDER/page-about-me-geihseder/page-about-me-geihseder.component';
 import {PageAboutMeYOHANNAComponent} from './pages/pages-students/page-about-me-yohanna/page-about-me-yohanna.component';
@@ -88,6 +89,24 @@ import {
 import {
   PagesMeineWerkeComponent
 } from './pages/pages-students/pages-ALJARRAH/pages-meine-werke/pages-meine-werke.component';
+import {
+  EAutoSchoeffmannComponent
+} from './pages/pages-students/pages-schoeffmann/e-auto-schoeffmann/e-auto-schoeffmann.component';
+import {
+  PageMyDreamTravelsSinghComponent
+} from './pages/pages-students/page-SINGH/page-my-dream-travels-singh/page-my-dream-travels-singh.component';
+import {
+  PageMyFavouriteBookSinghComponent
+} from './pages/pages-students/page-SINGH/page-my-favourite-book-singh/page-my-favourite-book-singh.component';
+import {
+  PageMyTravelsSinghComponent
+} from './pages/pages-students/page-SINGH/page-my-travels-singh/page-my-travels-singh.component';
+import {
+  PageAboutMeineHobbysBeckerComponent
+} from './pages/pages-students/page-BECKER/page-about-meine-hobbys-becker/page-about-meine-hobbys-becker.component';
+import {
+  MeineHaustiereSpelitzComponent
+} from './pages/pages-students/pages-SPELITZ/meine-haustiere-spelitz/meine-haustiere-spelitz.component';
 
 export const routes: Routes = [
   {
@@ -147,12 +166,20 @@ export const routes: Routes = [
     component: PageAboutMeineReisenBeckerComponent
   },
   {
+    path: 'meineHobbysBecker',
+    component: PageAboutMeineHobbysBeckerComponent
+  },
+  {
     path: 'aboutMeKLARIC',
     component: PageAboutMeKLARICComponent
   },
   {
     path: 'hobbies',
     component: HobbiesComponent
+  },
+  {
+    path: 'stadionbesuche-klaric',
+    component: StadionbesucheKlaricComponent
   },
   {
     path: 'about_me_aljarrah',
@@ -250,6 +277,10 @@ export const routes: Routes = [
      path: 'pages-schoeffmann-hobbys',
      component: HobbysComponent
    },
+  {
+    path: 'pages-schoeffmann-eauto',
+    component: EAutoSchoeffmannComponent
+  },
 
   //STOILOV
   {
@@ -302,6 +333,22 @@ export const routes: Routes = [
   {
     path: 'sporthistorieSpelitz',
     component: SportHistorieSpelitzComponent
+  },
+  {
+    path: 'meinehaustiereSpelitz',
+    component: MeineHaustiereSpelitzComponent
+  },
+  {
+    path: 'page-my-dream-travels-singh',
+    component: PageMyDreamTravelsSinghComponent
+  },
+  {
+    path: 'page-my-favourite-book-singh',
+    component: PageMyFavouriteBookSinghComponent
+  },
+  {
+    path: 'page-my-travels-singh',
+    component: PageMyTravelsSinghComponent
   }
 ];
 

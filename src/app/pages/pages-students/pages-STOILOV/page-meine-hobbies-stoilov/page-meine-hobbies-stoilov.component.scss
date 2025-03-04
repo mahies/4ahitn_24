@@ -8,15 +8,6 @@ $border-radius: 10px;
 $button-bg: #007BFF;
 $button-hover-bg: #0056b3;
 
-body {
-  font-family: $font-family;
-  background-color: #f4f4f4;
-  color: $primary-color;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
 header {
   background-color: $primary-color;
   color: $text-color;
@@ -24,34 +15,84 @@ header {
 }
 
 .hobby {
-  background: white;
-  margin: 20px auto;
-  padding: 15px;
-  border-radius: $border-radius;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 80%;
-  max-width: 600px;
+  $spacing-desktop: 2rem;
+
+  background-color: #352F44; /* Heller Grauton */
+  padding: 1rem;
+  margin-top: 20px;
+  font-style: italic;
+  text-align: left;
+  font-size: 1.2rem;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px; /* Abgerundete Ecken */
 }
 
 .hobby img {
-  width: 200px;
-  height: 150px;
+  width: 270px;
+  height:240px;
   border-radius: $border-radius;
   display: block;
-  margin: 0 auto 10px;
 }
 
-button {
-  background-color: $button-bg;
+.layer2 {
+  $spacing-desktop: 2rem;
+
+  background-color: #5C5470; /* Heller Grauton */
+  padding: 1rem;
+  font-style: italic;
+  text-align: left;
+  font-size: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px; /* Abgerundete Ecken */
+}
+
+p {
+  font-size: 1.2rem;
+  color: #DBD8E3;
+}
+
+h2 {
+  color: #DBD8E3;
+}
+
+header {
+  background-color: #352F44;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #DBD8E3;
+  font-size: 2.5rem;
+  text-align: center;
+  flex-grow: 1;
+  font-size: 70px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end; // Verschiebt die Buttons nach rechts
+  gap: 10px;
+}
+
+.header-button {
+  background-color: #5C5470;
   color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: $border-radius;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background 0.3s;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
 }
 
-button:hover {
-  background-color: $button-hover-bg;
+.footer {
+  background-color: #352F44;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-family: 'Roboto Sans', sans-serif;
+  font-size: 20px;
 }

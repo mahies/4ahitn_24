@@ -3,14 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meine Reisen - Tokio</title>
+  <title>Meine Reisen</title>
+  <link rel="stylesheet" href="meine-reisen-spelitz.component.scss">
 </head>
+<header class="header">
+  <nav class="nav">
+    <ul class="nav-list">
+      <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
+      <li><a routerLink="/sporthistorieSpelitz" routerLinkActive="active">Sporthistorie</a></li>
+      <li><a routerLink="/aboutMeSPELITZ" routerLinkActive="active">Über mich</a></li>
+      <li><a routerLink="/meinehaustiereSpelitz" routerLinkActive="active">Haustiere</a></li>
+    </ul>
+  </nav>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meine Reisen - Tokio</title>
+</header>
 <body>
 <main>
   <div class="container centered textSize">
-    <h3>Meine Reisen</h3>
+    <h1>Meine Reisen</h1>
     <p>Hier findest du eine Übersicht über meine bisherigen Reisen:</p>
-    <h1>Reise nach Tokio</h1>
+    <h3>Reise nach Tokio 🇯🇵</h3>
     <img src="assets-SPELITZ/tokyo1.jpg" alt="Tokyo">
     <img src="assets-SPELITZ/tokyo2.jpg" alt="Tokyo">
     <p>
@@ -29,8 +43,13 @@
       Tokio bietet unzählige kulinarische Highlights, von Sushi in Tsukiji bis hin zu
       Ramen in kleinen, versteckten Restaurants. Ich kann dieses Reiseziel nur weiterempfehlen!
     </p>
-    <a routerLink="/aboutMeSPELITZ" routerLinkActive="active" class="btn">Take me back</a>
   </div>
 </main>
 </body>
+<footer class="footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Fabian Spelitz | Alle Rechte vorbehalten</p>
+    <a href="/meinereisenSpelitz" class="scroll-top">↑</a>
+  </div>
+</footer>
 </html>

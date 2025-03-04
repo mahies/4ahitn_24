@@ -2,32 +2,96 @@
 header {
   position: sticky;
   top: 0;
-  background-color: #303030; /* Anthrazit Hintergrund */
+  background-color: #303030;
   color: white;
   text-align: center;
   padding: 15px;
   font-size: 1.8em;
   font-weight: bold;
   z-index: 1000;
+  font-family: 'Permanent Marker', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  /* Instagram Icon */
+  .insta-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px; // Nur Kanten abgerundet
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-50%) scale(1.1);
+    }
+  }
+}
+
+/* Raw Sketches Bereich */
+.raw-sketches {
+  background-color: black;
+  padding: 50px 0;
+  margin-top: 50px;
+}
+
+.raw-sketches h2 {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+/* Einleitungstext-Styling */
+.intro-text {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
 }
 
 /* Galerie-Styling */
-.gallery {
-  display: flex;
-  justify-content: center;
-  gap: 20px; /* Abstand zwischen den Bildern */
-  padding: 40px;
-  flex-wrap: wrap; /* Falls Bildschirm zu klein ist, umbrechen */
-}
-
-.gallery img {
-  width: 30%; /* Drei Bilder nebeneinander */
-  max-width: 400px; /* Maximale Bildbreite */
-  border-radius: 15px; /* Abgerundete Ecken */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+.gallery-img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
 }
 
-.gallery img:hover {
-  transform: scale(1.05); /* Leichter Zoom beim Hover */
+.larger-img {
+  max-width: 650px;
 }
+
+.gallery-img:hover {
+  transform: scale(1.08);
+}
+
+/* Mehr Abstand zwischen den Bildern */
+.col-md-4 {
+  padding-bottom: 40px;
+}
+
+.sketch-img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.sketch-img:hover {
+  transform: scale(1.05);
+}
+

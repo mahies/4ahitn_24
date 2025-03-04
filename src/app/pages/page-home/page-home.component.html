@@ -16,10 +16,14 @@
     <span *ngFor="let student of students  | orderBy: 'surname' ; let i = index" class="col-2 m-2">
       <a routerLink="{{student.routerLink}}" routerLinkActive="active" class="students">
         <li>
-          <div class="d-flex flex-column ">
-              <img src="{{student.urlImage}}">
-          <span class="badge badge-pill badge-info">{{i}}</span>
-          <span class="name">{{student.surname}}</span>
+          <div class="d-flex flex-column mt-2 ">
+              <img class="mb-2" src="{{student.urlImage}}">
+            <div>
+  <span class="badge rounded-pill bg-primary">{{i}}
+    <span class="name">{{student.surname}}</span>
+            </span>
+            </div>
+
           </div>
         </li>
       </a>

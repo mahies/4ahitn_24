@@ -1,12 +1,12 @@
-$primary: burlywood;
-$secondary: #B39EB5;
-body {
+@import "../Variables_SENJIC";
+
+main {
   font-family: 'Times New Roman', Times, serif;
   background-color: $primary;
   padding: 2rem;
 }
 @media (max-width: 768px) {
-  body {
+  main {
     padding: 1rem;
   }
 }
@@ -18,12 +18,12 @@ body {
   border-radius: 20px;
 }
 
-.header {
+.head {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.header img {
+.head img {
   height: 120px;
   width: 100px;
   border-radius: 50%;
@@ -40,9 +40,66 @@ body {
   margin-top: 20px;
 
 }
+
 .custom-btn {
-  background-color: $secondary;
-  color: black;
+  background: none;
   border: none;
-  margin-right: 10px;
+  color: white;
+
 }
+.button-format {
+  display: block;
+  gap: 15px;
+  text-align: right;
+}
+.header {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: $secondary;
+  height: 100px;
+  width: 100%;
+  font-size: 30px;
+  transition: top 0.3s, bottom 0.3s;
+}
+.header-icon {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  }
+.footer{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: $secondary;
+  height: 70px;
+  width: 100%;
+  font-size: 25px;
+}
+.scroll-top-btn {
+  display: block;
+  text-align: center;
+  background-color: #875634;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.scroll-top-btn:hover {
+  background-color: #6d4427;
+}
+.custom-btn:hover {
+  background-color: #7e4f29;
+  color: #cac7c7;
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+a{
+  color: $link-color;
+}
+
+
+
+
+

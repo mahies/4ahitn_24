@@ -10,7 +10,30 @@ $theme-colors: map-merge($theme-colors, (
 ));
 */
 
-$primary: rgb(20, 204, 127);
-@import "../../../../../node_modules/bootstrap/scss/bootstrap.scss"; //use full path to bootstrap.scss
+//@import "../../../../../node_modules/bootstrap/scss/bootstrap.scss"; //use full path to bootstrap.scss
+//@import "bootstrap/scss/bootstrap";
+
+// Falls du andere Theme-Farben ebenfalls anpassen möchtest:
+//$theme-colors: map-merge($theme-colors, (
+//  "primary": $primary
+//));
+
+//$component-active-bg: #03a35b;
 
 
+$primary: #03a35b;
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.progress-bar {
+  --bs-progress-bar-bg: $primary !important;
+  background-color: $primary !important;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+//@import "bootstrap/scss/bootstrap";

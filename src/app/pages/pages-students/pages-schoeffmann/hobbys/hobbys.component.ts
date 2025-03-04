@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import {NavbarSchoeffmannComponent} from '../navbar-schoeffmann/navbar-schoeffmann.component';
+import {FooterComponent} from '../footer/footer.component';
 
 @Component({
   selector: 'app-hobbys',
   imports: [
-    NavbarSchoeffmannComponent
+    NavbarSchoeffmannComponent,
+    FooterComponent
   ],
   templateUrl: './hobbys.component.html',
   styleUrl: './hobbys.component.scss'

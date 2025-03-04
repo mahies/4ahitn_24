@@ -1,0 +1,28 @@
+#body{
+  background-color: #555555;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;    /* Stack items vertically, or use row for side-by-side */
+  justify-content: center;   /* Centers the content vertically (along the main axis) */
+  align-items: center;       /* Centers the content horizontally (along the cross axis) */
+  text-align: center;
+  padding: 20px;
+
+}
+
+
+#travel-item1, #travel-item2 {
+  justify-content: center;
+  alignment-baseline: center;
+  width: 800px;
+  background-color: darkkhaki;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 10px;
+}
+
+

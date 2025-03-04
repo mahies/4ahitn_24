@@ -1,4 +1,4 @@
-body {
+main {
   background-color: #001F54; // Dunkelblau
   padding: 2rem;
   color: #FFFFFF;
@@ -6,7 +6,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  body {
+  main {
     padding: 1rem;
   }
 }
@@ -24,7 +24,7 @@ body {
 .container img {
   height: 120px;
   width: 100px;
-  border-radius: 50%;
+  border-radius: 15px;
   margin-bottom: 1rem;
 }
 
@@ -43,19 +43,24 @@ body {
 }
 
 .button {
-  margin: 20px;
+
+  display: block;
+  margin: 30px 0;
+  text-align: center;
 }
 
-.button button {
+.button a {
   padding: 10px 20px;
   background-color: #0056b3;
   color: #FFFFFF;
-  border: none;
+  border: 5px;
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
+
+
 }
 
-.button button:hover {
+.button a:hover {
   background-color: #003d80;
 }

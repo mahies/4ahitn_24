@@ -1,0 +1,206 @@
+header {
+  background-color: #1e3a5f;  /* Dunkles Pastellblau für den Header-Hintergrund */
+  color: #fff;  /* Weißer Text */
+  padding: 20px 0;  /* Abstand oben und unten */
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sanfter Schatten für den Header */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* Container für den Header-Inhalt */
+.header-container {
+  max-width: 100%;
+  padding: 0 20px;  /* Padding für den Inhalt */
+  display: flex;
+  align-items: center;  /* Vertikale Zentrierung */
+  justify-content: space-between;  /* rechts ausgerichtet */
+}
+
+/* Titel im Header */
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+  color: #fff;
+}
+.button-format {
+  display: flex;
+  gap: 15px; /* Abstand zwischen den Buttons */
+}
+
+/* Buttons */
+.custom-btn {
+  background-color: #1e3a5f; /* Blaue Buttons */
+  color: #fff; /* Weiße Schrift */
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.custom-btn:hover {
+  background-color: #1e3a5f;
+}
+
+html, body {
+  font-family: Arial, sans-serif;
+  background-color: #e3f2fd !important; /* Pastellblau (HÖCHSTE Priorität) */
+  color: #333;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Stellt sicher, dass KEIN weißer Rand bleibt */
+* {
+  box-sizing: border-box;
+}
+
+/* Container mit Abstand, aber ohne eigene Hintergrundfarbe */
+.container {
+  max-width: 95%;
+  margin: 40px auto;
+  margin-top: 80px;
+  padding: 40px;
+}
+
+/* Titel */
+h2 {
+  text-align: left;
+  color: #1e3a5f; /* Dunkles Pastellblau */
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Hobby-Abschnitt */
+.hobby-info {
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.hobby-info h3 {
+  color: #1e3a5f;
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+.hobby-info p {
+  font-size: 20px;
+  color: #222;
+  max-width: 100%; /* Text geht über die gesamte Breite */
+}
+
+/* Bilder-Galerie */
+.hobby-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.hobby-image {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsives Design */
+@media (max-width: 768px) {
+  .container {
+    max-width: 98%;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .hobby-info h3 {
+    font-size: 24px;
+  }
+
+  .hobby-info p {
+    font-size: 18px;
+  }
+
+  .hobby-images {
+    justify-content: center;
+  }
+
+    .hobby-image {
+      width: 250px;
+      height: 250px;
+    }
+  }
+/* Zurück nach oben Button */
+.scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1e3a5f; /* Gleiche Farbe wie Header & Footer */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1000; /* Sicherstellen, dass der Button oben ist */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover-Effekt */
+.scrollToTopBtn:hover {
+  background-color: #4682b4;
+}
+
+body {
+  font-family: 'Aptos', sans-serif;
+  font-weight: 400;
+}
+
+.footer {
+  background-color: #1e3a5f;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  font-family: 'Aptos', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  width: 100%;
+}
+.footer-container p {
+  margin: 0;
+  flex-grow: 1; /* Lässt den Text nach links rutschen */
+  text-align: left;
+}
+.footer-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  min-width: 150px;
+}
+
+.footer-icons a {
+  margin: 0 10px;
+  color: #b0e0e6;
+  text-decoration: none;
+}
+
+.footer-icons a:hover {
+  color: #fff;
+}

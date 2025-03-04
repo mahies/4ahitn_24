@@ -1,11 +1,12 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bild und Text</title>
-</head>
-<body>
+<header class="header">
+  <div class ="button-header">
+    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary custom-btn"  style="margin-right: 10px">Back</a>
+    <a routerLink="/stadienbesucheMatuschka" routerLinkActive="active" class="btn btn-primary custom-btn">Stadionbesuche</a>
+    <a routerLink="/meinereisenMatuschka" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Reisen</a>
+  </div>
+</header>
+
+<div class="body">
 <section class="custom-container">
   <div class="custom-card">
     <div class="image">
@@ -23,12 +24,11 @@
 
       </p>
       <p class="card-text"><em>You miss 100% of the shots you don't take. ~Wayne Gretzky</em></p>
-      <a routerLink="/home" routerLinkActive="active" class="btn btn-primary custom-btn"  style="margin-right: 10px">Back</a>
-      <a routerLink="/stadienbesucheMatuschka" routerLinkActive="active" class="btn btn-primary custom-btn">Stadionbesuche</a>
-      <a routerLink="/meinereisenMatuschka" routerLinkActive="active" class="btn btn-primary custom-btn">Meine Reisen</a>
 
     </div>
   </div>
 </section>
-</body>
-</html>
+</div>
+<footer class="footer">
+  Footer
+</footer>

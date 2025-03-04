@@ -1,51 +1,76 @@
-// Allgemeine Stile
-body {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f8f8f8;
-}
-
-// Header-Styling
-header {
-  text-align: center;
-  padding: 20px;
-  background-color: #1E90FF;
-  color: white;
-}
-
-// H2-Styling
-h2 {
-  color: #1E90FF;
-  text-align: center;
-}
-
 .ortschaft {
   color: #787878;
   font-family: "Arial";
   font-style: italic;
+  text-align: center;
 }
 
 .back {
   color: #787878;
 }
 
-// Reisebericht-Styling
-.reiseberichte {
+.bewertung {
+  font-size: 1.2em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+// Text-Styling
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 20px;
+}
+//-----------
+
+header {
+  background-color: #352F44;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px;
 }
 
-.reise {
-  background-color: white;
-  border-radius: 10px;
+h1 {
+  color: #DBD8E3;
+  font-size: 2.5rem;
+  text-align: center;
+  flex-grow: 1;
+  font-size: 70px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end; // Verschiebt die Buttons nach rechts
+  gap: 10px;
+}
+
+.header-button {
+  background-color: #5C5470;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #352F44;
+  color: white;
+  text-align: center;
   padding: 15px;
-  width: 820px;
+  font-family: 'Roboto Sans', sans-serif;
+  font-size: 20px;
+}
+
+.reise {
+  background-color: #352F44; /* Heller Grauton */
+  font-style: italic;
   text-align: left;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px; /* Abgerundete Ecken */
 }
 
 .reise img {
@@ -56,34 +81,25 @@ h2 {
   margin: 10px auto;
 }
 
-.bewertung {
-  font-size: 1.2em;
-  line-height: 1.5;
-}
+.layer2 {
+  $spacing-desktop: 2rem;
 
-// Text-Styling
-p {
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-// Button-Styling
-.home-button {
-  display: block;
-  width: fit-content;
-  margin: 30px auto;
-  padding: 10px 20px;
-  font-size: 18px;
-  background-color: #1E90FF;
-  color: white;
-  text-decoration: none;
-  border-radius: 25px;
+  background-color: #5C5470; /* Heller Grauton */
+  padding: 1rem;
+  font-style: italic;
   text-align: center;
-  transition: 0.3s;
+  font-size: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px; /* Abgerundete Ecken */
+}
 
-  &:hover {
-    background-color: #1565C0;
-  }
+p {
+  font-size: 1.2rem;
+  color: #DBD8E3;
+}
+
+h2 {
+  color: #DBD8E3;
+  font-size: 50px;
 }
