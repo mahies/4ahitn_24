@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { PageAboutMeIbisevicComponent } from './page-about-me-pages-ibisevic.component';
 import { CommonModule } from '@angular/common';
-import { RouterTestingModule } from '@angular/router/testing';
+
 
 describe('PageAboutMeIbisevicComponent', () => {
   let component: PageAboutMeIbisevicComponent;
@@ -9,10 +9,10 @@ describe('PageAboutMeIbisevicComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [PageAboutMeIbisevicComponent], // Komponente hier deklarieren
+      declarations: [PageAboutMeIbisevicComponent],
       imports: [
-        CommonModule, // Falls Pipes wie 'date' verwendet werden
-        RouterTestingModule // Falls RouterLink verwendet wird
+        CommonModule,
+
       ]
     }).compileComponents();
 
