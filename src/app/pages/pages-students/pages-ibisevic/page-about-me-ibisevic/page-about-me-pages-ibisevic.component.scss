@@ -9,7 +9,7 @@ body {
   font-family: 'Poppins', sans-serif; // Moderner, gut lesbarer Font
   background-color: $primary;
   color: $font-color;
-  padding: 3rem; // Mehr Platz für größere Bildschirme
+  padding: 15rem; // Mehr Platz für größere Bildschirme
 }
 
 // Responsive Anpassung für kleinere Bildschirme
@@ -20,12 +20,12 @@ body {
 }
 
 .container {
-  max-width: 700px; // Etwas breiter für bessere Lesbarkeit
-  margin: 40px auto; // Mehr Abstand nach oben & unten
+  max-width: 1000px; // Etwas breiter für bessere Lesbarkeit
+  margin: 100px auto; // Mehr Abstand nach oben & unten
   background-color: #1e1e1e; // Dunkelgrauer Hintergrund für Kontrast
   padding: 30px; // Mehr Innenabstand
   border-radius: 15px; // Abgerundete Ecken für ein modernes Design
-  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1); // Leichter Glow-Effekt
+  box-shadow: 10px 14px 20px rgba(255, 255, 255, 0.1); // Leichter Glow-Effekt
 }
 
 .header {
@@ -58,13 +58,22 @@ body {
   color: black;
   border: none;
   margin-right: 12px;
-  padding: 12px 18px; // Etwas mehr Padding für bessere Klickbarkeit
+  padding: 12px 18px;
   border-radius: 8px; // Abgerundete Buttons
   font-weight: 600; // Etwas dickerer Text
   transition: all 0.3s ease-in-out;
-
-  &:hover {
+}
+  .hover {
     background-color: lighten($secondary, 10%);
     transform: scale(1.05); // Leichter Hover-Effekt
   }
+.footer {
+  background-color: #0073e6;
+  color: white;
+  text-align: center;
+  padding: 100px 25px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
+
