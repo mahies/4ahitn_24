@@ -110,6 +110,9 @@ import {
 import {
   PageAboutMeIbisevicComponent
 } from './pages/pages-students/pages-ibisevic/page-about-me-ibisevic/page-about-me-pages-ibisevic.component';
+import {
+  PageMeineReisenIbisevicComponent
+} from './pages/pages-students/pages-ibisevic/page-meine-reisen-ibisevic/page-meine-reisen-ibisevic.component';
 
 export const routes: Routes = [
   {
@@ -357,5 +360,9 @@ export const routes: Routes = [
     path: 'aboutMeIBISEVIC',
     component: PageAboutMeIbisevicComponent
   },
+  {
+    path: 'meineReisenIBISEVIC',
+    component: PageMeineReisenIbisevicComponent
+  }
 ];
 

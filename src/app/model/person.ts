@@ -277,7 +277,7 @@ export  const IBISEVIC : Person = {
   github_nickname: "BenjaminIbi",
   zip_code: 1210,
   city: "Wien",
-  message: "\"Teste",
+  message: "\"Nun, ",
   routerLink: "/aboutMeIBISEVIC",
 }
 
