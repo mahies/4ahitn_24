@@ -140,13 +140,29 @@ body {
   }
 }
 
+
 .footer {
   width: 100%;
   height: 175px;
-  text-align: center;
-  padding: 20px 0;
-  font-family: 'Aptos', sans-serif;
   background-color: lightseagreen;
+  padding: 20px 20px 0 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
+
+.footer-content {
+  text-align: center;
+}
+
+.name {
+  font-family: 'Bickley Script', cursive;
+}
+
+.copyright {
+  font-family: 'Courier New', monospace;
+  font-size: 0.8rem;
+}
+
 
 
