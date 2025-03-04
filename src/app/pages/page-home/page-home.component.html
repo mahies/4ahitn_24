@@ -1,65 +1,26 @@
 
-<main class="main container-fluid m-5">
-  <div class="content ">
-    <h4>DEMO</h4>
-    <a routerLink="{{demo.routerLink}}" routerLinkActive="active" class="demo">
-      <li>
-        <img src="{{demo.urlImage}}">
-      </li>
-      <span class="badge badge-primary">Primary</span>
-    </a>
-  </div>
-  <div class="content">
+<main class="main container-fluid">
+<!--  <div class="content ">-->
+<!--    <h4>DEMO</h4>-->
+<!--    <a routerLink="{{demo.routerLink}}" routerLinkActive="active" class="demo">-->
+<!--        <img src="{{demo.urlImage}}">-->
+<!--      <span class="badge badge-primary">Primary</span>-->
+<!--    </a>-->
+<!--  </div>-->
+  <div class="content text-center mt-5">
     <h1>Wir sind die {{title}}!</h1>
   </div>
-  <ul class="students d-flex flex-row flex-wrap ">
-    <span *ngFor="let student of students  | orderBy: 'surname' ; let i = index" class="col-2 m-2">
+  <div class="students d-flex flex-row flex-wrap justify-content-between m-5">
+    <div *ngFor="let student of students  | orderBy: 'surname' ; let i = index" class="item m-2">
       <a routerLink="{{student.routerLink}}" routerLinkActive="active" class="students">
-        <li>
-          <div class="d-flex flex-column mt-2 ">
-              <img class="mb-2" src="{{student.urlImage}}">
-            <div>
-  <span class="badge rounded-pill bg-primary">{{i}}
-    <span class="name">{{student.surname}}</span>
+        <div class="d-flex flex-column flex-wrap mt-2 ">
+            <img class="mb-2" src="{{student.urlImage}}">
+            <span class="badge rounded-pill bg-primary">{{i}}
+              <span class="name">{{student.surname}}</span>
             </span>
-            </div>
-
-          </div>
-        </li>
+        </div>
       </a>
-    </span>
-  </ul>
-
-  <a routerLink="/about_meMILLICH" routerLinkActive="active">Link zu Millich: Über Mich</a><br>
-  <a routerLink="/about_me_moelzer" routerLinkActive="active">Link zu Moelzer: Über Mich</a><br>
-  <a routerLink="/aboutMeKLARIC" routerLinkActive="active">Link zu Klaric: Über Mich</a><br>
-  <a routerLink="/aboutMeKrapf" routerLinkActive="active">Link zu Krapf Über Mich</a><br>
-  <a routerLink="/about_me_aljarrah" routerLinkActive="active">Link zu Al Jarrah Über Mich</a>
-  <br>
-  <a routerLink="/aboutMeSPELITZ" routerLinkActive="active">Link zu Spelitz: Über Mich</a><br>
-  <a routerLink="/aboutMeGEIHSEDER" routerLinkActive="active">Link zu Geihseder: Über Mich</a>
-  <br>
-  <a routerLink="/aboutMeSTOILOV" routerLinkActive="active">Link zu Stoilov: Über Mich</a>
-  <br>
-  <a routerLink="/aboutMeYOHANNA" routerLinkActive="active">Link zu Yohanna: Über Mich</a>
-  <br>
-  <a routerLink="/aboutMeVIRK" routerLinkActive="active">Link zu Virk: Über Mich</a>
-  <br>
-  <a routerLink="/aboutMeSENJIC" routerLinkActive="active">Link zu Senjic: Über Mich</a>
-  <br>
-  <a routerLink="/aboutMeBECKER" routerLinkActive="active">Link zu Becker: Über Mich</a>
-  <br>
-  <a routerLink="/aboutMeMATUSCHKA" routerLinkActive="active">Link zu Matuschka: Über Mich</a>
-  <br>
-  <a routerLink="/aboutMeSINGH" routerLinkActive="active">Link zu Singh: Über Mich</a>
-  <br>
-  <a routerLink="/aboutMeNAZARI" routerLinkActive="active">Link zu Nazari: Über Mich</a>
-  <br>
-  <a routerLink="/schoeffmann" routerLinkActive="active">Link zu Schoeffmann</a>
-  <br>
-  <a routerLink="/aboutMeIBRAHIM" routerLinkActive="active">Link zu IBRAHIM</a>
-  <br>
-  <a routerLink="/aboutMeIBISEVIC" routerLinkActive="active">Link zu IBISEVIC</a>
-  <br>
+    </div>
+  </div>
 </main>
 
