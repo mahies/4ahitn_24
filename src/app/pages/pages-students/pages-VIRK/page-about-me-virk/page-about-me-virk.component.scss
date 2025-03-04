@@ -1,5 +1,7 @@
+@import "../Variablen_VIRK";
+
 main {
-  background-color: #001F54; // Dunkelblau
+  background-color: $primary ;
   padding: 2rem;
   color: #FFFFFF;
   font-family: Arial, sans-serif;
@@ -54,7 +56,7 @@ main {
 
 .button a {
   padding: 10px 20px;
-  background-color: #0056b3;
+  background-color: $link-color;
   color: #FFFFFF;
   border: 5px;
   border-radius: 5px;
@@ -72,7 +74,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: #000000;
+  background-color: $secondary;
   height: 100px;
   padding: 0 20px;
 }
@@ -106,7 +108,7 @@ header {
 }
 
 .header-right a:hover {
-  color: #0056b3;
+  color: $link-color;
 }
 
 
@@ -124,7 +126,7 @@ header {
 
 .footer {
   font-family: Arial, sans-serif;
-  background-color: #000000;
+  background-color: $secondary;
   color: #FFFFFF;
   padding: 10px 20px;
   text-align: center;
