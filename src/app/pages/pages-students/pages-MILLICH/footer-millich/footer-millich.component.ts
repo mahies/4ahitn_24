@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {MILLICH} from "../../../../model/person";
 
 @Component({
   selector: 'app-footer-millich',
@@ -7,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './footer-millich.component.scss'
 })
 export class FooterMILLICHComponent {
-
+   currentYear = new Date().getFullYear();
+    protected readonly me = MILLICH;
 }
