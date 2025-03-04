@@ -5,7 +5,12 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './pages-meine-werke.component.html',
   styleUrl: './pages-meine-werke.component.scss'
+
+
 })
+
+
 export class PagesMeineWerkeComponent {
+
 
 }

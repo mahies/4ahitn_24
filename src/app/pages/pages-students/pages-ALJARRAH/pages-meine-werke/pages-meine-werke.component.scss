@@ -32,6 +32,9 @@ header {
   }
 }
 
+
+
+/* Raw Sketches Bereich */
 /* Raw Sketches Bereich */
 .raw-sketches {
   background-color: black;
@@ -46,6 +49,22 @@ header {
   margin-bottom: 30px;
   font-family: 'Permanent Marker', cursive;
 }
+
+/* Sicherstellen, dass der Text unter Raw Sketches weiß ist */
+.raw-sketches .intro-text {
+  color: white;  /* Schriftfarbe auf Weiß setzen */
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
 
 /* Einleitungstext-Styling */
 .intro-text {
