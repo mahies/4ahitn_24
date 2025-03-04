@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import {AfterViewInit, Component} from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {RouterLink, RouterLinkActive} from '@angular/router';
+import {ActivatedRoute, RouterLink, RouterLinkActive} from '@angular/router';
 
 @Component({
   selector: 'app-page-about-me-becker',
@@ -8,11 +8,26 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
   templateUrl: './page-about-meine-reisen-becker.component.html',
   styleUrl: './page-about-meine-reisen-becker.component.scss'
 })
-export class PageAboutMeineReisenBeckerComponent {
+export class PageAboutMeineReisenBeckerComponent implements AfterViewInit {
+  constructor(private route: ActivatedRoute) {}
+
+  ngAfterViewInit() {
+    setTimeout(() => {
+      this.route.fragment.subscribe(fragment => {
+        if (fragment) {
+          const element = document.getElementById(fragment);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      });
+    }, 500); // Verzögerung für sicheres Laden
+  }
+
   visitedDestinations = [
     {
       id: 'nassfeld',
-      name: 'Nassfeld, Kärnten',
+      name: 'Nassfeld',
       images: ['assets-BECKER/skipiste.jpeg', 'assets-BECKER/ski.jpeg', 'assets-BECKER/aussichtbalkonskiwoche.jpeg'],
       description: 'Skikurs Dezember 2022: Mein erstes Skifahren war wirklich etwas Besonderes. Wir hatten super schöne Tage und unglaublich viel Spaß. '
     },

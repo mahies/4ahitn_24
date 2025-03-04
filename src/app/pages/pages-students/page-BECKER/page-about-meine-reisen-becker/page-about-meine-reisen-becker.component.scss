@@ -9,6 +9,10 @@ html, body {
   overflow-x: hidden; /* Verhindert horizontales Scrollen */
   font-weight: 400;
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Falls dein Header eine Höhe von 80px hat */
+}
 
 body {
   padding: 2rem; /* Padding für den gesamten Body ohne den Header */
@@ -115,6 +119,7 @@ header {
   border-radius: 8px;
   background-color: #f8f9fa;
   width: 100%;
+  scroll-margin-top: 100px;
 }
 
 /* Ziel-Daten */

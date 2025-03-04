@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import {AfterViewInit, Component} from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {RouterLink, RouterLinkActive} from '@angular/router';
+import {ActivatedRoute, RouterLink, RouterLinkActive} from '@angular/router';
 
 @Component({
   selector: 'app-page-about-me-becker',
@@ -8,11 +8,25 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
   templateUrl: './page-about-meine-hobbys-becker.component.html',
   styleUrl: './page-about-meine-hobbys-becker.component.scss'
 })
-export class PageAboutMeineHobbysBeckerComponent {
+export class PageAboutMeineHobbysBeckerComponent implements AfterViewInit {
+  constructor(private route: ActivatedRoute) {}
+
+  ngAfterViewInit() {
+    setTimeout(() => {
+      this.route.fragment.subscribe(fragment => {
+        if (fragment) {
+          const element = document.getElementById(fragment);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      });
+    }, 500); // Verzögerung für sicheres Laden
+  }
   hobbies = [
     {
       id: 'motorrad',
-      name: 'Motorradfahren',
+      name: 'Motorrad',
       images: [
         'assets-BECKER/gruppe.jpeg',
         'assets-BECKER/gruppe2.jpeg',
@@ -28,7 +42,7 @@ export class PageAboutMeineHobbysBeckerComponent {
     },
     {
       id: 'gym',
-      name: 'Fitness',
+      name: 'Gym',
       images: [
         'assets-BECKER/gym1.jpeg',
         'assets-BECKER/gym2.jpeg',

@@ -3,9 +3,9 @@
 body {
   font-family: 'Aptos', sans-serif;
   font-weight: 400;
-
 }
-/* Allgemeine Header-Stile */
+
+//HEADER
 header {
   background-color: #1e3a5f;  /* Dunkles Pastellblau für den Header-Hintergrund */
   color: #fff;  /* Weißer Text */
@@ -18,16 +18,14 @@ header {
   z-index: 1000;
 }
 
-/* Container für den Header-Inhalt */
 .header-container {
   max-width: 100%;
-  padding: 0 20px;  /* Padding für den Inhalt */
+  padding: 0 20px;
   display: flex;
-  align-items: center;  /* Vertikale Zentrierung */
-  justify-content: space-between;  /* rechts ausgerichtet */
+  align-items: center;
+  justify-content: space-between;
 }
 
-/* Titel im Header */
 .header-title {
   font-size: 24px;
   font-weight: bold;
@@ -35,9 +33,11 @@ header {
   margin: 0;
   color: #fff;
 }
+
+//NAVIGATION
 .button-format {
   display: flex;
-  gap: 15px; /* Abstand zwischen den Buttons */
+  gap: 15px;
   position: relative;
 }
 .dropdown {
@@ -50,38 +50,47 @@ header {
   position: absolute;
   background-color: white;
   min-width: 160px;
-  box-shadow:  0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 5px;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
 }
 
 .dropdown-content a {
   color: black;
-  padding: 10px 15px;
+  padding: 8px 15px;
   text-decoration: none;
   display: block;
+  font-weight: normal;
 }
 
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
-/* Dropdown anzeigen, wenn die Maus darüberfährt */
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/* Buttons */
+
 .custom-btn {
-  background-color: #1e3a5f; /* Blaue Buttons */
-  color: #fff; /* Weiße Schrift */
+  background-color: #1e3a5f;
+  color: #fff;
   padding: 10px 15px;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+  font-size: 14px;
 }
 
 .custom-btn:hover {
-  background-color: #1e3a5f;
+  background-color: #4682b4;
+}
+
+* {
+  box-sizing: border-box;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Bickley Script', cursive;
