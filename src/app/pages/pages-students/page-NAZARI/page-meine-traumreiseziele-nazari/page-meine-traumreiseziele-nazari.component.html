@@ -12,6 +12,31 @@
       padding: 0;
       color: #333;
     }
+    .header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #A7C6ED;
+      padding: 10px 20px;
+      border-radius: 10px 10px 0 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .menu {
+      display: flex;
+    }
+    .menu a {
+      text-decoration: none;
+      color: white;
+      padding: 10px 15px;
+      margin: 0 5px;
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 5px;
+      transition: transform 0.3s ease, background-color 0.3s;
+    }
+    .menu a:hover {
+      background-color: rgba(255, 255, 255, 0.5);
+      transform: scale(1.1);
+    }
     .container {
       width: 90%;
       max-width: 1200px;
@@ -19,7 +44,7 @@
       text-align: center;
     }
     .header {
-      background: linear-gradient(135deg, #A7C6ED, #A7C6ED); /* Babyblau */
+      background: linear-gradient(135deg, #A7C6ED, #A7C6ED);
       padding: 20px;
       border-radius: 10px;
       color: white;
@@ -34,9 +59,13 @@
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+    .destination:hover {
+      transform: scale(1.02);
     }
     .destination h2 {
-      color: #A7C6ED; /* Babyblau */
+      color: #A7C6ED;
     }
     .images {
       display: flex;
@@ -48,6 +77,11 @@
       width: 30%;
       border-radius: 10px;
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+    .images img:hover {
+      transform: scale(1.05);
+      filter: brightness(0.9);
     }
     .text-area {
       margin-top: 15px;
@@ -55,9 +89,26 @@
       background: #f8f8f8;
       border-radius: 5px;
     }
+    .footer {
+      text-align: center;
+      padding: 15px;
+      background: #A7C6ED;
+      color: white;
+      margin-top: 20px;
+      border-radius: 0 0 10px 10px;
+    }
   </style>
 </head>
 <body>
+<div class="header-bar">
+  <div class="menu">
+    <a href="/home" class="btn">Home</a>
+    <a href="/meineReisen" class="btn">Meine Reisen</a>
+    <a href="/meineTraumreiseziele" class="btn">Traumreiseziele</a>
+    <a href="/meineKonzerte" class="btn">Konzerte</a>
+  </div>
+</div>
+
 <div class="container">
   <div class="header">
     <h1>Meine Traumreiseziele</h1>
@@ -71,7 +122,9 @@
       <img src="assets-NAZARI/NYC1.jpg" alt="New York Bild 2">
       <img src="assets-NAZARI/NYC3.jpg" alt="New York Bild 3">
     </div>
-    <div class="text-area"></div>
+    <div class="text-area">
+      <p>New York ist eine Stadt voller Möglichkeiten und Abenteuer!</p>
+    </div>
   </div>
 
   <div class="destination">
@@ -81,39 +134,17 @@
       <img src="assets-NAZARI/DUB1.jpg" alt="Dubai Bild 2">
       <img src="assets-NAZARI/DUB3.jpg" alt="Dubai Bild 3">
     </div>
-    <div class="text-area"></div>
+    <div class="text-area">
+      <p>Dubai ist bekannt für seine beeindruckende Architektur und luxuriösen Einkaufszentren.</p>
+    </div>
   </div>
 
-  <div class="destination">
-    <h2>Karibik</h2>
-    <div class="images">
-      <img src="assets-NAZARI/KAR2.jpg" alt="Karibik Bild 1">
-      <img src="assets-NAZARI/KAR1.jpg" alt="Karibik Bild 2">
-      <img src="assets-NAZARI/KAR3.jpg" alt="Karibik Bild 3">
-    </div>
-    <div class="text-area"></div>
-  </div>
-
-  <div class="destination">
-    <h2>Lappland</h2>
-    <div class="images">
-      <img src="assets-NAZARI/LAP1.jpg" alt="Lappland Bild 1">
-      <img src="assets-NAZARI/LAP2.jpg" alt="Lappland Bild 2">
-      <img src="assets-NAZARI/LAP3.jpg" alt="Lappland Bild 3">
-    </div>
-    <div class="text-area"></div>
-  </div>
-
-  <div class="destination">
-    <h2>Bora Bora</h2>
-    <div class="images">
-      <img src="assets-NAZARI/BOR1.jpg" alt="Bora Bora Bild 1">
-      <img src="assets-NAZARI/BOR3.jpg" alt="Bora Bora Bild 2">
-      <img src="assets-NAZARI/BOR2.jpg" alt="Bora Bora Bild 3">
-    </div>
-    <div class="text-area"></div>
-  </div>
-  <a href="/aboutMeNAZARI" class="btn">back</a>
+  <a href="/aboutMeNAZARI" class="btn">über mich</a>
 </div>
+
+<div class="footer">
+  <p>&copy; 2025 Nina Nazari | Alle Rechte vorbehalten</p>
+</div>
+
 </body>
 </html>
