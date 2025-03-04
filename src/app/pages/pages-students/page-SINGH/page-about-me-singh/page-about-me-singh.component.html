@@ -2,65 +2,69 @@
 <html lang="de">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Über Mich</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Über Mich</title>
 </head>
 
 <body>
-      <header class="header">
-          <nav class="nav-container">
-              <div class="header-title">Harleen SINGH</div>
-              <nav class="nav-buttons">
-                  <a routerLink="/" routerLinkActive="active">Startseite</a>
-                  <a routerLink="/aboutMeSINGH" routerLinkActive="active-button">Über mich</a>
-                  <a routerLink="/page-my-travels-singh" routerLinkActive="active-button">Meine Reisen</a>
-                  <a routerLink="/page-my-dream-travels-singh" routerLinkActive="active-button">Meine Reiseziele</a>
-                  <a routerLink="/page-my-favourite-book-singh" routerLinkActive="active-button">Mein Lieblingsbuch</a>
-              </nav>
-          </nav>
-      </header>
 
-      <div class="container">
-      <div class="about-me">
-    <h1 class="title">Über Mich</h1>
-    <h4 class="name">{{ me.firstname }} {{ me.surname }}</h4>
-    <div class="photo-container">
-      <img src="assets-SINGH/Biene.png" alt="Biene" class="bee-image">
+<header class="header">
+    <nav class="nav-container">
+        <div class="header-title">Harleen SINGH</div>
+        <div class="nav-buttons">
+            <a routerLink="/" routerLinkActive="button">Startseite</a>
+            <a routerLink="/aboutMeSINGH" routerLinkActive="active-button">Über mich</a>
+            <a routerLink="/page-my-travels-singh" routerLinkActive="active-button">Meine Reisen</a>
+            <a routerLink="/page-my-dream-travels-singh" routerLinkActive="active-button">Meine Reiseziele</a>
+            <a routerLink="/page-my-favourite-book-singh" routerLinkActive="active-button">Mein Lieblingsbuch</a>
+        </div>
+    </nav>
+</header>
+
+<main class="container">
+    <section class="about-me">
+        <h1 class="title">Über Mich</h1>
+        <h4 class="name">{{ me.firstname }} {{ me.surname }}</h4>
+
+        <div class="photo-container">
+            <img src="assets-SINGH/Biene.png" alt="Biene" class="bee-image">
+        </div>
+
+        <img [src]="me.urlImage" alt="Mein Foto" class="profilbild">
+
+        <div class="photo-container">
+            <img src="assets-SINGH/Blume.png" alt="Blume" class="flower-image">
+        </div>
+
+        <p><i>Geburtsdatum:</i> {{ me.birthday | date:'dd.MM.yyyy' }}</p>
+        <p><i>Email: </i> <a href="mailto:{{ me.email }}">{{ me.email }}</a></p>
+        <p><i>HTL-Abteilung:</i> {{ me.department }}</p>
+        <p><i>GitHub: </i> <a href="https://github.com/{{ me.github_nickname }}" target="_blank">{{ me.github_nickname }}</a></p>
+        <p><i>Wohnort:</i> {{ me.zip_code }} {{ me.city }}</p>
+        <p><i>Zitat:</i> {{ me.message }}</p>
+
+        <div class="button-group">
+            <a routerLink="/home" class="btn btn-primary custom-btn">Zurück</a>
+            <a routerLink="/page-my-travels-singh" class="btn btn-primary custom-btn">Meine Reisen</a>
+            <a routerLink="/page-my-dream-travels-singh" class="btn btn-primary custom-btn">Meine Reiseziele</a>
+            <a routerLink="/page-my-favourite-book-singh" class="btn btn-primary custom-btn">Mein Lieblingsbuch</a>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer-contact">
+        <p>📧 <a href="mailto:210279@htl-donaustadt.at">210279&#64;htl-donaustadt.at</a></p>
+        <p>📍 <a href="https://www.google.com/maps?q=Donaustadtstraße+45,+1220+Wien" target="_blank">Donaustadtstraße 45, 1220 Wien</a></p>
+        <p>📞 +43 660 1234567</p>
+        <p>🏫 <a href="https://www.htl-donaustadt.at/home" target="_blank">HTL Donaustadt</a>, 4AHITN</p>
     </div>
-    <img [src]="me.urlImage" alt="Mein Foto" class="profilbild">
-
-    <p></p>
-    <div class="photo-container">
-      <img src="assets-SINGH/Blume.png" alt="Blume" class="flower-image">
+    <div class="footer-content">
+        <p class="name">Harleen SINGH</p>
+        <p class="copyright">&copy; 2025</p>
     </div>
-    <p><i>Geburtsdatum:</i> {{ me.birthday | date:'dd.MM.yyyy' }}</p>
-    <p><i>Email:</i> {{ me.email }}</p>
-    <p><i>HTL-Abteilung:</i> {{ me.department }}</p>
-    <p><i>GitHub:</i> {{ me.github_nickname }}</p>
-    <p><i>Wohnort:</i> {{ me.zip_code }} {{ me.city }}</p>
-    <p></p>
-    <p><i>Zitat:</i> {{me.message}}</p>
-    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary; custom-btn">Zurück</a>
-    <a routerLink="/page-my-travels-singh" routerLinkActive="active" class="btn btn-primary; custom-btn">Meine Reisen</a>
-    <a routerLink="/page-my-dream-travels-singh" routerLinkActive="active" class="btn btn-primary; custom-btn">Meine Reiseziele</a>
-      <a routerLink="/page-my-favourite-book-singh" routerLinkActive="active" class="btn btn-primary custom-btn">Mein Lieblingsbuch</a>
-
-  </div>
-</div>
-
-      <footer class="footer">
-          <div class="footer-contact">
-              <p>📧 <a href="mailto:210279@htl-donaustadt.at">210279&#64;htl-donaustadt.at</a></p>
-              <p>📍 <a href="https://www.google.com/maps?um=1&ie=UTF-8&fb=1&gl=at&sa=X&geocode=Kemiss0qAW1HMaItcRwL4-i1&daddr=Donaustadtstra%C3%9Fe+45,+1220+Wien" target="_blank">Donaustadtstraße 45, 1220 Wien</a></p>
-              <p>📞 +43 660 1234567</p>
-              <p>🏫 <a href="https://www.htl-donaustadt.at/home" target="_blank">HTL Donaustadt</a>, 4AHITN</p>
-          </div>
-          <div class="footer-content">
-              <p class="name">Harleen SINGH</p>
-              <p class="copyright">&copy; 2025</p>
-          </div>
-      </footer>
+</footer>
 
 </body>
 </html>
