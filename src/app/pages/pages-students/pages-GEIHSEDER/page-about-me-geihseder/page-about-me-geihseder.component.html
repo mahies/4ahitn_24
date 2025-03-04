@@ -5,15 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Über mich</title>
   <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
     body {
       font-family: Arial, sans-serif;
       background-color: #d3d3d3;
-      margin: 0;
-      padding: 0;
+    }
+    .header {
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+      background-color: #0073e6;
+      color: white;
+      padding: 15px 20px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .header-top {
+      display: flex;
+      justify-content: space-between;
       align-items: center;
-      min-height: 100vh;
+    }
+    .header h1 {
+      margin: 0;
+    }
+    .nav-buttons {
+      display: flex;
+    }
+    .nav-buttons a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #005bb5;
+    }
+    .nav-buttons a:hover {
+      background-color: #003f80;
+    }
+    .breadcrumb {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    .breadcrumb a {
+      color: white;
+      text-decoration: none;
+    }
+    .breadcrumb a:hover {
+      text-decoration: underline;
     }
     .container {
       background-color: white;
@@ -22,65 +67,55 @@
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       width: 80%;
       max-width: 600px;
+      margin: 120px auto 20px;
       position: relative;
     }
-    header h1 {
-      margin-top: 0;
-    }
-    section img {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      width: 150px;
-      border-radius: 8px;
-    }
-    a {
-      color: #0073e6;
-    }
-    .btn-container {
-      margin-top: 15px;
-    }
-    .btn {
-      display: inline-block;
-      margin-right: 10px;
-      padding: 10px 15px;
+    .footer {
       background-color: #0073e6;
       color: white;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    .btn:last-child {
-      margin-right: 0;
-    }
-    .btn:hover {
-      background-color: #005bb5;
+      text-align: center;
+      padding: 10px 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
     }
   </style>
 </head>
 <body>
+<header class="header">
+  <div class="header-top">
+    <h1>Über mich</h1>
+    <nav class="nav-buttons">
+      <a routerLink="/home" routerLinkActive="active">Home</a>
+      <a routerLink="/meine-reisen-geihseder" routerLinkActive="active">Meine Reisen</a>
+      <a routerLink="/meine-ziele-geihseder" routerLinkActive="active">Meine Ziele</a>
+    </nav>
+  </div>
+  <nav class="breadcrumb">
+    <a routerLink="/home">Home</a> &gt; <span>Über mich</span>
+  </nav>
+</header>
+
 <div class="container">
-  <header>
-    <h1><strong>Über mich</strong></h1>
-  </header>
   <main>
     <section>
-      <img src="{{me.urlImage}}" alt="">
+      <img src="{{me.urlImage}}" alt="Profilbild">
       <h2><strong>Persönliche Informationen</strong></h2>
       <p><strong>Vorname:</strong> Sebastian</p>
       <p><strong>Nachname:</strong> Geihseder</p>
       <p><strong>Geburtstag:</strong> <span> {{me.birthday | date: 'dd.MM.yyyy'}}</span></p>
       <p><strong>Geburtsort:</strong> {{me.city}} {{me.zip_code}}</p>
       <p><strong>Alter:</strong> 18 Jahre</p>
+      <p><strong>Abteilung:</strong> {{me.department}}</p>
       <p><strong>Email:</strong> <a href="mailto:{{me.email}}"> {{me.email}}</a></p>
-      <p><strong>Github:</strong> <a href="https://github.com/sebastian447" target="_blank"> sebastian447</a></p>
+      <p><strong>Github:</strong> <a href="https://github.com/sebastian447" target="_blank">sebastian447</a></p>
       <p><i>{{me.message}}</i></p>
-      <div class="btn-container">
-        <a routerLink="/home" routerLinkActive="active" class="btn">Home</a>
-        <a routerLink="/meine-reisen-geihseder" routerLinkActive="active" class="btn">Meine Reisen</a>
-        <a routerLink="/meine-ziele-geihseder" routerLinkActive="active" class="btn">Meine Ziele</a>
-      </div>
     </section>
   </main>
 </div>
+
+<footer class="footer">
+  &copy; Sebastian Geihseder
+</footer>
 </body>
 </html>

@@ -7,13 +7,75 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #add8e6; /* Helles Blau */
+      background-color: #add8e6;
       margin: 0;
-      padding: 20px;
+      padding: 0;
+      height: 100%;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      background-color: #0073e6;
+      color: white;
+      padding: 15px 20px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 10;
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
       align-items: center;
-      min-height: 100vh;
+    }
+
+    .header h1 {
+      margin: 0;
+    }
+
+    .nav-buttons {
+      display: flex;
+    }
+
+    .nav-buttons a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #005bb5;
+    }
+
+    .nav-buttons a:hover {
+      background-color: #003f80;
+    }
+
+    .breadcrumb {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .breadcrumb a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .breadcrumb a:hover {
+      text-decoration: underline;
+    }
+
+    /* Adjust the body padding to ensure space for header and footer */
+    body {
+      padding-top: 160px; /* Abstand zum Header */
+      padding-bottom: 120px; /* Abstand zum Footer */
+      overflow: auto; /* Make the body scrollable */
     }
 
     .container {
@@ -24,6 +86,7 @@
       width: 80%;
       max-width: 900px;
       text-align: center;
+      margin: 0 auto; /* Center the container */
     }
 
     .gallery {
@@ -33,7 +96,7 @@
     }
 
     .gallery-item {
-      width: 30%; /* Max. 3 Bilder pro Reihe */
+      width: 30%;
       margin-bottom: 20px;
       text-align: center;
     }
@@ -50,54 +113,70 @@
       color: #333;
     }
 
-    .back-button {
-      margin-top: 20px;
-      padding: 10px 20px;
-      font-size: 16px;
-      font-weight: bold;
+    .footer {
+      background-color: #0073e6;
       color: white;
-      background-color: #007BFF;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    }
-
-    .back-button:hover {
-      background-color: #0056b3;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
     }
   </style>
 </head>
 <body>
+<header class="header">
+  <div class="header-top">
+    <h1>Meine Reisen</h1>
+    <nav class="nav-buttons">
+      <a href="/home">Home</a>
+      <a href="/aboutMeGEIHSEDER">Über mich</a>
+      <a href="/meine-ziele-geihseder">Meine Ziele</a>
+    </nav>
+  </div>
+  <nav class="breadcrumb">
+    <a href="/home">Home</a> &gt; <a href="/aboutMeGEIHSEDER">Über mich</a> &gt; <span>Meine Reisen</span>
+  </nav>
+</header>
+
 <div class="container">
   <h1>Meine Reisen</h1>
   <div class="gallery">
     <div class="gallery-item">
       <img src="assets-GEIHSEDER/Kroatien.jpg" alt="">
       <p>Kroatien</p>
+      <p style="font-style: italic;">2018 zur WM dort gewesen.</p>
     </div>
     <div class="gallery-item">
       <img src="assets-GEIHSEDER/Italien.jpg" alt="">
       <p>Italien</p>
+      <p style="font-style: italic;">Vor 2 Jahren in der Toskana und Venedig gewesen.</p>
     </div>
     <div class="gallery-item">
       <img src="assets-GEIHSEDER/Spanien.jpg" alt="">
       <p>Spanien</p>
+      <p style="font-style: italic;">Vor 3 Jahren in Barcelona und Florenz gewesen</p>
     </div>
     <div class="gallery-item">
       <img src="assets-GEIHSEDER/Belgien.jpg" alt="">
       <p>Belgien</p>
+      <p style="font-style: italic;">Letztes Jahr in Gent, Antwerpen und Bruessel gewesen</p>
     </div>
     <div class="gallery-item">
       <img src="assets-GEIHSEDER/Frankreich.jpg" alt="">
       <p>Frankreich</p>
+      <p style="font-style: italic;">Vor 4 Jahren in Paris gewesen</p>
     </div>
     <div class="gallery-item">
       <img src="assets-GEIHSEDER/Schweiz.jpg" alt="">
       <p>Schweiz</p>
+      <p style="font-style: italic;">Als ich jung war meine Familie besucht</p>
     </div>
   </div>
-  <button class="back-button" onclick="history.back()">Zurück</button>
 </div>
+
+<footer class="footer">
+  &copy; Sebastian Geihseder
+</footer>
 </body>
 </html>
