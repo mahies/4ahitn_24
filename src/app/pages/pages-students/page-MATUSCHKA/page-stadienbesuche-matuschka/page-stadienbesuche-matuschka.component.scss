@@ -108,6 +108,7 @@ header {
   height: 80px;
   width: 100%;
   font-size: 25px;
+  text-align: center;
 }
 .button-header{
   font-family: 'Calibri', Times, serif;
@@ -126,4 +127,10 @@ header {
   position: absolute;
   top: 10px;
   right: 20px;
+}
+footer a {
+  font-family: 'Calibri', Times, serif;
+  color: #ffffff;
+  margin-left: 10px;
+  text-decoration: underline;
 }
