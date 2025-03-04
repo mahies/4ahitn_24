@@ -32,15 +32,12 @@
     <img src="assets-BECKER/BildK.jpeg" class="profilbild" alt="Profilbild">
     <div class="profil-text">
       <h5>{{ me.firstname }} {{ me.surname }}</h5>
-      <p>Geburtsdatum: {{me.birthday | date:'dd.MM.yyyy'}}</p>
-      <p>Email: {{me.email}}</p>
-      <p>Abteilung: {{me.department}}</p>
-      <p>GitHub: {{me.github_nickname}}</p>
-      <p>Wohnort: {{me.city}}</p>
-      <p> {{me.message}}</p>
-
-
-
+      <p><strong>Geburtsdatum:</strong> {{me.birthday | date:'dd.MM.yyyy'}}</p>
+      <p><strong>Email:</strong> {{me.email}}</p>
+      <p><strong>Abteilung:</strong> {{me.department}}</p>
+      <p><strong>GitHub:</strong> {{me.github_nickname}}</p>
+      <p><strong>Wohnort:</strong> {{me.city}}</p>
+      <p><strong> {{me.message}}</strong></p>
     </div>
 
   </div>

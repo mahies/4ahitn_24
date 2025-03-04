@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Aptos:wght@400&family=Bickley+Script&display=swap');
 
+html, body {
+  height: 70%;
+   margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 body {
   font-family: 'Aptos', sans-serif;
   font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
 }
 
 //HEADER
 header {
-  background-color: #1e3a5f;  /* Dunkles Pastellblau für den Header-Hintergrund */
+  background-color: #5C7080;
   color: #fff;  /* Weißer Text */
   padding: 20px 0;  /* Abstand oben und unten */
   width: 100%;
@@ -76,7 +86,7 @@ header {
 }
 
 .custom-btn {
-  background-color: #1e3a5f;
+  background-color: #5C7080;
   color: #fff;
   padding: 10px 15px;
   text-decoration: none;
@@ -92,26 +102,27 @@ header {
 * {
   box-sizing: border-box;
 }
+
+//INHALT WEBSEITE
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Bickley Script', cursive;
   font-weight: bold;
 }
 
-.profil-text p {
-  font-style: italic;
-}
 .container-fluid {
-  background-color: #b0e0e6; /* Pastellblauer Hintergrund */
-  min-height: 100vh; /* Volle Höhe */
+  background-color:#FFFFFF;
+  height: calc(100vh - 80px);
   display: flex;
   align-items: center; /* Vertikal zentrieren */
   justify-content: center; /* Horizontal zentrieren */
-  padding: 2rem; /* Abstand */
+  padding: 0;
+  margin: 10px 0 0 0;
   box-sizing: border-box;
-  margin-top: 80px;
+  overflow: hidden;
 }
 h5{
-  color: #4682b4;
+  color: #5C7080;
 }
 
 @media (max-width: 768px) {
@@ -121,17 +132,20 @@ h5{
 }
 
 .profile-container {
-  background: white; /* Box-Hintergrund */
-  padding: 2rem;
+  background: #E1F1F8;
+  padding: 3rem;
   border-radius: 10px; /* Abgerundete Ecken */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Schatten für besseren Look */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8); /* Schatten für besseren Look */
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  max-width: 1200px; /* Begrenzte Breite */
+  gap: 1rem;
+  max-width: 800px;
   width: 100%;
   box-sizing: border-box;
   text-align: center;
+  overflow: hidden;
+  max-height: calc(100vh - 80px);
+  flex-shrink: 0;
 }
 
 .profilbild {
@@ -162,11 +176,11 @@ body {
 }
 
 .footer {
-  background-color: #1e3a5f;
+  background-color: #5C7080 ;
   color: #fff;
   padding: 20px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 0;
   border-top: 1px solid #ddd;
   font-family: 'Aptos', sans-serif;
 }
