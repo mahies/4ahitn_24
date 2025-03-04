@@ -1,0 +1,23 @@
+.anchor {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #303030;
+  width: 100vw;
+  height: 10vh;
+  border: 3px solid white;
+  font-size: 1.5vw;
+  color: white;
+  align-items: center;
+}
+
+.btn {
+  font-size: 1.5vw;
+  color: white;
+  padding: 0.6vw;
+}
+
+.btn:hover {
+  background-color: rebeccapurple;
+  transform: scale(1.1);
+  transition: transform 0.15s ease-in-out;
+}
