@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {RouterLink, RouterLinkActive} from "@angular/router";
+import {MILLICH} from "../../../../model/person";
 
 @Component({
   selector: 'app-header-millich',
@@ -12,4 +13,5 @@ import {RouterLink, RouterLinkActive} from "@angular/router";
 })
 export class HeaderMILLICHComponent {
 
+    protected readonly me = MILLICH;
 }
