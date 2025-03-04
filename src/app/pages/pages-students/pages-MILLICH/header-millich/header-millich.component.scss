@@ -1,16 +1,28 @@
 @import "../pages-MILLICH_variables";
-.container{
-  text-align: right;
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.name {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.links {
   display: flex;
   gap: 1em;
-  justify-content: right;
-  align-items: center;
 }
+
 .router-link-text {
   text-decoration: none;
   color: white;
   font-size: 1.2em;
 }
-header{
+
+header {
   background-color: $primary;
 }
+
