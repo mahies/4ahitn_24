@@ -267,6 +267,19 @@ export  const SPELITZ : Person = {
   message: "\"Der frühe Wurm wurde vom Vogel gepackt\"",
   routerLink: "/aboutMeSPELITZ",
 };
+export  const IBISEVIC : Person = {
+  surname: "Ibisevic",
+  firstname: "Benjamin",
+  urlImage: "assets-IBISEVIC/Ibisbild.jpg",
+  birthday: new Date("04-07-2006"),
+  department: "ITEL Netzwerktechnik",
+  email: "200326@studierende.htl-donaustadt.at",
+  github_nickname: "BenjaminIbi",
+  zip_code: 1210,
+  city: "Wien",
+  message: "\"Teste",
+  routerLink: "/aboutMeIBISEVIC",
+}
 
 //list all students
-export const STUDENTS:Person[] = [aljarrah, ibrahim, virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,KRAPF,senjic,singh,MATUSCHKA,MILLICH, SPELITZ, NAZARI];
+export const STUDENTS:Person[] = [aljarrah, IBISEVIC, ibrahim, virk, STOILOV, BECKER, yohanna,SCHOEFFMANN,geihseder,KLARIC,KRAPF,senjic,singh,MATUSCHKA,MILLICH, SPELITZ, NAZARI];
