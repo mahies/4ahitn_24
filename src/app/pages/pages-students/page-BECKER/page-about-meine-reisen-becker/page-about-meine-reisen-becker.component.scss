@@ -1,3 +1,20 @@
+//ALLGEMEINER STYLE
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: 'Aptos', sans-serif;
+  overflow-x: hidden; /* Verhindert horizontales Scrollen */
+  font-weight: 400;
+}
+
+body {
+  padding: 2rem; /* Padding für den gesamten Body ohne den Header */
+}
+
+//HEADER
 header {
   background-color: #1e3a5f;  /* Dunkles Pastellblau für den Header-Hintergrund */
   color: #fff;  /* Weißer Text */
@@ -10,16 +27,14 @@ header {
   z-index: 1000;
 }
 
-/* Container für den Header-Inhalt */
 .header-container {
   max-width: 100%;
-  padding: 0 20px;  /* Padding für den Inhalt */
+  padding: 0 20px;
   display: flex;
-  align-items: center;  /* Vertikale Zentrierung */
-  justify-content: space-between;  /* rechts ausgerichtet */
+  align-items: center;
+  justify-content: space-between;
 }
 
-/* Titel im Header */
 .header-title {
   font-size: 24px;
   font-weight: bold;
@@ -27,45 +42,67 @@ header {
   margin: 0;
   color: #fff;
 }
+
+//NAVIGATION
 .button-format {
   display: flex;
-  gap: 15px; /* Abstand zwischen den Buttons */
+  gap: 15px;
+  position: relative;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-/* Buttons */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 15px;
+  text-decoration: none;
+  display: block;
+  font-weight: normal;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 .custom-btn {
-  background-color: #1e3a5f; /* Blaue Buttons */
-  color: #fff; /* Weiße Schrift */
+  background-color: #1e3a5f;
+  color: #fff;
   padding: 10px 15px;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+  font-size: 14px;
 }
 
 .custom-btn:hover {
-  background-color: #1e3a5f;
-}
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;  /* Bezieht den Padding und Border mit in die Breite ein */
+  background-color: #4682b4;
 }
 
-/* Padding für den gesamten Body ohne den Header */
-body {
-  padding: 2rem;
+* {
+  box-sizing: border-box;
 }
 
-/* Container für den Inhalt */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0;  /* Padding entfernen, da es schon auf body gesetzt ist */
-}
-
-/* Destination Card */
+//INHALT WEBSEITE
 .destination-card {
   display: flex;
   flex-direction: column;
@@ -142,7 +179,6 @@ body {
   overflow-x: hidden; /* Verhindert horizontales Scrollen */
 }
 
-
 /* Für Tablets und größere Geräte */
 @media (min-width: 768px) {
   .destination-images {
@@ -166,11 +202,8 @@ body {
     height: 300px;
   }
 }
-body {
-  font-family: 'Aptos', sans-serif;
-  font-weight: 400;
-}
 
+/* Footer Styles */
 .footer {
   background-color: #1e3a5f;
   color: #fff;
@@ -178,7 +211,6 @@ body {
   text-align: center;
   margin-top: 20px;
   border-top: 1px solid #ddd;
-  font-family: 'Aptos', sans-serif;
 }
 
 .footer-container {
@@ -188,11 +220,13 @@ body {
   padding: 10px 50px;
   width: 100%;
 }
+
 .footer-container p {
   margin: 0;
   flex-grow: 1; /* Lässt den Text nach links rutschen */
   text-align: left;
 }
+
 .footer-icons {
   display: flex;
   gap: 20px;

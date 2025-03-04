@@ -1,4 +1,3 @@
-
 <header class="header">
   <div class="header-container">
     <h1 class="header-title">Karina Becker</h1>
@@ -6,31 +5,47 @@
     <div class="button-format">
       <a routerLink="/home" routerLinkActive="active" class="btn btn-primary; custom-btn">Home</a>
       <a routerLink="/aboutMeBECKER" routerLinkActive="active" class="btn btn-primary; custom-btn">Über mich</a>
-      <a routerLink="/meineReisenBecker" routerLinkActive="active" class="btn btn-primary; custom-btn">Reisen</a>
-      <a routerLink="/meineHobbysBecker" routerLinkActive="active" class="btn btn-primary; custom-btn">Hobbys</a>
+      <div class="dropdown">
+        <a routerLink="/meineReisenBecker" fragment="nassfeld" class="btn btn-primary; custom-btn">Reisen</a>
+        <div class="dropdown-content">
+          <a routerLink="/meineReisenBecker" fragment="nassfeld">Nassfeld</a>
+          <a routerLink="/meineReisenBecker" fragment="polen">Polen</a>
+          <a routerLink="/meineReisenBecker" fragment="burgenland">Burgenland</a>
+          <a routerLink="/meineReisenBecker" fragment="salzburg">Salzburg</a>
+        </div>
+      </div>
 
+
+      <div class="dropdown">
+        <a routerLink="/meineHobbysBecker" class="btn btn-primary; custom-btn">Hobbys</a>
+        <div class="dropdown-content">
+          <a routerLink="/meineHobbysBecker" fragment="motorrad">Motorrad</a>
+          <a routerLink="/meineHobbysBecker" fragment="gym">Gym</a>
+        </div>
+      </div>
     </div>
   </div>
 </header>
 
 <div class="container">
-  <h2>Meine besuchten Reiseziele</h2>
-
-  <div class="destination-card" *ngFor="let destination of visitedDestinations">
-       <div class="destination-info">
+    <h2> Meine besuchten Reiseziele</h2>
+    <div *ngFor="let destination of visitedDestinations" class="destination-card" [id]="destination.name.toLowerCase()">
+    <div class="destination-info">
       <h3>{{ destination.name }}</h3>
       <p>{{ destination.description }}</p>
-         <div class="destination-images">
-           <img *ngFor="let image of destination.images" [src]="image" alt="{{ destination.name }}" class="destination-image">
-         </div>
+      <div class="destination-images">
+        <img *ngFor="let image of destination.images" [src]="image" alt="{{ destination.name }}" class="destination-image">
+      </div>
     </div>
-  </div>
+    </div>
+
+
   <!-- Zurück nach oben Button -->
   <button class="scrollToTopBtn" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
     ↑
   </button>
-
 </div>
+
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 

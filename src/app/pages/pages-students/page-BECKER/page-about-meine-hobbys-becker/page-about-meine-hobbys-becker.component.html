@@ -6,7 +6,7 @@
       <a routerLink="/home" routerLinkActive="active" class="btn btn-primary; custom-btn">Home</a>
       <a routerLink="/aboutMeBECKER" routerLinkActive="active" class="btn btn-primary; custom-btn">Über mich</a>
       <div class="dropdown">
-        <a routerLink="/meineReisenBecker" fragment="nassfeld" class="btn btn-primary custom-btn">Reisen</a>
+        <a routerLink="/meineReisenBecker" fragment="nassfeld" class="btn btn-primary; custom-btn">Reisen</a>
         <div class="dropdown-content">
           <a routerLink="/meineReisenBecker" fragment="nassfeld">Nassfeld</a>
           <a routerLink="/meineReisenBecker" fragment="polen">Polen</a>
@@ -19,13 +19,15 @@
       <div class="dropdown">
         <a routerLink="/meineHobbysBecker" class="btn btn-primary; custom-btn">Hobbys</a>
         <div class="dropdown-content">
-          <a routerLink="/meineHobbysBecker" fragment="motorrad">Nassfeld</a>
-          <a routerLink="/meineHobbysBecker" fragment="gym">Polen</a>
+          <a routerLink="/meineHobbysBecker" fragment="motorrad">Motorrad</a>
+          <a routerLink="/meineHobbysBecker" fragment="gym">Gym</a>
         </div>
       </div>
     </div>
   </div>
 </header>
+
+
 <div class="container">
   <h2>Meine Hobbys</h2>
   <div *ngFor="let hobby of hobbies" [id]="hobby.id">
