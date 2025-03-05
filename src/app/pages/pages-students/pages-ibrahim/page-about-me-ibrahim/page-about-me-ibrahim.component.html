@@ -4,9 +4,15 @@
   <title>Über Mich Mohamad Kosai Ibrahim</title>
 </head>
 <header>
-  <h1>{{ me.firstname }} {{ me.surname}}</h1>
-  <h2>Willkommen zu meiner Webseite über mich!</h2>
+  <div id ="myDiv2">
+    <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Home</a>
+    <a routerLink="/page-meine-reisen" routerLinkActive="active" class="btn btn-success ms-2">Meine Reisen</a>
+  </div>
 </header>
+
+<h1>{{ me.firstname }} {{ me.surname}}</h1>
+<h2>Willkommen zu meiner Webseite über mich!</h2>
+
 <div id="myDiv">
   <img src=" {{me.urlImage}}" width="15%" height="15%" alt="">
   <p><strong>Name:</strong> {{ me.firstname }} {{ me.surname}}</p>
@@ -16,10 +22,7 @@
   <p><strong>Abteilung:</strong> {{ me.department }}</p>
   <p><strong>Zitat:</strong> {{ me.message }}</p>
 </div>
-<div id ="myDiv2">
-  <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Home</a>
-  <a routerLink="/page-meine-reisen" routerLinkActive="active" class="btn btn-success ms-2">Meine Reisen</a>
-</div>
+
 
 <footer>
   <nav>
