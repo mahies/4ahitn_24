@@ -1,23 +1,28 @@
 <app-header-yohanna></app-header-yohanna>
-  <div>
-    <p>{{me.firstname}} {{me.surname.toLocaleUpperCase()}}</p>
-    <div class="profile-container">
-      <img src="{{me.urlImage}}" alt="Bild von {{me.firstname}} {{me.surname}}">
-    </div>
-    <div class="details-container">
-      <p><b>Wohnort:</b> {{me.zip_code}} {{me.city}}</p>
-      <p><b>Geburtsdatum:</b> {{me.birthday | date:'dd.MM.yyyy'}}</p>
-      <p><b>Github:</b> {{me.github_nickname}}</p>
-      <p><b>Abteilung:</b> {{me.department}}</p>
-      <p><b>Email:</b> {{me.email}} </p>
-      <p><b>Motto:</b> <i>{{me.message}}</i></p>
-      <br>
-    </div>
-  <div style="text-align: center">
+
+<div class="content-wrapper">
+  <p>{{me.firstname}} {{me.surname.toLocaleUpperCase()}}</p>
+
+  <div class="profile-container">
+    <img src="{{me.urlImage}}" alt="Bild von {{me.firstname}} {{me.surname}}">
+  </div>
+
+  <div class="details-container">
+    <p><b>Wohnort:</b> {{me.zip_code}} {{me.city}}</p>
+    <p><b>Geburtsdatum:</b> {{me.birthday | date:'dd.MM.yyyy'}}</p>
+    <p><b>Github:</b> {{me.github_nickname}}</p>
+    <p><b>Abteilung:</b> {{me.department}}</p>
+    <p><b>Email:</b> {{me.email}} </p>
+    <p><b>Motto:</b> <i>{{me.message}}</i></p>
+    <br>
+  </div>
+
+  <div class="button-container">
     <a routerLink="/home" routerLinkActive="active" class="btn btn-primary">Zurück</a>
     <a routerLink="/ziele-Yohanna" routerLinkActive="active" class="btn btn-primary">Meine Ziele</a>
     <a routerLink="/hobbies-Yohanna" routerLinkActive="active" class="btn btn-primary">Meine Hobbies</a>
     <a routerLink="/projekte-Yohanna" routerLinkActive="active" class="btn btn-primary">Meine Projekte</a>
   </div>
-  </div>
+</div>
+
 <app-footer-yohanna></app-footer-yohanna>

@@ -3,13 +3,16 @@ body {
   font-family: Arial, sans-serif;
 }
 
-main {
+/* Neuer Wrapper ersetzt <main> */
+.content-wrapper {
   text-align: center;
   margin: 2rem auto;
   padding: 2rem;
+  max-width: 800px; /* Damit der Inhalt nicht zu breit wird */
 }
+
 @media (max-width: 768px) {
-  main {
+  .content-wrapper {
     padding: 1rem;
   }
 }
@@ -37,6 +40,12 @@ main {
   display: inline-block;
   width: 9.375rem;
   text-align: left;
+}
+
+/* Buttons */
+.button-container {
+  text-align: center;
+  margin-top: 1rem;
 }
 
 .btn {
