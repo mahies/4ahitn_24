@@ -56,11 +56,10 @@ img {
   font-weight: bold;
   border-radius: 10px;
   transition: background-color 0.3s ease;
+  margin: 5px; /* Abstand zwischen Buttons */
 }
 
 .button:hover {
   background-color: #F4A3C5; /* Rosa beim Hover */
 }
-
-
 

@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color: #333;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.insta-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin: 15px auto;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+.museum-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.museum {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.museum img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+h2 {
+  margin: 10px 0;
+  color: #444;
+}
+
+.artworks {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.artworks img {
+  width: calc(33.33% - 7px);
+  height: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Responsives Design */
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .museum-list {
+    flex-direction: column;
+  }
+
+  .artworks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .artworks img {
+    width: 80%;
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+}
+
+/* Footer */
+footer {
+  background-color: #303030;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 1em;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 50px;
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

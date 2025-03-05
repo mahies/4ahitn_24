@@ -15,7 +15,6 @@ header {
   justify-content: center;
   position: relative;
 
-  /* Instagram Icon */
   .insta-icon {
     position: absolute;
     right: 20px;
@@ -23,7 +22,7 @@ header {
     transform: translateY(-50%);
     width: 50px;
     height: 50px;
-    border-radius: 10px; // Nur Kanten abgerundet
+    border-radius: 10px;
     transition: transform 0.3s ease;
 
     &:hover {
@@ -32,164 +31,107 @@ header {
   }
 }
 
+/* Einleitungstext unter "Meine Werke" */
+.intro-text {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
 
+/* Galerie */
+.gallery-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
 
-/* Raw Sketches Bereich */
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.larger-img {
+  transform: scale(1.1);
+}
+
+.image-title {
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* Raw Sketches */
 .raw-sketches {
   background-color: black;
   padding: 50px 0;
   margin-top: 50px;
-}
-
-.raw-sketches h2 {
-  color: white;
   text-align: center;
-  font-size: 4em;
-  margin-bottom: 30px;
-  font-family: 'Permanent Marker', cursive;
+
+  h2 {
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 20px;
+  }
+
+  .intro-text {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .sketch-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  .image-title2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5px;
+    text-align: center;
+  }
 }
 
-/* Sicherstellen, dass der Text unter Raw Sketches weiß ist */
-.raw-sketches .intro-text {
-  color: white;  /* Schriftfarbe auf Weiß setzen */
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.4em;
-  font-weight: bold;
-  line-height: 1.6;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center;
-}
-
-
-
-
-/* Einleitungstext-Styling */
-.intro-text {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.4em;
-  font-weight: bold;
-  line-height: 1.6;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center;
-}
-
-/* Galerie-Styling */
-/* Sticky Header */
-header {
-  position: sticky;
-  top: 0;
+/* Footer */
+footer {
   background-color: #303030;
   color: white;
   text-align: center;
   padding: 15px;
-  font-size: 1.8em;
-  font-weight: bold;
-  z-index: 1000;
-  font-family: 'Permanent Marker', cursive;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+  font-size: 1em;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 50px;
 
-  /* Instagram Icon */
-  .insta-icon {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 50px;
-    height: 50px;
-    border-radius: 10px; // Nur Kanten abgerundet
-    transition: transform 0.3s ease;
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
 
     &:hover {
-      transform: translateY(-50%) scale(1.1);
+      text-decoration: underline;
     }
   }
-}
-
-/* Raw Sketches Bereich */
-.raw-sketches {
-  background-color: black;
-  padding: 50px 0;
-  margin-top: 50px;
-}
-
-.raw-sketches h2 {
-  color: white;
-  text-align: center;
-  font-size: 3em;
-  margin-bottom: 30px;
-  font-family: 'Permanent Marker', cursive;
-}
-
-/* Sicherstellen, dass der Text unter Raw Sketches weiß ist */
-.raw-sketches .intro-text {
-  color: white;  /* Schriftfarbe auf Weiß setzen */
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.4em;
-  font-weight: bold;
-  line-height: 1.6;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center;
-}
-
-/* Galerie-Styling */
-.gallery-img {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  border-radius: 20px;
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease;
-}
-
-.larger-img {
-  max-width: 650px;
-}
-
-.gallery-img:hover {
-  transform: scale(1.08);
-}
-
-/* Mehr Abstand zwischen den Bildern */
-.col-md-4 {
-  padding-bottom: 40px;
-}
-
-.sketch-img {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  border-radius: 15px;
-  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
-  transition: transform 0.3s ease;
-}
-
-.sketch-img:hover {
-  transform: scale(1.05);
-}
-
-/* Stil für die Bildtitel */
-.image-title {
-  color: black; /* Schriftfarbe weiß */
-  font-family: 'Courier New', Courier, monospace; /* Gleiche Schriftart wie bei anderen Texten */
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-top: 15px; /* Vergrößerter Abstand zwischen Bild und Titel */
-}
-
-
-.image-title2 {
-  color: white; /* Schriftfarbe weiß */
-  font-family: 'Courier New', Courier, monospace; /* Gleiche Schriftart wie bei anderen Texten */
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-top: 15px; /* Vergrößerter Abstand zwischen Bild und Titel */
 }
