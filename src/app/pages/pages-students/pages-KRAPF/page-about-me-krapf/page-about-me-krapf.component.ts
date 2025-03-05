@@ -3,6 +3,7 @@ import {KRAPF, Person} from '../../../../model/person';
 import {RouterLink, RouterLinkActive} from '@angular/router';
 import {DatePipe} from '@angular/common';
 import {HeaderKrapfComponent} from '../header-krapf/header-krapf.component';
+import {FooterKrapfComponent} from '../footer-krapf/footer-krapf.component';
 
 @Component({
   selector: 'app-page-about-me-krapf',
@@ -10,7 +11,8 @@ import {HeaderKrapfComponent} from '../header-krapf/header-krapf.component';
     RouterLink,
     RouterLinkActive,
     DatePipe,
-    HeaderKrapfComponent
+    HeaderKrapfComponent,
+    FooterKrapfComponent
   ],
   templateUrl: './page-about-me-krapf.component.html',
   standalone: true,
