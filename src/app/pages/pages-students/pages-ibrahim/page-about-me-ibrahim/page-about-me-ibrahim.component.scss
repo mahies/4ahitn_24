@@ -28,4 +28,15 @@ header h1 {
   border: none;
   margin-right: 10px;
 }
+nav ul li a.active {
+  background-color: #04AA6D;
+}
+
+footer {
+  background-color: #000; /* Schwarz */
+  color: #fff;            /* Weißer Text */
+  padding: 20px;
+  text-align: center;
+}
+
 
