@@ -7,4 +7,24 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1rem 0;
   z-index: 1000;
+  display: flex;
+  justify-content: center; /* Navigation mittig ausrichten */
+}
+
+.nav-container {
+  display: flex;
+  gap: 2rem; /* Abstand zwischen den Links */
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out, transform 0.2s;
+}
+
+.nav-container a:hover {
+  color: #f0a500; /* Hebt den Link hervor */
+  transform: scale(1.1); /* Leichte Vergrößerung beim Hover */
 }
