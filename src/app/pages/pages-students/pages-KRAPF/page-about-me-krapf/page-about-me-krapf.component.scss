@@ -14,7 +14,7 @@
   flex-direction: column;
   gap: 10px;
   background-color: #202020;
-  width: 45%;
+  min-width: 45%;
   min-height: 50vh;
   border: 5px solid white;
   border-radius: 50px;
@@ -49,13 +49,13 @@
 
 .name {
   font-weight: bold;
-  font-size: 3.5em;
+  font-size: 3.5em  ;
 }
 
 .image {
   border: 2px solid white;
   border-radius: 25px;
-  width: 25%;
+  max-width: 25%;
   margin-top: -3px;
 }
 
