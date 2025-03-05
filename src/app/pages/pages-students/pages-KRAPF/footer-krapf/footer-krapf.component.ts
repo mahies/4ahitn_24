@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {KRAPF} from "../../../../model/person";
 
 @Component({
   selector: 'app-footer-krapf',
@@ -8,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class FooterKrapfComponent {
 
+    protected readonly me = KRAPF;
 }
