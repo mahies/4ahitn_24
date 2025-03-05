@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Person, yohanna} from '../../../../model/person';
 
 @Component({
   selector: 'app-footer-yohanna',
@@ -8,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './footer-yohanna.component.scss'
 })
 export class FooterYohannaComponent {
-
+  me: Person = yohanna;
 }
