@@ -122,6 +122,9 @@ import {
 import {
   PageZieleYohannaComponent
 } from './pages/pages-students/pages-YOHANNA/page-ziele-yohanna/page-ziele-yohanna.component';
+import {
+  PageMeineReisenComponent
+} from './pages/pages-students/pages-ibrahim/page-meine-reisen/page-meine-reisen.component';
 
 export const routes: Routes = [
   {
@@ -384,6 +387,10 @@ export const routes: Routes = [
   {
     path: 'ziele-Yohanna',
     component: PageZieleYohannaComponent
+  },
+  {
+    path: 'page-meine-reisen',
+    component: PageMeineReisenComponent
   },
 
 
