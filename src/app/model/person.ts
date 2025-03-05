@@ -215,7 +215,7 @@ export  const BECKER : Person = {
 
 export const ibrahim : Person = {
   surname: "Ibrahim",
-  firstname: "Mohamad kosai",
+  firstname: "Mohamad Kosai",
   urlImage: "assets-IBRAHIM/kosaibild.jpg",
   birthday: new Date("2006-06-19"),
   department: "ITEL Netzwerktechnik",
@@ -223,7 +223,7 @@ export const ibrahim : Person = {
   github_nickname: "kosaiib",
   zip_code: 1100,
   city: "Wien",
-  message: "\„Zitat ende gänsehosen\" \n(John Zitat)",
+  message: "\„Zitat ende gänsehosen\" \n(Mohamad Kosai Ibrahim)",
   routerLink: "/aboutMeIBRAHIM"
 }
 
