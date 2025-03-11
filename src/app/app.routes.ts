@@ -125,6 +125,7 @@ import {
 import {
   PageMeineReisenComponent
 } from './pages/pages-students/pages-ibrahim/page-meine-reisen/page-meine-reisen.component';
+import {MuseenComponent} from './pages/pages-students/pages-ALJARRAH/museen/museen.component';
 
 export const routes: Routes = [
   {
@@ -203,6 +204,13 @@ export const routes: Routes = [
     path: 'about_me_aljarrah',
     component: PageAboutMeAljarrahComponent
   },
+
+  {
+    path: 'museen',
+    component: MuseenComponent
+
+  },
+
   {
     path: 'meineWerke',
     component: PagesMeineWerkeComponent

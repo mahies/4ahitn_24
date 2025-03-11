@@ -5,43 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Über mich</title>
   <link rel="stylesheet" href="page-about-me-aljarrah.component.scss">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 <body>
 
 <!-- HEADER -->
-<header>
-  <h1>Meine Lieblingsmuseen
+<header class="bg-dark text-white text-center py-4 position-relative">
+  <h1>Herzlich Willkommen
     <a href="https://www.instagram.com/soishiki.art" target="_blank">
       <img src="assets-ALJARRAH/insta.png" alt="Instagram" class="insta-icon">
     </a>
   </h1>
 </header>
 
-<div class="container">
-  <img src="assets-ALJARRAH/ueberMich.png" alt="Über mich Bild">
-  <div class="text">
-    <ul>
-      <li><strong>Name: Alexander Al Jarrah</strong></li>
-      <li><strong>Geburtsdatum: 10.05.2005</strong></li>
-      <li><strong>Hobbys: Zeichnen, Lesen und Basketball spielen</strong></li>
-    </ul>
-    <p class="quote">Zitat: <em>„Es gibt überall Blumen für den, der sie sehen will.“</em> – Henri Matisse</p>
+<!-- CONTENT -->
+<div class="container text-center my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <img src="assets-ALJARRAH/ueberMich.png" alt="Über mich Bild" class="img-fluid rounded shadow">
+    </div>
+  </div>
+  <div class="row justify-content-center text-white mt-4">
+    <div class="col-md-6 text-center">
+      <ul class="list-unstyled">
+        <li><strong>Name: Alexander Al Jarrah</strong></li>
+        <li><strong>Geburtsdatum: 10.05.2005</strong></li>
+        <li><strong>Hobbys: Zeichnen, Lesen und Basketball spielen</strong></li>
+      </ul>
+      <p class="quote">Zitat: <em>„Es gibt überall Blumen für den, der sie sehen will.“</em> – Henri Matisse</p>
+    </div>
   </div>
 </div>
 
-<!-- Button unterhalb der Anthrazit-Box -->
-<div class="button-container">
-  <a href='meineWerke' class="button">Meine Werke</a>
-  <a class="button">Museen</a> <!-- Neuer Knopf -->
+<!-- BUTTONS -->
+<div class="container text-center my-4">
+  <a href='meineWerke' class="btn btn-lg custom-btn mx-2">Meine Werke</a>
+  <a href='museen' class="btn btn-lg custom-btn mx-2">Museen</a>
 </div>
 
 <!-- FOOTER -->
-<footer>
-  <p>© 2025 Alexander Al Jarrah. Alle Rechte vorbehalten.</p>
+<footer class="bg-dark text-white text-center py-3 mt-5">
+  <p>&copy; 2024 by Soishiki.art | Kontakt: <a href="mailto:soishiki.art@gmail.com" class="text-white">Kunstanfragen und Businessanfragen</a></p>
+
 </footer>
 
 </body>
 </html>
+
+
 
 
 

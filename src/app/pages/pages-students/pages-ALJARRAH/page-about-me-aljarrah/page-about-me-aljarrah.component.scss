@@ -1,104 +1,87 @@
 body {
   font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: #000; /* Hintergrundfarbe Schwarz */
+  background-color: #000; /* Schwarzer Hintergrund */
   color: white;
   margin: 0;
   padding: 0;
 }
 
-/* HEADER */
+// HEADER
 header {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  font-size: 24px;
-  border-radius: 5px;
   position: relative;
+  h1 {
+    position: relative;
+    font-family: 'Permanent Marker', cursive;
+  }
 }
 
-.insta-icon {
+// Home-Button
+.home-btn {
   position: absolute;
+  left: 20px;
   top: 50%;
-  right: 15px;
   transform: translateY(-50%);
-  width: 30px;
-  height: 30px;
-}
-
-/* Fix für das Instagram-Logo */
-.insta-icon img {
-  width: 30px;
-  height: 30px;
-  filter: brightness(0) invert(1); /* Macht das Icon sichtbar auf dunklem Hintergrund */
-}
-
-.container {
-  position: relative;
-  display: inline-block;
-  margin-top: 50px;
-}
-
-img {
-  width: 120%;
-  max-width: 720px;
-  border-radius: 20px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.text {
-  position: absolute;
-  top: 70%;
-  left: 55%;
-  transform: translate(-50%, -50%);
-  font-size: 1.4em;
-  text-align: left;
-}
-
-.text ul {
-  padding-left: 20px;
-  font-size: 1em;
-  color: #1a1a1a;
-}
-
-.quote {
-  font-size: 1em;
-  font-style: italic;
-  margin-top: 10px;
-  color: #1a1a1a;
-}
-
-/* BUTTON-STYLING */
-.button-container {
-  margin-top: 40px;
-  text-align: center;
-}
-
-.button {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #B7E4C7; /* Pastellgrün */
+  background-color: #B7E4C7;
   color: black;
-  text-decoration: none;
+  padding: 10px 20px;
   font-size: 1.2em;
   font-weight: bold;
   border-radius: 10px;
+  text-decoration: none;
   transition: background-color 0.3s ease;
-  margin: 5px;
+
+  &:hover {
+    background-color: #F4A3C5;
+  }
 }
 
-.button:hover {
-  background-color: #F4A3C5;
+// Instagram-Icon
+.insta-icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-50%) scale(1.1);
+  }
 }
 
-/* FOOTER */
+// TEXT-BLOCK
+.quote {
+  font-style: italic;
+  font-size: 1.2em;
+  color: white; // Weiß gemacht
+  text-align: center; // Zentriert
+  font-family: "Courier New", Courier, monospace;
+}
+
+// BUTTONS
+.custom-btn {
+  background-color: #B7E4C7 !important; /* Pastellgrün */
+  color: black !important;
+  font-size: 1.5em; // Größer gemacht
+  font-weight: bold;
+  padding: 15px 30px; // Größere Buttons
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #F4A3C5 !important; /* Pink beim Hover */
+  }
+}
+
+// FOOTER
 footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 50px;
-  border-radius: 5px;
+  a {
+    text-decoration: none;
+  }
 }
+
+
+
 
