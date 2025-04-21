@@ -126,6 +126,12 @@ import {
   PageMeineReisenComponent
 } from './pages/pages-students/pages-ibrahim/page-meine-reisen/page-meine-reisen.component';
 import {MuseenComponent} from './pages/pages-students/pages-ALJARRAH/museen/museen.component';
+import {
+  PageMyFutureIbrahimComponent
+} from './pages/pages-students/pages-ibrahim/page-my-future-ibrahim/page-my-future-ibrahim.component';
+import {
+  PageMyPetsIbrahimComponent
+} from './pages/pages-students/pages-ibrahim/page-my-pets-ibrahim/page-my-pets-ibrahim.component';
 
 export const routes: Routes = [
   {
@@ -400,6 +406,14 @@ export const routes: Routes = [
     path: 'page-meine-reisen',
     component: PageMeineReisenComponent
   },
+  {
+    path: 'page-my-future-ibrahim',
+    component: PageMyFutureIbrahimComponent
+  },
+  {
+  path: 'page-my-pets-ibrahim',
+  component: PageMyPetsIbrahimComponent
+},
 
 
 
